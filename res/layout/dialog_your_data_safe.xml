@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:orientation="vertical" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/close">
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="left" android:layout_gravity="center" android:id="@id/title_tv" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/security" android:drawablePadding="6.0dip" style="@style/OnboardingTitle" />
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="left" android:layout_gravity="center" android:id="@id/dec_tv" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/your_history" style="@style/OnboardingDesc" />
+            <androidx.appcompat.widget.AppCompatButton android:enabled="true" android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/text_color_selector" android:id="@id/btn_ok" android:background="@drawable/button_red" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="18.0dip" android:text="@string/got_it" android:fontFamily="@font/font" android:backgroundTint="@color/action_button_selector" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

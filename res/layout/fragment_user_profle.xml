@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@android:color/white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <sg.gov.tech.bluetrace.settings.BarcodeHeaderView android:id="@id/barcode_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/linearLayout2">
+        <LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/edit" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/edit_button" />
+            <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" android:drawablePadding="8.0dip" android:drawableTint="@color/icon_tint" app:drawableLeftCompat="@drawable/person" style="@style/ProfileTitle" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" android:singleLine="true" android:imeOptions="actionNext" android:textAllCaps="true" android:backgroundTint="@color/default_underline" style="@style/ProfileField" />
+            <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/mobile_number" android:drawablePadding="8.0dip" android:drawableTint="@color/icon_tint" app:drawableLeftCompat="@drawable/mobile" style="@style/ProfileTitle" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_mobile_no" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" android:drawablePadding="8.0dip" android:drawableTint="@color/icon_tint" style="@style/ProfileField" />
+            <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_date_of_birth_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/date_of_birth" android:drawablePadding="8.0dip" android:drawableTint="@color/icon_tint" app:drawableLeftCompat="@drawable/usercalendar" style="@style/ProfileTitle" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_date_of_birth" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" app:layout_constraintTop_toBottomOf="@id/nricLayout" style="@style/ProfileField" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_nric_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/profile_nric" android:drawablePadding="8.0dip" android:drawableTint="@color/icon_tint" app:drawableLeftCompat="@drawable/card" style="@style/ProfileTitle" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_nric_fin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" android:singleLine="true" android:inputType="textCapCharacters" android:imeOptions="actionNext" android:textAllCaps="true" android:backgroundTint="@color/default_underline" style="@style/ProfileField" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_date_of_issue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/date_of_issue" android:drawablePadding="8.0dip" android:drawableTint="@color/icon_tint" app:drawableLeftCompat="@drawable/calendar" style="@style/ProfileTitle" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_date_of_issue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" app:layout_constraintTop_toBottomOf="@id/nricLayout" style="@style/ProfileField" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_serial_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/card_serial_number" android:drawablePadding="8.0dip" android:drawableTint="@color/icon_tint" app:drawableLeftCompat="@drawable/number" style="@style/ProfileTitle" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_card_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" app:layout_constraintTop_toBottomOf="@id/nricLayout" style="@style/ProfileField" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/profilePageFragmentLoadingProgressBarFrame" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" android:alpha="0.5">
+        <ProgressBar android:layout_gravity="center" android:id="@id/loadingProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/view_loading" android:background="#ff000000" android:focusable="true" android:focusableInTouchMode="true" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" android:alpha="0.8" android:elevation="10.0dip">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

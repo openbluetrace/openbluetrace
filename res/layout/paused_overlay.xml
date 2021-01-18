@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/tracetogether_paused" app:layout_constraintTop_toTopOf="parent" style="@style/overlay_title" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/btn_resume" app:layout_constraintTop_toBottomOf="@id/title">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/clock" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/clock_paused" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="40.0sp" android:gravity="center" android:id="@id/paused_for" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" app:layout_constraintTop_toBottomOf="@id/clock" style="@style/overlay_text" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/paused_text" app:layout_constraintTop_toBottomOf="@id/paused_for" style="@style/overlay_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_resume" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/resume_now" app:layout_constraintBottom_toBottomOf="parent" style="@style/ActionButton.Horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

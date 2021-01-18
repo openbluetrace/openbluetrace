@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_cl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/appCompatTextView3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/setting_hello" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/linearLayout2" style="@style/SettingHelloTitle" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:id="@id/app_version_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/app_version" app:layout_constraintStart_toStartOf="@id/appCompatTextView3" app:layout_constraintTop_toBottomOf="@id/appCompatTextView3" style="@style/ProfileField" />
+</androidx.constraintlayout.widget.ConstraintLayout>

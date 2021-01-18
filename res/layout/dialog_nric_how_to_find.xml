@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/back_of_nric" style="@style/OnboardingSubDesc" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_pink_nric_w_line" />
+        <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:gravity="center" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/date_of_issue_ddmmyyyy" style="@style/OnboardingSubDesc" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_blue_nric_w_line" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

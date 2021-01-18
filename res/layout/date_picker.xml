@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/displayText" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dd_mmm_yyyy" android:cursorVisible="false" android:singleLine="true" android:drawableRight="@drawable/down" android:inputType="none" android:imeOptions="actionNext" android:textAllCaps="true" android:backgroundTint="@color/default_underline" app:layout_constraintTop_toTopOf="parent" style="@style/FormField" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/editor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/displayText">
+        <sg.gov.tech.datepicker.CustomDateSpinner android:id="@id/date_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/date_spinner">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/hyperlink_blue" android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" />
+            <View android:layout_width="64.0dip" android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/hyperlink_blue" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

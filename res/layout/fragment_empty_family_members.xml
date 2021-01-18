@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/no_family_members_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="wrap_content" app:srcCompat="@drawable/img_manage_family_members_empty" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/add_your_family_members" android:textAlignment="center" style="@style/FormTitle" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/add_your_family_members_text" android:textAlignment="center" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="@style/FormField" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/add_family_members_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_family_members" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/ActionButton.FavouritesHistory" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/add_family_members" app:startDestination="@id/emptyFamilyMembersFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="EmptyFamilyMembersFragment" android:name="sg.gov.tech.bluetrace.groupCheckIn.addFamilyMembers.EmptyFamilyMembersFragment" android:id="@id/emptyFamilyMembersFragment">
+        <action android:id="@id/action_fragmentEmptyFamilyMembers_to_fragmentAddFamilyMembers" app:destination="@id/addFamilyMembersFragment" app:enterAnim="@animator/window_slideleft_enter" app:exitAnim="@animator/window_slideleft_exit" app:popEnterAnim="@animator/window_slideright_enter" app:popExitAnim="@animator/window_slideright_exit" />
+    </fragment>
+    <fragment android:label="AddFamilyMembersFragment" android:name="sg.gov.tech.bluetrace.groupCheckIn.addFamilyMembers.AddFamilyMembersFragment" android:id="@id/addFamilyMembersFragment" />
+</navigation>

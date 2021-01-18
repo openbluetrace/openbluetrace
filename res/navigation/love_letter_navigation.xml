@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/love_letter_navigation" app:startDestination="@id/onboardingWithLoveFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="OnboardingWithLoveFragment" android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.OnboardingWithLoveFragment" android:id="@id/onboardingWithLoveFragment">
+        <action android:id="@id/action_onboardingWithLoveFragment_to_onboardingDearPeopleFragment" app:destination="@id/onboardingDearPeopleFragment" app:enterAnim="@animator/window_slideleft_enter" app:exitAnim="@animator/window_slideleft_exit" app:popEnterAnim="@animator/window_slideright_enter" app:popExitAnim="@animator/window_slideright_exit" />
+    </fragment>
+    <fragment android:label="OnboardingDearPeopleFragment" android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.OnboardingDearPeopleFragment" android:id="@id/onboardingDearPeopleFragment">
+        <action android:id="@id/action_onboardingDearPeopleFragment_to_howItWorksActivity" app:destination="@id/howItWorksActivity" />
+    </fragment>
+    <activity android:label="HowItWorksActivity" android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.HowItWorksActivity" android:id="@id/howItWorksActivity" />
+</navigation>

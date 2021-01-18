@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root" android:background="@color/dark" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/off_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Time:" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/off_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Level:" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/off_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Type:" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/off_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tag:" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/off_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Message:" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/level_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/type_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="5" />
+    </LinearLayout>
+</LinearLayout>

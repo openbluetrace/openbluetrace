@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/how_it_works_navigation" app:startDestination="@id/onboardingRecallFragment2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="OnboardingRecallFragment" android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.OnboardingRecallFragment" android:id="@id/onboardingRecallFragment2">
+        <action android:id="@id/action_onboardingRecallFragment2_to_onboardingHowItWorkSecondFragment" app:destination="@id/onboardingHowItWorkSecondFragment" app:enterAnim="@animator/window_slideleft_enter" app:exitAnim="@animator/window_slideleft_exit" app:popEnterAnim="@animator/window_slideright_enter" app:popExitAnim="@animator/window_slideright_exit" />
+    </fragment>
+    <fragment android:label="OnboardingHowItWorkSecondFragment" android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.OnboardingHowItWorkSecondFragment" android:id="@id/onboardingHowItWorkSecondFragment">
+        <action android:id="@id/action_onboardingHowItWorkSecondFragment_to_mainOnboardingActivity" app:destination="@id/mainOnboardingActivity" />
+    </fragment>
+    <activity android:label="HowItWorksActivity" android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.MainOnboardingActivity" android:id="@id/mainOnboardingActivity" />
+</navigation>

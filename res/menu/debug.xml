@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_notification_icon" android:id="@id/bluetrace" android:title="BlueTrace" />
+    <item android:icon="@drawable/ic_notification_icon" android:id="@id/bluetrace_lite" android:title="BlueTraceLite" />
+    <item android:icon="@drawable/ic_notification_icon" android:id="@id/logs" android:title="Logs" />
+</menu>
