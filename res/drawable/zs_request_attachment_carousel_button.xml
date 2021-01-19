@@ -7,5 +7,5 @@
             <solid android:color="#ffffffff" />
         </shape>
     </item>
-    <item android:drawable="@drawable/APKTOOL_DUMMY_291" android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="4.0dip" />
+    <item android:drawable="@drawable/zs_request_carousel_remove_button" android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="4.0dip" />
 </layer-list>

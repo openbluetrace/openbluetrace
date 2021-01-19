@@ -8,6 +8,6 @@
             </LinearLayout>
         </LinearLayout>
         <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:gravity="center" android:id="@id/textView_selectedCountry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="(IN) +91" android:layout_toLeftOf="@id/imageView_arrow" android:layout_toRightOf="@id/linear_flag_holder" android:layout_centerVertical="true" android:layout_toStartOf="@id/imageView_arrow" android:layout_toEndOf="@id/linear_flag_holder" />
-        <ImageView android:id="@id/imageView_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/APKTOOL_DUMMY_89" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="0.6" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/imageView_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ccp_down_arrow" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="0.6" android:layout_alignParentEnd="true" />
     </RelativeLayout>
 </RelativeLayout>

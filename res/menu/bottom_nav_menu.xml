@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/APKTOOL_DUMMY_1f1" android:id="@id/navigation_home" android:title="@string/title_home" />
+    <item android:icon="@drawable/ic_home" android:id="@id/navigation_home" android:title="@string/title_home" />
     <item android:icon="@drawable/history" android:id="@id/navigation_history" android:title="@string/title_history" />
-    <item android:icon="@drawable/APKTOOL_DUMMY_22a" android:id="@id/navigation_upload" android:title="@string/title_upload" />
+    <item android:icon="@drawable/ic_upload" android:id="@id/navigation_upload" android:title="@string/title_upload" />
     <item android:icon="@drawable/menu" android:id="@id/navigation_setting" android:title="@string/title_more" />
 </menu>

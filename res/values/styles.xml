@@ -1236,7 +1236,7 @@
         <item name="android:textColor">?editTextColor</item>
         <item name="android:background">?editTextBackground</item>
         <item name="android:dropDownSelector">?listChoiceBackgroundIndicator</item>
-        <item name="android:popupBackground">@drawable/APKTOOL_DUMMY_3d</item>
+        <item name="android:popupBackground">@drawable/abc_popup_background_mtrl_mult</item>
         <item name="android:textCursorDrawable">@drawable/abc_text_cursor_material</item>
     </style>
     <style name="Base.V7.Widget.AppCompat.EditText" parent="@android:style/Widget.EditText">
@@ -3399,7 +3399,7 @@
     </style>
     <style name="ZendeskSdkTheme.Light.Request.Agent.Message.Bubble" parent="@style/ZendeskSdkTheme.Light">
         <item name="android:layout_gravity">start</item>
-        <item name="android:background">@drawable/APKTOOL_DUMMY_28f</item>
+        <item name="android:background">@drawable/zs_request_bubble_agent</item>
         <item name="android:layout_marginRight">72.0dip</item>
         <item name="android:layout_marginEnd">72.0dip</item>
     </style>
@@ -3629,7 +3629,7 @@
         <item name="android:gravity">end|bottom|center</item>
         <item name="android:visibility">gone</item>
         <item name="android:layout_margin">@dimen/zs_fab_margin</item>
-        <item name="android:src">@drawable/APKTOOL_DUMMY_282</item>
+        <item name="android:src">@drawable/zs_create_ticket_fab</item>
         <item name="android:contentDescription">@string/zs_general_contact_us_button_label_accessibility</item>
     </style>
     <style name="zs_view_article_container" parent="@style/_view_article_container" />
