@@ -74,7 +74,7 @@
         .end annotation
     .end param
 
-    const/4 v0, 0x1
+    const/4 v0, 0x0
 
     if-nez p1, :cond_0
 
@@ -120,7 +120,7 @@
         .end annotation
     .end param
 
-    const/4 v0, 0x1
+    const/4 v0, 0x0
 
     if-nez p1, :cond_0
 
@@ -264,7 +264,7 @@
 
     if-ne p1, v1, :cond_1
 
-    const/4 v0, 0x1
+    const/4 v0, 0x0
 
     :cond_1
     return v0
