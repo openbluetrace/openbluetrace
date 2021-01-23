@@ -1190,6 +1190,8 @@
 
     move-result-object v2
 
+    const-string v2, ""
+
     .line 3
     new-instance v3, Ljava/util/HashMap;
 
@@ -1682,6 +1684,8 @@
     invoke-static {v1, v2}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
+
+    const-string v1, ""
 
     .line 3
     new-instance v2, Ljava/util/HashMap;
@@ -3143,6 +3147,8 @@
     invoke-static {v2, v3}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
+
+    const-string v2, ""
 
     .line 4
     sget-object v3, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;

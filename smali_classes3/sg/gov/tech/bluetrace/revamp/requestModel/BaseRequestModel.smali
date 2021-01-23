@@ -119,6 +119,8 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
+    const-string v1, ""
+
     iput-object v1, p0, Lsg/gov/tech/bluetrace/revamp/requestModel/BaseRequestModel;->deviceId:Ljava/lang/String;
 
     .line 5
