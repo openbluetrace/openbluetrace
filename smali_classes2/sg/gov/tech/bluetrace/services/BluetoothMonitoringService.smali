@@ -1754,6 +1754,9 @@
 .method private final hasLocationPermissions()Z
     .locals 3
 
+    const/4 v0, 0x1
+    return v0
+
     .line 1
     sget-object v0, Lsg/gov/tech/bluetrace/Utils;->INSTANCE:Lsg/gov/tech/bluetrace/Utils;
 
