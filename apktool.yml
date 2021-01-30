@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: bluetrace_sap.apk
+apkFileName: bluetrace_nodpi.apk
 compressionType: false
 doNotCompress:
 - resources.arsc
@@ -71,10 +71,10 @@ doNotCompress:
 - META-INF/androidx.work_work-rxjava2.version
 - META-INF/com.google.android.material_material.version
 - META-INF/com.google.dagger_dagger.version
+- mp3
 - png
 - gif
 - ogg
-- mp3
 isFrameworkApk: false
 packageInfo:
   forcedPackageId: '127'
@@ -85,7 +85,6 @@ sdkInfo:
 sharedLibrary: false
 sparseResources: false
 unknownFiles:
-  SAP.txt: '8'
   barcode-scanning.properties: '8'
   common.properties: '8'
   firebase-abt.properties: '8'
