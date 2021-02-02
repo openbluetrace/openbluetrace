@@ -1,6 +1,6 @@
 .class public final Lsg/gov/tech/bluetrace/favourite/SortFavouriteListAlphabetically$Companion;
 .super Ljava/lang/Object;
-.source "FavouriteFragment.kt"
+.source "FavouriteViewModel.kt"
 
 # interfaces
 .implements Ljava/util/Comparator;
@@ -26,7 +26,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFavouriteFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FavouriteFragment.kt\nsg/gov/tech/bluetrace/favourite/SortFavouriteListAlphabetically$Companion\n*L\n1#1,373:1\n*E\n"
+    value = "SMAP\nFavouriteViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FavouriteViewModel.kt\nsg/gov/tech/bluetrace/favourite/SortFavouriteListAlphabetically$Companion\n*L\n1#1,208:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;

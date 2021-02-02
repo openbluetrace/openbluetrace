@@ -31,7 +31,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnboardingRegisterUserNRICFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingRegisterUserNRICFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/OnboardingRegisterUserNRICFragment$onViewCreated$1\n*L\n1#1,442:1\n*E\n"
+    value = "SMAP\nOnboardingRegisterUserNRICFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingRegisterUserNRICFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/OnboardingRegisterUserNRICFragment$onViewCreated$1\n*L\n1#1,453:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -122,7 +122,7 @@
 
     const-string v3, "Hash size: "
 
-    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -236,7 +236,7 @@
 
     check-cast p1, Landroidx/appcompat/widget/AppCompatButton;
 
-    const v1, 0x7f060136
+    const v1, 0x7f06013b
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 

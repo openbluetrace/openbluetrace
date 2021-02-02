@@ -31,7 +31,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$callSelfCheckApi$1\n*L\n1#1,599:1\n*E\n"
+    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$callSelfCheckApi$1\n*L\n1#1,601:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -190,7 +190,7 @@
     .line 3
     sget-object v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;
 
-    invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportOrInvalidUser(Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;)Z
+    invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;)Z
 
     move-result v0
 

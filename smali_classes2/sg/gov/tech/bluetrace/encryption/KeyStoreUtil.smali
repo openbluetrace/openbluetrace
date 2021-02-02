@@ -163,8 +163,10 @@
     .line 12
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 13
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 14
     sget-object v3, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v3, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -175,9 +177,10 @@
 
     const-string v5, "Cannot create AES key."
 
+    .line 15
     invoke-virtual {v0, v2, v4, v5, v3}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
+    .line 16
     sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -367,8 +370,10 @@
     .line 18
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 19
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 20
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v1, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -379,9 +384,10 @@
 
     const-string v3, "Cannot create RSA key pair."
 
+    .line 21
     invoke-virtual {p1, v0, v2, v3, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 19
+    .line 22
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v0, Ljava/lang/StringBuilder;

@@ -123,7 +123,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0d0054
+    const v0, 0x7f0d0056
 
     return v0
 .end method
@@ -191,7 +191,7 @@
     invoke-static {}, Lkotlin/jvm/internal/Intrinsics;->throwNpe()V
 
     :cond_0
-    const v0, 0x7f060135
+    const v0, 0x7f06013a
 
     invoke-static {p2, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 

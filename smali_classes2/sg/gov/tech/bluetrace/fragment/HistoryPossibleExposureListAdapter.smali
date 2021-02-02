@@ -221,13 +221,13 @@
     if-nez v3, :cond_0
 
     .line 1
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
     iget-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HistoryPossibleExposureListAdapter;->context:Landroid/content/Context;
 
-    const p3, 0x7f13013d
+    const p3, 0x7f130148
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -252,7 +252,7 @@
     if-nez p1, :cond_1
 
     .line 3
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -272,7 +272,7 @@
 
     .line 4
     :cond_1
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -320,7 +320,7 @@
 
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/HistoryPossibleExposureListAdapter;->context:Landroid/content/Context;
 
-    const p2, 0x7f13013d
+    const p2, 0x7f130148
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -938,7 +938,7 @@
     .line 3
     iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HistoryPossibleExposureListAdapter;->inflater:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0d0038
+    const v1, 0x7f0d0039
 
     const/4 v2, 0x0
 

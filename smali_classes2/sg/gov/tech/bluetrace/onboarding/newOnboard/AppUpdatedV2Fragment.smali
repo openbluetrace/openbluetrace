@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0d005f
+    const v1, 0x7f0d0061
 
     const/4 v2, 0x1
 
@@ -417,7 +417,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f0a00e4
+    const v0, 0x7f0a00ea
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -430,7 +430,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v0, 0x7f0a00e2
+    const v0, 0x7f0a00e8
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -458,7 +458,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f13005f
+    const v1, 0x7f130060
 
     .line 2
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -535,7 +535,7 @@
     .line 9
     invoke-virtual {v0, v1, v3, v4}, Landroid/app/AlertDialog$Builder;->setSingleChoiceItems([Ljava/lang/CharSequence;ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    const v1, 0x7f13014f
+    const v1, 0x7f13015e
 
     .line 10
     new-instance v3, Lsg/gov/tech/bluetrace/onboarding/newOnboard/AppUpdatedV2Fragment$showPopup$2;
@@ -545,7 +545,7 @@
     .line 11
     invoke-virtual {v0, v1, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    const v1, 0x7f13005a
+    const v1, 0x7f13005b
 
     const/4 v2, 0x0
 

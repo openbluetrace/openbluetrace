@@ -61,7 +61,7 @@
         0x0
     }
     l = {
-        0x132
+        0x119
     }
     m = "invokeSuspend"
     n = {
@@ -264,19 +264,11 @@
     .line 7
     iget-object v1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$insertRecord$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v2, Lsg/gov/tech/bluetrace/R$id;->favourites_layout:I
-
-    invoke-virtual {v1, v2}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {v1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getFavouritesLayout$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroid/widget/LinearLayout;
 
     move-result-object v1
 
-    check-cast v1, Landroid/widget/LinearLayout;
-
-    const-string v2, "favourites_layout"
-
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const v2, 0x7f1301bc
+    const v2, 0x7f1301e4
 
     .line 8
     invoke-virtual {p1, v0, v1, v2}, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;->showSnackBar(Landroid/content/Context;Landroid/view/View;I)V

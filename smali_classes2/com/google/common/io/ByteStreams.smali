@@ -754,7 +754,7 @@
 
     const-string v0, " bytes expected"
 
-    invoke-static {v2, p1, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline22(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p1, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline23(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

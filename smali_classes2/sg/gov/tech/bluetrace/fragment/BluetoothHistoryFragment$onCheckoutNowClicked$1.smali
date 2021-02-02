@@ -24,7 +24,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBluetoothHistoryFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BluetoothHistoryFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$onCheckoutNowClicked$1\n*L\n1#1,760:1\n*E\n"
+    value = "SMAP\nBluetoothHistoryFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BluetoothHistoryFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$onCheckoutNowClicked$1\n*L\n1#1,768:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -62,6 +62,8 @@
 # instance fields
 .field public final synthetic $historyRecordItemPosition:I
 
+.field public final synthetic $parentFragment:Landroidx/fragment/app/Fragment;
+
 .field public final synthetic $position:I
 
 .field public final synthetic $safeEntryRecord:Lsg/gov/tech/bluetrace/fragment/HistoryRecord;
@@ -70,13 +72,15 @@
 
 
 # direct methods
-.method public constructor <init>(Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment;Lsg/gov/tech/bluetrace/fragment/HistoryRecord;II)V
+.method public constructor <init>(Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment;Lsg/gov/tech/bluetrace/fragment/HistoryRecord;IILandroidx/fragment/app/Fragment;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lsg/gov/tech/bluetrace/fragment/HistoryRecord;",
-            "II)V"
+            "II",
+            "Landroidx/fragment/app/Fragment;",
+            ")V"
         }
     .end annotation
 
@@ -88,6 +92,8 @@
     iput p3, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$onCheckoutNowClicked$1;->$position:I
 
     iput p4, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$onCheckoutNowClicked$1;->$historyRecordItemPosition:I
+
+    iput-object p5, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$onCheckoutNowClicked$1;->$parentFragment:Landroidx/fragment/app/Fragment;
 
     .line 2
     invoke-direct {p0}, Lio/reactivex/observers/DisposableSingleObserver;-><init>()V
@@ -115,28 +121,22 @@
 
     move-result p1
 
-    if-eqz p1, :cond_0
+    if-eqz p1, :cond_1
 
     .line 2
-    iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$onCheckoutNowClicked$1;->this$0:Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment;
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$onCheckoutNowClicked$1;->$parentFragment:Landroidx/fragment/app/Fragment;
 
-    sget v0, Lsg/gov/tech/bluetrace/R$id;->historyFragmentLoadingProgressBarFrame:I
+    instance-of v0, p1, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;
 
-    invoke-virtual {p1, v0}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment;->_$_findCachedViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/FrameLayout;
-
-    const-string v0, "historyFragmentLoadingProgressBarFrame"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/16 v0, 0x8
-
-    invoke-virtual {p1, v0}, Landroid/widget/FrameLayout;->setVisibility(I)V
+    if-eqz v0, :cond_0
 
     .line 3
+    check-cast p1, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;
+
+    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->hideLoader()V
+
+    .line 4
+    :cond_0
     new-instance p1, Lkotlin/jvm/internal/Ref$ObjectRef;
 
     invoke-direct {p1}, Lkotlin/jvm/internal/Ref$ObjectRef;-><init>()V
@@ -145,16 +145,16 @@
 
     iput-object v0, p1, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
 
-    .line 4
+    .line 5
     iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$onCheckoutNowClicked$1;->this$0:Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment;
 
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v2
 
-    if-eqz v2, :cond_0
+    if-eqz v2, :cond_1
 
-    .line 5
+    .line 6
     new-instance v1, Lsg/gov/tech/bluetrace/utils/TTAlertBuilder;
 
     invoke-direct {v1}, Lsg/gov/tech/bluetrace/utils/TTAlertBuilder;-><init>()V
@@ -181,7 +181,7 @@
 
     invoke-static/range {v1 .. v7}, Lsg/gov/tech/bluetrace/utils/TTAlertBuilder;->show$default(Lsg/gov/tech/bluetrace/utils/TTAlertBuilder;Landroid/content/Context;Lsg/gov/tech/bluetrace/utils/AlertType;ZLkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
 
-    :cond_0
+    :cond_1
     return-void
 .end method
 

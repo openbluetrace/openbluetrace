@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnboardingVerifyNumberFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingVerifyNumberFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingVerifyNumberFragment\n*L\n1#1,128:1\n*E\n"
+    value = "SMAP\nOnboardingVerifyNumberFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingVerifyNumberFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingVerifyNumberFragment\n*L\n1#1,159:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -15,7 +15,7 @@
         0x3
     }
     d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\t\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\n\u001a\u00020\u000bH\u0002J$\u0010\u000c\u001a\u00020\t2\u0006\u0010\r\u001a\u00020\u000e2\u0008\u0010\u000f\u001a\u0004\u0018\u00010\u00102\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0012H\u0016J\u0008\u0010\u0013\u001a\u00020\u0014H\u0016J\u001a\u0010\u0015\u001a\u00020\u00142\u0006\u0010\u0016\u001a\u00020\t2\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0012H\u0016J\u000e\u0010\u0017\u001a\u00020\u00142\u0006\u0010\u0018\u001a\u00020\u0004J\u0008\u0010\u0019\u001a\u00020\u0014H\u0002J\u0008\u0010\u001a\u001a\u00020\u000bH\u0002J\u0010\u0010\u001b\u001a\u00020\u000b2\u0006\u0010\u001c\u001a\u00020\u0004H\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082D\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0082.\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0008\u001a\u0004\u0018\u00010\tX\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u001d"
+        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\n\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\n\u001a\u00020\u000bH\u0002J$\u0010\u000c\u001a\u00020\t2\u0006\u0010\r\u001a\u00020\u000e2\u0008\u0010\u000f\u001a\u0004\u0018\u00010\u00102\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0012H\u0016J\u0008\u0010\u0013\u001a\u00020\u0014H\u0016J\u001a\u0010\u0015\u001a\u00020\u00142\u0006\u0010\u0016\u001a\u00020\t2\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0012H\u0016J\u0008\u0010\u0017\u001a\u00020\u0014H\u0002J\u000e\u0010\u0018\u001a\u00020\u00142\u0006\u0010\u0019\u001a\u00020\u0004J\u0008\u0010\u001a\u001a\u00020\u0014H\u0002J\u0008\u0010\u001b\u001a\u00020\u000bH\u0002J\u0010\u0010\u001c\u001a\u00020\u000b2\u0006\u0010\u001d\u001a\u00020\u0004H\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082D\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004X\u0082.\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0008\u001a\u0004\u0018\u00010\tX\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u001e"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingVerifyNumberFragment;",
@@ -41,6 +41,7 @@
         "",
         "onViewCreated",
         "view",
+        "setCountrySelectionDialogTitle",
         "updatePhoneError",
         "text",
         "updateRemoteConfig",
@@ -184,6 +185,27 @@
     return v0
 .end method
 
+.method private final setCountrySelectionDialogTitle()V
+    .locals 2
+
+    .line 1
+    sget v0, Lsg/gov/tech/bluetrace/R$id;->country_code:I
+
+    invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingVerifyNumberFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/hbb20/CountryCodePicker;
+
+    new-instance v1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingVerifyNumberFragment$setCountrySelectionDialogTitle$1;
+
+    invoke-direct {v1, p0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingVerifyNumberFragment$setCountrySelectionDialogTitle$1;-><init>(Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingVerifyNumberFragment;)V
+
+    invoke-virtual {v0, v1}, Lcom/hbb20/CountryCodePicker;->setCustomDialogTextProvider(Lcom/hbb20/CountryCodePicker$CustomDialogTextProvider;)V
+
+    return-void
+.end method
+
 .method private final updateRemoteConfig()V
     .locals 3
 
@@ -310,7 +332,7 @@
 
     invoke-static {v0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f1301ae
+    const v2, 0x7f1301d5
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -369,7 +391,7 @@
 
     check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v2, 0x7f1300ea
+    const v2, 0x7f1300f2
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -422,7 +444,7 @@
 
     check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v2, 0x7f1300ee
+    const v2, 0x7f1300f6
 
     invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(I)V
 
@@ -586,7 +608,7 @@
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
-    const p3, 0x7f0d0072
+    const p3, 0x7f0d0074
 
     const/4 v0, 0x0
 
@@ -705,9 +727,12 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
+    .line 7
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingVerifyNumberFragment;->setCountrySelectionDialogTitle()V
+
     return-void
 
-    .line 7
+    .line 8
     :cond_0
     new-instance p1, Lkotlin/TypeCastException;
 

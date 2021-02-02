@@ -29,7 +29,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBluetoothHistoryPossibleExposureFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BluetoothHistoryPossibleExposureFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment$onViewCreated$2\n*L\n1#1,164:1\n*E\n"
+    value = "SMAP\nBluetoothHistoryPossibleExposureFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BluetoothHistoryPossibleExposureFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment$onViewCreated$2\n*L\n1#1,176:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -277,7 +277,7 @@
 
     const-string v1, "error: "
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -296,8 +296,10 @@
     .line 16
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 17
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->BLUETRACE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 18
     iget-object v3, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment$onViewCreated$2;->this$0:Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment;
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -310,7 +312,8 @@
 
     invoke-static {v3, v6}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 19
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -324,17 +327,19 @@
 
     move-result-object v1
 
+    .line 20
     sget-object v4, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v4, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
 
     move-result-object p1
 
+    .line 21
     invoke-virtual {v0, v2, v3, v1, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
-    .line 17
+    .line 22
     :cond_2
     sget-object p1, Lsg/gov/tech/safeentry/selfcheck/model/ConnectionState$NoNetwork;->INSTANCE:Lsg/gov/tech/safeentry/selfcheck/model/ConnectionState$NoNetwork;
 
@@ -344,7 +349,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 18
+    .line 23
     :try_start_1
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment$onViewCreated$2;->this$0:Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment;
 
@@ -360,7 +365,7 @@
 
     invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 19
+    .line 24
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment$onViewCreated$2;->this$0:Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment;
 
     sget v0, Lsg/gov/tech/bluetrace/R$id;->no_contact_possible_exposure_view:I
@@ -375,7 +380,7 @@
 
     invoke-virtual {p1, v5}, Landroid/view/ViewGroup;->setVisibility(I)V
 
-    .line 20
+    .line 25
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment$onViewCreated$2;->this$0:Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment;
 
     sget v0, Lsg/gov/tech/bluetrace/R$id;->progress_bar_possible_exposure:I
@@ -397,11 +402,13 @@
     :catch_1
     move-exception p1
 
-    .line 21
+    .line 26
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 27
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->BLUETRACE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 28
     iget-object v2, p0, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment$onViewCreated$2;->this$0:Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment;
 
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -414,6 +421,7 @@
 
     invoke-static {v2, v6}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
+    .line 29
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v3
@@ -422,15 +430,17 @@
 
     move-result-object v3
 
+    .line 30
     sget-object v4, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v4, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
 
     move-result-object v4
 
+    .line 31
     invoke-virtual {v0, v1, v2, v3, v4}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
+    .line 32
     sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;

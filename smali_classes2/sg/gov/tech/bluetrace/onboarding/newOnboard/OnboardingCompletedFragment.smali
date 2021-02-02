@@ -169,7 +169,7 @@
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
-    const p3, 0x7f0d006c
+    const p3, 0x7f0d006e
 
     const/4 v0, 0x0
 

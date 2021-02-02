@@ -328,14 +328,14 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView;->favouriteRecordsList:Ljava/util/List;
 
-    const p2, 0x7f0d0037
+    const p2, 0x7f0d0038
 
     .line 4
     invoke-static {p1, p2, p0}, Landroid/view/ViewGroup;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p2
 
-    const p3, 0x7f0a02b5
+    const p3, 0x7f0a02c5
 
     .line 5
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -350,7 +350,7 @@
 
     iput-object p3, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView;->location:Landroid/widget/TextView;
 
-    const p3, 0x7f0a02b6
+    const p3, 0x7f0a02c6
 
     .line 6
     invoke-virtual {p2, p3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -365,7 +365,7 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView;->date:Landroid/widget/TextView;
 
-    const p2, 0x7f0a02b3
+    const p2, 0x7f0a02c3
 
     .line 7
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -380,7 +380,7 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView;->hideableView:Landroidx/cardview/widget/CardView;
 
-    const p2, 0x7f0a02ba
+    const p2, 0x7f0a02ca
 
     .line 8
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -395,7 +395,7 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView;->redView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    const p2, 0x7f0a02b0
+    const p2, 0x7f0a02c0
 
     .line 9
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -410,7 +410,7 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView;->redViewArrow:Landroid/widget/ImageView;
 
-    const p2, 0x7f0a0154
+    const p2, 0x7f0a015b
 
     .line 10
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -425,7 +425,7 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView;->dontForgetToCheckOut:Landroid/widget/TextView;
 
-    const p2, 0x7f0a02b1
+    const p2, 0x7f0a02c1
 
     .line 11
     invoke-virtual {p0, p2}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -515,7 +515,7 @@
     if-nez v3, :cond_0
 
     .line 1
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -523,7 +523,7 @@
 
     move-result-object p2
 
-    const p3, 0x7f13013d
+    const p3, 0x7f130148
 
     invoke-virtual {p2, p3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -548,7 +548,7 @@
     if-nez p1, :cond_1
 
     .line 3
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -568,7 +568,7 @@
 
     .line 4
     :cond_1
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -627,7 +627,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f13013d
+    const p2, 0x7f130148
 
     invoke-virtual {p1, p2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -775,7 +775,7 @@
 
     check-cast v0, Lsg/gov/tech/bluetrace/fragment/HotSpotData;
 
-    const v1, 0x7f0a02b4
+    const v1, 0x7f0a02c4
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;
@@ -926,7 +926,7 @@
 
     check-cast v0, Lsg/gov/tech/safeentry/selfcheck/model/HotSpot;
 
-    const v1, 0x7f0a02b4
+    const v1, 0x7f0a02c4
 
     .line 2
     invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->findViewById(I)Landroid/view/View;

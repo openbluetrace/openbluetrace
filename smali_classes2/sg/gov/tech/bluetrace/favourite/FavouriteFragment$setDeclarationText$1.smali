@@ -60,62 +60,44 @@
 
 # virtual methods
 .method public final onClick(Landroid/view/View;)V
-    .locals 4
+    .locals 3
 
     .line 1
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setDeclarationText$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v0, Lsg/gov/tech/bluetrace/R$id;->lytDeclaration:I
-
-    invoke-virtual {p1, v0}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getDeclarationLayout$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/constraintlayout/widget/ConstraintLayout;
 
     move-result-object p1
-
-    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
-
-    const-string v0, "lytDeclaration"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getVisibility()I
 
     move-result p1
 
-    const/16 v1, 0x8
+    const/16 v0, 0x8
 
-    const/4 v2, 0x0
+    const/4 v1, 0x0
 
-    if-ne p1, v1, :cond_0
+    if-ne p1, v0, :cond_0
 
     .line 2
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setDeclarationText$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v1, Lsg/gov/tech/bluetrace/R$id;->terms_declaration_text:I
-
-    invoke-virtual {p1, v1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getTermsDeclarationTv$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/appcompat/widget/AppCompatTextView;
 
     move-result-object p1
 
-    check-cast p1, Landroidx/appcompat/widget/AppCompatTextView;
+    const v0, 0x7f0801cb
 
-    const v1, 0x7f0801c9
-
-    invoke-virtual {p1, v2, v2, v1, v2}, Landroidx/appcompat/widget/AppCompatTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {p1, v1, v1, v0, v1}, Landroidx/appcompat/widget/AppCompatTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
     .line 3
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setDeclarationText$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v1, Lsg/gov/tech/bluetrace/R$id;->lytDeclaration:I
-
-    invoke-virtual {p1, v1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getDeclarationLayout$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/constraintlayout/widget/ConstraintLayout;
 
     move-result-object p1
 
-    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p1, v2}, Landroid/view/ViewGroup;->setVisibility(I)V
+    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     goto :goto_0
 
@@ -123,32 +105,22 @@
     :cond_0
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setDeclarationText$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v3, Lsg/gov/tech/bluetrace/R$id;->terms_declaration_text:I
-
-    invoke-virtual {p1, v3}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getTermsDeclarationTv$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/appcompat/widget/AppCompatTextView;
 
     move-result-object p1
 
-    check-cast p1, Landroidx/appcompat/widget/AppCompatTextView;
+    const v2, 0x7f0801c8
 
-    const v3, 0x7f0801c6
-
-    invoke-virtual {p1, v2, v2, v3, v2}, Landroidx/appcompat/widget/AppCompatTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
+    invoke-virtual {p1, v1, v1, v2, v1}, Landroidx/appcompat/widget/AppCompatTextView;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 
     .line 5
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setDeclarationText$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v2, Lsg/gov/tech/bluetrace/R$id;->lytDeclaration:I
-
-    invoke-virtual {p1, v2}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getDeclarationLayout$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/constraintlayout/widget/ConstraintLayout;
 
     move-result-object p1
 
-    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     :goto_0
     return-void

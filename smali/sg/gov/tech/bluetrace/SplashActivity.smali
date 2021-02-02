@@ -118,7 +118,7 @@
     const-string v0, ".0"
 
     .line 2
-    invoke-static {p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline18(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline19(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -128,7 +128,7 @@
     const-string v0, ".0.0"
 
     .line 3
-    invoke-static {p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline18(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline19(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -691,7 +691,7 @@
     .line 1
     invoke-super {p0, p1}, Lsg/gov/tech/bluetrace/TranslatableActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0026
+    const p1, 0x7f0d0027
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

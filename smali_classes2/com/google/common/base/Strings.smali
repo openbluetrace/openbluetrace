@@ -729,7 +729,7 @@
 
     const-string p1, "Required array size too large: "
 
-    invoke-static {p1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline15(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline16(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
 

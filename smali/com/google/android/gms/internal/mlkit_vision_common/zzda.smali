@@ -347,7 +347,7 @@
 
     const-string v6, " to a "
 
-    invoke-static {v5, v4, v3, v6, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline25(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v4, v3, v6, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline27(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -424,7 +424,7 @@
 
     const-string v6, " to a "
 
-    invoke-static {v5, v4, v3, v6, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline25(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v4, v3, v6, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline27(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 

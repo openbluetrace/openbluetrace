@@ -342,7 +342,7 @@
 
     const-string v2, ") not representable as an int"
 
-    invoke-static {v1, p0, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline14(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p0, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline15(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -1202,7 +1202,7 @@
 
     const-string v1, " must be > 0"
 
-    invoke-static {v0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline14(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline15(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

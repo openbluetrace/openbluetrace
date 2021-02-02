@@ -350,9 +350,7 @@
 
     if-eqz v1, :cond_b
 
-    const-string v0, "passport"
-
-    invoke-virtual {v1, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;->goToRegisterUserPassportFragment(Ljava/lang/String;)V
+    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;->goToRegisterUserPassportFragment()V
 
     :cond_b
     :goto_6

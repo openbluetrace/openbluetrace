@@ -114,7 +114,7 @@
 
     invoke-direct {v1, p1, p2}, Landroidx/core/app/NotificationCompat$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const p2, 0x7f1301d2
+    const p2, 0x7f1301fb
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -125,7 +125,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1301d1
+    const v1, 0x7f1301fa
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -150,7 +150,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f080200
+    const v2, 0x7f080203
 
     .line 9
     invoke-virtual {p2, v2}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
@@ -211,7 +211,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600fa
+    const v0, 0x7f0600fe
 
     .line 18
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
@@ -288,7 +288,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f080200
+    const v0, 0x7f080203
 
     .line 6
     invoke-virtual {p2, v0}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
@@ -316,7 +316,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600fa
+    const v0, 0x7f0600fe
 
     .line 10
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
@@ -392,7 +392,7 @@
 
     invoke-virtual {v1, v2, v3}, Lsg/gov/tech/bluetrace/Utils;->getTime(J)Ljava/lang/String;
 
-    const v1, 0x7f1301d3
+    const v1, 0x7f1301fc
 
     .line 5
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -408,7 +408,7 @@
 
     invoke-direct {v2, p1, p2}, Landroidx/core/app/NotificationCompat$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const p2, 0x7f130205
+    const p2, 0x7f130230
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -438,7 +438,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f080200
+    const v2, 0x7f080203
 
     .line 11
     invoke-virtual {p2, v2}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
@@ -489,7 +489,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600fa
+    const v0, 0x7f0600fe
 
     .line 18
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
@@ -559,7 +559,7 @@
 
     invoke-direct {v1, p1, p2}, Landroidx/core/app/NotificationCompat$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
-    const p2, 0x7f1301d0
+    const p2, 0x7f1301f9
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -570,7 +570,7 @@
 
     move-result-object p2
 
-    const v1, 0x7f1301cf
+    const v1, 0x7f1301f8
 
     .line 6
     invoke-virtual {p1, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
@@ -595,7 +595,7 @@
 
     move-result-object p2
 
-    const v2, 0x7f080202
+    const v2, 0x7f080205
 
     .line 9
     invoke-virtual {p2, v2}, Landroidx/core/app/NotificationCompat$Builder;->setSmallIcon(I)Landroidx/core/app/NotificationCompat$Builder;
@@ -611,14 +611,14 @@
 
     move-result-object p2
 
-    const v1, 0x7f1301ce
+    const v1, 0x7f1301f7
 
     .line 11
     invoke-virtual {p1, v1}, Landroid/content/Context;->getText(I)Ljava/lang/CharSequence;
 
     move-result-object v1
 
-    const v2, 0x7f080201
+    const v2, 0x7f080204
 
     .line 12
     invoke-virtual {p2, v2, v1, v0}, Landroidx/core/app/NotificationCompat$Builder;->addAction(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)Landroidx/core/app/NotificationCompat$Builder;
@@ -651,7 +651,7 @@
 
     move-result-object p2
 
-    const v0, 0x7f0600fa
+    const v0, 0x7f0600fe
 
     .line 17
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I

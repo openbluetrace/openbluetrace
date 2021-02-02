@@ -173,7 +173,7 @@
 
     if-eqz v3, :cond_1
 
-    const v3, 0x7f0a0094
+    const v3, 0x7f0a0096
 
     .line 5
     invoke-virtual {v0, v3}, Landroidx/navigation/NavGraph;->setStartDestination(I)V
@@ -181,7 +181,7 @@
     goto :goto_0
 
     :cond_1
-    const v3, 0x7f0a015e
+    const v3, 0x7f0a0165
 
     .line 6
     invoke-virtual {v0, v3}, Landroidx/navigation/NavGraph;->setStartDestination(I)V

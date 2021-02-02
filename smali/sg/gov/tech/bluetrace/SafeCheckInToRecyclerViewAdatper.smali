@@ -19,7 +19,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSafeCheckInToRecyclerViewAdatper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeCheckInToRecyclerViewAdatper.kt\nsg/gov/tech/bluetrace/SafeCheckInToRecyclerViewAdatper\n*L\n1#1,61:1\n*E\n"
+    value = "SMAP\nSafeCheckInToRecyclerViewAdatper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeCheckInToRecyclerViewAdatper.kt\nsg/gov/tech/bluetrace/SafeCheckInToRecyclerViewAdatper\n*L\n1#1,66:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -29,7 +29,7 @@
         0x3
     }
     d1 = {
-        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u000c\u0012\u0008\u0012\u00060\u0002R\u00020\u00000\u0001:\u0001\u0017B\u000f\u0008\u0000\u0012\u0006\u0010\u0003\u001a\u00020\u0004\u00a2\u0006\u0002\u0010\u0005J\u0008\u0010\u000b\u001a\u00020\u000cH\u0016J\u001c\u0010\r\u001a\u00020\u000e2\n\u0010\u000f\u001a\u00060\u0002R\u00020\u00002\u0006\u0010\u0010\u001a\u00020\u000cH\u0016J\u001c\u0010\u0011\u001a\u00060\u0002R\u00020\u00002\u0006\u0010\u0012\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u000cH\u0016J\u0014\u0010\u0015\u001a\u00020\u000e2\u000c\u0010\u0016\u001a\u0008\u0012\u0004\u0012\u00020\n0\tR\u000e\u0010\u0006\u001a\u00020\u0007X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0014\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\n0\tX\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0018"
+        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u0017B\u000f\u0008\u0000\u0012\u0006\u0010\u0003\u001a\u00020\u0004\u00a2\u0006\u0002\u0010\u0005J\u0008\u0010\u000b\u001a\u00020\u000cH\u0016J\u0018\u0010\r\u001a\u00020\u000e2\u0006\u0010\u000f\u001a\u00020\u00022\u0006\u0010\u0010\u001a\u00020\u000cH\u0016J\u0018\u0010\u0011\u001a\u00020\u00022\u0006\u0010\u0012\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u000cH\u0016J\u0014\u0010\u0015\u001a\u00020\u000e2\u000c\u0010\u0016\u001a\u0008\u0012\u0004\u0012\u00020\n0\tR\u000e\u0010\u0006\u001a\u00020\u0007X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0014\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\n0\tX\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0018"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/SafeCheckInToRecyclerViewAdatper;",
@@ -179,39 +179,40 @@
 
     move-result-object v1
 
-    if-nez v1, :cond_1
+    if-eqz v1, :cond_2
 
-    invoke-static {}, Lkotlin/jvm/internal/Intrinsics;->throwNpe()V
-
-    :cond_1
     invoke-interface {v1}, Ljava/lang/CharSequence;->length()I
 
     move-result v1
 
-    if-nez v1, :cond_2
-
-    const/4 v1, 0x1
+    if-nez v1, :cond_1
 
     goto :goto_0
 
-    :cond_2
+    :cond_1
     const/4 v1, 0x0
 
+    goto :goto_1
+
+    :cond_2
     :goto_0
+    const/4 v1, 0x1
+
+    :goto_1
     if-eqz v1, :cond_3
 
     invoke-virtual {p2}, Lsg/gov/tech/bluetrace/qrscanner/QrResultDataModel;->getVenueName()Ljava/lang/String;
 
     move-result-object v1
 
-    goto :goto_1
+    goto :goto_2
 
     :cond_3
     invoke-virtual {p2}, Lsg/gov/tech/bluetrace/qrscanner/QrResultDataModel;->getTenantName()Ljava/lang/String;
 
     move-result-object v1
 
-    :goto_1
+    :goto_2
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 4
@@ -266,7 +267,7 @@
     .line 2
     iget-object p2, p0, Lsg/gov/tech/bluetrace/SafeCheckInToRecyclerViewAdatper;->inflater:Landroid/view/LayoutInflater;
 
-    const v0, 0x7f0d00c4
+    const v0, 0x7f0d00ca
 
     const/4 v1, 0x0
 
@@ -281,7 +282,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p2, p0, p1}, Lsg/gov/tech/bluetrace/SafeCheckInToRecyclerViewAdatper$TenantViewHolder;-><init>(Lsg/gov/tech/bluetrace/SafeCheckInToRecyclerViewAdatper;Landroid/view/View;)V
+    invoke-direct {p2, p1}, Lsg/gov/tech/bluetrace/SafeCheckInToRecyclerViewAdatper$TenantViewHolder;-><init>(Landroid/view/View;)V
 
     return-object p2
 .end method

@@ -179,7 +179,7 @@
 
     const-string v1, "InstanceID"
 
-    invoke-static {p1, v0, p0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0, p0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     return-void
@@ -290,7 +290,7 @@
 
     const-string v1, " declares "
 
-    invoke-static {p0, v0, p1, v1, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline25(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0, v0, p1, v1, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline27(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p0
 
@@ -1793,7 +1793,7 @@
 
     const-string v2, "Unexpected response, no error or registration id "
 
-    invoke-static {v1, v2, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 

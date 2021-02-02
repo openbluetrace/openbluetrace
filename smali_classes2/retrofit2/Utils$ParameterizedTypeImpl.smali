@@ -19,6 +19,9 @@
 
 # instance fields
 .field public final ownerType:Ljava/lang/reflect/Type;
+    .annotation runtime Ljavax/annotation/Nullable;
+    .end annotation
+.end field
 
 .field public final rawType:Ljava/lang/reflect/Type;
 
@@ -28,6 +31,10 @@
 # direct methods
 .method public varargs constructor <init>(Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;)V
     .locals 4
+    .param p1    # Ljava/lang/reflect/Type;
+        .annotation runtime Ljavax/annotation/Nullable;
+        .end annotation
+    .end param
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -167,6 +174,8 @@
 
 .method public getOwnerType()Ljava/lang/reflect/Type;
     .locals 1
+    .annotation runtime Ljavax/annotation/Nullable;
+    .end annotation
 
     .line 1
     iget-object v0, p0, Lretrofit2/Utils$ParameterizedTypeImpl;->ownerType:Ljava/lang/reflect/Type;
@@ -195,6 +204,7 @@
 
     iget-object v1, p0, Lretrofit2/Utils$ParameterizedTypeImpl;->rawType:Ljava/lang/reflect/Type;
 
+    .line 2
     invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
@@ -203,10 +213,19 @@
 
     iget-object v1, p0, Lretrofit2/Utils$ParameterizedTypeImpl;->ownerType:Ljava/lang/reflect/Type;
 
-    invoke-static {v1}, Lretrofit2/Utils;->hashCodeOrZero(Ljava/lang/Object;)I
+    if-eqz v1, :cond_0
+
+    .line 3
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     move-result v1
 
+    goto :goto_0
+
+    :cond_0
+    const/4 v1, 0x0
+
+    :goto_0
     xor-int/2addr v0, v1
 
     return v0

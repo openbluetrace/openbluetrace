@@ -50,9 +50,9 @@
 
 .field public static final common_signin_button_text_long:I = 0x7f130084
 
-.field public static final gcm_fallback_notification_channel_label:I = 0x7f1300bd
+.field public static final gcm_fallback_notification_channel_label:I = 0x7f1300c3
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f1301da
+.field public static final status_bar_notification_info_overflow:I = 0x7f130203
 
 
 # direct methods

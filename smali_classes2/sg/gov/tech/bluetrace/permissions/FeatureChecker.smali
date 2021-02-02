@@ -823,7 +823,7 @@
     const-string v1, "features -- [loc, bt, opt]: "
 
     .line 8
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -950,7 +950,7 @@
     const-string v2, "features [loc, bt, opt]: "
 
     .line 5
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -1270,14 +1270,14 @@
 
     invoke-direct {p1, p2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const p2, 0x7f1301af
+    const p2, 0x7f1301d6
 
     .line 7
     invoke-virtual {p1, p2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object p1
 
-    const p2, 0x7f1300c0
+    const p2, 0x7f1300c6
 
     .line 8
     new-instance p3, Lsg/gov/tech/bluetrace/permissions/FeatureChecker$permissionCallback$1;
@@ -1288,7 +1288,7 @@
 
     move-result-object p1
 
-    const p2, 0x7f13005a
+    const p2, 0x7f13005b
 
     .line 9
     new-instance p3, Lsg/gov/tech/bluetrace/permissions/FeatureChecker$permissionCallback$2;

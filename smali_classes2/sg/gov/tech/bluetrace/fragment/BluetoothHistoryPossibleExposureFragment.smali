@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBluetoothHistoryPossibleExposureFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BluetoothHistoryPossibleExposureFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 3 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n*L\n1#1,164:1\n5465#2,2:165\n8824#2:167\n9049#2,3:168\n9052#2,3:178\n352#3,7:171\n*E\n*S KotlinDebug\n*F\n+ 1 BluetoothHistoryPossibleExposureFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment\n*L\n39#1,2:165\n40#1:167\n40#1,3:168\n40#1,3:178\n40#1,7:171\n*E\n"
+    value = "SMAP\nBluetoothHistoryPossibleExposureFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BluetoothHistoryPossibleExposureFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 3 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n*L\n1#1,176:1\n5465#2,2:177\n8824#2:179\n9049#2,3:180\n9052#2,3:190\n352#3,7:183\n*E\n*S KotlinDebug\n*F\n+ 1 BluetoothHistoryPossibleExposureFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment\n*L\n39#1,2:177\n40#1:179\n40#1,3:180\n40#1,3:190\n40#1,7:183\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -15,7 +15,7 @@
         0x3
     }
     d1 = {
-        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\u0003\u001a\u00020\u0004H\u0016J&\u0010\u0005\u001a\u0004\u0018\u00010\u00062\u0006\u0010\u0007\u001a\u00020\u00082\u0008\u0010\t\u001a\u0004\u0018\u00010\n2\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u000cH\u0016J\u0008\u0010\r\u001a\u00020\u000eH\u0016J\u001a\u0010\u000f\u001a\u00020\u000e2\u0006\u0010\u0010\u001a\u00020\u00062\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u000cH\u0016J\u0010\u0010\u0011\u001a\u00020\u000e2\u0006\u0010\u0012\u001a\u00020\u0013H\u0002\u00a8\u0006\u0014"
+        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\u0003\u001a\u00020\u0004H\u0016J&\u0010\u0005\u001a\u0004\u0018\u00010\u00062\u0006\u0010\u0007\u001a\u00020\u00082\u0008\u0010\t\u001a\u0004\u0018\u00010\n2\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u000cH\u0016J\u001a\u0010\r\u001a\u00020\u000e2\u0006\u0010\u000f\u001a\u00020\u00062\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u000cH\u0016J\u0010\u0010\u0010\u001a\u00020\u000e2\u0006\u0010\u0011\u001a\u00020\u0012H\u0002\u00a8\u0006\u0013"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment;",
@@ -31,9 +31,8 @@
         "Landroid/view/ViewGroup;",
         "savedInstanceState",
         "Landroid/os/Bundle;",
-        "onDestroy",
-        "",
         "onViewCreated",
+        "",
         "view",
         "populateRvList",
         "safeEntryMatches",
@@ -83,7 +82,7 @@
     const-string v1, "Fetched safeEntryMatches: "
 
     .line 2
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -354,8 +353,10 @@
     .line 28
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 29
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->BLUETRACE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 30
     const-class v2, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPossibleExposureFragment;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -366,6 +367,7 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
+    .line 31
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v3
@@ -374,15 +376,17 @@
 
     move-result-object v3
 
+    .line 32
     sget-object v4, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v4, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
 
     move-result-object v4
 
+    .line 33
     invoke-virtual {v0, v1, v2, v3, v4}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 29
+    .line 34
     sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
@@ -500,7 +504,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d0062
+    const p3, 0x7f0d0064
 
     const/4 v0, 0x0
 
@@ -510,15 +514,6 @@
     move-result-object p1
 
     return-object p1
-.end method
-
-.method public onDestroy()V
-    .locals 0
-
-    .line 1
-    invoke-super {p0}, Landroidx/fragment/app/Fragment;->onDestroy()V
-
-    return-void
 .end method
 
 .method public synthetic onDestroyView()V
@@ -591,7 +586,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p2, 0x7f1300da
+    const p2, 0x7f1300e1
 
     .line 4
     invoke-virtual {p0, p2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -637,7 +632,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportOrInvalidUser(Ljava/lang/String;)Z
+    invoke-virtual {p1, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Ljava/lang/String;)Z
 
     move-result p1
 

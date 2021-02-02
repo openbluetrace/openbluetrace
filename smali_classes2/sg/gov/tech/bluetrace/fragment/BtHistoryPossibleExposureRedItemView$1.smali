@@ -125,7 +125,7 @@
 
     iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView$1;->$context:Landroid/content/Context;
 
-    const v1, 0x7f0801ca
+    const v1, 0x7f0801cc
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -154,7 +154,7 @@
 
     iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRedItemView$1;->$context:Landroid/content/Context;
 
-    const v1, 0x7f0801c8
+    const v1, 0x7f0801ca
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 

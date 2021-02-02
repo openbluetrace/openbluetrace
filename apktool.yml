@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: bluetrace_nodpi.apk
+apkFileName: bluetrace_260_nodpi.apk
 compressionType: false
 doNotCompress:
 - resources.arsc
@@ -144,5 +144,5 @@ usesFramework:
   tag: null
 version: 2.5.0
 versionInfo:
-  versionCode: '94'
-  versionName: 2.5.2
+  versionCode: '98'
+  versionName: 2.6.0

@@ -129,38 +129,45 @@
 .end method
 
 .method public didProcessBack()Z
-    .locals 2
+    .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
-
-    move-result-object v0
-
-    const-string v1, "childFragmentManager"
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->getBackStackEntryCount()I
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result v0
 
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
-    if-le v0, v1, :cond_0
+    if-eqz v0, :cond_0
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v0
 
+    const-string v2, "childFragmentManager"
+
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->getBackStackEntryCount()I
+
+    move-result v0
+
+    const/4 v2, 0x1
+
+    if-le v0, v2, :cond_0
+
+    .line 3
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+
+    move-result-object v0
+
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->popBackStackImmediate()Z
 
-    return v1
+    const/4 v1, 0x1
 
     :cond_0
-    const/4 v0, 0x0
-
-    return v0
+    return v1
 .end method
 
 .method public final goToUploadFragment()V
@@ -196,7 +203,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0a01a1
+    const v3, 0x7f0a01ac
 
     invoke-virtual {v1, v3, v0, v2}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
 
@@ -227,7 +234,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d0066
+    const p3, 0x7f0d0068
 
     const/4 v0, 0x0
 
@@ -267,7 +274,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    const p2, 0x7f0a00be
+    const p2, 0x7f0a00c2
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -291,7 +298,7 @@
 
     move-result-object p1
 
-    const v0, 0x7f130214
+    const v0, 0x7f130248
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -337,7 +344,7 @@
 
     invoke-direct {p2}, Lsg/gov/tech/bluetrace/fragment/ForUseFragment;-><init>()V
 
-    const v0, 0x7f0a01a1
+    const v0, 0x7f0a01ac
 
     .line 8
     invoke-virtual {p1, v0, p2}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;

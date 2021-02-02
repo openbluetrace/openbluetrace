@@ -198,7 +198,7 @@
 
     const-string v3, "Latch interrupted while posting "
 
-    invoke-static {v1, v3, v0, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3, v0, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

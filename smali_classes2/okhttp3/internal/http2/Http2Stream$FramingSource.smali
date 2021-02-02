@@ -562,7 +562,7 @@
 
     const-string v4, "byteCount < 0: "
 
-    invoke-static {v4, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline15(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v4, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline16(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v2
 

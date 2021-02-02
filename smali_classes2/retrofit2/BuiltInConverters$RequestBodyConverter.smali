@@ -76,11 +76,6 @@
 
 .method public convert(Lokhttp3/RequestBody;)Lokhttp3/RequestBody;
     .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     return-object p1
 .end method

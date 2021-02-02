@@ -460,7 +460,7 @@
 
     const/4 p1, 0x2
 
-    invoke-static {p1, v4, v6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, v4, v6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p0
 
@@ -529,7 +529,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw p1
@@ -609,7 +609,7 @@
 
     const/4 p2, 0x2
 
-    invoke-static {p2, p0, v3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p2, p0, v3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -620,7 +620,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 4
     sget-object p0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -639,7 +639,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -1088,7 +1088,7 @@
 
     const/4 p1, 0x2
 
-    invoke-static {p1, v4, v6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, v4, v6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p0
 
@@ -1159,7 +1159,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 18
     throw p1
@@ -1239,7 +1239,7 @@
 
     const/4 p2, 0x2
 
-    invoke-static {p2, p0, v3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p2, p0, v3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -1250,7 +1250,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 4
     sget-object p0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
@@ -1269,7 +1269,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -1581,7 +1581,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v8, v0, v7, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, v0, v7, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v9
 
@@ -1616,7 +1616,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, v0, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, v0, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p1
@@ -1707,7 +1707,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v0
 
@@ -1723,7 +1723,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -2021,7 +2021,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v8, v0, v7, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, v0, v7, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v9
 
@@ -2056,7 +2056,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, v0, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, v0, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p1
@@ -2370,7 +2370,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v8, v2, v3, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, v2, v3, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v9
 
@@ -2407,7 +2407,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p3, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p3, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 20
     throw p1
@@ -2488,7 +2488,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v0
 
@@ -2504,7 +2504,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -2593,7 +2593,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v0
 
@@ -2609,7 +2609,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 12
     throw p2
@@ -2892,7 +2892,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -2927,7 +2927,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p1
@@ -3224,7 +3224,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v1, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v1, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -3259,7 +3259,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 18
     throw p1
@@ -3339,7 +3339,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -3355,7 +3355,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -3443,7 +3443,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -3459,7 +3459,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p2
@@ -3756,7 +3756,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -3791,7 +3791,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p1
@@ -3881,7 +3881,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -3897,7 +3897,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -4094,7 +4094,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0, p0, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -4111,7 +4111,7 @@
     move-exception v1
 
     .line 8
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw v1
@@ -4635,7 +4635,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v6, p1, v4, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v6, p1, v4, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p0
 
@@ -4672,7 +4672,7 @@
     :catchall_4
     move-exception p2
 
-    invoke-static {v3, p1, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p1, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 16
     throw p2
@@ -4830,7 +4830,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -4846,7 +4846,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 4
     throw p2
@@ -5146,7 +5146,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, v4, v6, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v4, v6, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
@@ -5189,7 +5189,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, v4, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, v4, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw p1
@@ -5271,7 +5271,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 4
     sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
@@ -5290,7 +5290,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -5958,7 +5958,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, v4, v6, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v4, v6, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 21
     iget p0, v8, Lkotlin/jvm/internal/Ref$IntRef;->element:I
@@ -6002,7 +6002,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 23
     throw p1
@@ -6115,7 +6115,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 7
     throw p2
@@ -6995,7 +6995,7 @@
 
     const/4 p2, 0x4
 
-    invoke-static {p2, p0, p3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p2, p0, p3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -7102,7 +7102,7 @@
     const/4 p0, 0x3
 
     .line 7
-    invoke-static {p0, v4, v5, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p0, v4, v5, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p3
 
@@ -7134,7 +7134,7 @@
 
     const/4 p1, 0x2
 
-    invoke-static {p1, v4, v5, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, v4, v5, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p0
 
@@ -7171,7 +7171,7 @@
     :catchall_4
     move-exception p2
 
-    invoke-static {v3, p1, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p1, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p2
@@ -7264,7 +7264,7 @@
     const/4 p1, 0x3
 
     .line 3
-    invoke-static {p1, p0, v1, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v1, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v5
 
@@ -7310,7 +7310,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 7
     throw p2
@@ -8152,7 +8152,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, v3, v11, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v3, v11, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v5
 
@@ -8185,7 +8185,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, v6, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v6, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw v2
@@ -8655,7 +8655,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, v6, v5, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v6, v5, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v11
 
@@ -8692,7 +8692,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, v6, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v6, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 22
     throw v2
@@ -8804,7 +8804,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -8820,7 +8820,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -8940,7 +8940,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -8956,7 +8956,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 12
     throw p2
@@ -10060,7 +10060,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -10095,7 +10095,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p1
@@ -10489,7 +10489,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    invoke-static {v8, p2, v2, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, p2, v2, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v7
 
@@ -10524,7 +10524,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 18
     throw p1
@@ -10613,7 +10613,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -10629,7 +10629,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -10726,7 +10726,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -10742,7 +10742,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p2
@@ -11034,7 +11034,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -11069,7 +11069,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p1
@@ -11463,7 +11463,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    invoke-static {v8, p2, v2, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, p2, v2, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v7
 
@@ -11498,7 +11498,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 18
     throw p1
@@ -11587,7 +11587,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -11603,7 +11603,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -11700,7 +11700,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -11716,7 +11716,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p2
@@ -11993,7 +11993,7 @@
 
     const/4 p0, 0x2
 
-    invoke-static {p0, v0, v7, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p0, v0, v7, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     move-object v8, p2
 
@@ -12017,7 +12017,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    invoke-static {v9, v0, v7, v9}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v9, v0, v7, v9}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     :goto_3
     return-object v8
@@ -12056,7 +12056,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, v5, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v5, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p1
@@ -12134,7 +12134,7 @@
 
     const/4 p1, 0x2
 
-    invoke-static {p1, p0, v3, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v3, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     move-object v3, v2
 
@@ -12147,7 +12147,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     :goto_0
     return-object v3
@@ -12164,7 +12164,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -12474,7 +12474,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v8, v0, v7, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, v0, v7, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     iget-object p0, v9, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -12512,7 +12512,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, v0, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v0, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 12
     throw p1
@@ -12599,7 +12599,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0, p0, v2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v3
 
@@ -12615,7 +12615,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -13097,7 +13097,7 @@
 
     const/4 p0, 0x2
 
-    invoke-static {p0, v4, v6, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p0, v4, v6, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p2
 
@@ -13168,7 +13168,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 22
     throw p1
@@ -13246,7 +13246,7 @@
 
     const/4 p1, 0x2
 
-    invoke-static {p1, p0, v3, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v3, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v2
 
@@ -13285,7 +13285,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 7
     throw p2
@@ -13769,7 +13769,7 @@
 
     const/4 p0, 0x2
 
-    invoke-static {p0, v5, v6, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p0, v5, v6, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p2
 
@@ -13791,7 +13791,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    invoke-static {v8, v5, v6, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, v5, v6, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v7
 
@@ -13828,7 +13828,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 20
     throw p1
@@ -13906,7 +13906,7 @@
 
     const/4 p1, 0x2
 
-    invoke-static {p1, p0, v3, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v3, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v2
 
@@ -13917,7 +13917,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v3
 
@@ -13933,7 +13933,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -14323,7 +14323,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    invoke-static {v6, p2, v2, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v6, p2, v2, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     iget-object p0, v8, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -14357,7 +14357,7 @@
     :catchall_3
     move-exception p1
 
-    invoke-static {v3, v2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, v2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw p1
@@ -14431,7 +14431,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -14447,7 +14447,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -14767,7 +14767,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    invoke-static {v9, v2, v10, v9}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v9, v2, v10, v9}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     iget-object v0, v11, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -14803,7 +14803,7 @@
 
     move-object v2, v0
 
-    invoke-static {v4, v7, v1, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v7, v1, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 12
     throw v2
@@ -14887,7 +14887,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -14903,7 +14903,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -15221,7 +15221,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v8, v0, v7, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, v0, v7, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v9
 
@@ -15259,7 +15259,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, v4, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, v4, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 15
     throw p1
@@ -15592,7 +15592,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    invoke-static {v10, v3, v11, v10}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v10, v3, v11, v10}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v12
 
@@ -15625,7 +15625,7 @@
 
     move-object v2, v0
 
-    invoke-static {v4, v7, v1, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v7, v1, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 30
     throw v2
@@ -15726,7 +15726,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v0
 
@@ -15742,7 +15742,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw p2
@@ -15851,7 +15851,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v0
 
@@ -15867,7 +15867,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v1, p0, p1, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 22
     throw p2
@@ -16172,7 +16172,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -16207,7 +16207,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 14
     throw p1
@@ -16524,7 +16524,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v1, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v1, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -16562,7 +16562,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p3, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p3, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 28
     throw p1
@@ -16662,7 +16662,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -16678,7 +16678,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p2
@@ -16786,7 +16786,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -16802,7 +16802,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 20
     throw p2
@@ -17429,7 +17429,7 @@
 
     const/4 p1, 0x2
 
-    invoke-static {p1, v4, v6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, v4, v6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p0
 
@@ -17509,7 +17509,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, v4, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, v4, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 14
     throw p1
@@ -17594,7 +17594,7 @@
 
     const/4 p2, 0x2
 
-    invoke-static {p2, p0, v5, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p2, p0, v5, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -17638,7 +17638,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 8
     throw p2
@@ -17972,7 +17972,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, v4, v5, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v4, v5, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 12
     iget p0, v9, Lkotlin/jvm/internal/Ref$IntRef;->element:I
@@ -18016,7 +18016,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 14
     throw p1
@@ -18133,7 +18133,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 7
     throw p2
@@ -18800,7 +18800,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, v3, v5, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v3, v5, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 26
     iget-boolean p0, v8, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
@@ -18855,7 +18855,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 30
     throw p1
@@ -18946,7 +18946,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     if-eqz v4, :cond_2
 
@@ -18974,7 +18974,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -19941,7 +19941,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, v3, v6, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v3, v6, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 24
     iget-object p0, v8, Lkotlin/jvm/internal/Ref$ObjectRef;->element:Ljava/lang/Object;
@@ -19981,7 +19981,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 26
     throw p1
@@ -20068,7 +20068,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0, p0, v2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v3
 
@@ -20084,7 +20084,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -20726,7 +20726,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, v3, v11, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v3, v11, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v5
 
@@ -20759,7 +20759,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, v6, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v6, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw v2
@@ -21225,7 +21225,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, v6, v5, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v6, v5, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v11
 
@@ -21262,7 +21262,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {v0, v6, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v6, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 22
     throw v2
@@ -21368,7 +21368,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -21384,7 +21384,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -21498,7 +21498,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -21514,7 +21514,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 12
     throw p2
@@ -21819,7 +21819,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    invoke-static {v6, p2, v2, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v6, p2, v2, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v7
 
@@ -21850,7 +21850,7 @@
     :catchall_3
     move-exception p1
 
-    invoke-static {v3, v2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, v2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p1
@@ -22183,7 +22183,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    invoke-static {v5, v8, v7, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v5, v8, v7, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v12
 
@@ -22211,7 +22211,7 @@
 
     move-object v2, v0
 
-    invoke-static {v5, v8, v1, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v5, v8, v1, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 20
     throw v2
@@ -22301,7 +22301,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -22317,7 +22317,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -22415,7 +22415,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -22431,7 +22431,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p2
@@ -22808,7 +22808,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -22843,7 +22843,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p1
@@ -23233,7 +23233,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    invoke-static {v8, p2, v2, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, p2, v2, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v7
 
@@ -23268,7 +23268,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, p2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 18
     throw p1
@@ -23351,7 +23351,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -23367,7 +23367,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -23458,7 +23458,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -23474,7 +23474,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p2
@@ -23757,7 +23757,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, p2, v3, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v6
 
@@ -23792,7 +23792,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p1
@@ -24168,7 +24168,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    invoke-static {v5, v3, v0, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v5, v3, v0, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v8
 
@@ -24206,7 +24206,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, v2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v2, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 18
     throw p1
@@ -24286,7 +24286,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -24302,7 +24302,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 5
     throw p2
@@ -24390,7 +24390,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -24406,7 +24406,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 10
     throw p2
@@ -24680,7 +24680,7 @@
 
     const/4 v0, 0x3
 
-    invoke-static {v0, v1, v9, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v1, v9, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v5
 
@@ -24791,7 +24791,7 @@
 
     .line 14
     :cond_8
-    invoke-static {v6, v1, v10, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v6, v1, v10, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v4
 
@@ -24815,7 +24815,7 @@
 
     move-object v2, v0
 
-    invoke-static {v7, v10, v1, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v10, v1, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 16
     throw v2
@@ -24876,7 +24876,7 @@
 
     const/4 p1, 0x3
 
-    invoke-static {p1, p0, v4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v4
 
@@ -24944,7 +24944,7 @@
     const/4 p1, 0x2
 
     .line 9
-    invoke-static {p1, p0, v4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v3
 
@@ -24960,7 +24960,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw p2
@@ -25584,7 +25584,7 @@
 
     const/4 v0, 0x3
 
-    invoke-static {v0, v1, v9, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, v1, v9, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v5
 
@@ -25695,7 +25695,7 @@
 
     .line 14
     :cond_8
-    invoke-static {v6, v1, v10, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v6, v1, v10, v6}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v4
 
@@ -25719,7 +25719,7 @@
 
     move-object v2, v0
 
-    invoke-static {v7, v10, v1, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v10, v1, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 16
     throw v2
@@ -25780,7 +25780,7 @@
 
     const/4 p1, 0x3
 
-    invoke-static {p1, p0, v4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v4
 
@@ -25848,7 +25848,7 @@
     const/4 p1, 0x2
 
     .line 9
-    invoke-static {p1, p0, v4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v3
 
@@ -25864,7 +25864,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw p2
@@ -26684,7 +26684,7 @@
 
     const/4 p1, 0x2
 
-    invoke-static {p1, v4, v6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, v4, v6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p0
 
@@ -26753,7 +26753,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 19
     throw p1
@@ -26833,7 +26833,7 @@
 
     const/4 p2, 0x2
 
-    invoke-static {p2, p0, v3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p2, p0, v3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p1
 
@@ -26844,7 +26844,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 4
     sget-object p0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
@@ -26863,7 +26863,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -27273,7 +27273,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 15
     throw p1
@@ -27400,7 +27400,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v2, p0, p1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v2, p0, p1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw p2
@@ -27769,7 +27769,7 @@
 
     .line 11
     :cond_6
-    invoke-static {v3, p0, v5, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p0, v5, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p2
 
@@ -27821,7 +27821,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, v6, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v6, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 14
     throw p1
@@ -27918,7 +27918,7 @@
     const/4 p2, 0x0
 
     .line 6
-    invoke-static {p1, p0, p2, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, p2, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v3
 
@@ -27947,7 +27947,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p2
@@ -28282,7 +28282,7 @@
 
     .line 11
     :cond_6
-    invoke-static {v3, p0, v6, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p0, v6, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object p2
 
@@ -28334,7 +28334,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, v7, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v7, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 14
     throw p1
@@ -28439,7 +28439,7 @@
     const/4 p2, 0x0
 
     .line 6
-    invoke-static {p1, p0, p2, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, p2, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v3
 
@@ -28468,7 +28468,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     throw p2
@@ -29186,7 +29186,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, v3, v5, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v3, v5, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 28
     iget-boolean p0, v8, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
@@ -29241,7 +29241,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, v3, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v3, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 32
     throw p1
@@ -29344,7 +29344,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     if-eqz v4, :cond_3
 
@@ -29372,7 +29372,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 7
     throw p2
@@ -29994,7 +29994,7 @@
 
     const/4 p0, 0x2
 
-    invoke-static {p0, v5, v4, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p0, v5, v4, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v7
 
@@ -30027,7 +30027,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    invoke-static {v8, v5, v4, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, v5, v4, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 26
     iget-boolean p0, v9, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
@@ -30078,7 +30078,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v4, v5, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v5, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 29
     throw p1
@@ -30164,7 +30164,7 @@
     const/4 p1, 0x2
 
     .line 3
-    invoke-static {p1, p0, v3, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {p1, p0, v3, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     return-object v3
 
@@ -30182,7 +30182,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     if-nez v4, :cond_3
 
@@ -30203,7 +30203,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 6
     throw p2
@@ -30507,7 +30507,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v7, v4, v6, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v7, v4, v6, v7}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     iget p0, v8, Lkotlin/jvm/internal/Ref$IntRef;->element:I
@@ -30551,7 +30551,7 @@
     :catchall_4
     move-exception p1
 
-    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v3, p2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw p1
@@ -30661,7 +30661,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 7
     throw p2
@@ -30950,7 +30950,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    invoke-static {v8, v2, v9, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v8, v2, v9, v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 9
     iget-wide v0, v10, Lkotlin/jvm/internal/Ref$DoubleRef;->element:D
@@ -30990,7 +30990,7 @@
 
     move-object v2, v0
 
-    invoke-static {v4, v7, v1, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v4, v7, v1, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 11
     throw v2
@@ -31100,7 +31100,7 @@
     :catchall_1
     move-exception p2
 
-    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
+    invoke-static {v0, p0, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(ILkotlinx/coroutines/channels/ReceiveChannel;Ljava/lang/Throwable;I)V
 
     .line 7
     throw p2

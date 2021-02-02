@@ -364,7 +364,7 @@
     .line 3
     new-instance v3, Ljava/io/File;
 
-    invoke-static {v1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -1425,7 +1425,7 @@
     if-ne p0, v0, :cond_8
 
     .line 13
-    invoke-static {v3, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline18(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline19(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

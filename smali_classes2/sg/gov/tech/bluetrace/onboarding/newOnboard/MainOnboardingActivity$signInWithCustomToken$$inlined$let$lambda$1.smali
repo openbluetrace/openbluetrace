@@ -29,7 +29,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMainOnboardingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainOnboardingActivity.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity$signInWithCustomToken$1$1\n*L\n1#1,705:1\n*E\n"
+    value = "SMAP\nMainOnboardingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainOnboardingActivity.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity$signInWithCustomToken$1$1\n*L\n1#1,723:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -238,7 +238,7 @@
     .line 12
     iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity$signInWithCustomToken$$inlined$let$lambda$1;->this$0:Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;
 
-    const v2, 0x7f1300ef
+    const v2, 0x7f1300f7
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -275,7 +275,7 @@
     .line 15
     iget-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity$signInWithCustomToken$$inlined$let$lambda$1;->this$0:Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;
 
-    const v0, 0x7f1300f1
+    const v0, 0x7f1300fa
 
     invoke-virtual {p1, v0}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

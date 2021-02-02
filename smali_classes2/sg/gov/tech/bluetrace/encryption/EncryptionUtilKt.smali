@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEncryptionUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EncryptionUtil.kt\nsg/gov/tech/bluetrace/encryption/EncryptionUtilKt\n*L\n1#1,98:1\n*E\n"
+    value = "SMAP\nEncryptionUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EncryptionUtil.kt\nsg/gov/tech/bluetrace/encryption/EncryptionUtilKt\n*L\n1#1,118:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -118,8 +118,10 @@
     .line 3
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 4
     sget-object p2, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 5
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v1, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -130,9 +132,10 @@
 
     const-string v3, "Cannot decrypt string for device before M."
 
+    .line 6
     invoke-virtual {p1, p2, v2, v3, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
+    .line 7
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -201,8 +204,10 @@
     .line 2
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 3
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 4
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v1, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -213,9 +218,10 @@
 
     const-string v3, "Cannot decrypt string for device M and above."
 
+    .line 5
     invoke-virtual {p1, v0, v2, v3, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
+    .line 6
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -379,8 +385,10 @@
     .line 8
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 9
     sget-object p2, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 10
     sget-object p3, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {p3, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -391,9 +399,10 @@
 
     const-string v1, "Cannot encrypt string for device before M."
 
+    .line 11
     invoke-virtual {p1, p2, p4, v1, p3}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
+    .line 12
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance p2, Ljava/lang/StringBuilder;
@@ -469,8 +478,10 @@
     .line 3
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 4
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 5
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v2, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -481,9 +492,10 @@
 
     const-string v4, "Cannot encrypt string for device M and above."
 
+    .line 6
     invoke-virtual {p1, v1, v3, v4, v2}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 4
+    .line 7
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v1, Ljava/lang/StringBuilder;

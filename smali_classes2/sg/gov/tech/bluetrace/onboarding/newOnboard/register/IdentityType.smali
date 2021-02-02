@@ -19,7 +19,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nRegisterUserData.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RegisterUserData.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,83:1\n7379#2,2:84\n8061#2,4:86\n*E\n*S KotlinDebug\n*F\n+ 1 RegisterUserData.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType\n*L\n70#1,2:84\n70#1,4:86\n*E\n"
+    value = "SMAP\nRegisterUserData.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RegisterUserData.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,110:1\n7379#2,2:111\n8061#2,4:113\n*E\n*S KotlinDebug\n*F\n+ 1 RegisterUserData.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType\n*L\n97#1,2:111\n97#1,4:113\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -29,7 +29,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u000c\u0008\u0086\u0001\u0018\u0000 \u000e2\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001\u000eB\u000f\u0008\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006j\u0002\u0008\u0007j\u0002\u0008\u0008j\u0002\u0008\tj\u0002\u0008\nj\u0002\u0008\u000bj\u0002\u0008\u000cj\u0002\u0008\r\u00a8\u0006\u000f"
+        "\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\r\u0008\u0086\u0001\u0018\u0000 \u000f2\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001\u000fB\u000f\u0008\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006j\u0002\u0008\u0007j\u0002\u0008\u0008j\u0002\u0008\tj\u0002\u0008\nj\u0002\u0008\u000bj\u0002\u0008\u000cj\u0002\u0008\rj\u0002\u0008\u000e\u00a8\u0006\u0010"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;",
@@ -45,6 +45,7 @@
         "FIN_WP",
         "FIN_LTVP",
         "PASSPORT",
+        "PASSPORT_VERIFIED",
         "ERROR",
         "Companion",
         "app_release"
@@ -77,6 +78,8 @@
 
 .field public static final enum PASSPORT:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
 
+.field public static final enum PASSPORT_VERIFIED:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
+
 .field public static final types:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -100,7 +103,7 @@
 .method public static constructor <clinit>()V
     .locals 6
 
-    const/4 v0, 0x7
+    const/16 v0, 0x8
 
     new-array v0, v0, [Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
 
@@ -196,13 +199,28 @@
 
     new-instance v1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
 
-    const-string v2, "ERROR"
+    const-string v2, "PASSPORT_VERIFIED"
 
     const/4 v4, 0x6
 
-    const-string v5, ""
+    const-string v5, "passportVerified"
 
     .line 7
+    invoke-direct {v1, v2, v4, v5}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+
+    sput-object v1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;->PASSPORT_VERIFIED:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
+
+    aput-object v1, v0, v4
+
+    new-instance v1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
+
+    const-string v2, "ERROR"
+
+    const/4 v4, 0x7
+
+    const-string v5, ""
+
+    .line 8
     invoke-direct {v1, v2, v4, v5}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
     sput-object v1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;->ERROR:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
@@ -219,12 +237,12 @@
 
     sput-object v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType$Companion;
 
-    .line 8
+    .line 9
     invoke-static {}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;->values()[Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
 
     move-result-object v0
 
-    .line 9
+    .line 10
     array-length v1, v0
 
     invoke-static {v1}, Lkotlin/collections/MapsKt__MapsJVMKt;->mapCapacity(I)I
@@ -237,12 +255,12 @@
 
     move-result v1
 
-    .line 10
+    .line 11
     new-instance v2, Ljava/util/LinkedHashMap;
 
     invoke-direct {v2, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    .line 11
+    .line 12
     array-length v1, v0
 
     :goto_0
@@ -250,7 +268,7 @@
 
     aget-object v4, v0, v3
 
-    .line 12
+    .line 13
     iget-object v5, v4, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;->tag:Ljava/lang/String;
 
     invoke-static {v5, v4}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
@@ -271,7 +289,7 @@
 
     goto :goto_0
 
-    .line 13
+    .line 14
     :cond_0
     sput-object v2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;->types:Ljava/util/Map;
 

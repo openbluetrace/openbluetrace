@@ -206,61 +206,61 @@
 
 .field public static final belvedere_toolbar_shadow:I = 0x7f08006c
 
-.field public static final design_bottom_navigation_item_background:I = 0x7f0800af
+.field public static final design_bottom_navigation_item_background:I = 0x7f0800b0
 
-.field public static final design_fab_background:I = 0x7f0800b0
+.field public static final design_fab_background:I = 0x7f0800b1
 
-.field public static final design_ic_visibility:I = 0x7f0800b1
+.field public static final design_ic_visibility:I = 0x7f0800b2
 
-.field public static final design_ic_visibility_off:I = 0x7f0800b2
+.field public static final design_ic_visibility_off:I = 0x7f0800b3
 
-.field public static final design_password_eye:I = 0x7f0800b3
+.field public static final design_password_eye:I = 0x7f0800b4
 
-.field public static final design_snackbar_background:I = 0x7f0800b4
+.field public static final design_snackbar_background:I = 0x7f0800b5
 
-.field public static final navigation_empty_icon:I = 0x7f08025a
+.field public static final navigation_empty_icon:I = 0x7f080260
 
-.field public static final notification_action_background:I = 0x7f08025e
+.field public static final notification_action_background:I = 0x7f080264
 
-.field public static final notification_bg:I = 0x7f08025f
+.field public static final notification_bg:I = 0x7f080265
 
-.field public static final notification_bg_low:I = 0x7f080260
+.field public static final notification_bg_low:I = 0x7f080266
 
-.field public static final notification_bg_low_normal:I = 0x7f080261
+.field public static final notification_bg_low_normal:I = 0x7f080267
 
-.field public static final notification_bg_low_pressed:I = 0x7f080262
+.field public static final notification_bg_low_pressed:I = 0x7f080268
 
-.field public static final notification_bg_normal:I = 0x7f080263
+.field public static final notification_bg_normal:I = 0x7f080269
 
-.field public static final notification_bg_normal_pressed:I = 0x7f080264
+.field public static final notification_bg_normal_pressed:I = 0x7f08026a
 
-.field public static final notification_icon_background:I = 0x7f080265
+.field public static final notification_icon_background:I = 0x7f08026b
 
-.field public static final notification_template_icon_bg:I = 0x7f080266
+.field public static final notification_template_icon_bg:I = 0x7f08026c
 
-.field public static final notification_template_icon_low_bg:I = 0x7f080267
+.field public static final notification_template_icon_low_bg:I = 0x7f08026d
 
-.field public static final notification_tile_bg:I = 0x7f080268
+.field public static final notification_tile_bg:I = 0x7f08026e
 
-.field public static final notify_panel_notification_icon_bg:I = 0x7f08026a
+.field public static final notify_panel_notification_icon_bg:I = 0x7f080270
 
-.field public static final tooltip_frame_dark:I = 0x7f080278
+.field public static final tooltip_frame_dark:I = 0x7f080281
 
-.field public static final tooltip_frame_light:I = 0x7f080279
+.field public static final tooltip_frame_light:I = 0x7f080282
 
-.field public static final zui_background_attachments_indicator_counter:I = 0x7f0802a7
+.field public static final zui_background_attachments_indicator_counter:I = 0x7f0802b0
 
-.field public static final zui_background_progressbar:I = 0x7f0802a8
+.field public static final zui_background_progressbar:I = 0x7f0802b1
 
-.field public static final zui_ic_attach_file:I = 0x7f0802a9
+.field public static final zui_ic_attach_file:I = 0x7f0802b2
 
-.field public static final zui_ic_back:I = 0x7f0802aa
+.field public static final zui_ic_back:I = 0x7f0802b3
 
-.field public static final zui_ic_default_avatar:I = 0x7f0802ab
+.field public static final zui_ic_default_avatar:I = 0x7f0802b4
 
-.field public static final zui_ic_send:I = 0x7f0802ac
+.field public static final zui_ic_send:I = 0x7f0802b5
 
-.field public static final zui_shadow_toolbar:I = 0x7f0802ad
+.field public static final zui_shadow_toolbar:I = 0x7f0802b6
 
 
 # direct methods

@@ -1647,7 +1647,7 @@
     const-string p0, "decimals must be not negative, but was "
 
     .line 27
-    invoke-static {p0, p3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p0, p3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
 

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBLEDiscoverer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BLEDiscoverer.kt\nsg/gov/tech/bluetrace/bluetooth/BLEDiscoverer\n*L\n1#1,118:1\n*E\n"
+    value = "SMAP\nBLEDiscoverer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BLEDiscoverer.kt\nsg/gov/tech/bluetrace/bluetooth/BLEDiscoverer\n*L\n1#1,123:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -391,27 +391,19 @@
 
     const-string v3, "Already unregistered workReceiver? "
 
-    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v1, v2, v4}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v4, v1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline41(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;Ljava/lang/String;)V
 
     .line 4
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 5
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->BLUETRACE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 6
     const-class v4, Lsg/gov/tech/bluetrace/bluetooth/BLEDiscoverer;
 
     invoke-virtual {v4}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -420,20 +412,16 @@
 
     const-string v5, "javaClass.simpleName"
 
-    invoke-static {v4, v5, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4, v5, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 7
+    invoke-static {v0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/Throwable;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v3
 
+    .line 8
     sget-object v5, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     check-cast v0, Ljava/lang/Exception;
@@ -442,6 +430,7 @@
 
     move-result-object v0
 
+    .line 9
     invoke-virtual {v1, v2, v4, v3, v0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0

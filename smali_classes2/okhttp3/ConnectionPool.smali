@@ -134,7 +134,7 @@
 
     const-string p4, "keepAliveDuration <= 0: "
 
-    invoke-static {p4, p2, p3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline15(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p4, p2, p3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline16(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p2
 
@@ -187,7 +187,7 @@
     const-string v4, "A connection to "
 
     .line 6
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 

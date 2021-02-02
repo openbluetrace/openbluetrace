@@ -134,7 +134,7 @@
 .method private final defaultTintEditTextView(Landroid/content/Context;Landroid/widget/EditText;)V
     .locals 1
 
-    const v0, 0x7f060052
+    const v0, 0x7f060054
 
     .line 1
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
@@ -149,7 +149,7 @@
 .method private final errorTintEditTextView(Landroid/content/Context;Landroid/widget/EditText;)V
     .locals 1
 
-    const v0, 0x7f060083
+    const v0, 0x7f060085
 
     .line 1
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;

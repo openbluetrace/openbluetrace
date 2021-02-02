@@ -315,7 +315,7 @@
     :cond_1
     new-instance p1, Lcom/google/gson/JsonSyntaxException;
 
-    invoke-static {v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline17(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline18(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -373,7 +373,7 @@
     :cond_4
     new-instance p1, Lcom/google/gson/JsonSyntaxException;
 
-    invoke-static {v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline17(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v3, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline18(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 

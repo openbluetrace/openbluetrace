@@ -60,32 +60,26 @@
 
 # virtual methods
 .method public final onClick(Landroid/view/View;)V
-    .locals 1
+    .locals 2
 
     .line 1
-    new-instance p1, Landroid/content/Intent;
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setDeclarationText$2;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    const-string v0, "android.intent.action.VIEW"
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getViewModel$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
 
-    invoke-direct {p1, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+    move-result-object p1
 
-    const-string v0, "https://www.safeentry-qr.gov.sg/termsofuse"
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setDeclarationText$2;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    .line 2
-    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+    const-string v1, "requireContext()"
 
-    .line 3
-    :try_start_0
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setDeclarationText$2;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, p1}, Landroidx/fragment/app/Fragment;->startActivity(Landroid/content/Intent;)V
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+    invoke-virtual {p1, v0}, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;->getTermsFavLink(Landroid/content/Context;)V
 
-    :catch_0
     return-void
 .end method

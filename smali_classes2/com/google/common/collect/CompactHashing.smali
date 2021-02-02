@@ -91,7 +91,7 @@
 
     const-string v1, "must be power of 2 between 2^1 and 2^30: "
 
-    invoke-static {v1, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
 

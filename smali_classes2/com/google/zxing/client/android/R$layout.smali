@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final zxing_barcode_scanner:I = 0x7f0d010e
+.field public static final zxing_barcode_scanner:I = 0x7f0d0114
 
-.field public static final zxing_capture:I = 0x7f0d010f
+.field public static final zxing_capture:I = 0x7f0d0115
 
 
 # direct methods

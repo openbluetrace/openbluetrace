@@ -88,7 +88,7 @@
 
     new-array p3, p2, [Ljava/lang/String;
 
-    const v1, 0x7f130026
+    const v1, 0x7f130025
 
     .line 2
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -102,7 +102,7 @@
     .line 3
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/HistoryViewPagerAdapter;->myContext:Landroid/content/Context;
 
-    const v2, 0x7f130176
+    const v2, 0x7f13018e
 
     invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

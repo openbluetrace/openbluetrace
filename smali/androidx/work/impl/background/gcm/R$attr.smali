@@ -66,7 +66,7 @@
 
 .field public static final statusBarBackground:I = 0x7f0402ff
 
-.field public static final ttcIndex:I = 0x7f040389
+.field public static final ttcIndex:I = 0x7f04038d
 
 
 # direct methods

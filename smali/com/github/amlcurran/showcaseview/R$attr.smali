@@ -16,25 +16,25 @@
 # static fields
 .field public static final showcaseViewStyle:I = 0x7f0402e0
 
-.field public static final sv_backgroundColor:I = 0x7f040311
+.field public static final sv_backgroundColor:I = 0x7f040315
 
-.field public static final sv_buttonBackgroundColor:I = 0x7f040312
+.field public static final sv_buttonBackgroundColor:I = 0x7f040316
 
-.field public static final sv_buttonForegroundColor:I = 0x7f040313
+.field public static final sv_buttonForegroundColor:I = 0x7f040317
 
-.field public static final sv_buttonText:I = 0x7f040314
+.field public static final sv_buttonText:I = 0x7f040318
 
-.field public static final sv_detailTextAppearance:I = 0x7f040315
+.field public static final sv_detailTextAppearance:I = 0x7f040319
 
-.field public static final sv_detailTextColor:I = 0x7f040316
+.field public static final sv_detailTextColor:I = 0x7f04031a
 
-.field public static final sv_showcaseColor:I = 0x7f040317
+.field public static final sv_showcaseColor:I = 0x7f04031b
 
-.field public static final sv_tintButtonColor:I = 0x7f040318
+.field public static final sv_tintButtonColor:I = 0x7f04031c
 
-.field public static final sv_titleTextAppearance:I = 0x7f040319
+.field public static final sv_titleTextAppearance:I = 0x7f04031d
 
-.field public static final sv_titleTextColor:I = 0x7f04031a
+.field public static final sv_titleTextColor:I = 0x7f04031e
 
 
 # direct methods

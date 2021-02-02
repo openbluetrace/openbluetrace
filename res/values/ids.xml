@@ -56,6 +56,8 @@
     <item type="id" name="action_onboardingHowItWorkSecondFragment_to_mainOnboardingActivity" />
     <item type="id" name="action_onboardingRecallFragment2_to_onboardingHowItWorkSecondFragment" />
     <item type="id" name="action_onboardingWithLoveFragment_to_onboardingDearPeopleFragment" />
+    <item type="id" name="action_safeEntryVenueListFragment_to_safeEntryCheckInFragment" />
+    <item type="id" name="action_safeEntryViewPassFragment_to_safeEntryCheckOutFragment" />
     <item type="id" name="action_text" />
     <item type="id" name="actions" />
     <item type="id" name="activity_chooser_view_content" />
@@ -87,7 +89,9 @@
     <item type="id" name="announcement_close" />
     <item type="id" name="announcement_title" />
     <item type="id" name="appCompatImageButton" />
+    <item type="id" name="appCompatImageView" />
     <item type="id" name="appCompatImageView2" />
+    <item type="id" name="appCompatTextView" />
     <item type="id" name="appCompatTextView3" />
     <item type="id" name="app_version_tv" />
     <item type="id" name="article_attachment_row_filename_text" />
@@ -119,6 +123,7 @@
     <item type="id" name="belvedere_fam_item_documents" />
     <item type="id" name="belvedere_fam_item_google_photos" />
     <item type="id" name="belvedere_selectable_view_checkbox" />
+    <item type="id" name="bluetooth_exchange_cl" />
     <item type="id" name="bluetrace" />
     <item type="id" name="bluetrace_lite" />
     <item type="id" name="bottom_sheet" />
@@ -136,6 +141,7 @@
     <item type="id" name="bt_history_se_records_vertical_layout" />
     <item type="id" name="bt_history_tablayout" />
     <item type="id" name="bt_history_view_pager" />
+    <item type="id" name="btnActivateApp" />
     <item type="id" name="btnPauseContactTracing" />
     <item type="id" name="btn_add" />
     <item type="id" name="btn_back_how_it_works" />
@@ -143,8 +149,10 @@
     <item type="id" name="btn_languages" />
     <item type="id" name="btn_next" />
     <item type="id" name="btn_ok" />
+    <item type="id" name="btn_re_register" />
     <item type="id" name="btn_register" />
     <item type="id" name="btn_resume" />
+    <item type="id" name="btn_retry" />
     <item type="id" name="btn_right_action_how_it_works" />
     <item type="id" name="btn_start" />
     <item type="id" name="btn_verify" />
@@ -159,6 +167,7 @@
     <item type="id" name="cardView" />
     <item type="id" name="cardView2" />
     <item type="id" name="cardView3" />
+    <item type="id" name="card_details" />
     <item type="id" name="card_safe_entry" />
     <item type="id" name="category_title" />
     <item type="id" name="checkBackCard" />
@@ -177,7 +186,8 @@
     <item type="id" name="chk_bx_yes" />
     <item type="id" name="chronometer" />
     <item type="id" name="clRoot" />
-    <item type="id" name="cl_bt_count" />
+    <item type="id" name="clUserDetails" />
+    <item type="id" name="cl_calendar" />
     <item type="id" name="cl_check_in_buttons" />
     <item type="id" name="cl_last_check_in" />
     <item type="id" name="cl_share_app" />
@@ -194,25 +204,25 @@
     <item type="id" name="content" />
     <item type="id" name="contentPanel" />
     <item type="id" name="coordinator" />
+    <item type="id" name="coordinatorLayout" />
     <item type="id" name="countryCodeHolder" />
     <item type="id" name="country_code" />
     <item type="id" name="customPanel" />
-    <item type="id" name="cv_bt_count" />
     <item type="id" name="d33" />
     <item type="id" name="d66" />
     <item type="id" name="date_of_application" />
-    <item type="id" name="date_of_expiry" />
     <item type="id" name="date_of_issue" />
-    <item type="id" name="date_of_pass_issue" />
     <item type="id" name="date_picker_actions" />
     <item type="id" name="date_spinner" />
     <item type="id" name="dec_tv" />
     <item type="id" name="declaration" />
+    <item type="id" name="declaration_layout" />
     <item type="id" name="declaration_txt" />
     <item type="id" name="decor_content_parent" />
     <item type="id" name="default_activity_button" />
     <item type="id" name="delete" />
     <item type="id" name="deninedCamera" />
+    <item type="id" name="description_tv" />
     <item type="id" name="design_bottom_sheet" />
     <item type="id" name="design_menu_item_action_area" />
     <item type="id" name="design_menu_item_action_area_stub" />
@@ -224,13 +234,10 @@
     <item type="id" name="dis_close_tv" />
     <item type="id" name="dismiss_area" />
     <item type="id" name="displayText" />
-    <item type="id" name="do_ex_error" />
     <item type="id" name="doa_error" />
     <item type="id" name="doa_holder" />
     <item type="id" name="dob" />
     <item type="id" name="dobError" />
-    <item type="id" name="dob_holder" />
-    <item type="id" name="dob_holder_expiry" />
     <item type="id" name="doi_error" />
     <item type="id" name="doi_holder" />
     <item type="id" name="dont_forget_to_checkout_text" />
@@ -285,8 +292,12 @@
     <item type="id" name="forUseFragmentActionButton" />
     <item type="id" name="forcedUpdateDialogUpdateButton" />
     <item type="id" name="four" />
+    <item type="id" name="fragmentSafeEntryCheckIn" />
+    <item type="id" name="fragmentSafeEntryCheckInList" />
     <item type="id" name="fragmentSafeEntryCheckInToConfirmation" />
     <item type="id" name="fragmentSafeEntryCheckInToList" />
+    <item type="id" name="fragmentSafeEntryCheckOut" />
+    <item type="id" name="fragmentSafeEntryViewPass" />
     <item type="id" name="fragment_buildno" />
     <item type="id" name="fragment_container" />
     <item type="id" name="fragment_container_view_tag" />
@@ -308,8 +319,8 @@
     <item type="id" name="help_section_action_button" />
     <item type="id" name="help_section_loading_progress" />
     <item type="id" name="help_stp" />
+    <item type="id" name="help_text" />
     <item type="id" name="help_tv" />
-    <item type="id" name="historyFragmentLoadingProgressBarFrame" />
     <item type="id" name="history_date_separator" />
     <item type="id" name="home" />
     <item type="id" name="howItWorksActivity" />
@@ -371,8 +382,12 @@
     <item type="id" name="item_touch_helper_previous_elevation" />
     <item type="id" name="ivErrorLog" />
     <item type="id" name="ivLogUploadSuccessful" />
-    <item type="id" name="iv_bt" />
-    <item type="id" name="iv_info" />
+    <item type="id" name="iv_arrow" />
+    <item type="id" name="iv_blocked" />
+    <item type="id" name="iv_bt_icon" />
+    <item type="id" name="iv_bt_info" />
+    <item type="id" name="iv_calendar" />
+    <item type="id" name="iv_error" />
     <item type="id" name="iv_item" />
     <item type="id" name="iv_new" />
     <item type="id" name="iv_share" />
@@ -384,6 +399,7 @@
     <item type="id" name="line3" />
     <item type="id" name="linearLayout" />
     <item type="id" name="linearLayout2" />
+    <item type="id" name="linearLayout5" />
     <item type="id" name="linear_flag_border" />
     <item type="id" name="linear_flag_holder" />
     <item type="id" name="list_item" />
@@ -409,7 +425,6 @@
     <item type="id" name="love_letter_navigation" />
     <item type="id" name="love_letter_navigation_host" />
     <item type="id" name="ltvp" />
-    <item type="id" name="lytDeclaration" />
     <item type="id" name="lytTermsConditions" />
     <item type="id" name="mainOnboardingActivity" />
     <item type="id" name="main_container" />
@@ -487,6 +502,7 @@
     <item type="id" name="no_upload_code" />
     <item type="id" name="non_passport_user_layout" />
     <item type="id" name="not_applicableTv" />
+    <item type="id" name="not_applicable_text" />
     <item type="id" name="notification_background" />
     <item type="id" name="notification_main_column" />
     <item type="id" name="notification_main_column_container" />
@@ -665,6 +681,7 @@
     <item type="id" name="safe_check_in_to_rv" />
     <item type="id" name="safe_check_in_to_rv_view" />
     <item type="id" name="safe_entry_add_others_to_checkin" />
+    <item type="id" name="safe_entry_back_button" />
     <item type="id" name="safe_entry_check_in_confirm_place_address" />
     <item type="id" name="safe_entry_check_in_confirm_place_name" />
     <item type="id" name="safe_entry_check_in_out_btn_next" />
@@ -674,6 +691,7 @@
     <item type="id" name="safe_entry_check_in_out_place_name" />
     <item type="id" name="safe_entry_check_in_out_progress" />
     <item type="id" name="safe_entry_check_in_to_btn_next" />
+    <item type="id" name="safe_entry_navigation_host" />
     <item type="id" name="safeentrycheckinout_layout" />
     <item type="id" name="save_non_transition_alpha" />
     <item type="id" name="save_overlay_view" />
@@ -730,6 +748,7 @@
     <item type="id" name="stats" />
     <item type="id" name="status_bar_latest_event_content" />
     <item type="id" name="stop" />
+    <item type="id" name="subText" />
     <item type="id" name="submenuarrow" />
     <item type="id" name="submitErrorLogsButton" />
     <item type="id" name="submitLogFragmentLoadingProgressBarFrame" />
@@ -756,6 +775,7 @@
     <item type="id" name="tag_unhandled_key_listeners" />
     <item type="id" name="take_care" />
     <item type="id" name="terms_declaration_text" />
+    <item type="id" name="terms_text" />
     <item type="id" name="terms_tv" />
     <item type="id" name="test_checkbox_android_button_tint" />
     <item type="id" name="test_checkbox_app_button_tint" />
@@ -831,7 +851,8 @@
     <item type="id" name="transition_transform" />
     <item type="id" name="tv_add_to_fav" />
     <item type="id" name="tv_beta" />
-    <item type="id" name="tv_bt_count" />
+    <item type="id" name="tv_bt_text" />
+    <item type="id" name="tv_bt_time_lapsed" />
     <item type="id" name="tv_card_number" />
     <item type="id" name="tv_card_serial_error" />
     <item type="id" name="tv_change_color" />
@@ -848,12 +869,21 @@
     <item type="id" name="tv_desc_3" />
     <item type="id" name="tv_desc_more" />
     <item type="id" name="tv_desc_safe" />
+    <item type="id" name="tv_details_1" />
+    <item type="id" name="tv_details_2" />
+    <item type="id" name="tv_details_3" />
+    <item type="id" name="tv_details_4" />
+    <item type="id" name="tv_details_5" />
+    <item type="id" name="tv_details_6" />
     <item type="id" name="tv_device_location" />
     <item type="id" name="tv_enter_code" />
     <item type="id" name="tv_error" />
+    <item type="id" name="tv_error_desc" />
+    <item type="id" name="tv_error_title" />
     <item type="id" name="tv_fin" />
     <item type="id" name="tv_fin_error" />
     <item type="id" name="tv_fin_title" />
+    <item type="id" name="tv_help" />
     <item type="id" name="tv_how_to_use" />
     <item type="id" name="tv_id_verification" />
     <item type="id" name="tv_last_qr" />
@@ -862,6 +892,7 @@
     <item type="id" name="tv_location_permission" />
     <item type="id" name="tv_main_title" />
     <item type="id" name="tv_mobile_no" />
+    <item type="id" name="tv_more_details" />
     <item type="id" name="tv_name" />
     <item type="id" name="tv_name_error" />
     <item type="id" name="tv_nationality_error" />
@@ -869,25 +900,34 @@
     <item type="id" name="tv_nric_error" />
     <item type="id" name="tv_nric_fin" />
     <item type="id" name="tv_nric_title" />
-    <item type="id" name="tv_number_of_devices_nearby" />
     <item type="id" name="tv_pass_error" />
     <item type="id" name="tv_phone_error" />
     <item type="id" name="tv_safe_entry_check_in_text" />
+    <item type="id" name="tv_see_less" />
     <item type="id" name="tv_serial_title" />
     <item type="id" name="tv_title" />
-    <item type="id" name="tv_updated_every_few_min" />
     <item type="id" name="tv_view_pass" />
     <item type="id" name="two" />
     <item type="id" name="txpower" />
+    <item type="id" name="txtActivateYourApp" />
+    <item type="id" name="txtBirth" />
+    <item type="id" name="txtBirthValue" />
     <item type="id" name="txtDeclaration1" />
+    <item type="id" name="txtEdit" />
     <item type="id" name="txtLogSuccessfulShared" />
+    <item type="id" name="txtNationality" />
+    <item type="id" name="txtNationalityValue" />
+    <item type="id" name="txtNextStepWhenArrivedAtSG" />
     <item type="id" name="txtNotApplicable" />
-    <item type="id" name="txtNotApplicableFav" />
+    <item type="id" name="txtPassportNum" />
+    <item type="id" name="txtPassportNumValue" />
+    <item type="id" name="txtSaved" />
     <item type="id" name="txtScanSEQRCode" />
     <item type="id" name="txtSubmitErrorInfo" />
     <item type="id" name="txtTerms" />
-    <item type="id" name="txtTermsFav" />
     <item type="id" name="txtThanksUpdateAppRegularly" />
+    <item type="id" name="txtUserName" />
+    <item type="id" name="txtVisitSafeTravel" />
     <item type="id" name="type_text" />
     <item type="id" name="unchecked" />
     <item type="id" name="unhappy_box" />
@@ -912,7 +952,6 @@
     <item type="id" name="view_bottom" />
     <item type="id" name="view_cardno_iv" />
     <item type="id" name="view_line" />
-    <item type="id" name="view_line_2" />
     <item type="id" name="view_loading" />
     <item type="id" name="view_love" />
     <item type="id" name="view_offset_helper" />
@@ -927,7 +966,6 @@
     <item type="id" name="workpass" />
     <item type="id" name="wrongNumber" />
     <item type="id" name="your_favourite_places_layout" />
-    <item type="id" name="your_favourite_places_text" />
     <item type="id" name="zero_corner_chip" />
     <item type="id" name="zs_avatar_view_image_view" />
     <item type="id" name="zs_avatar_view_text_view" />

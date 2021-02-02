@@ -102,7 +102,7 @@
     .line 2
     iget-object v0, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$obserFieldValidation$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
-    invoke-virtual {v0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->getVm()Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;
+    invoke-static {v0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getVm$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;
 
     move-result-object v0
 

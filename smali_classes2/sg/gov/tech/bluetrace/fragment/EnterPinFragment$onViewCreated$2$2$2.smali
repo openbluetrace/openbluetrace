@@ -17,7 +17,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEnterPinFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EnterPinFragment.kt\nsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2$2\n*L\n1#1,628:1\n*E\n"
+    value = "SMAP\nEnterPinFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EnterPinFragment.kt\nsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2$2\n*L\n1#1,658:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -88,7 +88,7 @@
 
     const-string v2, "Failed to get upload token : "
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -107,8 +107,10 @@
     .line 2
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 3
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->UPLOAD:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 4
     iget-object v3, p0, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2$2;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2;
 
     iget-object v3, v3, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2;
@@ -127,7 +129,8 @@
 
     invoke-static {v3, v4}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 5
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -141,15 +144,17 @@
 
     move-result-object v2
 
+    .line 6
     sget-object v4, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v4, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
 
     move-result-object v4
 
+    .line 7
     invoke-virtual {v0, v1, v3, v2, v4}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
+    .line 8
     invoke-static {}, Lcom/google/firebase/auth/FirebaseAuth;->getInstance()Lcom/google/firebase/auth/FirebaseAuth;
 
     move-result-object v0
@@ -158,12 +163,12 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 4
+    .line 9
     invoke-virtual {v0}, Lcom/google/firebase/auth/FirebaseAuth;->getCurrentUser()Lcom/google/firebase/auth/FirebaseUser;
 
     move-result-object v0
 
-    .line 5
+    .line 10
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
@@ -172,20 +177,20 @@
 
     const-string v3, "Android"
 
-    .line 6
+    .line 11
     invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v2, "item_name"
 
     const-string v3, "Failed to get upload token"
 
-    .line 7
+    .line 12
     invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 8
-    sget-object v2, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    .line 13
+    sget-object v2, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v2}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getREASON()Ljava/lang/String;
+    invoke-virtual {v2}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getREASON()Ljava/lang/String;
 
     move-result-object v2
 
@@ -197,7 +202,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 9
+    .line 14
     invoke-virtual {v0}, Lcom/google/firebase/auth/FirebaseUser;->getUid()Ljava/lang/String;
 
     move-result-object p1
@@ -206,10 +211,10 @@
 
     const-string v0, "item_category"
 
-    .line 10
+    .line 15
     invoke-virtual {v1, v0, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
+    .line 16
     :cond_0
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2$2;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2;
 
@@ -221,15 +226,15 @@
 
     move-result-object p1
 
-    sget-object v0, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v0, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getUPLOAD_ERR()Ljava/lang/String;
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getUPLOAD_ERR()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p1, v0, v1}, Lcom/google/firebase/analytics/FirebaseAnalytics;->logEvent(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 12
+    .line 17
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2$2;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2;
 
     iget-object p1, p1, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2$2;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$onViewCreated$2;

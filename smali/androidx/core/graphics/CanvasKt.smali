@@ -107,7 +107,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -115,7 +115,7 @@
     move-exception p2
 
     .line 19
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 20
     throw p2
@@ -168,7 +168,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -176,7 +176,7 @@
     move-exception p2
 
     .line 14
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 15
     throw p2
@@ -237,7 +237,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -245,7 +245,7 @@
     move-exception p2
 
     .line 24
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 25
     throw p2
@@ -306,7 +306,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -314,7 +314,7 @@
     move-exception p2
 
     .line 4
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 5
     throw p2
@@ -375,7 +375,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -383,7 +383,7 @@
     move-exception p2
 
     .line 9
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 10
     throw p2
@@ -444,7 +444,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -452,7 +452,7 @@
     move-exception p2
 
     .line 4
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 5
     throw p2
@@ -499,7 +499,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p4, p0, p3, p4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p4, p0, p3, p4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -507,7 +507,7 @@
     move-exception p1
 
     .line 5
-    invoke-static {p4, p0, p3, p4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p4, p0, p3, p4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 6
     throw p1
@@ -560,7 +560,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -568,7 +568,7 @@
     move-exception p2
 
     .line 4
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 5
     throw p2
@@ -623,7 +623,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, p5, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, p5, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -631,7 +631,7 @@
     move-exception p2
 
     .line 5
-    invoke-static {p1, p0, p5, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, p5, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 6
     throw p2
@@ -680,7 +680,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v1, p0, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {v1, p0, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -688,7 +688,7 @@
     move-exception p1
 
     .line 3
-    invoke-static {v1, p0, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {v1, p0, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 4
     throw p1
@@ -741,7 +741,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -749,7 +749,7 @@
     move-exception p2
 
     .line 4
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 5
     throw p2
@@ -811,7 +811,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, p6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, p6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -819,7 +819,7 @@
     move-exception p2
 
     .line 5
-    invoke-static {p1, p0, p6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, p6, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 6
     throw p2
@@ -872,7 +872,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -880,7 +880,7 @@
     move-exception p2
 
     .line 4
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 5
     throw p2
@@ -928,7 +928,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, p4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, p4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -936,7 +936,7 @@
     move-exception p2
 
     .line 5
-    invoke-static {p1, p0, p4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, p4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 6
     throw p2
@@ -989,7 +989,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -997,7 +997,7 @@
     move-exception p2
 
     .line 4
-    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, v0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 5
     throw p2
@@ -1045,7 +1045,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1, p0, p4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, p4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     return-void
 
@@ -1053,7 +1053,7 @@
     move-exception p2
 
     .line 5
-    invoke-static {p1, p0, p4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline34(ILandroid/graphics/Canvas;II)V
+    invoke-static {p1, p0, p4, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline36(ILandroid/graphics/Canvas;II)V
 
     .line 6
     throw p2

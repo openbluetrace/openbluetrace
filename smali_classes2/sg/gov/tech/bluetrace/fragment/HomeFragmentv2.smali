@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nHomeFragmentv2.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HomeFragmentv2.kt\nsg/gov/tech/bluetrace/fragment/HomeFragmentv2\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,807:1\n1648#2,2:808\n*E\n*S KotlinDebug\n*F\n+ 1 HomeFragmentv2.kt\nsg/gov/tech/bluetrace/fragment/HomeFragmentv2\n*L\n136#1,2:808\n*E\n"
+    value = "SMAP\nHomeFragmentv2.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HomeFragmentv2.kt\nsg/gov/tech/bluetrace/fragment/HomeFragmentv2\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,928:1\n1648#2,2:929\n*E\n*S KotlinDebug\n*F\n+ 1 HomeFragmentv2.kt\nsg/gov/tech/bluetrace/fragment/HomeFragmentv2\n*L\n177#1,2:929\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -18,7 +18,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u00c8\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0011\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0011\n\u0000\n\u0002\u0010\u0015\n\u0002\u0008\u0013\u0018\u00002\u00020\u00012\u00020\u0002B\u0005\u00a2\u0006\u0002\u0010\u0003J\u0006\u0010H\u001a\u00020IJ\u0006\u0010J\u001a\u00020IJ\u0008\u0010K\u001a\u00020IH\u0002J\u0008\u0010L\u001a\u00020IH\u0002J\u0008\u0010M\u001a\u00020IH\u0002J\u0006\u0010N\u001a\u00020IJ\u0008\u0010O\u001a\u00020IH\u0002J\u0010\u0010P\u001a\u00020Q2\u0006\u0010R\u001a\u00020?H\u0002J\u0008\u0010S\u001a\u00020(H\u0016J\u001c\u0010T\u001a\u00020(2\u0008\u0010U\u001a\u0004\u0018\u00010\u00172\u0008\u0010V\u001a\u0004\u0018\u00010\u0017H\u0002J\u0008\u0010W\u001a\u00020IH\u0002J\u0008\u0010X\u001a\u00020IH\u0002J\u0010\u0010Y\u001a\u00020\u00172\u0006\u0010Z\u001a\u00020\u0005H\u0002J\u000e\u0010[\u001a\u00020\\2\u0006\u0010]\u001a\u00020\u0017J\u0010\u0010^\u001a\u0004\u0018\u00010_2\u0006\u0010`\u001a\u00020\u0005J\u0006\u0010a\u001a\u00020\u0005J\u0008\u0010b\u001a\u00020IH\u0002J\u0006\u0010c\u001a\u00020IJ\u0010\u0010d\u001a\u00020I2\u0006\u0010e\u001a\u00020(H\u0002J\u0008\u0010f\u001a\u00020IH\u0002J\u0008\u0010g\u001a\u00020IH\u0002J\u0008\u0010h\u001a\u00020IH\u0002J\u0012\u0010i\u001a\u00020I2\u0008\u0010j\u001a\u0004\u0018\u00010kH\u0016J&\u0010l\u001a\u0004\u0018\u00010m2\u0006\u0010n\u001a\u00020o2\u0008\u0010p\u001a\u0004\u0018\u00010q2\u0008\u0010j\u001a\u0004\u0018\u00010kH\u0016J\u0008\u0010r\u001a\u00020IH\u0016J\u0008\u0010s\u001a\u00020IH\u0016J-\u0010t\u001a\u00020I2\u0006\u0010u\u001a\u00020\u00052\u000e\u0010v\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00170w2\u0006\u0010x\u001a\u00020yH\u0016\u00a2\u0006\u0002\u0010zJ\u0008\u0010{\u001a\u00020IH\u0016J\u001a\u0010|\u001a\u00020I2\u0006\u0010}\u001a\u00020m2\u0008\u0010j\u001a\u0004\u0018\u00010kH\u0016J\u0010\u0010~\u001a\u00020I2\u0006\u0010\u007f\u001a\u00020\u0017H\u0002J\u0007\u0010\u0080\u0001\u001a\u00020IJ\t\u0010\u0081\u0001\u001a\u00020IH\u0002J\u0012\u0010\u0082\u0001\u001a\u00020I2\u0007\u0010\u0083\u0001\u001a\u00020(H\u0002J\u0010\u0010\u0084\u0001\u001a\u00020I2\u0007\u0010\u0085\u0001\u001a\u00020(J\t\u0010\u0086\u0001\u001a\u00020IH\u0002J\u0007\u0010\u0087\u0001\u001a\u00020IJ\u0010\u0010\u0088\u0001\u001a\u00020I2\u0007\u0010\u0089\u0001\u001a\u00020(J\t\u0010\u008a\u0001\u001a\u00020IH\u0002J\u0010\u0010\u008b\u0001\u001a\u00020I2\u0007\u0010\u0085\u0001\u001a\u00020(R\u001a\u0010\u0004\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR\u001a\u0010\n\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000b\u0010\u0007\"\u0004\u0008\u000c\u0010\tR\u001a\u0010\r\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000e\u0010\u0007\"\u0004\u0008\u000f\u0010\tR\u001a\u0010\u0010\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0007\"\u0004\u0008\u0012\u0010\tR\u001a\u0010\u0013\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0014\u0010\u0007\"\u0004\u0008\u0015\u0010\tR\u000e\u0010\u0016\u001a\u00020\u0017X\u0082D\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0018\u001a\u00020\u0019X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001a\u001a\u00020\u001bX\u0082.\u00a2\u0006\u0002\n\u0000R\u001d\u0010\u001c\u001a\u0004\u0018\u00010\u001d8BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008 \u0010!\u001a\u0004\u0008\u001e\u0010\u001fR\u000e\u0010\"\u001a\u00020\u0005X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010#\u001a\u00020\u0005X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010$\u001a\u00020%X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010&\u001a\u00020\u0005X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001a\u0010\'\u001a\u00020(X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\'\u0010)\"\u0004\u0008*\u0010+R\u0016\u0010,\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010.0-X\u0082.\u00a2\u0006\u0002\n\u0000R\u0016\u0010/\u001a\n\u0012\u0006\u0012\u0004\u0018\u0001000-X\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u00101\u001a\u000202X\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00083\u00104\"\u0004\u00085\u00106R\u000e\u00107\u001a\u000208X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u00109\u001a\u00020:X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010;\u001a\u00020<X\u0082.\u00a2\u0006\u0002\n\u0000R \u0010=\u001a\u0008\u0012\u0004\u0012\u00020?0>X\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008@\u0010A\"\u0004\u0008B\u0010CR\u000e\u0010D\u001a\u00020EX\u0082.\u00a2\u0006\u0002\n\u0000R\u0018\u0010F\u001a\u00020(*\u00020\u001d8BX\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u0008F\u0010G\u00a8\u0006\u008c\u0001"
+        "\u0000\u00e4\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0011\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\t\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u0002\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0011\n\u0000\n\u0002\u0010\u0015\n\u0002\u0008\u0018\u0018\u00002\u00020\u00012\u00020\u0002B\u0005\u00a2\u0006\u0002\u0010\u0003J\u0006\u0010i\u001a\u00020jJ\u0006\u0010k\u001a\u00020jJ\u0008\u0010l\u001a\u00020jH\u0002J\u0008\u0010m\u001a\u00020jH\u0002J\u0008\u0010n\u001a\u00020jH\u0002J\u0008\u0010o\u001a\u00020jH\u0002J\u0008\u0010p\u001a\u00020jH\u0002J\u0006\u0010q\u001a\u00020jJ\u0008\u0010r\u001a\u00020jH\u0002J\u0010\u0010s\u001a\u00020t2\u0006\u0010u\u001a\u00020QH\u0002J\u0008\u0010v\u001a\u000206H\u0016J\u001c\u0010w\u001a\u0002062\u0008\u0010x\u001a\u0004\u0018\u00010\u00172\u0008\u0010y\u001a\u0004\u0018\u00010\u0017H\u0002J\u0008\u0010z\u001a\u00020jH\u0002J\u0008\u0010{\u001a\u00020jH\u0002J\u0010\u0010|\u001a\u00020\u00172\u0006\u0010}\u001a\u00020\u0005H\u0002J\u000f\u0010~\u001a\u00020\u007f2\u0007\u0010\u0080\u0001\u001a\u00020\u0017J\u0013\u0010\u0081\u0001\u001a\u0005\u0018\u00010\u0082\u00012\u0007\u0010\u0083\u0001\u001a\u00020\u0005J\u0007\u0010\u0084\u0001\u001a\u00020\u0005J\t\u0010\u0085\u0001\u001a\u00020jH\u0002J\u0007\u0010\u0086\u0001\u001a\u00020jJ\u0012\u0010\u0087\u0001\u001a\u00020j2\u0007\u0010\u0088\u0001\u001a\u000206H\u0002J\t\u0010\u0089\u0001\u001a\u00020jH\u0002J\t\u0010\u008a\u0001\u001a\u00020jH\u0002J\t\u0010\u008b\u0001\u001a\u00020jH\u0002J\u0015\u0010\u008c\u0001\u001a\u00020j2\n\u0010\u008d\u0001\u001a\u0005\u0018\u00010\u008e\u0001H\u0016J.\u0010\u008f\u0001\u001a\u0005\u0018\u00010\u0090\u00012\u0008\u0010\u0091\u0001\u001a\u00030\u0092\u00012\n\u0010\u0093\u0001\u001a\u0005\u0018\u00010\u0094\u00012\n\u0010\u008d\u0001\u001a\u0005\u0018\u00010\u008e\u0001H\u0016J\t\u0010\u0095\u0001\u001a\u00020jH\u0016J\t\u0010\u0096\u0001\u001a\u00020jH\u0016J4\u0010\u0097\u0001\u001a\u00020j2\u0007\u0010\u0098\u0001\u001a\u00020\u00052\u0010\u0010\u0099\u0001\u001a\u000b\u0012\u0006\u0008\u0001\u0012\u00020\u00170\u009a\u00012\u0008\u0010\u009b\u0001\u001a\u00030\u009c\u0001H\u0016\u00a2\u0006\u0003\u0010\u009d\u0001J\t\u0010\u009e\u0001\u001a\u00020jH\u0016J\u001f\u0010\u009f\u0001\u001a\u00020j2\u0008\u0010\u00a0\u0001\u001a\u00030\u0090\u00012\n\u0010\u008d\u0001\u001a\u0005\u0018\u00010\u008e\u0001H\u0016J\t\u0010\u00a1\u0001\u001a\u00020jH\u0002J\u0012\u0010\u00a2\u0001\u001a\u00020j2\u0007\u0010\u00a3\u0001\u001a\u00020\u0017H\u0002J\u0007\u0010\u00a4\u0001\u001a\u00020jJ\t\u0010\u00a5\u0001\u001a\u00020jH\u0002J\u0012\u0010\u00a6\u0001\u001a\u00020j2\u0007\u0010\u00a7\u0001\u001a\u00020WH\u0002J\u0013\u0010\u00a8\u0001\u001a\u00020j2\u0008\u0010\u00a0\u0001\u001a\u00030\u0090\u0001H\u0002J\t\u0010\u00a9\u0001\u001a\u00020jH\u0002J\u0012\u0010\u00aa\u0001\u001a\u00020j2\u0007\u0010\u00ab\u0001\u001a\u000206H\u0002J\u0010\u0010\u00ac\u0001\u001a\u00020j2\u0007\u0010\u00ad\u0001\u001a\u000206J\t\u0010\u00ae\u0001\u001a\u00020jH\u0002J\u0007\u0010\u00af\u0001\u001a\u00020jJ\u0010\u0010\u00b0\u0001\u001a\u00020j2\u0007\u0010\u00b1\u0001\u001a\u000206J\t\u0010\u00b2\u0001\u001a\u00020jH\u0002J\u0010\u0010\u00b3\u0001\u001a\u00020j2\u0007\u0010\u00ad\u0001\u001a\u000206R\u001a\u0010\u0004\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR\u001a\u0010\n\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000b\u0010\u0007\"\u0004\u0008\u000c\u0010\tR\u001a\u0010\r\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000e\u0010\u0007\"\u0004\u0008\u000f\u0010\tR\u001a\u0010\u0010\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0007\"\u0004\u0008\u0012\u0010\tR\u001a\u0010\u0013\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0014\u0010\u0007\"\u0004\u0008\u0015\u0010\tR\u000e\u0010\u0016\u001a\u00020\u0017X\u0082D\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0018\u001a\u00020\u0019X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001a\u001a\u00020\u001bX\u0082.\u00a2\u0006\u0002\n\u0000R\u001d\u0010\u001c\u001a\u0004\u0018\u00010\u001d8BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008 \u0010!\u001a\u0004\u0008\u001e\u0010\u001fR\u001a\u0010\"\u001a\u00020\u0017X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008#\u0010$\"\u0004\u0008%\u0010&R\u001a\u0010\'\u001a\u00020(X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008)\u0010*\"\u0004\u0008+\u0010,R\u000e\u0010-\u001a\u00020\u0005X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010.\u001a\u00020\u0005X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010/\u001a\u000200X\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u00101\u001a\u00020\u0017X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00082\u0010$\"\u0004\u00083\u0010&R\u000e\u00104\u001a\u00020\u0005X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001a\u00105\u001a\u000206X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00087\u00108\"\u0004\u00089\u0010:R\u001a\u0010;\u001a\u000206X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008;\u00108\"\u0004\u0008<\u0010:R\u000e\u0010=\u001a\u00020\u001bX\u0082.\u00a2\u0006\u0002\n\u0000R\u0016\u0010>\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010@0?X\u0082.\u00a2\u0006\u0002\n\u0000R\u0016\u0010A\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010B0?X\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u0010C\u001a\u00020DX\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008E\u0010F\"\u0004\u0008G\u0010HR\u000e\u0010I\u001a\u00020JX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010K\u001a\u00020LX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010M\u001a\u00020NX\u0082.\u00a2\u0006\u0002\n\u0000R \u0010O\u001a\u0008\u0012\u0004\u0012\u00020Q0PX\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008R\u0010S\"\u0004\u0008T\u0010UR\u001a\u0010V\u001a\u00020WX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008X\u0010Y\"\u0004\u0008Z\u0010[R\u000e\u0010\\\u001a\u00020]X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010^\u001a\u00020]X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010_\u001a\u00020]X\u0082.\u00a2\u0006\u0002\n\u0000R\u001e\u0010`\u001a\u00060aj\u0002`bX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008c\u0010d\"\u0004\u0008e\u0010fR\u0018\u0010g\u001a\u000206*\u00020\u001d8BX\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u0008g\u0010h\u00a8\u0006\u00b4\u0001"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;",
@@ -55,16 +55,34 @@
         "()Landroid/bluetooth/BluetoothAdapter;",
         "bluetoothAdapter$delegate",
         "Lkotlin/Lazy;",
+        "btDevicesNearbyText",
+        "getBtDevicesNearbyText",
+        "()Ljava/lang/String;",
+        "setBtDevicesNearbyText",
+        "(Ljava/lang/String;)V",
+        "btDisplayTimerHandler",
+        "Landroid/os/Handler;",
+        "getBtDisplayTimerHandler",
+        "()Landroid/os/Handler;",
+        "setBtDisplayTimerHandler",
+        "(Landroid/os/Handler;)V",
         "btExchangeCount",
         "btExchangeDevices",
         "btExchangesJob",
         "Lkotlinx/coroutines/Job;",
+        "btTotalExchangesText",
+        "getBtTotalExchangesText",
+        "setBtTotalExchangesText",
         "counter",
-        "isTutorialDialogSeen",
+        "currentViewIsDeviceNearby",
         "",
+        "getCurrentViewIsDeviceNearby",
         "()Z",
-        "setTutorialDialogSeen",
+        "setCurrentViewIsDeviceNearby",
         "(Z)V",
+        "isTutorialDialogSeen",
+        "setTutorialDialogSeen",
+        "ivBtInfo",
         "lastKnownRecord",
         "Landroidx/lifecycle/LiveData;",
         "Lsg/gov/tech/bluetrace/streetpass/persistence/StreetPassRecord;",
@@ -89,13 +107,30 @@
         "()Ljava/util/List;",
         "setSeRecords",
         "(Ljava/util/List;)V",
+        "timeLapsed",
+        "",
+        "getTimeLapsed",
+        "()J",
+        "setTimeLapsed",
+        "(J)V",
         "titleTV",
         "Landroidx/appcompat/widget/AppCompatTextView;",
+        "tvBtText",
+        "tvBtTimeLapsed",
+        "updateBtTextTask",
+        "Ljava/lang/Runnable;",
+        "Lkotlinx/coroutines/Runnable;",
+        "getUpdateBtTextTask",
+        "()Ljava/lang/Runnable;",
+        "setUpdateBtTextTask",
+        "(Ljava/lang/Runnable;)V",
         "isDisabled",
         "(Landroid/bluetooth/BluetoothAdapter;)Z",
         "animateBanerImage",
         "",
         "animateTextColor",
+        "btViewForDevicesNearby",
+        "btViewForTotalExchanges",
         "checkDisplayPauseOverlay",
         "checkForAnnouncement",
         "checkPossibleExposureDisplay",
@@ -147,9 +182,14 @@
         "onResume",
         "onViewCreated",
         "view",
+        "openPassportUserOverlayScreen",
         "openWebView",
         "url",
         "pauseTraceTogether",
+        "setUpBtTimer",
+        "setUpTimeLapsed",
+        "timeInMillis",
+        "setViews",
         "shareThisApp",
         "showHideAnnouncement",
         "isShow",
@@ -197,15 +237,34 @@
 
 .field public final bluetoothAdapter$delegate:Lkotlin/Lazy;
 
+.field public btDevicesNearbyText:Ljava/lang/String;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field public btDisplayTimerHandler:Landroid/os/Handler;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
 .field public btExchangeCount:I
 
 .field public btExchangeDevices:I
 
 .field public btExchangesJob:Lkotlinx/coroutines/Job;
 
+.field public btTotalExchangesText:Ljava/lang/String;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
 .field public counter:I
 
+.field public currentViewIsDeviceNearby:Z
+
 .field public isTutorialDialogSeen:Z
+
+.field public ivBtInfo:Landroidx/appcompat/widget/AppCompatImageView;
 
 .field public lastKnownRecord:Landroidx/lifecycle/LiveData;
     .annotation system Ldalvik/annotation/Signature;
@@ -251,7 +310,18 @@
     .end annotation
 .end field
 
+.field public timeLapsed:J
+
 .field public titleTV:Landroidx/appcompat/widget/AppCompatTextView;
+
+.field public tvBtText:Landroidx/appcompat/widget/AppCompatTextView;
+
+.field public tvBtTimeLapsed:Landroidx/appcompat/widget/AppCompatTextView;
+
+.field public updateBtTextTask:Ljava/lang/Runnable;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
 
 
 # direct methods
@@ -324,6 +394,37 @@
     iput-boolean v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->isTutorialDialogSeen:Z
 
     .line 8
+    new-instance v0, Landroid/os/Handler;
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDisplayTimerHandler:Landroid/os/Handler;
+
+    .line 9
+    new-instance v0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$updateBtTextTask$1;
+
+    invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$updateBtTextTask$1;-><init>(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->updateBtTextTask:Ljava/lang/Runnable;
+
+    const-string v0, ""
+
+    .line 10
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDevicesNearbyText:Ljava/lang/String;
+
+    .line 11
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btTotalExchangesText:Ljava/lang/String;
+
+    const-wide/16 v0, -0x1b58
+
+    .line 12
+    iput-wide v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->timeLapsed:J
+
+    .line 13
     sget-object v0, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
 
     new-instance v1, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$bluetoothAdapter$2;
@@ -335,6 +436,24 @@
     move-result-object v0
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->bluetoothAdapter$delegate:Lkotlin/Lazy;
+
+    return-void
+.end method
+
+.method public static final synthetic access$btViewForDevicesNearby(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btViewForDevicesNearby()V
+
+    return-void
+.end method
+
+.method public static final synthetic access$btViewForTotalExchanges(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btViewForTotalExchanges()V
 
     return-void
 .end method
@@ -440,6 +559,15 @@
     return-void
 .end method
 
+.method public static final synthetic access$openPassportUserOverlayScreen(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->openPassportUserOverlayScreen()V
+
+    return-void
+.end method
+
 .method public static final synthetic access$openWebView(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;Ljava/lang/String;)V
     .locals 0
 
@@ -476,6 +604,24 @@
     return-void
 .end method
 
+.method public static final synthetic access$setUpBtTimer(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->setUpBtTimer()V
+
+    return-void
+.end method
+
+.method public static final synthetic access$setUpTimeLapsed(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;J)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->setUpTimeLapsed(J)V
+
+    return-void
+.end method
+
 .method public static final synthetic access$shareThisApp(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
     .locals 0
 
@@ -508,6 +654,84 @@
 
     .line 1
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->updateBtCount()V
+
+    return-void
+.end method
+
+.method private final btViewForDevicesNearby()V
+    .locals 2
+
+    const/4 v0, 0x1
+
+    .line 1
+    iput-boolean v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->currentViewIsDeviceNearby:Z
+
+    .line 2
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->tvBtText:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez v0, :cond_0
+
+    const-string v1, "tvBtText"
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_0
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDevicesNearbyText:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 3
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->tvBtTimeLapsed:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez v0, :cond_1
+
+    const-string v1, "tvBtTimeLapsed"
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_1
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
+
+    return-void
+.end method
+
+.method private final btViewForTotalExchanges()V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    .line 1
+    iput-boolean v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->currentViewIsDeviceNearby:Z
+
+    .line 2
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->tvBtText:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez v0, :cond_0
+
+    const-string v1, "tvBtText"
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_0
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btTotalExchangesText:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 3
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->tvBtTimeLapsed:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez v0, :cond_1
+
+    const-string v1, "tvBtTimeLapsed"
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_1
+    const/16 v1, 0x8
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
     return-void
 .end method
@@ -620,6 +844,7 @@
     .line 4
     sget-object v2, Lsg/gov/tech/bluetrace/RemoteConfigUtils;->INSTANCE:Lsg/gov/tech/bluetrace/RemoteConfigUtils;
 
+    .line 5
     iget-object v3, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->mContext:Landroid/content/Context;
 
     if-nez v3, :cond_0
@@ -628,6 +853,7 @@
 
     invoke-static {v4}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
+    .line 6
     :cond_0
     invoke-virtual {v2, v3, v1}, Lsg/gov/tech/bluetrace/RemoteConfigUtils;->getDefaultValue(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
@@ -641,13 +867,13 @@
 
     return-void
 
-    .line 5
+    .line 7
     :cond_1
     new-instance v1, Lcom/google/gson/Gson;
 
     invoke-direct {v1}, Lcom/google/gson/Gson;-><init>()V
 
-    .line 6
+    .line 8
     const-class v2, Lsg/gov/tech/bluetrace/AnnouncementModel;
 
     invoke-virtual {v1, v0, v2}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
@@ -658,15 +884,15 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 7
+    .line 9
     check-cast v0, Lsg/gov/tech/bluetrace/AnnouncementModel;
 
-    .line 8
+    .line 10
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/AnnouncementModel;->getAnnouncementMsg()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 9
+    .line 11
     sget v2, Lsg/gov/tech/bluetrace/R$id;->announcement_cl:I
 
     invoke-virtual {p0, v2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -681,7 +907,7 @@
 
     invoke-virtual {v2, v3}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 10
+    .line 12
     sget v2, Lsg/gov/tech/bluetrace/R$id;->announcement_title:I
 
     invoke-virtual {p0, v2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -696,17 +922,17 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 11
+    .line 13
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/AnnouncementModel;->getMinAppVersion()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 12
+    .line 14
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/AnnouncementModel;->getMaxAppVersion()Ljava/lang/String;
 
     move-result-object v3
 
-    .line 13
+    .line 15
     invoke-direct {p0, v2, v3}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->displayAnnouncementAppVersionCheck(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v2
@@ -717,7 +943,7 @@
 
     if-eqz v1, :cond_3
 
-    .line 14
+    .line 16
     invoke-static {v1}, Lkotlin/text/StringsKt__StringsJVMKt;->isBlank(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -740,7 +966,7 @@
 
     if-eqz v2, :cond_a
 
-    .line 15
+    .line 17
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/AnnouncementModel;->getId()I
 
     move-result v1
@@ -761,25 +987,25 @@
 
     if-le v1, v2, :cond_6
 
-    .line 16
+    .line 18
     sget-object v1, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
-    .line 17
+    .line 19
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v2
 
     if-eqz v2, :cond_5
 
-    .line 18
+    .line 20
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/AnnouncementModel;->getId()I
 
     move-result v0
 
-    .line 19
+    .line 21
     invoke-virtual {v1, v2, v0}, Lsg/gov/tech/bluetrace/Preference;->putAnnouncementVersion(Landroid/content/Context;I)V
 
-    .line 20
+    .line 22
     sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -790,12 +1016,12 @@
 
     invoke-virtual {v0, v1, v4}, Lsg/gov/tech/bluetrace/Preference;->setAnnouncementSeen(Landroid/content/Context;Z)V
 
-    .line 21
+    .line 23
     invoke-direct {p0, v3}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->showHideAnnouncement(Z)V
 
     return-void
 
-    .line 22
+    .line 24
     :cond_4
     new-instance v0, Lkotlin/TypeCastException;
 
@@ -803,7 +1029,7 @@
 
     throw v0
 
-    .line 23
+    .line 25
     :cond_5
     new-instance v0, Lkotlin/TypeCastException;
 
@@ -811,7 +1037,7 @@
 
     throw v0
 
-    .line 24
+    .line 26
     :cond_6
     sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
@@ -827,18 +1053,18 @@
 
     if-nez v0, :cond_7
 
-    .line 25
+    .line 27
     invoke-direct {p0, v3}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->showHideAnnouncement(Z)V
 
     return-void
 
-    .line 26
+    .line 28
     :cond_7
     invoke-direct {p0, v4}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->showHideAnnouncement(Z)V
 
     goto :goto_2
 
-    .line 27
+    .line 29
     :cond_8
     new-instance v0, Lkotlin/TypeCastException;
 
@@ -846,7 +1072,7 @@
 
     throw v0
 
-    .line 28
+    .line 30
     :cond_9
     new-instance v0, Lkotlin/TypeCastException;
 
@@ -854,7 +1080,7 @@
 
     throw v0
 
-    .line 29
+    .line 31
     :cond_a
     invoke-direct {p0, v4}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->showHideAnnouncement(Z)V
 
@@ -868,6 +1094,7 @@
     .line 1
     sget-object v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;
 
+    .line 2
     sget-object v1, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
     iget-object v2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->mContext:Landroid/content/Context;
@@ -883,27 +1110,28 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportOrInvalidUser(Ljava/lang/String;)Z
+    .line 3
+    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
+    .line 4
     invoke-static {}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getInstance()Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;
 
     move-result-object v0
 
     const-string v1, "TogglePossibleExposure"
 
-    .line 3
+    .line 5
     invoke-virtual {v0, v1}, Lcom/google/firebase/remoteconfig/FirebaseRemoteConfig;->getBoolean(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_2
 
-    .line 4
+    .line 6
     :cond_1
     invoke-virtual {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->hideCloseContact()V
 
@@ -1585,6 +1813,25 @@
     throw v0
 .end method
 
+.method private final openPassportUserOverlayScreen()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lsg/gov/tech/bluetrace/home/PassportUserOverlayDialogFragment;
+
+    invoke-direct {v0}, Lsg/gov/tech/bluetrace/home/PassportUserOverlayDialogFragment;-><init>()V
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+
+    move-result-object v1
+
+    const-string v2, "HomeFragmentv2"
+
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/DialogFragment;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
+
+    return-void
+.end method
+
 .method private final openWebView(Ljava/lang/String;)V
     .locals 2
 
@@ -1614,7 +1861,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0a0177
+    const v1, 0x7f0a017e
 
     .line 5
     invoke-virtual {p1, v1, v0}, Landroidx/fragment/app/FragmentTransaction;->replace(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -1623,6 +1870,159 @@
 
     .line 6
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commit()I
+
+    return-void
+.end method
+
+.method private final setUpBtTimer()V
+    .locals 2
+
+    const-wide/16 v0, -0x1b58
+
+    .line 1
+    iput-wide v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->timeLapsed:J
+
+    const/4 v0, 0x0
+
+    .line 2
+    iput-boolean v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->currentViewIsDeviceNearby:Z
+
+    .line 3
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDisplayTimerHandler:Landroid/os/Handler;
+
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->updateBtTextTask:Ljava/lang/Runnable;
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    .line 4
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDisplayTimerHandler:Landroid/os/Handler;
+
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->updateBtTextTask:Ljava/lang/Runnable;
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    return-void
+.end method
+
+.method private final setUpTimeLapsed(J)V
+    .locals 3
+
+    .line 1
+    sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+
+    invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/TimeUnit;->toMinutes(J)J
+
+    move-result-wide p1
+
+    const-wide/16 v0, 0x1
+
+    cmp-long v2, p1, v0
+
+    if-nez v2, :cond_0
+
+    .line 2
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v0, p1, p2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string p1, " min ago"
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    if-lez v2, :cond_1
+
+    .line 3
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v0, p1, p2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string p1, " mins ago"
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_1
+    const-string p1, ""
+
+    .line 4
+    :goto_0
+    iget-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->tvBtTimeLapsed:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez p2, :cond_2
+
+    const-string v0, "tvBtTimeLapsed"
+
+    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_2
+    invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    return-void
+.end method
+
+.method private final setViews(Landroid/view/View;)V
+    .locals 2
+
+    const v0, 0x7f0a0414
+
+    .line 1
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    const-string v1, "view.findViewById(R.id.tv_bt_text)"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->tvBtText:Landroidx/appcompat/widget/AppCompatTextView;
+
+    const v0, 0x7f0a0415
+
+    .line 2
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    const-string v1, "view.findViewById(R.id.tv_bt_time_lapsed)"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->tvBtTimeLapsed:Landroidx/appcompat/widget/AppCompatTextView;
+
+    const v0, 0x7f0a0208
+
+    .line 3
+    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    const-string v0, "view.findViewById(R.id.iv_bt_info)"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p1, Landroidx/appcompat/widget/AppCompatImageView;
+
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->ivBtInfo:Landroidx/appcompat/widget/AppCompatImageView;
 
     return-void
 .end method
@@ -1733,7 +2133,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f13015e
+    const v1, 0x7f130176
 
     .line 2
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -1768,7 +2168,7 @@
 
     if-eqz v2, :cond_1
 
-    const v1, 0x7f1300f3
+    const v1, 0x7f1300fc
 
     .line 4
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -1780,7 +2180,7 @@
     invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     :cond_1
-    const v2, 0x7f130187
+    const v2, 0x7f1301ae
 
     .line 5
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -1802,7 +2202,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f130178
+    const v2, 0x7f13019f
 
     .line 7
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -1817,7 +2217,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f13005a
+    const v2, 0x7f13005b
 
     .line 8
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -1844,137 +2244,79 @@
 .end method
 
 .method private final updateBtCount()V
-    .locals 6
+    .locals 4
 
     .line 1
-    sget v0, Lsg/gov/tech/bluetrace/R$id;->tv_bt_count:I
-
-    invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
-
-    const-string v1, "tv_bt_count"
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v1, 0x1
-
-    new-array v2, v1, [Ljava/lang/Object;
-
-    .line 2
-    sget-object v3, Lsg/gov/tech/bluetrace/Utils;->INSTANCE:Lsg/gov/tech/bluetrace/Utils;
-
-    iget v4, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btExchangeCount:I
-
-    invoke-virtual {v3, v4}, Lsg/gov/tech/bluetrace/Utils;->withComma(I)Ljava/lang/String;
-
-    move-result-object v3
-
-    const/4 v4, 0x0
-
-    aput-object v3, v2, v4
-
-    const v3, 0x7f130201
-
-    .line 3
-    invoke-virtual {p0, v3, v2}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    .line 4
     iget v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btExchangeDevices:I
 
     invoke-direct {p0, v0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->getConnectedDeviceRange(I)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
-    new-instance v2, Landroid/text/SpannableString;
+    const/4 v1, 0x1
 
-    new-array v1, v1, [Ljava/lang/Object;
+    new-array v2, v1, [Ljava/lang/Object;
 
-    aput-object v0, v1, v4
+    const/4 v3, 0x0
 
-    const v3, 0x7f130202
+    aput-object v0, v2, v3
 
-    invoke-virtual {p0, v3, v1}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    const v0, 0x7f13022d
+
+    .line 2
+    invoke-virtual {p0, v0, v2}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, "getString(\n            R\u2026tedDevicesRange\n        )"
+
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDevicesNearbyText:Ljava/lang/String;
+
+    new-array v0, v1, [Ljava/lang/Object;
+
+    .line 3
+    sget-object v1, Lsg/gov/tech/bluetrace/Utils;->INSTANCE:Lsg/gov/tech/bluetrace/Utils;
+
+    iget v2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btExchangeCount:I
+
+    invoke-virtual {v1, v2}, Lsg/gov/tech/bluetrace/Utils;->withComma(I)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-direct {v2, v1}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
+    aput-object v1, v0, v3
 
-    .line 6
-    new-instance v1, Landroid/text/style/ForegroundColorSpan;
+    const v1, 0x7f13022c
 
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
-
-    move-result-object v3
-
-    if-eqz v3, :cond_0
-
-    const/high16 v5, 0x7f060000
-
-    invoke-static {v3, v5}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
-
-    move-result v3
-
-    invoke-direct {v1, v3}, Landroid/text/style/ForegroundColorSpan;-><init>(I)V
-
-    .line 7
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
-
-    move-result v0
-
-    const/16 v3, 0x21
-
-    .line 8
-    invoke-virtual {v2, v1, v4, v0, v3}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
-
-    .line 9
-    sget v0, Lsg/gov/tech/bluetrace/R$id;->tv_number_of_devices_nearby:I
-
-    invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
+    .line 4
+    invoke-virtual {p0, v1, v0}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
-
-    const-string v1, "tv_number_of_devices_nearby"
+    const-string v1, "getString(\n            R\u2026tExchangeCount)\n        )"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btTotalExchangesText:Ljava/lang/String;
 
-    .line 10
-    sget v0, Lsg/gov/tech/bluetrace/R$id;->cv_bt_count:I
+    .line 5
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->ivBtInfo:Landroidx/appcompat/widget/AppCompatImageView;
 
-    invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
+    if-nez v0, :cond_0
 
-    move-result-object v0
+    const-string v1, "ivBtInfo"
 
-    check-cast v0, Landroidx/cardview/widget/CardView;
+    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
+    :cond_0
     new-instance v1, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$updateBtCount$1;
 
     invoke-direct {v1, p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$updateBtCount$1;-><init>(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
-
-    .line 11
-    :cond_0
-    new-instance v0, Lkotlin/TypeCastException;
-
-    const-string v1, "null cannot be cast to non-null type android.content.Context"
-
-    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
-
-    throw v0
 .end method
 
 
@@ -2138,7 +2480,7 @@
     invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_4
-    const v3, 0x7f06008b
+    const v3, 0x7f06008e
 
     invoke-static {v2, v3}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -2190,7 +2532,7 @@
     invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_1
-    const v6, 0x7f06008b
+    const v6, 0x7f06008e
 
     invoke-static {v4, v6}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -2212,7 +2554,7 @@
     invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_2
-    const v5, 0x7f060138
+    const v5, 0x7f06013d
 
     invoke-static {v4, v5}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -2268,16 +2610,25 @@
 .end method
 
 .method public didProcessBack()Z
-    .locals 2
+    .locals 3
 
     .line 1
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_0
+
+    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v0
 
-    const-string v1, "childFragmentManager"
+    const-string v2, "childFragmentManager"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->getBackStackEntryCount()I
 
@@ -2285,21 +2636,58 @@
 
     if-lez v0, :cond_0
 
-    .line 2
+    .line 3
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->popBackStackImmediate()Z
 
-    const/4 v0, 0x1
-
-    goto :goto_0
+    const/4 v1, 0x1
 
     :cond_0
-    const/4 v0, 0x0
+    return v1
+.end method
 
-    :goto_0
+.method public final getBtDevicesNearbyText()Ljava/lang/String;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDevicesNearbyText:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getBtDisplayTimerHandler()Landroid/os/Handler;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDisplayTimerHandler:Landroid/os/Handler;
+
+    return-object v0
+.end method
+
+.method public final getBtTotalExchangesText()Ljava/lang/String;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btTotalExchangesText:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getCurrentViewIsDeviceNearby()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->currentViewIsDeviceNearby:Z
+
     return v0
 .end method
 
@@ -2351,7 +2739,7 @@
 
     new-instance v3, Landroid/text/style/ImageSpan;
 
-    const v4, 0x7f080244
+    const v4, 0x7f08024a
 
     invoke-direct {v3, v2, v4}, Landroid/text/style/ImageSpan;-><init>(Landroid/content/Context;I)V
 
@@ -2469,7 +2857,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_0
-    const v0, 0x7f080250
+    const v0, 0x7f080256
 
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -2491,7 +2879,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_2
-    const v0, 0x7f08025d
+    const v0, 0x7f080263
 
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -2513,7 +2901,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_4
-    const v0, 0x7f0800bc
+    const v0, 0x7f0800bd
 
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -2535,7 +2923,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_6
-    const v0, 0x7f08025b
+    const v0, 0x7f080261
 
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -2547,6 +2935,15 @@
     const/4 p1, 0x0
 
     return-object p1
+.end method
+
+.method public final getTimeLapsed()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->timeLapsed:J
+
+    return-wide v0
 .end method
 
 .method public final getTimeSlot()I
@@ -2617,6 +3014,17 @@
     iget v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->NIGHT:I
 
     return v0
+.end method
+
+.method public final getUpdateBtTextTask()Ljava/lang/Runnable;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->updateBtTextTask:Ljava/lang/Runnable;
+
+    return-object v0
 .end method
 
 .method public final hideCloseContact()V
@@ -2798,7 +3206,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d0069
+    const p3, 0x7f0d006b
 
     const/4 v0, 0x0
 
@@ -2865,6 +3273,13 @@
     invoke-static {v0, v2, v1, v2}, Lkotlinx/coroutines/Job$DefaultImpls;->cancel$default(Lkotlinx/coroutines/Job;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     .line 5
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDisplayTimerHandler:Landroid/os/Handler;
+
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->updateBtTextTask:Ljava/lang/Runnable;
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    .line 6
     invoke-virtual {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_clearFindViewByIdCache()V
 
     return-void
@@ -2996,7 +3411,7 @@
 .end method
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
-    .locals 9
+    .locals 8
     .param p1    # Landroid/view/View;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -3014,34 +3429,41 @@
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
+    invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->setViews(Landroid/view/View;)V
+
+    .line 3
     sget-object p2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;
 
+    .line 4
     sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
+    .line 5
     sget-object v1, Lsg/gov/tech/bluetrace/TracerApp;->Companion:Lsg/gov/tech/bluetrace/TracerApp$Companion;
 
     invoke-virtual {v1}, Lsg/gov/tech/bluetrace/TracerApp$Companion;->getAppContext()Landroid/content/Context;
 
     move-result-object v1
 
+    .line 6
     invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/Preference;->getUserIdentityType(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportOrInvalidUser(Ljava/lang/String;)Z
+    .line 7
+    invoke-virtual {p2, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Ljava/lang/String;)Z
 
     move-result p2
 
     if-nez p2, :cond_0
 
-    .line 3
+    .line 8
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->observeSeApi()V
 
-    .line 4
+    .line 9
     :cond_0
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->getBTExchanges()V
 
-    .line 5
+    .line 10
     sget-object p2, Lsg/gov/tech/bluetrace/streetpass/persistence/StreetPassRecordDatabase;->Companion:Lsg/gov/tech/bluetrace/streetpass/persistence/StreetPassRecordDatabase$Companion;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -3062,7 +3484,7 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->seDao:Lsg/gov/tech/bluetrace/streetpass/persistence/SafeEntryDao;
 
-    .line 6
+    .line 11
     new-instance p2, Lsg/gov/tech/bluetrace/AnalyticsUtils;
 
     invoke-direct {p2}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
@@ -3077,7 +3499,7 @@
 
     invoke-virtual {p2, v0, v2}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->screenAnalytics(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 7
+    .line 12
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p2
@@ -3086,9 +3508,9 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->mContext:Landroid/content/Context;
 
-    const p2, 0x7f0a00bc
+    const p2, 0x7f0a00c0
 
-    .line 8
+    .line 13
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -3101,9 +3523,9 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->barcodeIV:Landroidx/appcompat/widget/AppCompatImageView;
 
-    const p2, 0x7f0a00bb
+    const p2, 0x7f0a00bf
 
-    .line 9
+    .line 14
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -3116,9 +3538,9 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->bannerContainer:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    const p2, 0x7f0a022c
+    const p2, 0x7f0a023b
 
-    .line 10
+    .line 15
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object p2
@@ -3131,9 +3553,10 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->titleTV:Landroidx/appcompat/widget/AppCompatTextView;
 
-    .line 11
+    .line 16
     sget-object p2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;
 
+    .line 17
     sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -3146,57 +3569,98 @@
 
     move-result-object v0
 
-    invoke-virtual {p2, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportUser(Ljava/lang/String;)Z
+    .line 18
+    invoke-virtual {p2, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Ljava/lang/String;)Z
 
     move-result p2
 
-    const-string v0, "passport_user_layout"
+    const-string v0, "barcodeIV"
 
-    const-string v2, "non_passport_user_layout"
+    const-string v2, "cl_calendar"
 
-    const/4 v3, 0x4
+    const/4 v3, 0x0
 
-    const/4 v4, 0x0
+    if-eqz p2, :cond_3
 
-    const-string v5, "barcodeIV"
-
-    const/16 v6, 0x8
-
-    if-eqz p2, :cond_2
-
-    .line 12
+    .line 19
     iget-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->barcodeIV:Landroidx/appcompat/widget/AppCompatImageView;
 
     if-nez p2, :cond_1
 
-    invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_1
-    invoke-virtual {p2, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+    const/4 v4, 0x4
 
-    .line 13
+    invoke-virtual {p2, v4}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    .line 20
     sget p2, Lsg/gov/tech/bluetrace/R$id;->non_passport_user_layout:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    const-string v4, "non_passport_user_layout"
 
-    invoke-virtual {p2, v6}, Landroid/view/View;->setVisibility(I)V
+    invoke-static {p2, v4}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 14
+    const/16 v4, 0x8
+
+    invoke-virtual {p2, v4}, Landroid/view/View;->setVisibility(I)V
+
+    .line 21
     sget p2, Lsg/gov/tech/bluetrace/R$id;->passport_user_layout:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    const-string v5, "passport_user_layout"
 
-    invoke-virtual {p2, v4}, Landroid/view/View;->setVisibility(I)V
+    invoke-static {p2, v5}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 15
+    invoke-virtual {p2, v3}, Landroid/view/View;->setVisibility(I)V
+
+    .line 22
+    sget-object p2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;
+
+    .line 23
+    sget-object v6, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v7
+
+    invoke-static {v7, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v6, v7}, Lsg/gov/tech/bluetrace/Preference;->getUserIdentityType(Landroid/content/Context;)Ljava/lang/String;
+
+    move-result-object v6
+
+    .line 24
+    invoke-virtual {p2, v6}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportUser(Ljava/lang/String;)Z
+
+    move-result p2
+
+    const-string v6, "message_text_view"
+
+    if-eqz p2, :cond_2
+
+    .line 25
+    sget p2, Lsg/gov/tech/bluetrace/R$id;->cl_calendar:I
+
+    invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object p2
+
+    check-cast p2, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    invoke-static {p2, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    .line 26
     sget p2, Lsg/gov/tech/bluetrace/R$id;->message_text_view:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3205,73 +3669,77 @@
 
     check-cast p2, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const-string v7, "message_text_view"
+    invoke-static {p2, v6}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p2, v7}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    const v2, 0x7f130174
 
-    const v7, 0x7f13015d
+    .line 27
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
-    invoke-virtual {p0, v7}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+    move-result-object v2
 
-    move-result-object v7
+    .line 28
+    invoke-static {v2, v3}, Landroidx/core/text/HtmlCompat;->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
 
-    invoke-virtual {p2, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    move-result-object v2
 
-    .line 16
+    invoke-virtual {p2, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    goto/16 :goto_0
+
+    .line 29
     :cond_2
     sget-object p2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;
 
-    sget-object v7, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
+    sget-object v2, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    move-result-object v8
-
-    invoke-static {v8, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v7, v8}, Lsg/gov/tech/bluetrace/Preference;->getUserIdentityType(Landroid/content/Context;)Ljava/lang/String;
-
     move-result-object v7
 
-    invoke-virtual {p2, v7}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidUser(Ljava/lang/String;)Z
+    invoke-static {v7, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v2, v7}, Lsg/gov/tech/bluetrace/Preference;->getUserIdentityType(Landroid/content/Context;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {p2, v2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidUser(Ljava/lang/String;)Z
 
     move-result p2
 
     if-eqz p2, :cond_4
 
-    .line 17
-    iget-object p2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->barcodeIV:Landroidx/appcompat/widget/AppCompatImageView;
-
-    if-nez p2, :cond_3
-
-    invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
-
-    :cond_3
-    invoke-virtual {p2, v3}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    .line 18
-    sget p2, Lsg/gov/tech/bluetrace/R$id;->non_passport_user_layout:I
+    .line 30
+    sget p2, Lsg/gov/tech/bluetrace/R$id;->message_text_view:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    check-cast p2, Landroidx/appcompat/widget/AppCompatTextView;
 
-    invoke-virtual {p2, v6}, Landroid/view/View;->setVisibility(I)V
+    invoke-static {p2, v6}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 19
+    const v2, 0x7f1300fb
+
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {p2, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 31
     sget p2, Lsg/gov/tech/bluetrace/R$id;->passport_user_layout:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v5}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p2, v6}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p2, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 20
+    .line 32
     sget p2, Lsg/gov/tech/bluetrace/R$id;->check_eligibility_text_view:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3280,52 +3748,90 @@
 
     check-cast p2, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const-string v0, "check_eligibility_text_view"
+    const-string v2, "check_eligibility_text_view"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p2, v6}, Landroid/widget/TextView;->setVisibility(I)V
+    invoke-virtual {p2, v4}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 21
+    .line 33
     sget p2, Lsg/gov/tech/bluetrace/R$id;->left_empty_view:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    const-string v0, "left_empty_view"
+    const-string v2, "left_empty_view"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p2, v6}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p2, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 22
+    .line 34
     sget p2, Lsg/gov/tech/bluetrace/R$id;->right_empty_view:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    const-string v0, "right_empty_view"
+    const-string v2, "right_empty_view"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-virtual {p2, v6}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {p2, v3}, Landroid/view/View;->setVisibility(I)V
+
+    goto :goto_0
+
+    .line 35
+    :cond_3
+    sget-object p2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;
+
+    sget-object v4, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
+
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v5
+
+    invoke-static {v5, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v4, v5}, Lsg/gov/tech/bluetrace/Preference;->getUserIdentityType(Landroid/content/Context;)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {p2, v4}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isValidPassportUser(Ljava/lang/String;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_4
+
+    .line 36
+    sget p2, Lsg/gov/tech/bluetrace/R$id;->cl_calendar:I
+
+    invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object p2
+
+    check-cast p2, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    invoke-static {p2, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p2, v3}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     :cond_4
+    :goto_0
     const/4 p2, 0x2
 
     new-array p2, p2, [Landroid/view/View;
 
-    .line 23
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->barcodeIV:Landroidx/appcompat/widget/AppCompatImageView;
+    .line 37
+    iget-object v2, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->barcodeIV:Landroidx/appcompat/widget/AppCompatImageView;
 
-    if-nez v0, :cond_5
+    if-nez v2, :cond_5
 
-    invoke-static {v5}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_5
-    aput-object v0, p2, v4
+    aput-object v2, p2, v3
 
     const/4 v0, 0x1
 
@@ -3347,12 +3853,12 @@
 
     move-result-object p2
 
-    .line 24
+    .line 38
     invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p2
 
-    :goto_0
+    :goto_1
     invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
@@ -3365,16 +3871,16 @@
 
     check-cast v0, Landroid/view/View;
 
-    .line 25
+    .line 39
     new-instance v2, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$$inlined$forEach$lambda$1;
 
     invoke-direct {v2, p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$$inlined$forEach$lambda$1;-><init>(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    goto :goto_0
+    goto :goto_1
 
-    .line 26
+    .line 40
     :cond_6
     sget p2, Lsg/gov/tech/bluetrace/R$id;->ib_fav:I
 
@@ -3390,7 +3896,7 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 27
+    .line 41
     sget p2, Lsg/gov/tech/bluetrace/R$id;->ib_group:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3405,7 +3911,7 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 28
+    .line 42
     sget p2, Lsg/gov/tech/bluetrace/R$id;->tv_view_pass:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3420,7 +3926,7 @@
 
     invoke-virtual {p2, v0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 29
+    .line 43
     sget-object p2, Lsg/gov/tech/bluetrace/streetpass/persistence/StreetPassRecordDatabase;->Companion:Lsg/gov/tech/bluetrace/streetpass/persistence/StreetPassRecordDatabase$Companion;
 
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -3433,7 +3939,7 @@
 
     move-result-object p1
 
-    .line 30
+    .line 44
     invoke-virtual {p1}, Lsg/gov/tech/bluetrace/streetpass/persistence/StreetPassRecordDatabase;->recordDao()Lsg/gov/tech/bluetrace/streetpass/persistence/StreetPassRecordDao;
 
     move-result-object p2
@@ -3448,7 +3954,7 @@
 
     const-string v0, "lastKnownRecord"
 
-    .line 31
+    .line 45
     invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_7
@@ -3456,13 +3962,13 @@
 
     move-result-object v0
 
-    .line 32
+    .line 46
     sget-object v1, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$5;->INSTANCE:Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$5;
 
-    .line 33
+    .line 47
     invoke-virtual {p2, v0, v1}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 34
+    .line 48
     invoke-virtual {p1}, Lsg/gov/tech/bluetrace/streetpass/persistence/StreetPassRecordDatabase;->statusDao()Lsg/gov/tech/bluetrace/status/persistence/StatusRecordDao;
 
     move-result-object p1
@@ -3479,7 +3985,7 @@
 
     const-string p2, "lastKnownScanningStarted"
 
-    .line 35
+    .line 49
     invoke-static {p2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_8
@@ -3487,13 +3993,13 @@
 
     move-result-object p2
 
-    .line 36
+    .line 50
     sget-object v0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$6;->INSTANCE:Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$6;
 
-    .line 37
+    .line 51
     invoke-virtual {p1, p2, v0}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    .line 38
+    .line 52
     sget p1, Lsg/gov/tech/bluetrace/R$id;->btnPauseContactTracing:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3508,7 +4014,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 39
+    .line 53
     sget p1, Lsg/gov/tech/bluetrace/R$id;->cl_share_app:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3523,7 +4029,7 @@
 
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 40
+    .line 54
     sget p1, Lsg/gov/tech/bluetrace/R$id;->b_check_out:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3538,7 +4044,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 41
+    .line 55
     sget p1, Lsg/gov/tech/bluetrace/R$id;->check_eligibility_text_view:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3553,7 +4059,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 42
+    .line 56
     sget p1, Lsg/gov/tech/bluetrace/R$id;->re_register_button:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
@@ -3568,12 +4074,27 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 43
+    .line 57
+    sget p1, Lsg/gov/tech/bluetrace/R$id;->cl_calendar:I
+
+    invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    new-instance p2, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$12;
+
+    invoke-direct {p2, p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$12;-><init>(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
+
+    invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    .line 58
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->getUnexitedEntry()V
 
     return-void
 
-    .line 44
+    .line 59
     :cond_9
     new-instance p1, Lkotlin/TypeCastException;
 
@@ -3592,6 +4113,7 @@
 
     invoke-direct {v0}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
+    .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v1
@@ -3600,14 +4122,15 @@
 
     const-string v2, "HomeTTPaused"
 
+    .line 3
     invoke-virtual {v0, v1, v2}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->screenAnalytics(Landroid/app/Activity;Ljava/lang/String;)V
 
-    .line 2
+    .line 4
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     move-result-object v0
 
-    const v1, 0x7f0d0052
+    const v1, 0x7f0d0054
 
     const/4 v2, 0x0
 
@@ -3615,16 +4138,16 @@
 
     move-result-object v0
 
-    const v1, 0x7f0a02a3
+    const v1, 0x7f0a02b3
 
-    .line 3
+    .line 5
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
     check-cast v1, Landroid/widget/RadioGroup;
 
-    .line 4
+    .line 6
     new-instance v2, Landroid/app/AlertDialog$Builder;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
@@ -3633,54 +4156,54 @@
 
     invoke-direct {v2, v3}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v3, 0x7f13016a
+    const v3, 0x7f130182
 
-    .line 5
+    .line 7
     invoke-virtual {v2, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v3
 
     const/4 v4, 0x1
 
-    .line 6
+    .line 8
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
 
     move-result-object v3
 
-    .line 7
+    .line 9
     invoke-virtual {v3, v0}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v3, 0x7f13005a
+    const v3, 0x7f13005b
 
-    .line 8
+    .line 10
     sget-object v4, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$pauseTraceTogether$1;->INSTANCE:Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$pauseTraceTogether$1;
 
     invoke-virtual {v0, v3, v4}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
     move-result-object v0
 
-    const v3, 0x7f13014f
+    const v3, 0x7f13015e
 
-    .line 9
+    .line 11
     new-instance v4, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$pauseTraceTogether$2;
 
     invoke-direct {v4, p0, v1}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$pauseTraceTogether$2;-><init>(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;Landroid/widget/RadioGroup;)V
 
     invoke-virtual {v0, v3, v4}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 10
+    .line 12
     invoke-virtual {v2}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v0
 
-    .line 11
+    .line 13
     invoke-virtual {v0}, Landroid/app/AlertDialog;->show()V
 
     return-void
 
-    .line 12
+    .line 14
     :cond_0
     new-instance v0, Lkotlin/TypeCastException;
 
@@ -3689,6 +4212,66 @@
     invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw v0
+.end method
+
+.method public final setBtDevicesNearbyText(Ljava/lang/String;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "<set-?>"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDevicesNearbyText:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setBtDisplayTimerHandler(Landroid/os/Handler;)V
+    .locals 1
+    .param p1    # Landroid/os/Handler;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "<set-?>"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btDisplayTimerHandler:Landroid/os/Handler;
+
+    return-void
+.end method
+
+.method public final setBtTotalExchangesText(Ljava/lang/String;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "<set-?>"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->btTotalExchangesText:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setCurrentViewIsDeviceNearby(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->currentViewIsDeviceNearby:Z
+
+    return-void
 .end method
 
 .method public final setEVENING(I)V
@@ -3778,11 +4361,37 @@
     return-void
 .end method
 
+.method public final setTimeLapsed(J)V
+    .locals 0
+
+    .line 1
+    iput-wide p1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->timeLapsed:J
+
+    return-void
+.end method
+
 .method public final setTutorialDialogSeen(Z)V
     .locals 0
 
     .line 1
     iput-boolean p1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->isTutorialDialogSeen:Z
+
+    return-void
+.end method
+
+.method public final setUpdateBtTextTask(Ljava/lang/Runnable;)V
+    .locals 1
+    .param p1    # Ljava/lang/Runnable;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "<set-?>"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->updateBtTextTask:Ljava/lang/Runnable;
 
     return-void
 .end method
@@ -3980,7 +4589,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f13008c
+    const v0, 0x7f13008b
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -4002,7 +4611,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v0, 0x7f130141
+    const v0, 0x7f13014c
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -4118,7 +4727,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f130175
+    const v1, 0x7f13018d
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -4137,7 +4746,7 @@
 
     invoke-static {p1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f13022e
+    const v1, 0x7f130265
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -4171,7 +4780,7 @@
     invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_0
-    const v1, 0x7f0801e6
+    const v1, 0x7f0801e9
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -4195,7 +4804,7 @@
     invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_1
-    const v1, 0x7f0600ff
+    const v1, 0x7f060103
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -4217,7 +4826,7 @@
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f13022d
+    const v1, 0x7f130264
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -4270,7 +4879,7 @@
     invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_3
-    const v1, 0x7f080203
+    const v1, 0x7f080206
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -4295,7 +4904,7 @@
     invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_4
-    const v1, 0x7f06003b
+    const v1, 0x7f06003d
 
     .line 10
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
@@ -4326,7 +4935,7 @@
     .line 13
     new-instance v2, Lkotlin/Pair;
 
-    const v3, 0x7f1301c9
+    const v3, 0x7f1301f1
 
     invoke-virtual {p0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 

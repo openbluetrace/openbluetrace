@@ -14,23 +14,23 @@
 
 
 # static fields
-.field public static final library_android_database_sqlcipher_author:I = 0x7f1300f8
+.field public static final library_android_database_sqlcipher_author:I = 0x7f130101
 
-.field public static final library_android_database_sqlcipher_authorWebsite:I = 0x7f1300f9
+.field public static final library_android_database_sqlcipher_authorWebsite:I = 0x7f130102
 
-.field public static final library_android_database_sqlcipher_isOpenSource:I = 0x7f1300fa
+.field public static final library_android_database_sqlcipher_isOpenSource:I = 0x7f130103
 
-.field public static final library_android_database_sqlcipher_libraryDescription:I = 0x7f1300fb
+.field public static final library_android_database_sqlcipher_libraryDescription:I = 0x7f130104
 
-.field public static final library_android_database_sqlcipher_libraryName:I = 0x7f1300fc
+.field public static final library_android_database_sqlcipher_libraryName:I = 0x7f130105
 
-.field public static final library_android_database_sqlcipher_libraryVersion:I = 0x7f1300fd
+.field public static final library_android_database_sqlcipher_libraryVersion:I = 0x7f130106
 
-.field public static final library_android_database_sqlcipher_libraryWebsite:I = 0x7f1300fe
+.field public static final library_android_database_sqlcipher_libraryWebsite:I = 0x7f130107
 
-.field public static final library_android_database_sqlcipher_licenseLink:I = 0x7f1300ff
+.field public static final library_android_database_sqlcipher_licenseLink:I = 0x7f130108
 
-.field public static final library_android_database_sqlcipher_repositoryLink:I = 0x7f130100
+.field public static final library_android_database_sqlcipher_repositoryLink:I = 0x7f130109
 
 
 # direct methods

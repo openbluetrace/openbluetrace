@@ -402,7 +402,7 @@
 
     const-string v3, "InstanceID"
 
-    invoke-static {v1, v2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2, p0, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 .end method
@@ -451,7 +451,7 @@
 
     const-string v2, "InstanceID"
 
-    invoke-static {v0, v1, p0, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, p0, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 

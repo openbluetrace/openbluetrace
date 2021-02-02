@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final handy:I = 0x7f0d008b
+.field public static final handy:I = 0x7f0d0090
 
-.field public static final showcase_button:I = 0x7f0d00cd
+.field public static final showcase_button:I = 0x7f0d00d3
 
 
 # direct methods

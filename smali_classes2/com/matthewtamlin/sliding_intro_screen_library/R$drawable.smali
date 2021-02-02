@@ -166,17 +166,17 @@
 
 .field public static final abc_textfield_search_material:I = 0x7f08005a
 
-.field public static final introbutton_behaviour_first:I = 0x7f08023e
+.field public static final introbutton_behaviour_first:I = 0x7f080244
 
-.field public static final introbutton_behaviour_last:I = 0x7f08023f
+.field public static final introbutton_behaviour_last:I = 0x7f080245
 
-.field public static final introbutton_behaviour_next:I = 0x7f080240
+.field public static final introbutton_behaviour_next:I = 0x7f080246
 
-.field public static final introbutton_behaviour_previous:I = 0x7f080241
+.field public static final introbutton_behaviour_previous:I = 0x7f080247
 
-.field public static final introbutton_behaviour_progress:I = 0x7f080242
+.field public static final introbutton_behaviour_progress:I = 0x7f080248
 
-.field public static final notification_template_icon_bg:I = 0x7f080266
+.field public static final notification_template_icon_bg:I = 0x7f08026c
 
 
 # direct methods

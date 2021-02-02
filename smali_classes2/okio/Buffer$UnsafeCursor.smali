@@ -194,7 +194,7 @@
 
     const-string v1, "minByteCount > Segment.SIZE: "
 
-    invoke-static {v1, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -208,7 +208,7 @@
 
     const-string v1, "minByteCount <= 0: "
 
-    invoke-static {v1, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -378,7 +378,7 @@
 
     const-string v1, "newSize < 0: "
 
-    invoke-static {v1, p1, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline15(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline16(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p1
 

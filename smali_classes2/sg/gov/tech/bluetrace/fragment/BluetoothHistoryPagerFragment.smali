@@ -11,7 +11,7 @@
         0x3
     }
     d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\u0011\u001a\u00020\u0006H\u0016J\u0006\u0010\u0012\u001a\u00020\u0013J&\u0010\u0014\u001a\u0004\u0018\u00010\u00152\u0006\u0010\u0016\u001a\u00020\u00172\u0008\u0010\u0018\u001a\u0004\u0018\u00010\u00192\u0008\u0010\u001a\u001a\u0004\u0018\u00010\u001bH\u0016J\u0008\u0010\u001c\u001a\u00020\u0013H\u0016J\u001a\u0010\u001d\u001a\u00020\u00132\u0006\u0010\u001e\u001a\u00020\u00152\u0008\u0010\u001a\u001a\u0004\u0018\u00010\u001bH\u0016R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0005\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008\"\u0004\u0008\t\u0010\nR\u001a\u0010\u000b\u001a\u00020\u000cX\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\r\u0010\u000e\"\u0004\u0008\u000f\u0010\u0010\u00a8\u0006\u001f"
+        "\u0000D\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010\u0011\u001a\u00020\u0006H\u0016J\u000e\u0010\u0012\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0006J\u0006\u0010\u0015\u001a\u00020\u0013J\u0006\u0010\u0016\u001a\u00020\u0013J&\u0010\u0017\u001a\u0004\u0018\u00010\u00182\u0006\u0010\u0019\u001a\u00020\u001a2\u0008\u0010\u001b\u001a\u0004\u0018\u00010\u001c2\u0008\u0010\u001d\u001a\u0004\u0018\u00010\u001eH\u0016J\u0008\u0010\u001f\u001a\u00020\u0013H\u0016J\u001a\u0010 \u001a\u00020\u00132\u0006\u0010!\u001a\u00020\u00182\u0008\u0010\u001d\u001a\u0004\u0018\u00010\u001eH\u0016J\u0010\u0010\"\u001a\u00020\u00132\u0006\u0010\u0014\u001a\u00020\u0006H\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0005\u001a\u00020\u0006X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008\"\u0004\u0008\t\u0010\nR\u001a\u0010\u000b\u001a\u00020\u000cX\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\r\u0010\u000e\"\u0004\u0008\u000f\u0010\u0010\u00a8\u0006#"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;",
@@ -32,8 +32,11 @@
         "setPagerAdapter",
         "(Lsg/gov/tech/bluetrace/fragment/HistoryViewPagerAdapter;)V",
         "didProcessBack",
-        "getSelfCheckInData",
+        "displayLoader",
         "",
+        "isBGTranclucent",
+        "getSelfCheckInData",
+        "hideLoader",
         "onCreateView",
         "Landroid/view/View;",
         "inflater",
@@ -45,6 +48,7 @@
         "onResume",
         "onViewCreated",
         "view",
+        "setLoaderBG",
         "app_release"
     }
     k = 0x1
@@ -78,6 +82,76 @@
     .line 1
     invoke-direct {p0, v0}, Lsg/gov/MainActivityFragment;-><init>(Ljava/lang/String;)V
 
+    return-void
+.end method
+
+.method private final setLoaderBG(Z)V
+    .locals 2
+
+    const-string v0, "progress_bar_vp"
+
+    if-eqz p1, :cond_0
+
+    .line 1
+    sget p1, Lsg/gov/tech/bluetrace/R$id;->progress_bar_vp:I
+
+    invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    const v1, 0x7f060026
+
+    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
+
+    .line 2
+    sget p1, Lsg/gov/tech/bluetrace/R$id;->progress_bar_vp:I
+
+    invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/high16 v0, 0x3f000000    # 0.5f
+
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setAlpha(F)V
+
+    goto :goto_0
+
+    .line 3
+    :cond_0
+    sget p1, Lsg/gov/tech/bluetrace/R$id;->progress_bar_vp:I
+
+    invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setAlpha(F)V
+
+    .line 4
+    sget p1, Lsg/gov/tech/bluetrace/R$id;->progress_bar_vp:I
+
+    invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    const v0, 0x7f06013d
+
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setBackgroundResource(I)V
+
+    :goto_0
     return-void
 .end method
 
@@ -159,6 +233,32 @@
     return v0
 .end method
 
+.method public final displayLoader(Z)V
+    .locals 2
+
+    .line 1
+    sget v0, Lsg/gov/tech/bluetrace/R$id;->progress_bar_vp:I
+
+    invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    const-string v1, "progress_bar_vp"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    .line 2
+    invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->setLoaderBG(Z)V
+
+    return-void
+.end method
+
 .method public final getNavigateToPETab()Z
     .locals 1
 
@@ -211,6 +311,29 @@
     return-void
 .end method
 
+.method public final hideLoader()V
+    .locals 2
+
+    .line 1
+    sget v0, Lsg/gov/tech/bluetrace/R$id;->progress_bar_vp:I
+
+    invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    const-string v1, "progress_bar_vp"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/16 v1, 0x8
+
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
+
+    return-void
+.end method
+
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
     .param p1    # Landroid/view/LayoutInflater;
@@ -232,7 +355,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d0035
+    const p3, 0x7f0d0036
 
     const/4 v0, 0x0
 
@@ -305,7 +428,7 @@
     .line 1
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    const p2, 0x7f0a00be
+    const p2, 0x7f0a00c2
 
     .line 2
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -332,7 +455,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f1301f9
+    const v1, 0x7f130224
 
     invoke-virtual {p1, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -373,7 +496,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportOrInvalidUser(Ljava/lang/String;)Z
+    invoke-virtual {p1, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -581,7 +704,7 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportOrInvalidUser(Ljava/lang/String;)Z
+    invoke-virtual {p1, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Ljava/lang/String;)Z
 
     move-result p1
 
@@ -594,21 +717,7 @@
 
     .line 22
     :cond_6
-    sget p1, Lsg/gov/tech/bluetrace/R$id;->progress_bar_vp:I
-
-    invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->_$_findCachedViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
-
-    const-string p2, "progress_bar_vp"
-
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/16 p2, 0x8
-
-    invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->setVisibility(I)V
+    invoke-virtual {p0}, Lsg/gov/tech/bluetrace/fragment/BluetoothHistoryPagerFragment;->hideLoader()V
 
     :goto_1
     return-void

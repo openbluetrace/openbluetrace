@@ -27,7 +27,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$checkFeature$2\n*L\n1#1,599:1\n*E\n"
+    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$checkFeature$2\n*L\n1#1,601:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -146,11 +146,11 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lsg/gov/tech/bluetrace/MainActivity;->access$getFeaturePoints(Lsg/gov/tech/bluetrace/MainActivity;[Ljava/lang/Boolean;)[I
+    invoke-static {v0, v1}, Lsg/gov/tech/bluetrace/MainActivity;->access$getFeaturePoints(Lsg/gov/tech/bluetrace/MainActivity;[Ljava/lang/Boolean;)[Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment;->setPoints([I)V
+    invoke-virtual {p1, v0}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment;->setPoints([Ljava/lang/String;)V
 
     .line 7
     new-instance v0, Lsg/gov/tech/bluetrace/MainActivity$checkFeature$2$$special$$inlined$let$lambda$1;

@@ -296,7 +296,7 @@
 
     const-string v1, ") disagree"
 
-    invoke-static {v4, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline21(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v4, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline22(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -322,7 +322,7 @@
 
     const-string v3, "Cannot buffer entire body for content length: "
 
-    invoke-static {v3, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline15(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {v3, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline16(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v0
 

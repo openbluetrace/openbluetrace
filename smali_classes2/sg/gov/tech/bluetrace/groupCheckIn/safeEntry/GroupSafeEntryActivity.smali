@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nGroupSafeEntryActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GroupSafeEntryActivity.kt\nsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity\n+ 2 SparseBooleanArray.kt\nandroidx/core/util/SparseBooleanArrayKt\n+ 3 ActivityViewModelLazy.kt\nandroidx/activity/ActivityViewModelLazyKt\n*L\n1#1,208:1\n57#2:209\n41#3,7:210\n*E\n*S KotlinDebug\n*F\n+ 1 GroupSafeEntryActivity.kt\nsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity\n*L\n167#1:209\n38#1,7:210\n*E\n"
+    value = "SMAP\nGroupSafeEntryActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GroupSafeEntryActivity.kt\nsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity\n+ 2 SparseBooleanArray.kt\nandroidx/core/util/SparseBooleanArrayKt\n+ 3 ViewModelStoreOwnerExt.kt\norg/koin/android/viewmodel/ext/android/ViewModelStoreOwnerExtKt\n*L\n1#1,209:1\n57#2:210\n48#3,4:211\n*E\n*S KotlinDebug\n*F\n+ 1 GroupSafeEntryActivity.kt\nsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity\n*L\n167#1:210\n38#1,4:211\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -136,34 +136,27 @@
 .end method
 
 .method public constructor <init>()V
-    .locals 4
+    .locals 3
 
     .line 1
     invoke-direct {p0}, Landroidx/appcompat/app/AppCompatActivity;-><init>()V
 
     .line 2
-    new-instance v0, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity$$special$$inlined$viewModels$1;
+    sget-object v0, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
 
-    invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity$$special$$inlined$viewModels$1;-><init>(Landroidx/activity/ComponentActivity;)V
+    new-instance v1, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity$$special$$inlined$viewModel$1;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, v2, v2}, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity$$special$$inlined$viewModel$1;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)V
+
+    invoke-static {v0, v1}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity;->viewModel$delegate:Lkotlin/Lazy;
 
     .line 3
-    new-instance v1, Landroidx/lifecycle/ViewModelLazy;
-
-    const-class v2, Lsg/gov/tech/bluetrace/groupCheckIn/addFamilyMembers/AddMemberViewModel;
-
-    invoke-static {v2}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
-
-    move-result-object v2
-
-    new-instance v3, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity$$special$$inlined$viewModels$2;
-
-    invoke-direct {v3, p0}, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity$$special$$inlined$viewModels$2;-><init>(Landroidx/activity/ComponentActivity;)V
-
-    invoke-direct {v1, v2, v3, v0}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/KClass;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
-
-    iput-object v1, p0, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity;->viewModel$delegate:Lkotlin/Lazy;
-
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -295,7 +288,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f1301cb
+    const v1, 0x7f1301f3
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -354,7 +347,7 @@
 
     invoke-direct {v0, p0, v1}, Landroidx/recyclerview/widget/DividerItemDecoration;-><init>(Landroid/content/Context;I)V
 
-    const v1, 0x7f0800b5
+    const v1, 0x7f0800b6
 
     .line 2
     invoke-static {p0, v1}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
@@ -818,7 +811,7 @@
 
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f13020f
+    const v1, 0x7f130244
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -840,7 +833,7 @@
 
     invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f1301cb
+    const v1, 0x7f1301f3
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -962,7 +955,7 @@
     .line 1
     invoke-super {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
-    const p1, 0x7f0d0067
+    const p1, 0x7f0d0069
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(I)V

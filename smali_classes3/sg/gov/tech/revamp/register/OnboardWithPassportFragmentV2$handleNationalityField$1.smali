@@ -69,7 +69,7 @@
     .line 1
     iget-object p1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$handleNationalityField$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
-    invoke-virtual {p1}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->getFV()Lsg/gov/tech/revamp/utils/FieldValidations;
+    invoke-static {p1}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getVm$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;
 
     move-result-object p1
 
@@ -91,7 +91,7 @@
 
     invoke-direct {v0, p0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$handleNationalityField$1$1;-><init>(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$handleNationalityField$1;)V
 
-    invoke-virtual {p1, p2, v0}, Lsg/gov/tech/revamp/utils/FieldValidations;->isValidNationality(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+    invoke-virtual {p1, p2, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->isValidNationality(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
     :cond_0
     return-void

@@ -88,67 +88,30 @@
 .end method
 
 .method public final invoke(Z)V
-    .locals 1
+    .locals 0
 
-    if-eqz p1, :cond_1
+    if-eqz p1, :cond_0
 
     .line 2
     iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$invalidQrCode$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
 
-    invoke-static {p1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->access$getBarcodeReader$p(Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;)Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->access$resumeQrScanning(Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;)V
 
-    move-result-object p1
-
-    if-eqz p1, :cond_0
-
-    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;->isBarCodeDetectorOperational()Z
-
-    move-result p1
-
-    const/4 v0, 0x1
-
-    if-ne p1, v0, :cond_0
+    goto :goto_0
 
     .line 3
-    iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$invalidQrCode$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
-
-    invoke-static {p1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->access$getBarcodeReader$p(Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;)Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_2
-
-    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;->resumeScanning()V
-
-    goto :goto_0
-
-    .line 4
     :cond_0
-    iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$invalidQrCode$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
-
-    invoke-static {p1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->access$getMlKitScanner$p(Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;)Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;
-
-    move-result-object p1
-
-    if-eqz p1, :cond_2
-
-    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->resumeQRCodeScanning()V
-
-    goto :goto_0
-
-    .line 5
-    :cond_1
     iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$invalidQrCode$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p1
 
-    if-eqz p1, :cond_2
+    if-eqz p1, :cond_1
 
     invoke-virtual {p1}, Landroid/app/Activity;->finish()V
 
-    :cond_2
+    :cond_1
     :goto_0
     return-void
 .end method

@@ -145,14 +145,14 @@
     .line 2
     invoke-direct {p0, p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    const p2, 0x7f0d00c1
+    const p2, 0x7f0d00c7
 
     .line 3
     invoke-static {p1, p2, p0}, Landroid/view/ViewGroup;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object p1
 
-    const p2, 0x7f0a02b8
+    const p2, 0x7f0a02c8
 
     .line 4
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -167,7 +167,7 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRecordView;->location:Landroid/widget/TextView;
 
-    const p2, 0x7f0a02b7
+    const p2, 0x7f0a02c7
 
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -182,7 +182,7 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/BtHistoryPossibleExposureRecordView;->date:Landroid/widget/TextView;
 
-    const p2, 0x7f0a0391
+    const p2, 0x7f0a03a3
 
     .line 6
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Utils.kt\nsg/gov/tech/bluetrace/Utils\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,853:1\n1648#2,2:854\n*E\n*S KotlinDebug\n*F\n+ 1 Utils.kt\nsg/gov/tech/bluetrace/Utils\n*L\n610#1,2:854\n*E\n"
+    value = "SMAP\nUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Utils.kt\nsg/gov/tech/bluetrace/Utils\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,867:1\n1648#2,2:868\n*E\n*S KotlinDebug\n*F\n+ 1 Utils.kt\nsg/gov/tech/bluetrace/Utils\n*L\n620#1,2:868\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -2390,7 +2390,7 @@
 
     const-string v3, "isTaskCompletedWithSuccess Error: "
 
-    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -2999,21 +2999,11 @@
 
     const-string v0, "Failed to readFromInternalStorage: "
 
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {p2, v1, p1}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0, p2, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline41(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;Ljava/lang/String;)V
 
     .line 12
     :goto_1
@@ -3240,7 +3230,7 @@
 
     move-result-object p1
 
-    const-string p2, "functions\n            .g\u2026yString(e))\n            }"
+    const-string p2, "functions\n            .g\u2026          )\n            }"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -3692,33 +3682,42 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
+    sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
+
+    invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/Preference;->onBoardedWithIdentity(Landroid/content/Context;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
     new-instance v4, Landroid/content/Intent;
 
     const-class v0, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService;
 
     invoke-direct {v4, p1, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
+    .line 3
     sget-object v0, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService;->Companion:Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Companion;
 
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Companion;->getCOMMAND_KEY()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 3
+    .line 4
     sget-object v1, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Command;->ACTION_START:Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Command;
 
     invoke-virtual {v1}, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Command;->getIndex()I
 
     move-result v1
 
-    .line 4
+    .line 5
     invoke-virtual {v4, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 5
+    .line 6
     sget-object v1, Lsg/gov/tech/bluetrace/scheduler/Scheduler;->INSTANCE:Lsg/gov/tech/bluetrace/scheduler/Scheduler;
 
-    .line 6
+    .line 7
     sget-object v0, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService;->Companion:Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Companion;
 
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Companion;->getPENDING_START()I
@@ -3729,9 +3728,10 @@
 
     move-wide v5, p2
 
-    .line 7
+    .line 8
     invoke-virtual/range {v1 .. v6}, Lsg/gov/tech/bluetrace/scheduler/Scheduler;->scheduleServiceIntent(ILandroid/content/Context;Landroid/content/Intent;J)V
 
+    :cond_0
     return-void
 .end method
 
@@ -3791,32 +3791,42 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
+    sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
+
+    invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/Preference;->onBoardedWithIdentity(Landroid/content/Context;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService;
 
     invoke-direct {v0, p1, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 2
+    .line 3
     sget-object v1, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService;->Companion:Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Companion;
 
     invoke-virtual {v1}, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Companion;->getCOMMAND_KEY()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
+    .line 4
     sget-object v2, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Command;->ACTION_START:Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Command;
 
     invoke-virtual {v2}, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Command;->getIndex()I
 
     move-result v2
 
-    .line 4
+    .line 5
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 5
+    .line 6
     invoke-static {p1, v0}, Landroidx/core/content/ContextCompat;->startForegroundService(Landroid/content/Context;Landroid/content/Intent;)V
 
+    :cond_0
     return-void
 .end method
 
@@ -3832,6 +3842,15 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
+    sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
+
+    invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/Preference;->onBoardedWithIdentity(Landroid/content/Context;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
     sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3852,26 +3871,27 @@
 
     invoke-virtual {v0, v2, v1}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
+    .line 3
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService;
 
     invoke-direct {v0, p1, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 3
+    .line 4
     sget-object v1, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService;->Companion:Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Companion;
 
     invoke-virtual {v1}, Lsg/gov/tech/bluetrace/services/BluetoothMonitoringService$Companion;->getCOMMAND_KEY()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 4
+    .line 5
     invoke-virtual {v0, v1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
-    .line 5
+    .line 6
     invoke-virtual {p1, v0}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
+    :cond_0
     return-void
 .end method
 
@@ -4231,23 +4251,30 @@
 .end method
 
 .method public final withComma(I)Ljava/lang/String;
-    .locals 2
+    .locals 3
     .annotation build Lorg/jetbrains/annotations/NotNull;
     .end annotation
 
     .line 1
-    new-instance v0, Ljava/text/DecimalFormat;
+    new-instance v0, Ljava/text/DecimalFormatSymbols;
 
-    const-string v1, "##,###,###"
+    sget-object v1, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
-    invoke-direct {v0, v1}, Ljava/text/DecimalFormat;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/text/DecimalFormatSymbols;-><init>(Ljava/util/Locale;)V
 
     .line 2
+    new-instance v1, Ljava/text/DecimalFormat;
+
+    const-string v2, "##,###,###"
+
+    invoke-direct {v1, v2, v0}, Ljava/text/DecimalFormat;-><init>(Ljava/lang/String;Ljava/text/DecimalFormatSymbols;)V
+
+    .line 3
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Ljava/text/DecimalFormat;->format(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v1, p1}, Ljava/text/DecimalFormat;->format(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 

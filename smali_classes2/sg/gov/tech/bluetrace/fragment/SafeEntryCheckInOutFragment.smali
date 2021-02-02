@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSafeEntryCheckInOutFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeEntryCheckInOutFragment.kt\nsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 FragmentNavArgsLazy.kt\nandroidx/navigation/fragment/FragmentNavArgsLazyKt\n*L\n1#1,501:1\n1366#2:502\n1435#2,3:503\n1648#2,2:506\n1366#2:508\n1435#2,3:509\n41#3,3:512\n*E\n*S KotlinDebug\n*F\n+ 1 SafeEntryCheckInOutFragment.kt\nsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment\n*L\n153#1:502\n153#1,3:503\n154#1,2:506\n263#1:508\n263#1,3:509\n58#1,3:512\n*E\n"
+    value = "SMAP\nSafeEntryCheckInOutFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeEntryCheckInOutFragment.kt\nsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 FragmentNavArgsLazy.kt\nandroidx/navigation/fragment/FragmentNavArgsLazyKt\n+ 4 ViewModelStoreOwnerExt.kt\norg/koin/android/viewmodel/ext/android/ViewModelStoreOwnerExtKt\n*L\n1#1,510:1\n1366#2:511\n1435#2,3:512\n1648#2,2:515\n1366#2:517\n1435#2,3:518\n41#3,3:521\n48#4,4:524\n*E\n*S KotlinDebug\n*F\n+ 1 SafeEntryCheckInOutFragment.kt\nsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment\n*L\n153#1:511\n153#1,3:512\n154#1,2:515\n273#1:517\n273#1,3:518\n58#1,3:521\n64#1,4:524\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -18,7 +18,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u0092\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010 \n\u0002\u0008\u0004\u0018\u00002\u00020\u00012\u00020\u0002B\u0005\u00a2\u0006\u0002\u0010\u0003J\u0008\u0010!\u001a\u00020\"H\u0002J\u0008\u0010#\u001a\u00020\"H\u0002J\u0010\u0010$\u001a\u00020%2\u0006\u0010&\u001a\u00020\u001bH\u0002J\u0018\u0010\'\u001a\u0012\u0012\u0004\u0012\u00020\u001b0(j\u0008\u0012\u0004\u0012\u00020\u001b`)H\u0002J\u0008\u0010*\u001a\u00020\"H\u0002J\u0010\u0010+\u001a\u00020\"2\u0006\u0010,\u001a\u00020%H\u0003J\u0008\u0010-\u001a\u00020\"H\u0002J\n\u0010.\u001a\u0004\u0018\u00010\u001bH\u0002J\u000e\u0010/\u001a\u00020\"2\u0006\u0010\u001f\u001a\u00020 J\u0008\u00100\u001a\u00020\"H\u0002J\u0010\u00101\u001a\u00020\"2\u0006\u00102\u001a\u00020%H\u0003J\u0012\u00103\u001a\u00020\"2\u0008\u00104\u001a\u0004\u0018\u000105H\u0016J&\u00106\u001a\u0004\u0018\u0001072\u0006\u00108\u001a\u0002092\u0008\u0010:\u001a\u0004\u0018\u00010;2\u0008\u00104\u001a\u0004\u0018\u000105H\u0016J\u0008\u0010<\u001a\u00020\"H\u0016J\u0008\u0010=\u001a\u00020\"H\u0002J\u0008\u0010>\u001a\u00020\"H\u0016J\u001a\u0010?\u001a\u00020\"2\u0006\u0010@\u001a\u0002072\u0008\u00104\u001a\u0004\u0018\u000105H\u0016J\u0016\u0010A\u001a\u00020\"2\u000c\u0010B\u001a\u0008\u0012\u0004\u0012\u00020\u001b0CH\u0002J\u0008\u0010D\u001a\u00020\"H\u0002J\u0008\u0010E\u001a\u00020\"H\u0002J\u0008\u0010F\u001a\u00020\"H\u0002R\u001b\u0010\u0004\u001a\u00020\u00058BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0008\u0010\t\u001a\u0004\u0008\u0006\u0010\u0007R\u0014\u0010\n\u001a\u00020\u000b8VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000c\u0010\rR\u000e\u0010\u000e\u001a\u00020\u000fX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0010\u001a\u00020\u0011X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0012\u001a\u00020\u0013X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0015X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0016\u001a\u00020\u0015X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0015X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0018\u001a\u00020\u0019X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001a\u001a\u00020\u001bX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001c\u001a\u00020\u001dX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001e\u001a\u00020\u001bX\u0082D\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u001f\u001a\u0004\u0018\u00010 X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006G"
+        "\u0000\u0094\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010 \n\u0002\u0008\u0004\u0018\u00002\u00020\u00012\u00020\u0002B\u0005\u00a2\u0006\u0002\u0010\u0003J\u0008\u0010%\u001a\u00020&H\u0002J\u0008\u0010\'\u001a\u00020&H\u0002J\u0010\u0010(\u001a\u00020)2\u0006\u0010*\u001a\u00020\u001fH\u0002J\u0018\u0010+\u001a\u0012\u0012\u0004\u0012\u00020\u001f0,j\u0008\u0012\u0004\u0012\u00020\u001f`-H\u0002J\u0008\u0010.\u001a\u00020&H\u0002J\u0010\u0010/\u001a\u00020&2\u0006\u00100\u001a\u00020)H\u0003J\u0008\u00101\u001a\u00020&H\u0002J\n\u00102\u001a\u0004\u0018\u00010\u001fH\u0002J\u000e\u00103\u001a\u00020&2\u0006\u0010#\u001a\u00020$J\u0008\u00104\u001a\u00020&H\u0002J\u0010\u00105\u001a\u00020&2\u0006\u00106\u001a\u00020)H\u0003J\u0012\u00107\u001a\u00020&2\u0008\u00108\u001a\u0004\u0018\u000109H\u0016J&\u0010:\u001a\u0004\u0018\u00010;2\u0006\u0010<\u001a\u00020=2\u0008\u0010>\u001a\u0004\u0018\u00010?2\u0008\u00108\u001a\u0004\u0018\u000109H\u0016J\u0008\u0010@\u001a\u00020&H\u0016J\u0008\u0010A\u001a\u00020&H\u0002J\u0008\u0010B\u001a\u00020&H\u0016J\u001a\u0010C\u001a\u00020&2\u0006\u0010D\u001a\u00020;2\u0008\u00108\u001a\u0004\u0018\u000109H\u0016J\u0016\u0010E\u001a\u00020&2\u000c\u0010F\u001a\u0008\u0012\u0004\u0012\u00020\u001f0GH\u0002J\u0008\u0010H\u001a\u00020&H\u0002J\u0008\u0010I\u001a\u00020&H\u0002J\u0008\u0010J\u001a\u00020&H\u0002R\u001b\u0010\u0004\u001a\u00020\u00058BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0008\u0010\t\u001a\u0004\u0008\u0006\u0010\u0007R\u0014\u0010\n\u001a\u00020\u000b8VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000c\u0010\rR\u000e\u0010\u000e\u001a\u00020\u000fX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001b\u0010\u0010\u001a\u00020\u00118BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0012\u0010\u0013R\u000e\u0010\u0016\u001a\u00020\u0017X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0018\u001a\u00020\u0019X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001a\u001a\u00020\u0019X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001b\u001a\u00020\u0019X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001c\u001a\u00020\u001dX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001e\u001a\u00020\u001fX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020\u001fX\u0082D\u00a2\u0006\u0002\n\u0000R\u0010\u0010#\u001a\u0004\u0018\u00010$X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006K"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;",
@@ -39,6 +39,10 @@
         "Lio/reactivex/disposables/CompositeDisposable;",
         "favouriteViewModel",
         "Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;",
+        "getFavouriteViewModel",
+        "()Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;",
+        "favouriteViewModel$delegate",
+        "Lkotlin/Lazy;",
         "functions",
         "Lcom/google/firebase/functions/FirebaseFunctions;",
         "hasCheckedInOut",
@@ -114,7 +118,7 @@
 
 .field public final disposables:Lio/reactivex/disposables/CompositeDisposable;
 
-.field public favouriteViewModel:Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
+.field public final favouriteViewModel$delegate:Lkotlin/Lazy;
 
 .field public final functions:Lcom/google/firebase/functions/FirebaseFunctions;
 
@@ -139,7 +143,7 @@
 .method public static constructor <clinit>()V
     .locals 5
 
-    const/4 v0, 0x1
+    const/4 v0, 0x2
 
     new-array v0, v0, [Lkotlin/reflect/KProperty;
 
@@ -165,13 +169,35 @@
 
     aput-object v1, v0, v2
 
+    new-instance v1, Lkotlin/jvm/internal/PropertyReference1Impl;
+
+    const-class v2, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v2
+
+    const-string v3, "favouriteViewModel"
+
+    const-string v4, "getFavouriteViewModel()Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;"
+
+    invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/KDeclarationContainer;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Reflection;->property1(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/KProperty1;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    aput-object v1, v0, v2
+
     sput-object v0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->$$delegatedProperties:[Lkotlin/reflect/KProperty;
 
     return-void
 .end method
 
 .method public constructor <init>()V
-    .locals 4
+    .locals 5
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
@@ -183,62 +209,75 @@
     .line 2
     invoke-static {v0, v1, v0}, Lkotlinx/coroutines/JobKt;->Job$default(Lkotlinx/coroutines/Job;ILjava/lang/Object;)Lkotlinx/coroutines/CompletableJob;
 
-    move-result-object v0
-
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->job:Lkotlinx/coroutines/Job;
-
-    .line 3
-    new-instance v0, Landroidx/navigation/NavArgsLazy;
-
-    const-class v2, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragmentArgs;
-
-    invoke-static {v2}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
-
     move-result-object v2
 
-    new-instance v3, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$$special$$inlined$navArgs$1;
+    iput-object v2, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->job:Lkotlinx/coroutines/Job;
 
-    invoke-direct {v3, p0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$$special$$inlined$navArgs$1;-><init>(Landroidx/fragment/app/Fragment;)V
+    .line 3
+    new-instance v2, Landroidx/navigation/NavArgsLazy;
 
-    invoke-direct {v0, v2, v3}, Landroidx/navigation/NavArgsLazy;-><init>(Lkotlin/reflect/KClass;Lkotlin/jvm/functions/Function0;)V
+    const-class v3, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragmentArgs;
+
+    invoke-static {v3}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v3
+
+    new-instance v4, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$$special$$inlined$navArgs$1;
+
+    invoke-direct {v4, p0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$$special$$inlined$navArgs$1;-><init>(Landroidx/fragment/app/Fragment;)V
+
+    invoke-direct {v2, v3, v4}, Landroidx/navigation/NavArgsLazy;-><init>(Lkotlin/reflect/KClass;Lkotlin/jvm/functions/Function0;)V
 
     .line 4
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->args$delegate:Landroidx/navigation/NavArgsLazy;
+    iput-object v2, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->args$delegate:Landroidx/navigation/NavArgsLazy;
 
     .line 5
     iput-boolean v1, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->isCheckIn:Z
 
-    const-string v0, ""
+    const-string v1, ""
 
     .line 6
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->placeName:Ljava/lang/String;
+    iput-object v1, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->placeName:Ljava/lang/String;
 
-    const-string v0, "asia-east2"
+    const-string v1, "asia-east2"
 
     .line 7
-    invoke-static {v0}, Lcom/google/firebase/functions/FirebaseFunctions;->getInstance(Ljava/lang/String;)Lcom/google/firebase/functions/FirebaseFunctions;
+    invoke-static {v1}, Lcom/google/firebase/functions/FirebaseFunctions;->getInstance(Ljava/lang/String;)Lcom/google/firebase/functions/FirebaseFunctions;
+
+    move-result-object v1
+
+    const-string v2, "FirebaseFunctions.getIns\u2026ldConfig.FIREBASE_REGION)"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iput-object v1, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->functions:Lcom/google/firebase/functions/FirebaseFunctions;
+
+    .line 8
+    new-instance v1, Lio/reactivex/disposables/CompositeDisposable;
+
+    invoke-direct {v1}, Lio/reactivex/disposables/CompositeDisposable;-><init>()V
+
+    iput-object v1, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->disposables:Lio/reactivex/disposables/CompositeDisposable;
+
+    const-string v1, "timeStamp"
+
+    .line 9
+    iput-object v1, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->timeStamp:Ljava/lang/String;
+
+    .line 10
+    sget-object v1, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v2, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$$special$$inlined$viewModel$1;
+
+    invoke-direct {v2, p0, v0, v0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$$special$$inlined$viewModel$1;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)V
+
+    invoke-static {v1, v2}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
 
     move-result-object v0
 
-    const-string v1, "FirebaseFunctions.getIns\u2026ldConfig.FIREBASE_REGION)"
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->favouriteViewModel$delegate:Lkotlin/Lazy;
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->functions:Lcom/google/firebase/functions/FirebaseFunctions;
-
-    .line 8
-    new-instance v0, Lio/reactivex/disposables/CompositeDisposable;
-
-    invoke-direct {v0}, Lio/reactivex/disposables/CompositeDisposable;-><init>()V
-
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->disposables:Lio/reactivex/disposables/CompositeDisposable;
-
-    const-string v0, "timeStamp"
-
-    .line 9
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->timeStamp:Ljava/lang/String;
-
-    .line 10
+    .line 11
     sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
     sget-object v1, Lsg/gov/tech/bluetrace/TracerApp;->Companion:Lsg/gov/tech/bluetrace/TracerApp$Companion;
@@ -306,18 +345,13 @@
 .end method
 
 .method public static final synthetic access$getFavouriteViewModel$p(Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;)Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-    .locals 1
+    .locals 0
 
     .line 1
-    iget-object p0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->favouriteViewModel:Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->getFavouriteViewModel()Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
 
-    if-nez p0, :cond_0
+    move-result-object p0
 
-    const-string v0, "favouriteViewModel"
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
-
-    :cond_0
     return-object p0
 .end method
 
@@ -438,15 +472,6 @@
     return-void
 .end method
 
-.method public static final synthetic access$setFavouriteViewModel$p(Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->favouriteViewModel:Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-
-    return-void
-.end method
-
 .method public static final synthetic access$setHasCheckedInOut$p(Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;Z)V
     .locals 0
 
@@ -486,7 +511,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0801dc
+    const v1, 0x7f0801df
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -556,7 +581,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f0801df
+    const v1, 0x7f0801e2
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setBackgroundResource(I)V
 
@@ -915,26 +940,39 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->isFavAdded:Z
-
-    const-string v1, "tv_add_to_fav"
-
-    if-eqz v0, :cond_0
-
-    .line 2
     sget v0, Lsg/gov/tech/bluetrace/R$id;->img_add_to_fav:I
 
     invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->_$_findCachedViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/ImageView;
+    check-cast v0, Landroidx/appcompat/widget/AppCompatImageView;
 
-    const v2, 0x7f0801c5
+    const/4 v1, 0x0
 
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
+    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/AppCompatImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+
+    .line 2
+    iget-boolean v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->isFavAdded:Z
+
+    const-string v1, "tv_add_to_fav"
+
+    if-eqz v0, :cond_0
 
     .line 3
+    sget v0, Lsg/gov/tech/bluetrace/R$id;->img_add_to_fav:I
+
+    invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/appcompat/widget/AppCompatImageView;
+
+    const v2, 0x7f0801c6
+
+    invoke-virtual {v0, v2}, Landroidx/appcompat/widget/AppCompatImageView;->setBackgroundResource(I)V
+
+    .line 4
     sget v0, Lsg/gov/tech/bluetrace/R$id;->tv_add_to_fav:I
 
     invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->_$_findCachedViewById(I)Landroid/view/View;
@@ -955,7 +993,7 @@
 
     goto :goto_0
 
-    .line 4
+    .line 5
     :cond_0
     sget v0, Lsg/gov/tech/bluetrace/R$id;->img_add_to_fav:I
 
@@ -963,13 +1001,13 @@
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/ImageView;
+    check-cast v0, Landroidx/appcompat/widget/AppCompatImageView;
 
-    const v2, 0x7f0801c4
+    const v2, 0x7f0801c5
 
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setBackgroundResource(I)V
+    invoke-virtual {v0, v2}, Landroidx/appcompat/widget/AppCompatImageView;->setBackgroundResource(I)V
 
-    .line 5
+    .line 6
     sget v0, Lsg/gov/tech/bluetrace/R$id;->tv_add_to_fav:I
 
     invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->_$_findCachedViewById(I)Landroid/view/View;
@@ -980,7 +1018,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f130022
+    const v1, 0x7f130021
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getText(I)Ljava/lang/CharSequence;
 
@@ -1008,6 +1046,26 @@
     move-result-object v0
 
     check-cast v0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragmentArgs;
+
+    return-object v0
+.end method
+
+.method private final getFavouriteViewModel()Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
+    .locals 3
+
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->favouriteViewModel$delegate:Lkotlin/Lazy;
+
+    sget-object v1, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->$$delegatedProperties:[Lkotlin/reflect/KProperty;
+
+    const/4 v2, 0x1
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
 
     return-object v0
 .end method
@@ -1105,7 +1163,7 @@
     const-string v3, ","
 
     .line 6
-    invoke-static {v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline30(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -1400,7 +1458,7 @@
 .end method
 
 .method private final setDate(Ljava/util/List;)V
-    .locals 6
+    .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1479,56 +1537,93 @@
 
     const-string v4, "setDate error: "
 
-    invoke-static {v2, v3, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v3, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v3
+    move-result-object v5
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-static {v5}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v6}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    sget-object v5, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
-
-    invoke-virtual {v5, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-virtual {v0, v1, v2, v3, v5}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    sget-object v6, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
+
+    invoke-virtual {v6, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v0, v1, v2, v5, v6}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
     sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
-    move-result-object p1
+    move-result-object v2
 
-    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
-    move-result-object p1
+    move-result-object v2
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
+    move-result-object v1
+
+    const-string v2, "SE_CHECK_INOUT"
+
+    invoke-virtual {v0, v2, v1}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 5
+    new-instance v0, Lsg/gov/tech/bluetrace/AnalyticsUtils;
+
+    invoke-direct {v0}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
+
+    .line 6
+    sget-object v1, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
+
+    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getSAFE_ENTRY_ERROR()Ljava/lang/String;
+
+    move-result-object v1
+
+    .line 7
+    const-class v2, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;
+
+    invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2, v3, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    .line 8
+    invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+
     move-result-object p1
 
-    const-string v1, "SE_CHECK_INOUT"
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v1, p1}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 9
+    invoke-virtual {v0, v1, v2, p1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->exceptionEventAnalytics(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
     return-void
@@ -1538,25 +1633,6 @@
     .locals 4
 
     .line 1
-    new-instance v0, Landroidx/lifecycle/ViewModelProvider;
-
-    invoke-direct {v0, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
-
-    const-class v1, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object v0
-
-    const-string v1, "ViewModelProvider(this).\u2026iteViewModel::class.java)"
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    check-cast v0, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->favouriteViewModel:Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-
-    .line 2
     iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;->disposables:Lio/reactivex/disposables/CompositeDisposable;
 
     new-instance v1, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$setFavourite$1;
@@ -1567,7 +1643,7 @@
 
     move-result-object v1
 
-    .line 3
+    .line 2
     invoke-static {}, Lio/reactivex/android/schedulers/AndroidSchedulers;->mainThread()Lio/reactivex/Scheduler;
 
     move-result-object v2
@@ -1576,7 +1652,7 @@
 
     move-result-object v1
 
-    .line 4
+    .line 3
     invoke-static {}, Lio/reactivex/schedulers/Schedulers;->io()Lio/reactivex/Scheduler;
 
     move-result-object v2
@@ -1585,22 +1661,22 @@
 
     move-result-object v1
 
-    .line 5
+    .line 4
     new-instance v2, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$setFavourite$2;
 
     invoke-direct {v2, p0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$setFavourite$2;-><init>(Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;)V
 
-    .line 6
+    .line 5
     new-instance v3, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$setFavourite$3;
 
     invoke-direct {v3, p0}, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$setFavourite$3;-><init>(Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;)V
 
-    .line 7
+    .line 6
     invoke-virtual {v1, v2, v3}, Lio/reactivex/Observable;->subscribe(Lio/reactivex/functions/Consumer;Lio/reactivex/functions/Consumer;)Lio/reactivex/disposables/Disposable;
 
     move-result-object v1
 
-    .line 8
+    .line 7
     invoke-virtual {v0, v1}, Lio/reactivex/disposables/CompositeDisposable;->add(Lio/reactivex/disposables/Disposable;)Z
 
     return-void
@@ -1717,8 +1793,10 @@
     .line 8
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 9
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->SAFEENTRY:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 10
     const-class v3, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment;
 
     invoke-virtual {v3}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -1729,6 +1807,7 @@
 
     invoke-static {v3, v4}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
+    .line 11
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1743,15 +1822,17 @@
 
     move-result-object v4
 
+    .line 12
     sget-object v6, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v6, v0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
 
     move-result-object v6
 
+    .line 13
     invoke-virtual {v1, v2, v3, v4, v6}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 9
+    .line 14
     sget-object v1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -1791,7 +1872,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0d0089
+    const v2, 0x7f0d008e
 
     const/4 v3, 0x0
 
@@ -2289,7 +2370,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d007c
+    const p3, 0x7f0d0081
 
     const/4 v0, 0x0
 

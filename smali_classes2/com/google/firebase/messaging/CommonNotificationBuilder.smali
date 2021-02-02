@@ -793,7 +793,7 @@
 
     const-string v1, "FirebaseMessaging"
 
-    invoke-static {p1, v0, p0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0, p0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 5
     :cond_0
@@ -1119,7 +1119,7 @@
 
     const-string p4, "Couldn\'t get own application info: "
 
-    invoke-static {p2, p4, p0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, p4, p0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
     :goto_0

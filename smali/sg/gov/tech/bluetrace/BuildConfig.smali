@@ -50,7 +50,7 @@
 
 .field public static final FIREBASE_UPLOAD_LOGS_BUCKET:Ljava/lang/String; = "govtech-tracer-log"
 
-.field public static final GITHASH:Ljava/lang/String; = "64b218ec"
+.field public static final GITHASH:Ljava/lang/String; = "c08653b0"
 
 .field public static final GOOGLE_API_KEY:Ljava/lang/String; = "AIzaSyDQaLODtQLfDjtKT-PH2SIRxyc1kSV1uyA"
 
@@ -94,6 +94,8 @@
 
 .field public static final REPORT_VULNERABILITY_URL:Ljava/lang/String; = "https://www.tech.gov.sg/report_vulnerability/"
 
+.field public static final SAFE_TRAVEL_URL:Ljava/lang/String; = "https://safetravel.ica.gov.sg/"
+
 .field public static final SCAN_BT:Z = true
 
 .field public static final SCAN_BTL:Z = true
@@ -116,9 +118,9 @@
 
 .field public static final V2_CHARACTERISTIC_ID:Ljava/lang/String; = "117BDD58-57CE-4E7A-8E87-7CCCDDA2A804"
 
-.field public static final VERSION_CODE:I = 0x5e
+.field public static final VERSION_CODE:I = 0x62
 
-.field public static final VERSION_NAME:Ljava/lang/String; = "2.5.2"
+.field public static final VERSION_NAME:Ljava/lang/String; = "2.6.0"
 
 .field public static final WAKE_LOCK:Z = false
 
@@ -126,9 +128,13 @@
 
 .field public static final ZENDESK_APP_ID:Ljava/lang/String; = "33d7567a4739075e40b572d2241be4243b771477d68fc251"
 
+.field public static final ZENDESK_CANT_ACTIVATE_MY_TT_APP_URL:Ljava/lang/String; = "https://support.tracetogether.gov.sg/hc/en-sg/articles/360056446054-I-can-t-activate-my-TraceTogether-App-What-should-I-do-"
+
 .field public static final ZENDESK_CLIENT_ID:Ljava/lang/String; = "mobile_sdk_client_8c6a9d8c62e4ed595a45"
 
 .field public static final ZENDESK_HOME_ALONE_URL:Ljava/lang/String; = "https://support.tracetogether.gov.sg/hc/en-sg/articles/360050088633-I-m-home-alone-why-are-there-Bluetooth-exchanges-with-other-TraceTogether-users-What-does-that-mean-"
+
+.field public static final ZENDESK_PP_PROFILE_BLOCKED_HELP_URL:Ljava/lang/String; = "https://support.tracetogether.gov.sg/hc/en-sg/articles/360058601893-Why-can-t-I-use-the-SafeEntry-feature-in-my-app-"
 
 .field public static final ZENDESK_URL:Ljava/lang/String; = "https://tracetogether.zendesk.com"
 

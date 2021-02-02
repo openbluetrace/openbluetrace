@@ -116,7 +116,7 @@
     const-string p1, "count must be non-negative, but was "
 
     .line 2
-    invoke-static {p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -124,7 +124,7 @@
 
     const/16 v0, 0x2e
 
-    invoke-static {p1, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline20(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
+    invoke-static {p1, p2, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline21(Ljava/lang/StringBuilder;IC)Ljava/lang/String;
 
     move-result-object p1
 

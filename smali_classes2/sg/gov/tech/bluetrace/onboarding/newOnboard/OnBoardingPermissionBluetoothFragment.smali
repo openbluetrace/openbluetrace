@@ -144,7 +144,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d0068
+    const p3, 0x7f0d006a
 
     const/4 v0, 0x0
 
@@ -167,7 +167,7 @@
 .end method
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
-    .locals 1
+    .locals 3
     .param p1    # Landroid/view/View;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -185,83 +185,137 @@
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
     .line 2
-    new-instance p1, Lsg/gov/tech/bluetrace/AnalyticsUtils;
+    new-instance p2, Lsg/gov/tech/bluetrace/AnalyticsUtils;
 
-    invoke-direct {p1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
+    invoke-direct {p2}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
-    move-result-object p2
+    move-result-object v0
 
-    if-eqz p2, :cond_0
+    if-eqz v0, :cond_1
 
-    const-string v0, "OnBoardBTPermission"
+    const-string v1, "OnBoardBTPermission"
 
-    invoke-virtual {p1, p2, v0}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->screenAnalytics(Landroid/app/Activity;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, v1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->screenAnalytics(Landroid/app/Activity;Ljava/lang/String;)V
 
     .line 3
-    sget p1, Lsg/gov/tech/bluetrace/R$id;->permission_bt_btn_allow:I
-
-    invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment;->_$_findCachedViewById(I)Landroid/view/View;
-
-    move-result-object p1
-
-    check-cast p1, Landroid/widget/Button;
-
-    new-instance p2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment$onViewCreated$1;
-
-    invoke-direct {p2, p0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment$onViewCreated$1;-><init>(Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment;)V
-
-    invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
-
-    .line 4
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const p2, 0x7f130180
-
-    invoke-virtual {p0, p2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p2, " \n\n"
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const p2, 0x7f130181
-
-    invoke-virtual {p0, p2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    .line 5
-    sget p2, Lsg/gov/tech/bluetrace/R$id;->textView9:I
+    sget p2, Lsg/gov/tech/bluetrace/R$id;->permission_bt_btn_allow:I
 
     invoke-virtual {p0, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment;->_$_findCachedViewById(I)Landroid/view/View;
 
     move-result-object p2
 
-    check-cast p2, Landroidx/appcompat/widget/AppCompatTextView;
+    check-cast p2, Landroid/widget/Button;
 
-    const-string v0, "textView9"
+    new-instance v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment$onViewCreated$1;
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment$onViewCreated$1;-><init>(Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment;)V
 
-    invoke-virtual {p2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p2, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    return-void
+    .line 4
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const v0, 0x7f1301a7
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v0, " \n\n"
+
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const v0, 0x7f1301a8
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    .line 5
+    sget v0, Lsg/gov/tech/bluetrace/R$id;->textView9:I
+
+    invoke-virtual {p0, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnBoardingPermissionBluetoothFragment;->_$_findCachedViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
+
+    const-string v1, "textView9"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v0, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 6
+    sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v0, 0x1d
+
+    if-le p2, v0, :cond_0
+
+    const p2, 0x7f0a043a
+
+    .line 7
+    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    const-string p2, "view.findViewById<TextVi\u2026d.tv_location_permission)"
+
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    check-cast p1, Landroid/widget/TextView;
+
+    const p2, 0x7f13010c
+
+    const/4 v0, 0x2
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const/4 v1, 0x0
+
+    const v2, 0x7f13010b
+
+    .line 8
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x1
+
+    const v2, 0x7f130027
+
+    invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    aput-object v2, v0, v1
+
+    invoke-virtual {p0, p2, v0}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
     :cond_0
+    return-void
+
+    .line 9
+    :cond_1
     new-instance p1, Lkotlin/TypeCastException;
 
     const-string p2, "null cannot be cast to non-null type android.app.Activity"

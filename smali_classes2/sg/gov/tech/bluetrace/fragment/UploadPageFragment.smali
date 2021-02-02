@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nUploadPageFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UploadPageFragment.kt\nsg/gov/tech/bluetrace/fragment/UploadPageFragment\n*L\n1#1,99:1\n*E\n"
+    value = "SMAP\nUploadPageFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UploadPageFragment.kt\nsg/gov/tech/bluetrace/fragment/UploadPageFragment\n*L\n1#1,102:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -137,38 +137,45 @@
 .end method
 
 .method public didProcessBack()Z
-    .locals 2
+    .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
-
-    move-result-object v0
-
-    const-string v1, "childFragmentManager"
-
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->getBackStackEntryCount()I
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->isAdded()Z
 
     move-result v0
 
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
-    if-le v0, v1, :cond_0
+    if-eqz v0, :cond_0
 
     .line 2
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
 
     move-result-object v0
 
+    const-string v2, "childFragmentManager"
+
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->getBackStackEntryCount()I
+
+    move-result v0
+
+    const/4 v2, 0x1
+
+    if-le v0, v2, :cond_0
+
+    .line 3
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getChildFragmentManager()Landroidx/fragment/app/FragmentManager;
+
+    move-result-object v0
+
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->popBackStackImmediate()Z
 
-    return v1
+    const/4 v1, 0x1
 
     :cond_0
-    const/4 v0, 0x0
-
-    return v0
+    return v1
 .end method
 
 .method public final goBackToHome()V
@@ -232,7 +239,7 @@
 
     invoke-direct {v1}, Lsg/gov/tech/bluetrace/fragment/UploadCompleteFragment;-><init>()V
 
-    const v2, 0x7f0a01a1
+    const v2, 0x7f0a01ac
 
     .line 5
     invoke-virtual {v0, v2, v1}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -274,7 +281,7 @@
 
     invoke-direct {v1}, Lsg/gov/tech/bluetrace/fragment/ForUseFragment;-><init>()V
 
-    const v2, 0x7f0a01a1
+    const v2, 0x7f0a01ac
 
     .line 4
     invoke-virtual {v0, v2, v1}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -313,7 +320,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d0086
+    const p3, 0x7f0d008b
 
     const/4 v0, 0x0
 
@@ -366,7 +373,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "64b218ec-B82AB3FC-1595-4F6A-80F0-FE094CC218F9"
+    const-string v0, "c08653b0-B82AB3FC-1595-4F6A-80F0-FE094CC218F9"
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -416,7 +423,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "64b218ec-"
+    const-string v2, "c08653b0-"
 
     invoke-virtual {p2, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -458,7 +465,7 @@
 
     invoke-direct {p2}, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment;-><init>()V
 
-    const v0, 0x7f0a01a1
+    const v0, 0x7f0a01ac
 
     .line 10
     invoke-virtual {p1, v0, p2}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;

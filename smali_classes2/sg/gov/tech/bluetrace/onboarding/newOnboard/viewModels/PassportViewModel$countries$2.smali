@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;-><init>()V
+    value = Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;-><init>(Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;Lsg/gov/tech/revamp/utils/FieldValidationsV2;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -47,7 +47,7 @@
     const-string v0, "application/json; charset=UTF-8"
 
     .line 1
-    invoke-static {v0}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
+    invoke-static {v0}, Lokhttp3/MediaType;->get(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object v0
 

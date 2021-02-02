@@ -146,11 +146,11 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lsg/gov/tech/bluetrace/SafeEntryActivity;->access$getFeaturePoints(Lsg/gov/tech/bluetrace/SafeEntryActivity;[Ljava/lang/Boolean;)[I
+    invoke-static {v0, v1}, Lsg/gov/tech/bluetrace/SafeEntryActivity;->access$getFeaturePoints(Lsg/gov/tech/bluetrace/SafeEntryActivity;[Ljava/lang/Boolean;)[Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment;->setPoints([I)V
+    invoke-virtual {p1, v0}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment;->setPoints([Ljava/lang/String;)V
 
     .line 7
     new-instance v0, Lsg/gov/tech/bluetrace/SafeEntryActivity$checkFeature$2$$special$$inlined$let$lambda$1;

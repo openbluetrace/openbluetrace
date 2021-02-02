@@ -73,9 +73,9 @@
         0x2
     }
     l = {
-        0xf3,
-        0xf9,
-        0x102
+        0x138,
+        0x13e,
+        0x148
     }
     m = "invokeSuspend"
     n = {
@@ -509,6 +509,11 @@
     move-result-wide v13
 
     .line 13
+    iget-object v2, v7, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$getBTExchanges$1;->this$0:Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;
+
+    invoke-static {v2}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->access$setUpBtTimer(Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;)V
+
+    .line 14
     iput-object v8, v7, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$getBTExchanges$1;->L$0:Ljava/lang/Object;
 
     iput-object v10, v7, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$getBTExchanges$1;->L$1:Ljava/lang/Object;
@@ -536,7 +541,7 @@
 
     goto/16 :goto_2
 
-    .line 14
+    .line 15
     :cond_7
     new-instance v1, Lkotlin/TypeCastException;
 

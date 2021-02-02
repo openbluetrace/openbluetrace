@@ -1560,339 +1560,347 @@
 
 .field public static final stringMsgUnselected:I = 0x7f040304
 
-.field public static final strokeColor:I = 0x7f040305
+.field public static final stringSubMsgNeutral:I = 0x7f040305
 
-.field public static final strokeWidth:I = 0x7f040306
+.field public static final stringSubMsgSelected:I = 0x7f040306
 
-.field public static final subMenuArrow:I = 0x7f040307
+.field public static final stringSubMsgUnselected:I = 0x7f040307
 
-.field public static final submitBackground:I = 0x7f040308
+.field public static final strokeColor:I = 0x7f040308
 
-.field public static final subtitle:I = 0x7f040309
+.field public static final strokeWidth:I = 0x7f040309
 
-.field public static final subtitleTextAppearance:I = 0x7f04030a
+.field public static final subMenuArrow:I = 0x7f04030a
 
-.field public static final subtitleTextColor:I = 0x7f04030b
+.field public static final subTextVisibility:I = 0x7f04030b
 
-.field public static final subtitleTextStyle:I = 0x7f04030c
+.field public static final submitBackground:I = 0x7f04030c
 
-.field public static final suffixText:I = 0x7f04030d
+.field public static final subtitle:I = 0x7f04030d
 
-.field public static final suffixTextAppearance:I = 0x7f04030e
+.field public static final subtitleTextAppearance:I = 0x7f04030e
 
-.field public static final suffixTextColor:I = 0x7f04030f
+.field public static final subtitleTextColor:I = 0x7f04030f
 
-.field public static final suggestionRowLayout:I = 0x7f040310
+.field public static final subtitleTextStyle:I = 0x7f040310
 
-.field public static final sv_backgroundColor:I = 0x7f040311
+.field public static final suffixText:I = 0x7f040311
 
-.field public static final sv_buttonBackgroundColor:I = 0x7f040312
+.field public static final suffixTextAppearance:I = 0x7f040312
 
-.field public static final sv_buttonForegroundColor:I = 0x7f040313
+.field public static final suffixTextColor:I = 0x7f040313
 
-.field public static final sv_buttonText:I = 0x7f040314
+.field public static final suggestionRowLayout:I = 0x7f040314
 
-.field public static final sv_detailTextAppearance:I = 0x7f040315
+.field public static final sv_backgroundColor:I = 0x7f040315
 
-.field public static final sv_detailTextColor:I = 0x7f040316
+.field public static final sv_buttonBackgroundColor:I = 0x7f040316
 
-.field public static final sv_showcaseColor:I = 0x7f040317
+.field public static final sv_buttonForegroundColor:I = 0x7f040317
 
-.field public static final sv_tintButtonColor:I = 0x7f040318
+.field public static final sv_buttonText:I = 0x7f040318
 
-.field public static final sv_titleTextAppearance:I = 0x7f040319
+.field public static final sv_detailTextAppearance:I = 0x7f040319
 
-.field public static final sv_titleTextColor:I = 0x7f04031a
+.field public static final sv_detailTextColor:I = 0x7f04031a
 
-.field public static final switchMinWidth:I = 0x7f04031b
+.field public static final sv_showcaseColor:I = 0x7f04031b
 
-.field public static final switchPadding:I = 0x7f04031c
+.field public static final sv_tintButtonColor:I = 0x7f04031c
 
-.field public static final switchStyle:I = 0x7f04031d
+.field public static final sv_titleTextAppearance:I = 0x7f04031d
 
-.field public static final switchTextAppearance:I = 0x7f04031e
+.field public static final sv_titleTextColor:I = 0x7f04031e
 
-.field public static final tabBackground:I = 0x7f04031f
+.field public static final switchMinWidth:I = 0x7f04031f
 
-.field public static final tabContentStart:I = 0x7f040320
+.field public static final switchPadding:I = 0x7f040320
 
-.field public static final tabGravity:I = 0x7f040321
+.field public static final switchStyle:I = 0x7f040321
 
-.field public static final tabIconTint:I = 0x7f040322
+.field public static final switchTextAppearance:I = 0x7f040322
 
-.field public static final tabIconTintMode:I = 0x7f040323
+.field public static final tabBackground:I = 0x7f040323
 
-.field public static final tabIndicator:I = 0x7f040324
+.field public static final tabContentStart:I = 0x7f040324
 
-.field public static final tabIndicatorAnimationDuration:I = 0x7f040325
+.field public static final tabGravity:I = 0x7f040325
 
-.field public static final tabIndicatorColor:I = 0x7f040326
+.field public static final tabIconTint:I = 0x7f040326
 
-.field public static final tabIndicatorFullWidth:I = 0x7f040327
+.field public static final tabIconTintMode:I = 0x7f040327
 
-.field public static final tabIndicatorGravity:I = 0x7f040328
+.field public static final tabIndicator:I = 0x7f040328
 
-.field public static final tabIndicatorHeight:I = 0x7f040329
+.field public static final tabIndicatorAnimationDuration:I = 0x7f040329
 
-.field public static final tabInlineLabel:I = 0x7f04032a
+.field public static final tabIndicatorColor:I = 0x7f04032a
 
-.field public static final tabMaxWidth:I = 0x7f04032b
+.field public static final tabIndicatorFullWidth:I = 0x7f04032b
 
-.field public static final tabMinWidth:I = 0x7f04032c
+.field public static final tabIndicatorGravity:I = 0x7f04032c
 
-.field public static final tabMode:I = 0x7f04032d
+.field public static final tabIndicatorHeight:I = 0x7f04032d
 
-.field public static final tabPadding:I = 0x7f04032e
+.field public static final tabInlineLabel:I = 0x7f04032e
 
-.field public static final tabPaddingBottom:I = 0x7f04032f
+.field public static final tabMaxWidth:I = 0x7f04032f
 
-.field public static final tabPaddingEnd:I = 0x7f040330
+.field public static final tabMinWidth:I = 0x7f040330
 
-.field public static final tabPaddingStart:I = 0x7f040331
+.field public static final tabMode:I = 0x7f040331
 
-.field public static final tabPaddingTop:I = 0x7f040332
+.field public static final tabPadding:I = 0x7f040332
 
-.field public static final tabRippleColor:I = 0x7f040333
+.field public static final tabPaddingBottom:I = 0x7f040333
 
-.field public static final tabSelectedTextColor:I = 0x7f040334
+.field public static final tabPaddingEnd:I = 0x7f040334
 
-.field public static final tabStyle:I = 0x7f040335
+.field public static final tabPaddingStart:I = 0x7f040335
 
-.field public static final tabTextAppearance:I = 0x7f040336
+.field public static final tabPaddingTop:I = 0x7f040336
 
-.field public static final tabTextColor:I = 0x7f040337
+.field public static final tabRippleColor:I = 0x7f040337
 
-.field public static final tabUnboundedRipple:I = 0x7f040338
+.field public static final tabSelectedTextColor:I = 0x7f040338
 
-.field public static final targetPackage:I = 0x7f040339
+.field public static final tabStyle:I = 0x7f040339
 
-.field public static final textAllCaps:I = 0x7f04033a
+.field public static final tabTextAppearance:I = 0x7f04033a
 
-.field public static final textAppearanceBody1:I = 0x7f04033b
+.field public static final tabTextColor:I = 0x7f04033b
 
-.field public static final textAppearanceBody2:I = 0x7f04033c
+.field public static final tabUnboundedRipple:I = 0x7f04033c
 
-.field public static final textAppearanceButton:I = 0x7f04033d
+.field public static final targetPackage:I = 0x7f04033d
 
-.field public static final textAppearanceCaption:I = 0x7f04033e
+.field public static final textAllCaps:I = 0x7f04033e
 
-.field public static final textAppearanceHeadline1:I = 0x7f04033f
+.field public static final textAppearanceBody1:I = 0x7f04033f
 
-.field public static final textAppearanceHeadline2:I = 0x7f040340
+.field public static final textAppearanceBody2:I = 0x7f040340
 
-.field public static final textAppearanceHeadline3:I = 0x7f040341
+.field public static final textAppearanceButton:I = 0x7f040341
 
-.field public static final textAppearanceHeadline4:I = 0x7f040342
+.field public static final textAppearanceCaption:I = 0x7f040342
 
-.field public static final textAppearanceHeadline5:I = 0x7f040343
+.field public static final textAppearanceHeadline1:I = 0x7f040343
 
-.field public static final textAppearanceHeadline6:I = 0x7f040344
+.field public static final textAppearanceHeadline2:I = 0x7f040344
 
-.field public static final textAppearanceLargePopupMenu:I = 0x7f040345
+.field public static final textAppearanceHeadline3:I = 0x7f040345
 
-.field public static final textAppearanceLineHeightEnabled:I = 0x7f040346
+.field public static final textAppearanceHeadline4:I = 0x7f040346
 
-.field public static final textAppearanceListItem:I = 0x7f040347
+.field public static final textAppearanceHeadline5:I = 0x7f040347
 
-.field public static final textAppearanceListItemSecondary:I = 0x7f040348
+.field public static final textAppearanceHeadline6:I = 0x7f040348
 
-.field public static final textAppearanceListItemSmall:I = 0x7f040349
+.field public static final textAppearanceLargePopupMenu:I = 0x7f040349
 
-.field public static final textAppearanceOverline:I = 0x7f04034a
+.field public static final textAppearanceLineHeightEnabled:I = 0x7f04034a
 
-.field public static final textAppearancePopupMenuHeader:I = 0x7f04034b
+.field public static final textAppearanceListItem:I = 0x7f04034b
 
-.field public static final textAppearanceSearchResultSubtitle:I = 0x7f04034c
+.field public static final textAppearanceListItemSecondary:I = 0x7f04034c
 
-.field public static final textAppearanceSearchResultTitle:I = 0x7f04034d
+.field public static final textAppearanceListItemSmall:I = 0x7f04034d
 
-.field public static final textAppearanceSmallPopupMenu:I = 0x7f04034e
+.field public static final textAppearanceOverline:I = 0x7f04034e
 
-.field public static final textAppearanceSubtitle1:I = 0x7f04034f
+.field public static final textAppearancePopupMenuHeader:I = 0x7f04034f
 
-.field public static final textAppearanceSubtitle2:I = 0x7f040350
+.field public static final textAppearanceSearchResultSubtitle:I = 0x7f040350
 
-.field public static final textColorAlertDialogListItem:I = 0x7f040351
+.field public static final textAppearanceSearchResultTitle:I = 0x7f040351
 
-.field public static final textColorNeutral:I = 0x7f040352
+.field public static final textAppearanceSmallPopupMenu:I = 0x7f040352
 
-.field public static final textColorSearchUrl:I = 0x7f040353
+.field public static final textAppearanceSubtitle1:I = 0x7f040353
 
-.field public static final textColorSelected:I = 0x7f040354
+.field public static final textAppearanceSubtitle2:I = 0x7f040354
 
-.field public static final textColorUnselected:I = 0x7f040355
+.field public static final textColorAlertDialogListItem:I = 0x7f040355
 
-.field public static final textEndPadding:I = 0x7f040356
+.field public static final textColorNeutral:I = 0x7f040356
 
-.field public static final textInputLayoutFocusedRectEnabled:I = 0x7f040357
+.field public static final textColorSearchUrl:I = 0x7f040357
 
-.field public static final textInputStyle:I = 0x7f040358
+.field public static final textColorSelected:I = 0x7f040358
 
-.field public static final textLocale:I = 0x7f040359
+.field public static final textColorUnselected:I = 0x7f040359
 
-.field public static final textStartPadding:I = 0x7f04035a
+.field public static final textEndPadding:I = 0x7f04035a
 
-.field public static final text_typeface:I = 0x7f04035b
+.field public static final textInputLayoutFocusedRectEnabled:I = 0x7f04035b
 
-.field public static final theme:I = 0x7f04035c
+.field public static final textInputStyle:I = 0x7f04035c
 
-.field public static final themeLineHeight:I = 0x7f04035d
+.field public static final textLocale:I = 0x7f04035d
 
-.field public static final thickness:I = 0x7f04035e
+.field public static final textStartPadding:I = 0x7f04035e
 
-.field public static final thumbColor:I = 0x7f04035f
+.field public static final text_typeface:I = 0x7f04035f
 
-.field public static final thumbElevation:I = 0x7f040360
+.field public static final theme:I = 0x7f040360
 
-.field public static final thumbRadius:I = 0x7f040361
+.field public static final themeLineHeight:I = 0x7f040361
 
-.field public static final thumbTextPadding:I = 0x7f040362
+.field public static final thickness:I = 0x7f040362
 
-.field public static final thumbTint:I = 0x7f040363
+.field public static final thumbColor:I = 0x7f040363
 
-.field public static final thumbTintMode:I = 0x7f040364
+.field public static final thumbElevation:I = 0x7f040364
 
-.field public static final tickColor:I = 0x7f040365
+.field public static final thumbRadius:I = 0x7f040365
 
-.field public static final tickColorActive:I = 0x7f040366
+.field public static final thumbTextPadding:I = 0x7f040366
 
-.field public static final tickColorInactive:I = 0x7f040367
+.field public static final thumbTint:I = 0x7f040367
 
-.field public static final tickMark:I = 0x7f040368
+.field public static final thumbTintMode:I = 0x7f040368
 
-.field public static final tickMarkTint:I = 0x7f040369
+.field public static final tickColor:I = 0x7f040369
 
-.field public static final tickMarkTintMode:I = 0x7f04036a
+.field public static final tickColorActive:I = 0x7f04036a
 
-.field public static final tilt:I = 0x7f04036b
+.field public static final tickColorInactive:I = 0x7f04036b
 
-.field public static final tint:I = 0x7f04036c
+.field public static final tickMark:I = 0x7f04036c
 
-.field public static final tintMode:I = 0x7f04036d
+.field public static final tickMarkTint:I = 0x7f04036d
 
-.field public static final title:I = 0x7f04036e
+.field public static final tickMarkTintMode:I = 0x7f04036e
 
-.field public static final titleEnabled:I = 0x7f04036f
+.field public static final tilt:I = 0x7f04036f
 
-.field public static final titleMargin:I = 0x7f040370
+.field public static final tint:I = 0x7f040370
 
-.field public static final titleMarginBottom:I = 0x7f040371
+.field public static final tintMode:I = 0x7f040371
 
-.field public static final titleMarginEnd:I = 0x7f040372
+.field public static final title:I = 0x7f040372
 
-.field public static final titleMarginStart:I = 0x7f040373
+.field public static final titleEnabled:I = 0x7f040373
 
-.field public static final titleMarginTop:I = 0x7f040374
+.field public static final titleMargin:I = 0x7f040374
 
-.field public static final titleMargins:I = 0x7f040375
+.field public static final titleMarginBottom:I = 0x7f040375
 
-.field public static final titleTextAppearance:I = 0x7f040376
+.field public static final titleMarginEnd:I = 0x7f040376
 
-.field public static final titleTextColor:I = 0x7f040377
+.field public static final titleMarginStart:I = 0x7f040377
 
-.field public static final titleTextStyle:I = 0x7f040378
+.field public static final titleMarginTop:I = 0x7f040378
 
-.field public static final toolbarId:I = 0x7f040379
+.field public static final titleMargins:I = 0x7f040379
 
-.field public static final toolbarNavigationButtonStyle:I = 0x7f04037a
+.field public static final titleTextAppearance:I = 0x7f04037a
 
-.field public static final toolbarStyle:I = 0x7f04037b
+.field public static final titleTextColor:I = 0x7f04037b
 
-.field public static final tooltipForegroundColor:I = 0x7f04037c
+.field public static final titleTextStyle:I = 0x7f04037c
 
-.field public static final tooltipFrameBackground:I = 0x7f04037d
+.field public static final toolbarId:I = 0x7f04037d
 
-.field public static final tooltipStyle:I = 0x7f04037e
+.field public static final toolbarNavigationButtonStyle:I = 0x7f04037e
 
-.field public static final tooltipText:I = 0x7f04037f
+.field public static final toolbarStyle:I = 0x7f04037f
 
-.field public static final track:I = 0x7f040380
+.field public static final tooltipForegroundColor:I = 0x7f040380
 
-.field public static final trackColor:I = 0x7f040381
+.field public static final tooltipFrameBackground:I = 0x7f040381
 
-.field public static final trackColorActive:I = 0x7f040382
+.field public static final tooltipStyle:I = 0x7f040382
 
-.field public static final trackColorInactive:I = 0x7f040383
+.field public static final tooltipText:I = 0x7f040383
 
-.field public static final trackHeight:I = 0x7f040384
+.field public static final track:I = 0x7f040384
 
-.field public static final trackTint:I = 0x7f040385
+.field public static final trackColor:I = 0x7f040385
 
-.field public static final trackTintMode:I = 0x7f040386
+.field public static final trackColorActive:I = 0x7f040386
 
-.field public static final transitionDuration:I = 0x7f040387
+.field public static final trackColorInactive:I = 0x7f040387
 
-.field public static final transitionShapeAppearance:I = 0x7f040388
+.field public static final trackHeight:I = 0x7f040388
 
-.field public static final ttcIndex:I = 0x7f040389
+.field public static final trackTint:I = 0x7f040389
 
-.field public static final unselectedDotColor:I = 0x7f04038a
+.field public static final trackTintMode:I = 0x7f04038a
 
-.field public static final unselectedDotDiameter:I = 0x7f04038b
+.field public static final transitionDuration:I = 0x7f04038b
 
-.field public static final uri:I = 0x7f04038c
+.field public static final transitionShapeAppearance:I = 0x7f04038c
 
-.field public static final useCompatPadding:I = 0x7f04038d
+.field public static final ttcIndex:I = 0x7f04038d
 
-.field public static final useMaterialThemeColors:I = 0x7f04038e
+.field public static final unselectedDotColor:I = 0x7f04038e
 
-.field public static final use_flash:I = 0x7f04038f
+.field public static final unselectedDotDiameter:I = 0x7f04038f
 
-.field public static final verticalOffset:I = 0x7f040390
+.field public static final uri:I = 0x7f040390
 
-.field public static final viewInflaterClass:I = 0x7f040391
+.field public static final useCompatPadding:I = 0x7f040391
 
-.field public static final viewType:I = 0x7f040392
+.field public static final useMaterialThemeColors:I = 0x7f040392
 
-.field public static final voiceIcon:I = 0x7f040393
+.field public static final use_flash:I = 0x7f040393
 
-.field public static final width:I = 0x7f040394
+.field public static final verticalOffset:I = 0x7f040394
 
-.field public static final windowActionBar:I = 0x7f040395
+.field public static final viewInflaterClass:I = 0x7f040395
 
-.field public static final windowActionBarOverlay:I = 0x7f040396
+.field public static final viewType:I = 0x7f040396
 
-.field public static final windowActionModeOverlay:I = 0x7f040397
+.field public static final voiceIcon:I = 0x7f040397
 
-.field public static final windowFixedHeightMajor:I = 0x7f040398
+.field public static final width:I = 0x7f040398
 
-.field public static final windowFixedHeightMinor:I = 0x7f040399
+.field public static final windowActionBar:I = 0x7f040399
 
-.field public static final windowFixedWidthMajor:I = 0x7f04039a
+.field public static final windowActionBarOverlay:I = 0x7f04039a
 
-.field public static final windowFixedWidthMinor:I = 0x7f04039b
+.field public static final windowActionModeOverlay:I = 0x7f04039b
 
-.field public static final windowMinWidthMajor:I = 0x7f04039c
+.field public static final windowFixedHeightMajor:I = 0x7f04039c
 
-.field public static final windowMinWidthMinor:I = 0x7f04039d
+.field public static final windowFixedHeightMinor:I = 0x7f04039d
 
-.field public static final windowNoTitle:I = 0x7f04039e
+.field public static final windowFixedWidthMajor:I = 0x7f04039e
 
-.field public static final yearSelectedStyle:I = 0x7f04039f
+.field public static final windowFixedWidthMinor:I = 0x7f04039f
 
-.field public static final yearStyle:I = 0x7f0403a0
+.field public static final windowMinWidthMajor:I = 0x7f0403a0
 
-.field public static final yearTodayStyle:I = 0x7f0403a1
+.field public static final windowMinWidthMinor:I = 0x7f0403a1
 
-.field public static final zs_helpConversationsIcon:I = 0x7f0403a2
+.field public static final windowNoTitle:I = 0x7f0403a2
 
-.field public static final zxing_framing_rect_height:I = 0x7f0403a3
+.field public static final yearSelectedStyle:I = 0x7f0403a3
 
-.field public static final zxing_framing_rect_width:I = 0x7f0403a4
+.field public static final yearStyle:I = 0x7f0403a4
 
-.field public static final zxing_possible_result_points:I = 0x7f0403a5
+.field public static final yearTodayStyle:I = 0x7f0403a5
 
-.field public static final zxing_preview_scaling_strategy:I = 0x7f0403a6
+.field public static final zs_helpConversationsIcon:I = 0x7f0403a6
 
-.field public static final zxing_result_view:I = 0x7f0403a7
+.field public static final zxing_framing_rect_height:I = 0x7f0403a7
 
-.field public static final zxing_scanner_layout:I = 0x7f0403a8
+.field public static final zxing_framing_rect_width:I = 0x7f0403a8
 
-.field public static final zxing_use_texture_view:I = 0x7f0403a9
+.field public static final zxing_possible_result_points:I = 0x7f0403a9
 
-.field public static final zxing_viewfinder_laser:I = 0x7f0403aa
+.field public static final zxing_preview_scaling_strategy:I = 0x7f0403aa
 
-.field public static final zxing_viewfinder_mask:I = 0x7f0403ab
+.field public static final zxing_result_view:I = 0x7f0403ab
+
+.field public static final zxing_scanner_layout:I = 0x7f0403ac
+
+.field public static final zxing_use_texture_view:I = 0x7f0403ad
+
+.field public static final zxing_viewfinder_laser:I = 0x7f0403ae
+
+.field public static final zxing_viewfinder_mask:I = 0x7f0403af
 
 
 # direct methods

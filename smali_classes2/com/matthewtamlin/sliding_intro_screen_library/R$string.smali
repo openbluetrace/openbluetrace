@@ -48,17 +48,17 @@
 
 .field public static final abc_toolbar_collapse_description:I = 0x7f13001b
 
-.field public static final introActivity_defaultBackButtonText:I = 0x7f1300e3
+.field public static final introActivity_defaultBackButtonText:I = 0x7f1300eb
 
-.field public static final introActivity_defaultFinalButtonText:I = 0x7f1300e4
+.field public static final introActivity_defaultFinalButtonText:I = 0x7f1300ec
 
-.field public static final introActivity_defaultFirstButtonText:I = 0x7f1300e5
+.field public static final introActivity_defaultFirstButtonText:I = 0x7f1300ed
 
-.field public static final introActivity_defaultLastButtonText:I = 0x7f1300e6
+.field public static final introActivity_defaultLastButtonText:I = 0x7f1300ee
 
-.field public static final introActivity_defaultNextButtonText:I = 0x7f1300e7
+.field public static final introActivity_defaultNextButtonText:I = 0x7f1300ef
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f1301da
+.field public static final status_bar_notification_info_overflow:I = 0x7f130203
 
 
 # direct methods

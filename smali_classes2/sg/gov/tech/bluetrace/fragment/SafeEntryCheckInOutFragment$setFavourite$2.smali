@@ -102,7 +102,7 @@
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/ImageView;
+    check-cast p1, Landroidx/appcompat/widget/AppCompatImageView;
 
     new-instance v0, Lsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$setFavourite$2$1;
 

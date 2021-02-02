@@ -88,47 +88,14 @@
 .end method
 
 .method public final invoke(Z)V
-    .locals 4
+    .locals 3
 
     .line 2
     iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$initTextWatcher$3$1;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$initTextWatcher$3;
 
     iget-object v0, v0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$initTextWatcher$3;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;
 
-    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->getVm()Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/DpViewModel;
-
-    move-result-object v0
-
-    const/4 v1, 0x1
-
-    new-array v1, v1, [Lkotlin/Pair;
-
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v2
-
-    const-string v3, "serial_number"
-
-    invoke-static {v3, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
-
-    move-result-object v2
-
-    const/4 v3, 0x0
-
-    aput-object v2, v1, v3
-
-    invoke-static {v1}, Lkotlin/collections/MapsKt__MapsKt;->hashMapOf([Lkotlin/Pair;)Ljava/util/HashMap;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/DpViewModel;->postValue(Ljava/util/HashMap;)V
-
-    .line 3
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$initTextWatcher$3$1;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$initTextWatcher$3;
-
-    iget-object v0, v0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$initTextWatcher$3;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;
-
-    invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->access$getTvSerialNumError$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;)Landroidx/appcompat/widget/AppCompatTextView;
+    invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->access$getTvNameError$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;)Landroidx/appcompat/widget/AppCompatTextView;
 
     move-result-object v1
 
@@ -136,7 +103,7 @@
 
     iget-object v2, v2, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$initTextWatcher$3;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;
 
-    invoke-static {v2}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->access$getETSerialNum$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;)Landroid/widget/EditText;
+    invoke-static {v2}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->access$getETName$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;)Landroid/widget/EditText;
 
     move-result-object v2
 

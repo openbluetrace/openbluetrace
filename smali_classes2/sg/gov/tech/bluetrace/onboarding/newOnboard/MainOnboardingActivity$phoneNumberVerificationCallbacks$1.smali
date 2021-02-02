@@ -267,7 +267,7 @@
     .line 4
     iget-object v1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity$phoneNumberVerificationCallbacks$1;->this$0:Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;
 
-    const v2, 0x7f1300ee
+    const v2, 0x7f1300f6
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -313,7 +313,7 @@
     .line 8
     iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity$phoneNumberVerificationCallbacks$1;->this$0:Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;
 
-    const v1, 0x7f1301ff
+    const v1, 0x7f13022a
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -334,7 +334,7 @@
 
     const-string v2, "On Verification failure: "
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 

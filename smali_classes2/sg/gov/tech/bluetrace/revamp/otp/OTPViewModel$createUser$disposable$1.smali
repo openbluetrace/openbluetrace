@@ -79,7 +79,7 @@
 
 # virtual methods
 .method public onError(Ljava/lang/Throwable;)V
-    .locals 3
+    .locals 5
     .param p1    # Ljava/lang/Throwable;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -90,6 +90,48 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
+    sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
+
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/revamp/otp/OTPViewModel$createUser$disposable$1;->this$0:Lsg/gov/tech/bluetrace/revamp/otp/OTPViewModel;
+
+    invoke-static {v1}, Lsg/gov/tech/bluetrace/revamp/otp/OTPViewModel;->access$getTAG$p(Lsg/gov/tech/bluetrace/revamp/otp/OTPViewModel;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "Failed to create user: "
+
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-static {p1, v3, v0, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline41(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;Ljava/lang/String;)V
+
+    .line 2
+    sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
+
+    sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->USERDATAREGISTERATION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
+
+    const-class v3, Lsg/gov/tech/bluetrace/revamp/otp/OTPViewModel$createUser$disposable$1;
+
+    invoke-virtual {v3}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "javaClass.simpleName"
+
+    invoke-static {v3, v4, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-static {p1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/Throwable;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v4, 0x0
+
+    invoke-virtual {v0, v1, v3, v2, v4}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 3
     iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/otp/OTPViewModel$createUser$disposable$1;->this$0:Lsg/gov/tech/bluetrace/revamp/otp/OTPViewModel;
 
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/revamp/otp/OTPViewModel;->getCreateUserResponseData()Landroidx/lifecycle/MutableLiveData;

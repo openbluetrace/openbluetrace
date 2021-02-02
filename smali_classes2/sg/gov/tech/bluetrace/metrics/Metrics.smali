@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMetrics.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Metrics.kt\nsg/gov/tech/bluetrace/metrics/Metrics\n*L\n1#1,248:1\n*E\n"
+    value = "SMAP\nMetrics.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Metrics.kt\nsg/gov/tech/bluetrace/metrics/Metrics\n*L\n1#1,265:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -209,7 +209,7 @@
     .line 2
     iput-object v0, p0, Lsg/gov/tech/bluetrace/metrics/Metrics;->platform:Ljava/lang/String;
 
-    const-string v0, "2.5.2"
+    const-string v0, "2.6.0"
 
     .line 3
     iput-object v0, p0, Lsg/gov/tech/bluetrace/metrics/Metrics;->appVersion:Ljava/lang/String;
@@ -611,7 +611,7 @@
 
     const-string v2, "Error checking if location is enabled: "
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -632,8 +632,10 @@
     .line 4
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 5
     sget-object v3, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->UPLOAD:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 6
     const-class v4, Lsg/gov/tech/bluetrace/metrics/Metrics;
 
     invoke-virtual {v4}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -642,10 +644,11 @@
 
     const-string v5, "javaClass.simpleName"
 
-    invoke-static {v4, v5, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4, v5, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
+    .line 7
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
 
     move-result-object v5
@@ -656,17 +659,19 @@
 
     move-result-object v2
 
+    .line 8
     sget-object v5, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v5, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
 
     move-result-object p1
 
+    .line 9
     invoke-virtual {v1, v3, v4, v2, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 
-    .line 5
+    .line 10
     :cond_2
     new-instance p1, Lkotlin/TypeCastException;
 
@@ -879,12 +884,38 @@
 .end method
 
 .method public final upload()V
-    .locals 1
+    .locals 2
 
     .line 1
+    sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
+
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/metrics/Metrics;->context:Landroid/content/Context;
+
+    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/Preference;->onBoardedWithIdentity(Landroid/content/Context;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-static {}, Lcom/google/firebase/auth/FirebaseAuth;->getInstance()Lcom/google/firebase/auth/FirebaseAuth;
+
+    move-result-object v0
+
+    const-string v1, "FirebaseAuth.getInstance()"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Lcom/google/firebase/auth/FirebaseAuth;->getCurrentUser()Lcom/google/firebase/auth/FirebaseUser;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 2
     iget-object v0, p0, Lsg/gov/tech/bluetrace/metrics/Metrics;->context:Landroid/content/Context;
 
     invoke-direct {p0, v0}, Lsg/gov/tech/bluetrace/metrics/Metrics;->fetchDataFromDB(Landroid/content/Context;)V
 
+    :cond_0
     return-void
 .end method

@@ -22,19 +22,21 @@
     <uses-feature android:name="android.hardware.screen.landscape" android:required="false"/>
     <uses-feature android:name="android.hardware.wifi" android:required="false"/>
     <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="sg.gov.tech.bluetrace.TracerApp" android:roundIcon="@mipmap/ic_launcher" android:supportsRtl="true" android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name="sg.gov.tech.bluetrace.LoveLetterActivity"/>
-        <activity android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.HowItWorksActivity"/>
-        <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false"/>
-        <meta-data android:name="google_analytics_ssaid_collection_enabled" android:value="false"/>
         <activity android:configChanges="keyboardHidden" android:name="sg.gov.tech.bluetrace.revamp.splash.SplashActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:configChanges="keyboardHidden" android:name="sg.gov.tech.bluetrace.passport.PassportProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="sg.gov.tech.bluetrace.LoveLetterActivity"/>
+        <activity android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.HowItWorksActivity"/>
+        <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false"/>
+        <meta-data android:name="google_analytics_ssaid_collection_enabled" android:value="false"/>
         <activity android:launchMode="singleTask" android:name="sg.gov.tech.bluetrace.MainActivity" android:screenOrientation="portrait"/>
-        <activity android:name="sg.gov.tech.bluetrace.groupCheckIn.addFamilyMembers.AddFamilyMembersActivity"/>
-        <activity android:name="sg.gov.tech.bluetrace.groupCheckIn.safeEntry.GroupSafeEntryActivity"/>
+        <activity android:name="sg.gov.tech.bluetrace.groupCheckIn.addFamilyMembers.AddFamilyMembersActivity" android:screenOrientation="portrait"/>
+        <activity android:name="sg.gov.tech.bluetrace.groupCheckIn.safeEntry.GroupSafeEntryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="sg.gov.tech.bluetrace.revamp.safeentry.SafeEntryCheckInOutActivityV2" android:screenOrientation="portrait"/>
         <receiver android:name="sg.gov.tech.bluetrace.boot.StartOnBootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>

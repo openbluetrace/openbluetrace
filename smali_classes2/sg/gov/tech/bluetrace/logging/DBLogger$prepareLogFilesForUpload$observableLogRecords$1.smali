@@ -28,7 +28,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDBLogger.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DBLogger.kt\nsg/gov/tech/bluetrace/logging/DBLogger$prepareLogFilesForUpload$observableLogRecords$1\n*L\n1#1,357:1\n*E\n"
+    value = "SMAP\nDBLogger.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DBLogger.kt\nsg/gov/tech/bluetrace/logging/DBLogger$prepareLogFilesForUpload$observableLogRecords$1\n*L\n1#1,358:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;

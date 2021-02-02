@@ -277,7 +277,7 @@
 
     if-eqz v6, :cond_5
 
-    const-string v6, "2.5.2"
+    const-string v6, "2.6.0"
 
     goto :goto_5
 
@@ -289,7 +289,7 @@
 
     if-eqz v0, :cond_6
 
-    const/16 v0, 0x5e
+    const/16 v0, 0x62
 
     goto :goto_6
 
@@ -942,7 +942,7 @@
 
     const-string v0, "DeviceDetails(deviceId="
 
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -1006,7 +1006,7 @@
 
     const-string v2, ")"
 
-    invoke-static {v0, v1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline21(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline22(Ljava/lang/StringBuilder;ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

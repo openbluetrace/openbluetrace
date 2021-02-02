@@ -209,7 +209,7 @@
 
     const-string v1, "[TempID] Before Sort: "
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -246,7 +246,7 @@
 
     const-string v1, "[TempID] After Sort: "
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -286,7 +286,7 @@
 
     const-string v1, "[TempID] Retrieving from Queue: "
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -393,9 +393,9 @@
     invoke-direct {v1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     .line 7
-    sget-object v2, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v2, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v2}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getTEMPID_ERROR()Ljava/lang/String;
+    invoke-virtual {v2}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getTEMPID_ERROR()Ljava/lang/String;
 
     move-result-object v2
 
@@ -436,9 +436,9 @@
     invoke-direct {v1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     .line 12
-    sget-object v2, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v2, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v2}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getTEMPID_ERROR()Ljava/lang/String;
+    invoke-virtual {v2}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getTEMPID_ERROR()Ljava/lang/String;
 
     move-result-object v2
 
@@ -604,7 +604,7 @@
 
     const-string v8, "[TempID Total number of items in queue: "
 
-    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
 
@@ -623,7 +623,7 @@
     .line 13
     sget-object v7, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
 
@@ -642,7 +642,7 @@
     .line 14
     sget-object v7, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v11
 
@@ -661,7 +661,7 @@
     .line 15
     sget-object v7, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v8
 
@@ -793,9 +793,9 @@
     invoke-direct {p1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     .line 3
-    sget-object v3, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v3, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v3}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getTEMPID_ERROR()Ljava/lang/String;
+    invoke-virtual {v3}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getTEMPID_ERROR()Ljava/lang/String;
 
     move-result-object v3
 
@@ -850,9 +850,9 @@
     invoke-direct {v3}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     .line 11
-    sget-object v4, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v4, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v4}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getTEMPID_ERROR()Ljava/lang/String;
+    invoke-virtual {v4}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getTEMPID_ERROR()Ljava/lang/String;
 
     move-result-object v4
 
@@ -863,7 +863,7 @@
 
     const-string v5, "Invalid TempID format from server =>"
 
-    invoke-static {v0, v2, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v2, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -1686,9 +1686,9 @@
     invoke-direct {p1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     .line 10
-    sget-object v0, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v0, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getSHORTID_ERROR()Ljava/lang/String;
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getSHORTID_ERROR()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1830,9 +1830,9 @@
     invoke-direct {p1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     .line 10
-    sget-object v0, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v0, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getTEMPID_ERROR()Ljava/lang/String;
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getTEMPID_ERROR()Ljava/lang/String;
 
     move-result-object v0
 

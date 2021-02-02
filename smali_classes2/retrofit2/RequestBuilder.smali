@@ -16,6 +16,8 @@
 
 .field public static final PATH_SEGMENT_ALWAYS_ENCODE_SET:Ljava/lang/String; = " \"<>^`{}|\\?#"
 
+.field public static final PATH_TRAVERSAL:Ljava/util/regex/Pattern;
+
 
 # instance fields
 .field public final baseUrl:Lokhttp3/HttpUrl;
@@ -36,6 +38,8 @@
 .end field
 
 .field public final hasBody:Z
+
+.field public final headersBuilder:Lokhttp3/Headers$Builder;
 
 .field public final method:Ljava/lang/String;
 
@@ -69,6 +73,15 @@
     fill-array-data v0, :array_0
 
     sput-object v0, Lretrofit2/RequestBuilder;->HEX_DIGITS:[C
+
+    const-string v0, "(.*/)?(\\.|%2e|%2E){1,2}(/.*)?"
+
+    .line 2
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+
+    move-result-object v0
+
+    sput-object v0, Lretrofit2/RequestBuilder;->PATH_TRAVERSAL:Ljava/util/regex/Pattern;
 
     return-void
 
@@ -136,37 +149,51 @@
     if-eqz p4, :cond_0
 
     .line 8
-    invoke-virtual {p1, p4}, Lokhttp3/Request$Builder;->headers(Lokhttp3/Headers;)Lokhttp3/Request$Builder;
+    invoke-virtual {p4}, Lokhttp3/Headers;->newBuilder()Lokhttp3/Headers$Builder;
 
-    :cond_0
-    if-eqz p7, :cond_1
+    move-result-object p1
+
+    iput-object p1, p0, Lretrofit2/RequestBuilder;->headersBuilder:Lokhttp3/Headers$Builder;
+
+    goto :goto_0
 
     .line 9
+    :cond_0
+    new-instance p1, Lokhttp3/Headers$Builder;
+
+    invoke-direct {p1}, Lokhttp3/Headers$Builder;-><init>()V
+
+    iput-object p1, p0, Lretrofit2/RequestBuilder;->headersBuilder:Lokhttp3/Headers$Builder;
+
+    :goto_0
+    if-eqz p7, :cond_1
+
+    .line 10
     new-instance p1, Lokhttp3/FormBody$Builder;
 
     invoke-direct {p1}, Lokhttp3/FormBody$Builder;-><init>()V
 
     iput-object p1, p0, Lretrofit2/RequestBuilder;->formBuilder:Lokhttp3/FormBody$Builder;
 
-    goto :goto_0
+    goto :goto_1
 
     :cond_1
     if-eqz p8, :cond_2
 
-    .line 10
+    .line 11
     new-instance p1, Lokhttp3/MultipartBody$Builder;
 
     invoke-direct {p1}, Lokhttp3/MultipartBody$Builder;-><init>()V
 
     iput-object p1, p0, Lretrofit2/RequestBuilder;->multipartBuilder:Lokhttp3/MultipartBody$Builder;
 
-    .line 11
+    .line 12
     sget-object p2, Lokhttp3/MultipartBody;->FORM:Lokhttp3/MediaType;
 
     invoke-virtual {p1, p2}, Lokhttp3/MultipartBody$Builder;->setType(Lokhttp3/MediaType;)Lokhttp3/MultipartBody$Builder;
 
     :cond_2
-    :goto_0
+    :goto_1
     return-void
 .end method
 
@@ -417,7 +444,7 @@
 .end method
 
 .method public addHeader(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 1
+    .locals 2
 
     const-string v0, "Content-Type"
 
@@ -426,41 +453,54 @@
 
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_0
 
     .line 2
-    invoke-static {p2}, Lokhttp3/MediaType;->parse(Ljava/lang/String;)Lokhttp3/MediaType;
+    :try_start_0
+    invoke-static {p2}, Lokhttp3/MediaType;->get(Ljava/lang/String;)Lokhttp3/MediaType;
 
     move-result-object p1
 
-    if-eqz p1, :cond_0
-
-    .line 3
     iput-object p1, p0, Lretrofit2/RequestBuilder;->contentType:Lokhttp3/MediaType;
+    :try_end_0
+    .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_0
 
-    .line 4
-    :cond_0
-    new-instance p1, Ljava/lang/IllegalArgumentException;
+    :catch_0
+    move-exception p1
 
-    const-string v0, "Malformed content type: "
+    .line 3
+    new-instance v0, Ljava/lang/IllegalArgumentException;
 
-    invoke-static {v0, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline18(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    const-string v1, "Malformed content type: "
+
+    invoke-static {v1, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline19(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    throw p1
+    throw v0
 
-    .line 5
-    :cond_1
-    iget-object v0, p0, Lretrofit2/RequestBuilder;->requestBuilder:Lokhttp3/Request$Builder;
+    .line 4
+    :cond_0
+    iget-object v0, p0, Lretrofit2/RequestBuilder;->headersBuilder:Lokhttp3/Headers$Builder;
 
-    invoke-virtual {v0, p1, p2}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {v0, p1, p2}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
     :goto_0
+    return-void
+.end method
+
+.method public addHeaders(Lokhttp3/Headers;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lretrofit2/RequestBuilder;->headersBuilder:Lokhttp3/Headers$Builder;
+
+    invoke-virtual {v0, p1}, Lokhttp3/Headers$Builder;->addAll(Lokhttp3/Headers;)Lokhttp3/Headers$Builder;
+
     return-void
 .end method
 
@@ -492,31 +532,72 @@
     .line 1
     iget-object v0, p0, Lretrofit2/RequestBuilder;->relativeUrl:Ljava/lang/String;
 
-    if-eqz v0, :cond_0
-
-    const-string v1, "{"
-
-    const-string v2, "}"
+    if-eqz v0, :cond_1
 
     .line 2
-    invoke-static {v1, p1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline19(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
     invoke-static {p2, p3}, Lretrofit2/RequestBuilder;->canonicalizeForPath(Ljava/lang/String;Z)Ljava/lang/String;
 
-    move-result-object p2
+    move-result-object p3
 
-    invoke-virtual {v0, p1, p2}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+    .line 3
+    iget-object v0, p0, Lretrofit2/RequestBuilder;->relativeUrl:Ljava/lang/String;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "{"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p1, "}"
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
+    invoke-virtual {v0, p1, p3}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p1
+
+    .line 4
+    sget-object p3, Lretrofit2/RequestBuilder;->PATH_TRAVERSAL:Ljava/util/regex/Pattern;
+
+    invoke-virtual {p3, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+
+    move-result-object p3
+
+    invoke-virtual {p3}, Ljava/util/regex/Matcher;->matches()Z
+
+    move-result p3
+
+    if-nez p3, :cond_0
+
+    .line 5
     iput-object p1, p0, Lretrofit2/RequestBuilder;->relativeUrl:Ljava/lang/String;
 
     return-void
 
-    .line 3
+    .line 6
     :cond_0
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    const-string p3, "@Path parameters shouldn\'t perform path traversal (\'.\' or \'..\'): "
+
+    invoke-static {p3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline19(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    .line 7
+    :cond_1
     new-instance p1, Ljava/lang/AssertionError;
 
     invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
@@ -560,7 +641,7 @@
 
     const-string p2, "Malformed URL. Base: "
 
-    invoke-static {p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
@@ -605,7 +686,31 @@
     return-void
 .end method
 
-.method public build()Lokhttp3/Request;
+.method public addTag(Ljava/lang/Class;Ljava/lang/Object;)V
+    .locals 1
+    .param p2    # Ljava/lang/Object;
+        .annotation runtime Ljavax/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Class<",
+            "TT;>;TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lretrofit2/RequestBuilder;->requestBuilder:Lokhttp3/Request$Builder;
+
+    invoke-virtual {v0, p1, p2}, Lokhttp3/Request$Builder;->tag(Ljava/lang/Class;Ljava/lang/Object;)Lokhttp3/Request$Builder;
+
+    return-void
+.end method
+
+.method public get()Lokhttp3/Request$Builder;
     .locals 5
 
     .line 1
@@ -700,7 +805,7 @@
 
     .line 13
     :cond_4
-    iget-object v3, p0, Lretrofit2/RequestBuilder;->requestBuilder:Lokhttp3/Request$Builder;
+    iget-object v3, p0, Lretrofit2/RequestBuilder;->headersBuilder:Lokhttp3/Headers$Builder;
 
     invoke-virtual {v2}, Lokhttp3/MediaType;->toString()Ljava/lang/String;
 
@@ -708,7 +813,7 @@
 
     const-string v4, "Content-Type"
 
-    invoke-virtual {v3, v4, v2}, Lokhttp3/Request$Builder;->addHeader(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+    invoke-virtual {v3, v4, v2}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
     .line 14
     :cond_5
@@ -720,15 +825,21 @@
 
     move-result-object v0
 
-    iget-object v2, p0, Lretrofit2/RequestBuilder;->method:Ljava/lang/String;
+    iget-object v2, p0, Lretrofit2/RequestBuilder;->headersBuilder:Lokhttp3/Headers$Builder;
 
     .line 16
-    invoke-virtual {v0, v2, v1}, Lokhttp3/Request$Builder;->method(Ljava/lang/String;Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
+    invoke-virtual {v2}, Lokhttp3/Headers$Builder;->build()Lokhttp3/Headers;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Lokhttp3/Request$Builder;->headers(Lokhttp3/Headers;)Lokhttp3/Request$Builder;
 
     move-result-object v0
 
+    iget-object v2, p0, Lretrofit2/RequestBuilder;->method:Ljava/lang/String;
+
     .line 17
-    invoke-virtual {v0}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
+    invoke-virtual {v0, v2, v1}, Lokhttp3/Request$Builder;->method(Ljava/lang/String;Lokhttp3/RequestBody;)Lokhttp3/Request$Builder;
 
     move-result-object v0
 
@@ -740,7 +851,7 @@
 
     const-string v1, "Malformed URL. Base: "
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 

@@ -239,7 +239,7 @@
 
     const-string v1, "Requested contents should be less than 80 digits long, but got "
 
-    invoke-static {v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 

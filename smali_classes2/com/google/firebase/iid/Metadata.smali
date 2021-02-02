@@ -168,7 +168,7 @@
 
     const-string v2, "FirebaseInstanceId"
 
-    invoke-static {v0, v1, p1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, p1, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

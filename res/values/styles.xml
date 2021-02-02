@@ -90,7 +90,6 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="AppTheme.NoActionBar" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
-        <item name="android:windowFullscreen">true</item>
         <item name="colorAccent">@color/new_accent</item>
         <item name="colorPrimary">@color/geraldine</item>
         <item name="windowActionBar">false</item>

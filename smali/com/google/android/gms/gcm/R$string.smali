@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final gcm_fallback_notification_channel_label:I = 0x7f1300bd
+.field public static final gcm_fallback_notification_channel_label:I = 0x7f1300c3
 
 
 # direct methods

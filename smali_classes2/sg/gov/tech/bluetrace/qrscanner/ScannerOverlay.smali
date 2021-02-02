@@ -106,7 +106,7 @@
 
     iput p3, p0, Lsg/gov/tech/bluetrace/qrscanner/ScannerOverlay;->rectHeight:I
 
-    const p3, 0x7f060115
+    const p3, 0x7f06011a
 
     .line 8
     invoke-static {p1, p3}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
@@ -218,7 +218,7 @@
     .line 5
     iget-object v2, p0, Lsg/gov/tech/bluetrace/qrscanner/ScannerOverlay;->mContext:Landroid/content/Context;
 
-    const v3, 0x7f060116
+    const v3, 0x7f06011b
 
     invoke-static {v2, v3}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 

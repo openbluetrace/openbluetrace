@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nGattServer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GattServer.kt\nsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1\n+ 2 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n*L\n1#1,321:1\n352#2,7:322\n*E\n*S KotlinDebug\n*F\n+ 1 GattServer.kt\nsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1\n*L\n65#1,7:322\n*E\n"
+    value = "SMAP\nGattServer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GattServer.kt\nsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1\n+ 2 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n*L\n1#1,336:1\n352#2,7:337\n*E\n*S KotlinDebug\n*F\n+ 1 GattServer.kt\nsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1\n*L\n65#1,7:337\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -256,7 +256,7 @@
 
     const-string v4, "onCharacteristicReadRequest from "
 
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v5
 
@@ -386,7 +386,7 @@
     move-result-object v3
 
     .line 17
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
@@ -458,7 +458,7 @@
     move-result-object v3
 
     .line 24
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
@@ -524,7 +524,7 @@
 
     const-string v3, "unsupported characteristic UUID from "
 
-    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -611,8 +611,10 @@
     .line 2
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 3
     sget-object v3, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->BLUETRACE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 4
     const-class v5, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;
 
     invoke-virtual {v5}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -625,15 +627,16 @@
 
     const/4 v8, 0x0
 
+    .line 5
     invoke-virtual {v1, v3, v5, v4, v8}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
     if-eqz p1, :cond_5
 
-    .line 3
+    .line 6
     sget-object v1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    .line 4
+    .line 7
     iget-object v3, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
 
     invoke-static {v3}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;->access$getTAG$p(Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;)Ljava/lang/String;
@@ -642,8 +645,8 @@
 
     const-string v8, "onCharacteristicWriteRequest - "
 
-    .line 5
-    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 8
+    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
@@ -663,13 +666,13 @@
 
     move-result-object v4
 
-    .line 6
+    .line 9
     invoke-virtual {v1, v3, v4}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
+    .line 10
     sget-object v1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    .line 8
+    .line 11
     iget-object v3, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
 
     invoke-static {v3}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;->access$getTAG$p(Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;)Ljava/lang/String;
@@ -678,8 +681,8 @@
 
     const-string v4, "onCharacteristicWriteRequest from "
 
-    .line 9
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 12
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v5
 
@@ -707,10 +710,10 @@
 
     move-result-object v5
 
-    .line 10
+    .line 13
     invoke-virtual {v1, v3, v5}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 11
+    .line 14
     sget-object v1, Lsg/gov/tech/bluetrace/protocol/BlueTrace;->INSTANCE:Lsg/gov/tech/bluetrace/protocol/BlueTrace;
 
     invoke-virtual/range {p3 .. p3}, Landroid/bluetooth/BluetoothGattCharacteristic;->getUuid()Ljava/util/UUID;
@@ -723,7 +726,7 @@
 
     if-eqz v1, :cond_4
 
-    .line 12
+    .line 15
     iget-object v1, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->deviceCharacteristicMap:Ljava/util/Map;
 
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothDevice;->getAddress()Ljava/lang/String;
@@ -746,7 +749,7 @@
 
     if-eqz v6, :cond_1
 
-    .line 13
+    .line 16
     sget-object v1, Lkotlin/text/Charsets;->UTF_8:Ljava/nio/charset/Charset;
 
     new-instance v2, Ljava/lang/String;
@@ -758,19 +761,19 @@
     :cond_1
     const-string v2, ""
 
-    .line 14
+    .line 17
     :goto_0
     sget-object v1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    .line 15
+    .line 18
     iget-object v3, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
 
     invoke-static {v3}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;->access$getTAG$p(Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 16
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 19
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
@@ -788,12 +791,12 @@
 
     move-result-object v2
 
-    .line 17
+    .line 20
     invoke-virtual {v1, v3, v2}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v6, :cond_5
 
-    .line 18
+    .line 21
     iget-object v1, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->writeDataPayload:Ljava/util/Map;
 
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothDevice;->getAddress()Ljava/lang/String;
@@ -812,13 +815,13 @@
 
     new-array v1, v1, [B
 
-    .line 19
+    .line 22
     :cond_2
     invoke-static {v1, v6}, Lkotlin/collections/ArraysKt___ArraysJvmKt;->plus([B[B)[B
 
     move-result-object v1
 
-    .line 20
+    .line 23
     iget-object v2, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->writeDataPayload:Ljava/util/Map;
 
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothDevice;->getAddress()Ljava/lang/String;
@@ -829,10 +832,10 @@
 
     invoke-interface {v2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 21
+    .line 24
     sget-object v2, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    .line 22
+    .line 25
     iget-object v3, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
 
     invoke-static {v3}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;->access$getTAG$p(Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;)Ljava/lang/String;
@@ -841,15 +844,15 @@
 
     const-string v4, "Accumulated characteristic: "
 
-    .line 23
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 26
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
-    .line 24
+    .line 27
     sget-object v5, Lkotlin/text/Charsets;->UTF_8:Ljava/nio/charset/Charset;
 
-    .line 25
+    .line 28
     new-instance v10, Ljava/lang/String;
 
     invoke-direct {v10, v1, v5}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
@@ -860,14 +863,14 @@
 
     move-result-object v4
 
-    .line 26
+    .line 29
     invoke-virtual {v2, v3, v4}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     if-eqz v7, :cond_3
 
     if-eqz p5, :cond_3
 
-    .line 27
+    .line 30
     sget-object v2, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     iget-object v3, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
@@ -878,7 +881,7 @@
 
     const-string v4, "Sending response offset: "
 
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
@@ -892,7 +895,7 @@
 
     invoke-virtual {v2, v3, v4}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 28
+    .line 31
     iget-object v2, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
 
     invoke-virtual {v2}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;->getBluetoothGattServer()Landroid/bluetooth/BluetoothGattServer;
@@ -903,7 +906,7 @@
 
     const/4 v4, 0x0
 
-    .line 29
+    .line 32
     array-length v5, v1
 
     move-object v1, v2
@@ -914,24 +917,24 @@
 
     move-object/from16 v6, p7
 
-    .line 30
+    .line 33
     invoke-virtual/range {v1 .. v6}, Landroid/bluetooth/BluetoothGattServer;->sendResponse(Landroid/bluetooth/BluetoothDevice;III[B)Z
 
     :cond_3
     if-nez v7, :cond_5
 
-    .line 31
+    .line 34
     sget-object v1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    .line 32
+    .line 35
     iget-object v2, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
 
     invoke-static {v2}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;->access$getTAG$p(Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 33
-    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 36
+    invoke-static {v8}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -949,15 +952,15 @@
 
     move-result-object v3
 
-    .line 34
+    .line 37
     invoke-virtual {v1, v2, v3}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 35
+    .line 38
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->saveDataReceived(Landroid/bluetooth/BluetoothDevice;)V
 
     if-eqz p5, :cond_5
 
-    .line 36
+    .line 39
     iget-object v1, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
 
     invoke-virtual {v1}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;->getBluetoothGattServer()Landroid/bluetooth/BluetoothGattServer;
@@ -980,7 +983,7 @@
 
     goto :goto_1
 
-    .line 37
+    .line 40
     :cond_4
     sget-object v1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
@@ -992,7 +995,7 @@
 
     const-string v3, "unsupported characteristic UUID from "
 
-    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -1010,7 +1013,7 @@
 
     if-eqz p5, :cond_5
 
-    .line 38
+    .line 41
     iget-object v1, v0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->this$0:Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;
 
     invoke-virtual {v1}, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer;->getBluetoothGattServer()Landroid/bluetooth/BluetoothGattServer;
@@ -1064,7 +1067,7 @@
 
     const-string v3, " - "
 
-    invoke-static {v2, p3, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline27(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, p3, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p3
 
@@ -1233,7 +1236,7 @@
     const-string v3, "- "
 
     .line 5
-    invoke-static {v2, p2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline27(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, p2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -1418,27 +1421,19 @@
 
     const-string v4, "Failed to process write payload - "
 
-    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v5
 
-    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v2, v3, v5}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v5, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline41(Ljava/lang/Throwable;Ljava/lang/StringBuilder;Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;Ljava/lang/String;)V
 
     .line 11
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 12
     sget-object v3, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->BLUETRACE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 13
     const-class v5, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;
 
     invoke-virtual {v5}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -1447,20 +1442,16 @@
 
     const-string v6, "javaClass.simpleName"
 
-    invoke-static {v5, v6, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v5, v6, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
-    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    move-result-object v6
-
-    invoke-virtual {v4, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 14
+    invoke-static {v1, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/Throwable;Ljava/lang/StringBuilder;)Ljava/lang/String;
 
     move-result-object v4
 
+    .line 15
     sget-object v6, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     check-cast v1, Ljava/lang/Exception;
@@ -1469,9 +1460,10 @@
 
     move-result-object v1
 
+    .line 16
     invoke-virtual {v2, v3, v5, v4, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 12
+    .line 17
     :cond_0
     :goto_0
     sget-object v1, Lsg/gov/tech/bluetrace/Utils;->INSTANCE:Lsg/gov/tech/bluetrace/Utils;
@@ -1490,7 +1482,7 @@
 
     invoke-virtual {v1, v2, v3}, Lsg/gov/tech/bluetrace/Utils;->broadcastDeviceProcessed(Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 13
+    .line 18
     iget-object v0, p0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->writeDataPayload:Ljava/util/Map;
 
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothDevice;->getAddress()Ljava/lang/String;
@@ -1499,7 +1491,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 14
+    .line 19
     iget-object v0, p0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->readPayloadMap:Ljava/util/Map;
 
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothDevice;->getAddress()Ljava/lang/String;
@@ -1508,7 +1500,7 @@
 
     invoke-interface {v0, v1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
+    .line 20
     iget-object v0, p0, Lsg/gov/tech/bluetrace/bluetooth/gatt/GattServer$gattServerCallback$1;->deviceCharacteristicMap:Ljava/util/Map;
 
     invoke-virtual {p1}, Landroid/bluetooth/BluetoothDevice;->getAddress()Ljava/lang/String;

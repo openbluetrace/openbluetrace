@@ -225,5 +225,16 @@
 
     invoke-virtual {v0, p0}, Lsg/gov/tech/bluetrace/TracerApp$Companion;->setupDynamicShortcuts(Landroid/content/Context;)V
 
+    .line 12
+    new-instance v0, Lsg/gov/tech/bluetrace/TracerApp$onCreate$1;
+
+    invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/TracerApp$onCreate$1;-><init>(Lsg/gov/tech/bluetrace/TracerApp;)V
+
+    const/4 v1, 0x1
+
+    const/4 v2, 0x0
+
+    invoke-static {v2, v0, v1, v2}, Lorg/koin/core/context/ContextFunctionsKt;->startKoin$default(Lorg/koin/core/context/KoinContext;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lorg/koin/core/KoinApplication;
+
     return-void
 .end method

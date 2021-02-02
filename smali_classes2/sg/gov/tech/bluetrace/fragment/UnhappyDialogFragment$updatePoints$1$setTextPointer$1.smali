@@ -22,7 +22,7 @@
         "Lkotlin/jvm/functions/Function4<",
         "Landroid/widget/TextView;",
         "Landroid/widget/TextView;",
-        "Ljava/lang/Integer;",
+        "Ljava/lang/String;",
         "Ljava/lang/Integer;",
         "Lkotlin/Unit;",
         ">;"
@@ -36,7 +36,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u0018\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0005\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\u0006H\n\u00a2\u0006\u0002\u0008\u0008"
+        "\u0000\u001c\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0008\n\u0000\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u00032\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u00062\u0006\u0010\u0007\u001a\u00020\u0008H\n\u00a2\u0006\u0002\u0008\t"
     }
     d2 = {
         "<anonymous>",
@@ -47,6 +47,7 @@
         "s",
         "",
         "v",
+        "",
         "invoke"
     }
     k = 0x3
@@ -95,11 +96,7 @@
 
     check-cast p2, Landroid/widget/TextView;
 
-    check-cast p3, Ljava/lang/Number;
-
-    invoke-virtual {p3}, Ljava/lang/Number;->intValue()I
-
-    move-result p3
+    check-cast p3, Ljava/lang/String;
 
     check-cast p4, Ljava/lang/Number;
 
@@ -107,14 +104,14 @@
 
     move-result p4
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment$updatePoints$1$setTextPointer$1;->invoke(Landroid/widget/TextView;Landroid/widget/TextView;II)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment$updatePoints$1$setTextPointer$1;->invoke(Landroid/widget/TextView;Landroid/widget/TextView;Ljava/lang/String;I)V
 
     sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
 
     return-object p1
 .end method
 
-.method public final invoke(Landroid/widget/TextView;Landroid/widget/TextView;II)V
+.method public final invoke(Landroid/widget/TextView;Landroid/widget/TextView;Ljava/lang/String;I)V
     .locals 1
     .param p1    # Landroid/widget/TextView;
         .annotation build Lorg/jetbrains/annotations/NotNull;
@@ -122,6 +119,10 @@
     .end param
     .param p2    # Landroid/widget/TextView;
         .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
         .end annotation
     .end param
 
@@ -142,7 +143,7 @@
     if-eqz p3, :cond_0
 
     .line 4
-    invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(I)V
+    invoke-virtual {p2, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     :cond_0
     return-void

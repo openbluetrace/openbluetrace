@@ -16,6 +16,10 @@
     name = null
 .end annotation
 
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nOnboardWithPassportFragmentV2.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardWithPassportFragmentV2.kt\nsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2\n*L\n1#1,313:1\n*E\n"
+.end annotation
+
 .annotation runtime Lkotlin/Metadata;
     bv = {
         0x1,
@@ -65,70 +69,44 @@
 
 # virtual methods
 .method public onDateSelected()V
-    .locals 5
+    .locals 4
 
     .line 1
-    new-instance v0, Lkotlin/jvm/internal/Ref$BooleanRef;
+    iget-object v0, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
-    invoke-direct {v0}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+    invoke-static {v0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getDateInputBx$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Lsg/gov/tech/bluetrace/view/DateInputBox;
 
-    const/4 v1, 0x1
+    move-result-object v0
 
-    iput-boolean v1, v0, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/view/DateInputBox;->getDateInMillis()Ljava/lang/Long;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v0
 
     .line 2
-    iget-object v1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
-
-    sget v2, Lsg/gov/tech/bluetrace/R$id;->dob:I
-
-    invoke-virtual {v1, v2}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->_$_findCachedViewById(I)Landroid/view/View;
-
-    move-result-object v1
-
-    check-cast v1, Lsg/gov/tech/bluetrace/view/DateInputBox;
-
-    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/view/DateInputBox;->getDateInMillis()Ljava/lang/Long;
-
-    move-result-object v1
-
-    if-eqz v1, :cond_1
-
-    .line 3
-    iget-object v1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
-
-    invoke-virtual {v1}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->getFV()Lsg/gov/tech/revamp/utils/FieldValidations;
-
-    move-result-object v1
-
     iget-object v2, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
-    sget v3, Lsg/gov/tech/bluetrace/R$id;->dob:I
-
-    invoke-virtual {v2, v3}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {v2}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getVm$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;
 
     move-result-object v2
 
-    check-cast v2, Lsg/gov/tech/bluetrace/view/DateInputBox;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
-    invoke-virtual {v2}, Lsg/gov/tech/bluetrace/view/DateInputBox;->getDateInMillis()Ljava/lang/Long;
+    move-result-object v0
 
-    move-result-object v2
+    new-instance v1, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2$onDateSelected$$inlined$let$lambda$1;
 
-    if-nez v2, :cond_0
+    invoke-direct {v1, p0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2$onDateSelected$$inlined$let$lambda$1;-><init>(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2;)V
 
-    invoke-static {}, Lkotlin/jvm/internal/Intrinsics;->throwNpe()V
+    const-string v3, "dob"
+
+    invoke-virtual {v2, v3, v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->postValue(Ljava/lang/String;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)V
 
     :cond_0
-    invoke-virtual {v2}, Ljava/lang/Long;->longValue()J
-
-    move-result-wide v2
-
-    new-instance v4, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2$onDateSelected$1;
-
-    invoke-direct {v4, p0, v0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2$onDateSelected$1;-><init>(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$2;Lkotlin/jvm/internal/Ref$BooleanRef;)V
-
-    invoke-virtual {v1, v2, v3, v4}, Lsg/gov/tech/revamp/utils/FieldValidations;->isValidDateOfBirth(JLkotlin/jvm/functions/Function1;)V
-
-    :cond_1
     return-void
 .end method

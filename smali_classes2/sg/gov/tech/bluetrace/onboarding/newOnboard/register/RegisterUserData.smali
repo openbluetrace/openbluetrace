@@ -17,7 +17,7 @@
         0x3
     }
     d1 = {
-        "\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0008\u0015\u0018\u0000 \'2\u00020\u0001:\u0001\'Ba\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0005\u0012\u0006\u0010\u0007\u001a\u00020\u0005\u0012\u0006\u0010\u0008\u001a\u00020\u0005\u0012\u0008\u0008\u0002\u0010\t\u001a\u00020\u0005\u0012\u0008\u0010\n\u001a\u0004\u0018\u00010\u0005\u0012\u0008\u0008\u0002\u0010\u000b\u001a\u00020\u0005\u0012\u0008\u0008\u0002\u0010\u000c\u001a\u00020\u0005\u0012\u0008\u0008\u0002\u0010\r\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u000eJ\u0008\u0010&\u001a\u00020\u0005H\u0016R\u0013\u0010\n\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000f\u0010\u0010R\u0011\u0010\u0007\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0011\u0010\u0010R\u0011\u0010\u0012\u001a\u00020\u0013\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0014\u0010\u0015R\u0011\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0016\u0010\u0010R\u001a\u0010\r\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0017\u0010\u0010\"\u0004\u0008\u0018\u0010\u0019R\u0013\u0010\u0006\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001a\u0010\u0010R\u0011\u0010\u001b\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001c\u0010\u0010R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001d\u0010\u001eR\u0011\u0010\u0008\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001f\u0010\u0010R\u001a\u0010\u000b\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008 \u0010\u0010\"\u0004\u0008!\u0010\u0019R\u001a\u0010\u000c\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\"\u0010\u0010\"\u0004\u0008#\u0010\u0019R\u001a\u0010\t\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008$\u0010\u0010\"\u0004\u0008%\u0010\u0019\u00a8\u0006("
+        "\u0000(\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0008\u0017\n\u0002\u0010\u0002\n\u0002\u0008\u0003\u0018\u0000 -2\u00020\u0001:\u0001-Ba\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0005\u0012\u0006\u0010\u0007\u001a\u00020\u0005\u0012\u0006\u0010\u0008\u001a\u00020\u0005\u0012\u0008\u0008\u0002\u0010\t\u001a\u00020\u0005\u0012\u0008\u0010\n\u001a\u0004\u0018\u00010\u0005\u0012\u0008\u0008\u0002\u0010\u000b\u001a\u00020\u0005\u0012\u0008\u0008\u0002\u0010\u000c\u001a\u00020\u0005\u0012\u0008\u0008\u0002\u0010\r\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u000eJ\u0006\u0010*\u001a\u00020+J\u0008\u0010,\u001a\u00020\u0005H\u0016R\u0013\u0010\n\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000f\u0010\u0010R\u0011\u0010\u0007\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0011\u0010\u0010R\u0011\u0010\u0012\u001a\u00020\u0013\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0014\u0010\u0015R\u001a\u0010\u0004\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0016\u0010\u0010\"\u0004\u0008\u0017\u0010\u0018R\u001a\u0010\r\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0019\u0010\u0010\"\u0004\u0008\u001a\u0010\u0018R\u0013\u0010\u0006\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001b\u0010\u0010R\u001a\u0010\u001c\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001d\u0010\u0010\"\u0004\u0008\u001e\u0010\u0018R\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001f\u0010 \"\u0004\u0008!\u0010\"R\u0011\u0010\u0008\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008#\u0010\u0010R\u001a\u0010\u000b\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008$\u0010\u0010\"\u0004\u0008%\u0010\u0018R\u001a\u0010\u000c\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008&\u0010\u0010\"\u0004\u0008\'\u0010\u0018R\u001a\u0010\t\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008(\u0010\u0010\"\u0004\u0008)\u0010\u0018\u00a8\u0006."
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;",
@@ -43,14 +43,18 @@
         "getHomeAddress",
         "()Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/HomeAddress;",
         "getId",
+        "setId",
+        "(Ljava/lang/String;)V",
         "getIdDateOfApplication",
         "setIdDateOfApplication",
-        "(Ljava/lang/String;)V",
         "getIdDateOfIssue",
         "idType",
         "getIdType",
+        "setIdType",
         "getIdTypeEnum",
         "()Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;",
+        "setIdTypeEnum",
+        "(Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;)V",
         "getModel",
         "getName",
         "setName",
@@ -58,6 +62,8 @@
         "setNationality",
         "getPostalCode",
         "setPostalCode",
+        "setPassportToVerified",
+        "",
         "toString",
         "Companion",
         "app_release"
@@ -91,7 +97,7 @@
     .end annotation
 .end field
 
-.field public final id:Ljava/lang/String;
+.field public id:Ljava/lang/String;
     .annotation build Lorg/jetbrains/annotations/NotNull;
     .end annotation
 .end field
@@ -106,12 +112,12 @@
     .end annotation
 .end field
 
-.field public final idType:Ljava/lang/String;
+.field public idType:Ljava/lang/String;
     .annotation build Lorg/jetbrains/annotations/NotNull;
     .end annotation
 .end field
 
-.field public final transient idTypeEnum:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
+.field public transient idTypeEnum:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
     .annotation build Lorg/jetbrains/annotations/NotNull;
     .end annotation
 .end field
@@ -478,6 +484,23 @@
     return-object v0
 .end method
 
+.method public final setId(Ljava/lang/String;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "<set-?>"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->id:Ljava/lang/String;
+
+    return-void
+.end method
+
 .method public final setIdDateOfApplication(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
@@ -491,6 +514,40 @@
 
     .line 1
     iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->idDateOfApplication:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setIdType(Ljava/lang/String;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "<set-?>"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->idType:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setIdTypeEnum(Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;)V
+    .locals 1
+    .param p1    # Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "<set-?>"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->idTypeEnum:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
 
     return-void
 .end method
@@ -529,6 +586,24 @@
     return-void
 .end method
 
+.method public final setPassportToVerified()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;->PASSPORT_VERIFIED:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->idTypeEnum:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;
+
+    .line 2
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;->getTag()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->idType:Ljava/lang/String;
+
+    return-void
+.end method
+
 .method public final setPostalCode(Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
@@ -554,7 +629,7 @@
     const-string v0, "idType: "
 
     .line 1
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 

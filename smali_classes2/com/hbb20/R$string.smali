@@ -70,17 +70,17 @@
 
 .field public static final app_name:I = 0x7f13002a
 
-.field public static final fastscroll__app_name:I = 0x7f1300ac
+.field public static final fastscroll__app_name:I = 0x7f1300ae
 
-.field public static final no_result_found:I = 0x7f130144
+.field public static final no_result_found:I = 0x7f13014f
 
-.field public static final search_hint:I = 0x7f1301c4
+.field public static final search_hint:I = 0x7f1301ec
 
-.field public static final search_menu_title:I = 0x7f1301c5
+.field public static final search_menu_title:I = 0x7f1301ed
 
-.field public static final select_country:I = 0x7f1301cc
+.field public static final select_country:I = 0x7f1301f4
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f1301da
+.field public static final status_bar_notification_info_overflow:I = 0x7f130203
 
 
 # direct methods

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nUpgradeReceiver.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UpgradeReceiver.kt\nsg/gov/tech/bluetrace/receivers/UpgradeReceiver\n*L\n1#1,26:1\n*E\n"
+    value = "SMAP\nUpgradeReceiver.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UpgradeReceiver.kt\nsg/gov/tech/bluetrace/receivers/UpgradeReceiver\n*L\n1#1,31:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -113,7 +113,7 @@
 
     const-string v1, "Unable to handle upgrade: "
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -132,8 +132,10 @@
     .line 5
     sget-object p2, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 6
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->BLUETRACE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 7
     const-class v2, Lsg/gov/tech/bluetrace/receivers/UpgradeReceiver;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -142,10 +144,11 @@
 
     const-string v3, "javaClass.simpleName"
 
-    invoke-static {v2, v3, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v3, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
+    .line 8
     invoke-virtual {p1}, Ljava/lang/Exception;->getLocalizedMessage()Ljava/lang/String;
 
     move-result-object v3
@@ -156,12 +159,14 @@
 
     move-result-object v1
 
+    .line 9
     sget-object v3, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v3, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
 
     move-result-object p1
 
+    .line 10
     invoke-virtual {p2, v0, v2, v1, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2

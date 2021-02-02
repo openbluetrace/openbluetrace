@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nQrScannerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 QrScannerFragment.kt\nsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$Companion\n*L\n1#1,401:1\n*E\n"
+    value = "SMAP\nQrScannerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 QrScannerFragment.kt\nsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$Companion\n*L\n1#1,408:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;

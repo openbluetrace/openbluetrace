@@ -16,7 +16,7 @@
 # static fields
 .field public static final belvedere_sdk_fpa_suffix_v2:I = 0x7f130046
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f1301da
+.field public static final status_bar_notification_info_overflow:I = 0x7f130203
 
 
 # direct methods

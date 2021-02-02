@@ -35,4 +35,7 @@
             Ljava/io/IOException;
         }
     .end annotation
+
+    .annotation runtime Ljavax/annotation/Nullable;
+    .end annotation
 .end method

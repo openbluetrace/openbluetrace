@@ -115,84 +115,84 @@
 
     const-string v3, "BRAND="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 4
     sget-object v1, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
     const-string v3, "CPU_ABI="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 5
     sget-object v1, Landroid/os/Build;->CPU_ABI:Ljava/lang/String;
 
     const-string v3, "DEVICE="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 6
     sget-object v1, Landroid/os/Build;->DEVICE:Ljava/lang/String;
 
     const-string v3, "DISPLAY="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 7
     sget-object v1, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
     const-string v3, "FINGERPRINT="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 8
     sget-object v1, Landroid/os/Build;->FINGERPRINT:Ljava/lang/String;
 
     const-string v3, "HOST="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 9
     sget-object v1, Landroid/os/Build;->HOST:Ljava/lang/String;
 
     const-string v3, "ID="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 10
     sget-object v1, Landroid/os/Build;->ID:Ljava/lang/String;
 
     const-string v3, "MANUFACTURER="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 11
     sget-object v1, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     const-string v3, "MODEL="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 12
     sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string v3, "PRODUCT="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 13
     sget-object v1, Landroid/os/Build;->PRODUCT:Ljava/lang/String;
 
     const-string v3, "TAGS="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 14
     sget-object v1, Landroid/os/Build;->TAGS:Ljava/lang/String;
 
     const-string v3, "TIME="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 15
     sget-wide v3, Landroid/os/Build;->TIME:J
@@ -210,35 +210,35 @@
 
     const-string v3, "USER="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 17
     sget-object v1, Landroid/os/Build;->USER:Ljava/lang/String;
 
     const-string v3, "VERSION.CODENAME="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 18
     sget-object v1, Landroid/os/Build$VERSION;->CODENAME:Ljava/lang/String;
 
     const-string v3, "VERSION.INCREMENTAL="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 19
     sget-object v1, Landroid/os/Build$VERSION;->INCREMENTAL:Ljava/lang/String;
 
     const-string v3, "VERSION.RELEASE="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 20
     sget-object v1, Landroid/os/Build$VERSION;->RELEASE:Ljava/lang/String;
 
     const-string v3, "VERSION.SDK_INT="
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 21
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -520,7 +520,7 @@
     const-string p0, "Chose zoom ratio of "
 
     .line 7
-    invoke-static {p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p0
 
@@ -768,7 +768,7 @@
     const-string v1, "Supported FPS ranges: "
 
     .line 3
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 
@@ -863,7 +863,7 @@
     const-string p0, "FPS range already set to "
 
     .line 11
-    invoke-static {p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p0
 
@@ -885,7 +885,7 @@
     const-string p1, "Setting FPS range to "
 
     .line 12
-    invoke-static {p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object p1
 
@@ -1087,7 +1087,7 @@
     const-string v0, "Old focus areas: "
 
     .line 2
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -1117,7 +1117,7 @@
     const-string v2, "Setting focus area to : "
 
     .line 4
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -1217,7 +1217,7 @@
     const-string v0, "Old metering areas: "
 
     .line 2
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -1243,7 +1243,7 @@
     const-string v2, "Setting metering area to : "
 
     .line 4
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 

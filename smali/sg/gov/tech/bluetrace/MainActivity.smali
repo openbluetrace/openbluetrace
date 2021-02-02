@@ -12,7 +12,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity\n+ 2 ActivityViewModelLazy.kt\nandroidx/activity/ActivityViewModelLazyKt\n*L\n1#1,599:1\n41#2,7:600\n*E\n*S KotlinDebug\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity\n*L\n69#1,7:600\n*E\n"
+    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n+ 3 ViewModelStoreOwnerExt.kt\norg/koin/android/viewmodel/ext/android/ViewModelStoreOwnerExtKt\n*L\n1#1,601:1\n37#2,2:602\n48#3,4:604\n*E\n*S KotlinDebug\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity\n*L\n530#1,2:602\n69#1,4:604\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -22,7 +22,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u00b4\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u000c\n\u0002\u0010\u0015\n\u0000\n\u0002\u0010\u0011\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0012\u0018\u0000 q2\u00020\u0001:\u0002pqB\u0005\u00a2\u0006\u0002\u0010\u0002J&\u0010=\u001a\u00020>2\u0006\u0010?\u001a\u00020\u00042\u0006\u0010@\u001a\u00020\u00132\u0006\u0010A\u001a\u00020\n2\u0006\u0010B\u001a\u00020\u0004J\u0006\u0010C\u001a\u00020>J\u0008\u0010D\u001a\u00020>H\u0002J\u0006\u0010E\u001a\u00020>J\u0008\u0010F\u001a\u00020>H\u0002J\u0008\u0010G\u001a\u00020>H\u0002J\u0008\u0010H\u001a\u00020>H\u0002J\u0008\u0010I\u001a\u00020>H\u0002J\u001b\u0010J\u001a\u00020K2\u000c\u0010L\u001a\u0008\u0012\u0004\u0012\u00020\u001a0MH\u0002\u00a2\u0006\u0002\u0010NJ\u0008\u0010O\u001a\u00020>H\u0002J\u0006\u0010P\u001a\u00020>J\u0006\u0010Q\u001a\u00020>J\u0006\u0010R\u001a\u00020\u001aJ\u0008\u0010S\u001a\u00020>H\u0002J\u0014\u0010T\u001a\u00020\u001a2\n\u0010U\u001a\u0006\u0012\u0002\u0008\u00030VH\u0002J\u0006\u0010W\u001a\u00020>J\"\u0010X\u001a\u00020>2\u0006\u0010Y\u001a\u00020\u00042\u0006\u0010Z\u001a\u00020\u00042\u0008\u0010[\u001a\u0004\u0018\u00010\\H\u0014J\u0008\u0010]\u001a\u00020>H\u0016J\u0012\u0010^\u001a\u00020>2\u0008\u0010_\u001a\u0004\u0018\u00010`H\u0014J\u0012\u0010a\u001a\u00020>2\u0008\u0010b\u001a\u0004\u0018\u00010\\H\u0014J\u0008\u0010c\u001a\u00020>H\u0014J-\u0010d\u001a\u00020>2\u0006\u0010Y\u001a\u00020\u00042\u000e\u0010e\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\n0M2\u0006\u0010f\u001a\u00020KH\u0016\u00a2\u0006\u0002\u0010gJ\u0008\u0010h\u001a\u00020>H\u0014J\u0008\u0010i\u001a\u00020>H\u0014J\u0008\u0010j\u001a\u00020>H\u0014J\u0018\u0010k\u001a\u00020>2\u0006\u0010?\u001a\u00020\u00042\u0006\u0010@\u001a\u00020\u0013H\u0002J\u0006\u0010l\u001a\u00020>J\u0006\u0010m\u001a\u00020>J\u0010\u0010n\u001a\u00020>2\u0006\u0010o\u001a\u00020\u001aH\u0002R\u001a\u0010\u0003\u001a\u00020\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R\u000e\u0010\t\u001a\u00020\nX\u0082D\u00a2\u0006\u0002\n\u0000R\u0011\u0010\u000b\u001a\u00020\u000c\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\r\u0010\u000eR\u0012\u0010\u000f\u001a\u00060\u0010R\u00020\u0000X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0000X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0012\u001a\u0004\u0018\u00010\u0013X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0015X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0016\u001a\u00020\u0017X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0018\u001a\u0004\u0018\u00010\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0019\u001a\u00020\u001aX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0019\u0010\u001b\"\u0004\u0008\u001c\u0010\u001dR\u000e\u0010\u001e\u001a\u00020\u001fX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020#X\u0082.\u00a2\u0006\u0002\n\u0000R \u0010$\u001a\u0008\u0012\u0004\u0012\u00020&0%X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\'\u0010(\"\u0004\u0008)\u0010*R\u000e\u0010+\u001a\u00020,X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010-\u001a\u00020.X\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u0010/\u001a\u00020\u001aX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00080\u0010\u001b\"\u0004\u00081\u0010\u001dR\u001b\u00102\u001a\u0002038BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u00086\u00107\u001a\u0004\u00084\u00105R\u000e\u00108\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u00109\u001a\u00020:X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010;\u001a\u0004\u0018\u00010<X\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006r"
+        "\u0000\u00b6\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u000c\n\u0002\u0010\u0011\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u0015\n\u0002\u0008\u000c\u0018\u0000 q2\u00020\u0001:\u0002pqB\u0005\u00a2\u0006\u0002\u0010\u0002J&\u0010=\u001a\u00020>2\u0006\u0010?\u001a\u00020\u00042\u0006\u0010@\u001a\u00020\u00132\u0006\u0010A\u001a\u00020\n2\u0006\u0010B\u001a\u00020\u0004J\u0006\u0010C\u001a\u00020>J\u0008\u0010D\u001a\u00020>H\u0002J\u0006\u0010E\u001a\u00020>J\u0008\u0010F\u001a\u00020>H\u0002J\u0008\u0010G\u001a\u00020>H\u0002J\u0008\u0010H\u001a\u00020>H\u0002J\u0008\u0010I\u001a\u00020>H\u0002J!\u0010J\u001a\u0008\u0012\u0004\u0012\u00020\n0K2\u000c\u0010L\u001a\u0008\u0012\u0004\u0012\u00020\u001a0KH\u0002\u00a2\u0006\u0002\u0010MJ\u0008\u0010N\u001a\u00020>H\u0002J\u0006\u0010O\u001a\u00020>J\u0006\u0010P\u001a\u00020>J\u0006\u0010Q\u001a\u00020\u001aJ\u0008\u0010R\u001a\u00020>H\u0002J\u0014\u0010S\u001a\u00020\u001a2\n\u0010T\u001a\u0006\u0012\u0002\u0008\u00030UH\u0002J\u0006\u0010V\u001a\u00020>J\"\u0010W\u001a\u00020>2\u0006\u0010X\u001a\u00020\u00042\u0006\u0010Y\u001a\u00020\u00042\u0008\u0010Z\u001a\u0004\u0018\u00010[H\u0014J\u0008\u0010\\\u001a\u00020>H\u0016J\u0012\u0010]\u001a\u00020>2\u0008\u0010^\u001a\u0004\u0018\u00010_H\u0014J\u0012\u0010`\u001a\u00020>2\u0008\u0010a\u001a\u0004\u0018\u00010[H\u0014J\u0008\u0010b\u001a\u00020>H\u0014J-\u0010c\u001a\u00020>2\u0006\u0010X\u001a\u00020\u00042\u000e\u0010d\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\n0K2\u0006\u0010e\u001a\u00020fH\u0016\u00a2\u0006\u0002\u0010gJ\u0008\u0010h\u001a\u00020>H\u0014J\u0008\u0010i\u001a\u00020>H\u0014J\u0008\u0010j\u001a\u00020>H\u0014J\u0018\u0010k\u001a\u00020>2\u0006\u0010?\u001a\u00020\u00042\u0006\u0010@\u001a\u00020\u0013H\u0002J\u0006\u0010l\u001a\u00020>J\u0006\u0010m\u001a\u00020>J\u0010\u0010n\u001a\u00020>2\u0006\u0010o\u001a\u00020\u001aH\u0002R\u001a\u0010\u0003\u001a\u00020\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0005\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R\u000e\u0010\t\u001a\u00020\nX\u0082D\u00a2\u0006\u0002\n\u0000R\u0011\u0010\u000b\u001a\u00020\u000c\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\r\u0010\u000eR\u0012\u0010\u000f\u001a\u00060\u0010R\u00020\u0000X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0000X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0012\u001a\u0004\u0018\u00010\u0013X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0014\u001a\u00020\u0015X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0016\u001a\u00020\u0017X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0018\u001a\u0004\u0018\u00010\nX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0019\u001a\u00020\u001aX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0019\u0010\u001b\"\u0004\u0008\u001c\u0010\u001dR\u000e\u0010\u001e\u001a\u00020\u001fX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\"\u001a\u00020#X\u0082.\u00a2\u0006\u0002\n\u0000R \u0010$\u001a\u0008\u0012\u0004\u0012\u00020&0%X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\'\u0010(\"\u0004\u0008)\u0010*R\u000e\u0010+\u001a\u00020,X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010-\u001a\u00020.X\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u0010/\u001a\u00020\u001aX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00080\u0010\u001b\"\u0004\u00081\u0010\u001dR\u001b\u00102\u001a\u0002038BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u00086\u00107\u001a\u0004\u00084\u00105R\u000e\u00108\u001a\u00020\u0004X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u00109\u001a\u00020:X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010;\u001a\u0004\u0018\u00010<X\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006r"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/MainActivity;",
@@ -102,8 +102,7 @@
         "getFeaturePoints",
         "",
         "checks",
-        "",
-        "([Ljava/lang/Boolean;)[I",
+        "([Ljava/lang/Boolean;)[Ljava/lang/String;",
         "goToHistory",
         "goToHome",
         "goTopossibleExposure",
@@ -128,6 +127,7 @@
         "onRequestPermissionsResult",
         "permissions",
         "grantResults",
+        "",
         "(I[Ljava/lang/String;[I)V",
         "onResume",
         "onStart",
@@ -156,6 +156,11 @@
 .field public static final Companion:Lsg/gov/tech/bluetrace/MainActivity$Companion;
 
 .field public static final GO_TO_HISTORY:Ljava/lang/String; = "GO_TO_HISTORY"
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field public static final GO_TO_HOME:Ljava/lang/String; = "GO_TO_HOME"
     .annotation build Lorg/jetbrains/annotations/NotNull;
     .end annotation
 .end field
@@ -265,7 +270,7 @@
 .end method
 
 .method public constructor <init>()V
-    .locals 4
+    .locals 3
 
     .line 1
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/TranslatableActivity;-><init>()V
@@ -322,28 +327,21 @@
     iput-object v0, p0, Lsg/gov/tech/bluetrace/MainActivity;->activityFragmentManager:Lsg/gov/tech/bluetrace/fragment/ActivityFragmentManager;
 
     .line 11
-    new-instance v0, Lsg/gov/tech/bluetrace/MainActivity$$special$$inlined$viewModels$1;
+    sget-object v0, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
 
-    invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/MainActivity$$special$$inlined$viewModels$1;-><init>(Landroidx/activity/ComponentActivity;)V
+    new-instance v1, Lsg/gov/tech/bluetrace/MainActivity$$special$$inlined$viewModel$1;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, v2, v2}, Lsg/gov/tech/bluetrace/MainActivity$$special$$inlined$viewModel$1;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)V
+
+    invoke-static {v0, v1}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/MainActivity;->permissionVM$delegate:Lkotlin/Lazy;
 
     .line 12
-    new-instance v1, Landroidx/lifecycle/ViewModelLazy;
-
-    const-class v2, Lsg/gov/tech/bluetrace/revamp/settings/PermissionViewModel;
-
-    invoke-static {v2}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
-
-    move-result-object v2
-
-    new-instance v3, Lsg/gov/tech/bluetrace/MainActivity$$special$$inlined$viewModels$2;
-
-    invoke-direct {v3, p0}, Lsg/gov/tech/bluetrace/MainActivity$$special$$inlined$viewModels$2;-><init>(Landroidx/activity/ComponentActivity;)V
-
-    invoke-direct {v1, v2, v3, v0}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/KClass;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V
-
-    iput-object v1, p0, Lsg/gov/tech/bluetrace/MainActivity;->permissionVM$delegate:Lkotlin/Lazy;
-
-    .line 13
     new-instance v0, Lsg/gov/tech/bluetrace/MainActivity$sharedPreferenceChangeListener$1;
 
     invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/MainActivity$sharedPreferenceChangeListener$1;-><init>(Lsg/gov/tech/bluetrace/MainActivity;)V
@@ -351,6 +349,8 @@
     iput-object v0, p0, Lsg/gov/tech/bluetrace/MainActivity;->sharedPreferenceChangeListener:Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;
 
     return-void
+
+    nop
 
     :array_0
     .array-data 4
@@ -421,11 +421,11 @@
     return-object p0
 .end method
 
-.method public static final synthetic access$getFeaturePoints(Lsg/gov/tech/bluetrace/MainActivity;[Ljava/lang/Boolean;)[I
+.method public static final synthetic access$getFeaturePoints(Lsg/gov/tech/bluetrace/MainActivity;[Ljava/lang/Boolean;)[Ljava/lang/String;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/MainActivity;->getFeaturePoints([Ljava/lang/Boolean;)[I
+    invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/MainActivity;->getFeaturePoints([Ljava/lang/Boolean;)[Ljava/lang/String;
 
     move-result-object p0
 
@@ -853,7 +853,7 @@
 
     const-string v2, "Firebase user: "
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -898,8 +898,8 @@
     return-void
 .end method
 
-.method private final getFeaturePoints([Ljava/lang/Boolean;)[I
-    .locals 2
+.method private final getFeaturePoints([Ljava/lang/Boolean;)[Ljava/lang/String;
+    .locals 3
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;
@@ -909,49 +909,49 @@
     const/4 v1, 0x0
 
     .line 2
-    aget-object v1, p1, v1
+    aget-object v2, p1, v1
 
-    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
 
-    move-result v1
+    move-result v2
 
-    if-nez v1, :cond_0
-
-    const v1, 0x7f130102
+    if-nez v2, :cond_0
 
     .line 3
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    sget-object v2, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment;->Companion:Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment$Companion;
 
-    move-result-object v1
+    invoke-virtual {v2, p0}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment$Companion;->LOCATION_PERMISSION(Landroid/content/Context;)Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    move-result-object v2
+
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_0
-    const/4 v1, 0x1
+    const/4 v2, 0x1
 
     .line 4
-    aget-object v1, p1, v1
+    aget-object v2, p1, v2
 
-    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
 
-    move-result v1
+    move-result v2
 
-    if-nez v1, :cond_1
-
-    const v1, 0x7f130050
+    if-nez v2, :cond_1
 
     .line 5
-    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    sget-object v2, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment;->Companion:Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment$Companion;
 
-    move-result-object v1
+    invoke-virtual {v2, p0}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment$Companion;->BLUETOOTH(Landroid/content/Context;)Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    move-result-object v2
+
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_1
-    const/4 v1, 0x2
+    const/4 v2, 0x2
 
     .line 6
-    aget-object p1, p1, v1
+    aget-object p1, p1, v2
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -959,22 +959,37 @@
 
     if-nez p1, :cond_2
 
-    const p1, 0x7f13003b
-
     .line 7
-    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    sget-object p1, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment;->Companion:Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment$Companion;
+
+    invoke-virtual {p1, p0}, Lsg/gov/tech/bluetrace/fragment/UnhappyDialogFragment$Companion;->IGNORE_BATTERY_OPTIMIZATION(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 8
     :cond_2
-    invoke-static {v0}, Lkotlin/collections/CollectionsKt___CollectionsKt;->toIntArray(Ljava/util/Collection;)[I
+    new-array p1, v1, [Ljava/lang/String;
+
+    .line 8
+    invoke-interface {v0, p1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
+    if-eqz p1, :cond_3
+
+    check-cast p1, [Ljava/lang/String;
+
     return-object p1
+
+    :cond_3
+    new-instance p1, Lkotlin/TypeCastException;
+
+    const-string v0, "null cannot be cast to non-null type kotlin.Array<T>"
+
+    invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+
+    throw p1
 .end method
 
 .method private final getPermissionVM()Lsg/gov/tech/bluetrace/revamp/settings/PermissionViewModel;
@@ -1013,7 +1028,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0a0265
+    const v1, 0x7f0a0274
 
     invoke-virtual {v0, v1}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;->setSelectedItemId(I)V
 
@@ -1496,7 +1511,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportOrInvalidUser(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1614,7 +1629,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0a0266
+    const v1, 0x7f0a0275
 
     invoke-virtual {v0, v1}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;->setSelectedItemId(I)V
 
@@ -1656,7 +1671,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0a0265
+    const v1, 0x7f0a0274
 
     invoke-virtual {v0, v1}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;->setSelectedItemId(I)V
 
@@ -1827,7 +1842,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v1, 0x7f0a0266
+    const v1, 0x7f0a0275
 
     invoke-virtual {v0, v1}, Lcom/google/android/material/bottomnavigation/BottomNavigationView;->setSelectedItemId(I)V
 
@@ -1877,7 +1892,7 @@
 
     iput-object p1, p0, Lsg/gov/tech/bluetrace/MainActivity;->mFragment:Lsg/gov/tech/bluetrace/zendesk/WebViewZendeskSupportFragment;
 
-    const p1, 0x7f0a0120
+    const p1, 0x7f0a012a
 
     .line 7
     iput p1, p0, Lsg/gov/tech/bluetrace/MainActivity;->LAYOUT_MAIN_ID:I
@@ -1939,23 +1954,39 @@
     .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/FragmentActivity;->onNewIntent(Landroid/content/Intent;)V
 
-    if-eqz p1, :cond_0
+    if-eqz p1, :cond_1
 
-    const/4 v0, 0x0
+    const-string v0, "GO_TO_HISTORY"
 
-    const-string v1, "GO_TO_HISTORY"
+    const/4 v1, 0x0
 
     .line 2
-    invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+    invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
 
-    move-result p1
+    move-result v0
 
-    if-eqz p1, :cond_0
+    if-eqz v0, :cond_0
 
     .line 3
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/MainActivity;->goToHistory()V
 
+    goto :goto_0
+
     :cond_0
+    const-string v0, "GO_TO_HOME"
+
+    .line 4
+    invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_1
+
+    .line 5
+    invoke-virtual {p0}, Lsg/gov/tech/bluetrace/MainActivity;->goToHome()V
+
+    :cond_1
+    :goto_0
     return-void
 .end method
 
@@ -2154,11 +2185,11 @@
 
     move-result v4
 
-    const v5, 0x7f0a0266
+    const v5, 0x7f0a0275
 
     if-ne v4, v5, :cond_0
 
-    const v4, 0x7f1301fa
+    const v4, 0x7f130225
 
     .line 4
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2170,11 +2201,11 @@
     goto :goto_1
 
     :cond_0
-    const v5, 0x7f0a0269
+    const v5, 0x7f0a0278
 
     if-ne v4, v5, :cond_1
 
-    const v4, 0x7f1301fd
+    const v4, 0x7f130228
 
     .line 5
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
@@ -2186,11 +2217,11 @@
     goto :goto_1
 
     :cond_1
-    const v5, 0x7f0a0268
+    const v5, 0x7f0a0277
 
     if-ne v4, v5, :cond_2
 
-    const v4, 0x7f1301fb
+    const v4, 0x7f130226
 
     .line 6
     invoke-virtual {p0, v4}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

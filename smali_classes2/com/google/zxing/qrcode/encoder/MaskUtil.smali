@@ -540,7 +540,7 @@
 
     const-string p2, "Invalid mask pattern: "
 
-    invoke-static {p2, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p2, p0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
 

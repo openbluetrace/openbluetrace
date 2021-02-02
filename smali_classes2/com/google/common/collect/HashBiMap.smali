@@ -388,7 +388,7 @@
 
     const-string v0, "Expected to find entry with key "
 
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -495,7 +495,7 @@
 
     const-string v0, "Expected to find entry with value "
 
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
@@ -1135,7 +1135,7 @@
 
     const-string p3, "Key already present in map: "
 
-    invoke-static {p3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline17(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline18(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -1289,7 +1289,7 @@
 
     const-string p3, "Value already present in map: "
 
-    invoke-static {p3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline17(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p3, p2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline18(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 

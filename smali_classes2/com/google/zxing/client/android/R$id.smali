@@ -14,33 +14,33 @@
 
 
 # static fields
-.field public static final centerCrop:I = 0x7f0a00f8
+.field public static final centerCrop:I = 0x7f0a0101
 
-.field public static final fitCenter:I = 0x7f0a018d
+.field public static final fitCenter:I = 0x7f0a0194
 
-.field public static final fitXY:I = 0x7f0a018f
+.field public static final fitXY:I = 0x7f0a0196
 
-.field public static final zxing_back_button:I = 0x7f0a0486
+.field public static final zxing_back_button:I = 0x7f0a04ac
 
-.field public static final zxing_barcode_scanner:I = 0x7f0a0487
+.field public static final zxing_barcode_scanner:I = 0x7f0a04ad
 
-.field public static final zxing_barcode_surface:I = 0x7f0a0488
+.field public static final zxing_barcode_surface:I = 0x7f0a04ae
 
-.field public static final zxing_camera_error:I = 0x7f0a0489
+.field public static final zxing_camera_error:I = 0x7f0a04af
 
-.field public static final zxing_decode:I = 0x7f0a048a
+.field public static final zxing_decode:I = 0x7f0a04b0
 
-.field public static final zxing_decode_failed:I = 0x7f0a048b
+.field public static final zxing_decode_failed:I = 0x7f0a04b1
 
-.field public static final zxing_decode_succeeded:I = 0x7f0a048c
+.field public static final zxing_decode_succeeded:I = 0x7f0a04b2
 
-.field public static final zxing_possible_result_points:I = 0x7f0a048d
+.field public static final zxing_possible_result_points:I = 0x7f0a04b3
 
-.field public static final zxing_prewiew_size_ready:I = 0x7f0a048e
+.field public static final zxing_prewiew_size_ready:I = 0x7f0a04b4
 
-.field public static final zxing_status_view:I = 0x7f0a048f
+.field public static final zxing_status_view:I = 0x7f0a04b5
 
-.field public static final zxing_viewfinder_view:I = 0x7f0a0490
+.field public static final zxing_viewfinder_view:I = 0x7f0a04b6
 
 
 # direct methods

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEnterPinFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EnterPinFragment.kt\nsg/gov/tech/bluetrace/fragment/EnterPinFragment\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,628:1\n11454#2,2:629\n*E\n*S KotlinDebug\n*F\n+ 1 EnterPinFragment.kt\nsg/gov/tech/bluetrace/fragment/EnterPinFragment\n*L\n581#1,2:629\n*E\n"
+    value = "SMAP\nEnterPinFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EnterPinFragment.kt\nsg/gov/tech/bluetrace/fragment/EnterPinFragment\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,658:1\n11454#2,2:659\n*E\n*S KotlinDebug\n*F\n+ 1 EnterPinFragment.kt\nsg/gov/tech/bluetrace/fragment/EnterPinFragment\n*L\n611#1,2:659\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -549,7 +549,7 @@
 
     check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f1300f0
+    const v1, 0x7f1300f9
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -607,7 +607,7 @@
 
     check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f130215
+    const v1, 0x7f130249
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -709,9 +709,11 @@
     .line 4
     new-instance v0, Ljava/text/SimpleDateFormat;
 
-    const-string v1, "yyyyMMdd"
+    sget-object v1, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
 
-    invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+    const-string v2, "yyyyMMdd"
+
+    invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
     new-instance v1, Ljava/util/Date;
 
@@ -1073,7 +1075,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d0084
+    const p3, 0x7f0d0089
 
     const/4 v0, 0x0
 

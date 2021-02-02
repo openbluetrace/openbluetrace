@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nStreetPassPairingFix.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StreetPassPairingFix.kt\nsg/gov/tech/bluetrace/bluetooth/StreetPassPairingFix\n*L\n1#1,187:1\n*E\n"
+    value = "SMAP\nStreetPassPairingFix.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StreetPassPairingFix.kt\nsg/gov/tech/bluetrace/bluetooth/StreetPassPairingFix\n*L\n1#1,199:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -505,7 +505,7 @@
 
     move-result-object v1
 
-    const-string v2, "Proxy.newProxyInstance(g\u2026ocationHandler(mService))"
+    const-string v2, "Proxy.newProxyInstance(\n\u2026r(mService)\n            )"
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 

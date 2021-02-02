@@ -15,7 +15,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nQrScannerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 QrScannerFragment.kt\nsg/gov/tech/bluetrace/qrscanner/QrScanerFragment\n*L\n1#1,401:1\n*E\n"
+    value = "SMAP\nQrScannerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 QrScannerFragment.kt\nsg/gov/tech/bluetrace/qrscanner/QrScanerFragment\n*L\n1#1,408:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -25,7 +25,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u00aa\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0010\u0011\n\u0000\n\u0002\u0010\u0015\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u0000 M2\u00020\u00012\u00020\u00022\u00020\u0003:\u0001MB\u0005\u00a2\u0006\u0002\u0010\u0004J\u0008\u0010\"\u001a\u00020#H\u0002J\u0010\u0010$\u001a\u00020#2\u0006\u0010%\u001a\u00020&H\u0002J\u0008\u0010\'\u001a\u00020#H\u0002J\u0008\u0010(\u001a\u00020#H\u0016J\u0008\u0010)\u001a\u00020#H\u0016J\u0012\u0010*\u001a\u00020#2\u0008\u0010+\u001a\u0004\u0018\u00010,H\u0016J&\u0010-\u001a\u0004\u0018\u00010&2\u0006\u0010.\u001a\u00020/2\u0008\u00100\u001a\u0004\u0018\u0001012\u0008\u0010+\u001a\u0004\u0018\u00010,H\u0016J\u0008\u00102\u001a\u00020#H\u0016J\u000e\u00103\u001a\u00020#2\u0006\u00104\u001a\u000205J\u0008\u00106\u001a\u00020#H\u0016J-\u00107\u001a\u00020#2\u0006\u00108\u001a\u0002052\u000e\u00109\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00060:2\u0006\u0010;\u001a\u00020<H\u0016\u00a2\u0006\u0002\u0010=J\u0008\u0010>\u001a\u00020#H\u0016J\u0012\u0010?\u001a\u00020#2\u0008\u0010@\u001a\u0004\u0018\u00010\u0006H\u0016J\u0012\u0010A\u001a\u00020#2\u0008\u0010B\u001a\u0004\u0018\u00010CH\u0016J\u0016\u0010A\u001a\u00020#2\u000c\u0010D\u001a\u0008\u0012\u0004\u0012\u00020F0EH\u0016J\u0008\u0010G\u001a\u00020#H\u0016J\u001a\u0010H\u001a\u00020#2\u0006\u0010%\u001a\u00020&2\u0008\u0010+\u001a\u0004\u0018\u00010,H\u0016J\u0010\u0010I\u001a\u00020#2\u0006\u0010%\u001a\u00020&H\u0002J\u000e\u0010J\u001a\u00020#2\u0006\u0010K\u001a\u00020\u0006J\u0010\u0010L\u001a\u00020#2\u0006\u0010K\u001a\u00020\u0006H\u0002R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0007\u001a\u0004\u0018\u00010\u0008X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u000cX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u000eX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u000f\u001a\u00020\u0010X\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0012\"\u0004\u0008\u0013\u0010\u0014R\u000e\u0010\u0015\u001a\u00020\u0016X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0018X\u0082.\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0019\u001a\u0004\u0018\u00010\u001aX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u001b\u001a\u0004\u0018\u00010\u0006X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u001c\u001a\u0004\u0018\u00010\u0006X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u001eX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u001eX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006N"
+        "\u0000\u00aa\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0010\u0011\n\u0000\n\u0002\u0010\u0015\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\t\u0018\u0000 N2\u00020\u00012\u00020\u00022\u00020\u0003:\u0001NB\u0005\u00a2\u0006\u0002\u0010\u0004J\u0008\u0010\"\u001a\u00020#H\u0002J\u0010\u0010$\u001a\u00020#2\u0006\u0010%\u001a\u00020&H\u0002J\u0008\u0010\'\u001a\u00020#H\u0002J\u0008\u0010(\u001a\u00020#H\u0016J\u0008\u0010)\u001a\u00020#H\u0016J\u0012\u0010*\u001a\u00020#2\u0008\u0010+\u001a\u0004\u0018\u00010,H\u0016J&\u0010-\u001a\u0004\u0018\u00010&2\u0006\u0010.\u001a\u00020/2\u0008\u00100\u001a\u0004\u0018\u0001012\u0008\u0010+\u001a\u0004\u0018\u00010,H\u0016J\u0008\u00102\u001a\u00020#H\u0016J\u000e\u00103\u001a\u00020#2\u0006\u00104\u001a\u000205J\u0008\u00106\u001a\u00020#H\u0016J-\u00107\u001a\u00020#2\u0006\u00108\u001a\u0002052\u000e\u00109\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00060:2\u0006\u0010;\u001a\u00020<H\u0016\u00a2\u0006\u0002\u0010=J\u0008\u0010>\u001a\u00020#H\u0016J\u0012\u0010?\u001a\u00020#2\u0008\u0010@\u001a\u0004\u0018\u00010\u0006H\u0016J\u0012\u0010A\u001a\u00020#2\u0008\u0010B\u001a\u0004\u0018\u00010CH\u0016J\u0016\u0010A\u001a\u00020#2\u000c\u0010D\u001a\u0008\u0012\u0004\u0012\u00020F0EH\u0016J\u0008\u0010G\u001a\u00020#H\u0016J\u001a\u0010H\u001a\u00020#2\u0006\u0010%\u001a\u00020&2\u0008\u0010+\u001a\u0004\u0018\u00010,H\u0016J\u0008\u0010I\u001a\u00020#H\u0002J\u0010\u0010J\u001a\u00020#2\u0006\u0010%\u001a\u00020&H\u0002J\u000e\u0010K\u001a\u00020#2\u0006\u0010L\u001a\u00020\u0006J\u0010\u0010M\u001a\u00020#2\u0006\u0010L\u001a\u00020\u0006H\u0002R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0007\u001a\u0004\u0018\u00010\u0008X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\u000cX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u000eX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u000f\u001a\u00020\u0010X\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0012\"\u0004\u0008\u0013\u0010\u0014R\u000e\u0010\u0015\u001a\u00020\u0016X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0018X\u0082.\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u0019\u001a\u0004\u0018\u00010\u001aX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u001b\u001a\u0004\u0018\u00010\u0006X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0010\u0010\u001c\u001a\u0004\u0018\u00010\u0006X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u001eX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u001eX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020!X\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006O"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;",
@@ -101,6 +101,7 @@
         "Lcom/google/mlkit/vision/barcode/Barcode;",
         "onStop",
         "onViewCreated",
+        "resumeQrScanning",
         "setAutoFitSurfaceViewListener",
         "validateQR",
         "url",
@@ -251,6 +252,15 @@
     sget-boolean v0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->isTuturialCompleted:Z
 
     return v0
+.end method
+
+.method public static final synthetic access$resumeQrScanning(Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->resumeQrScanning()V
+
+    return-void
 .end method
 
 .method public static final synthetic access$setBarcodeReader$p(Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;)V
@@ -447,7 +457,7 @@
 
     new-array v2, v2, [Ljava/lang/Object;
 
-    const v3, 0x7f13022b
+    const v3, 0x7f130262
 
     .line 1
     invoke-virtual {v0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -458,7 +468,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f13022c
+    const v3, 0x7f130263
 
     .line 2
     invoke-virtual {v0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -469,7 +479,7 @@
 
     aput-object v3, v2, v5
 
-    const v3, 0x7f130140
+    const v3, 0x7f13014b
 
     .line 3
     invoke-virtual {v0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -480,7 +490,7 @@
 
     aput-object v3, v2, v6
 
-    const v3, 0x7f130025
+    const v3, 0x7f130024
 
     .line 4
     invoke-virtual {v0, v3}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -522,7 +532,7 @@
 
     move-result-object v3
 
-    const v7, 0x7f1301ef
+    const v7, 0x7f13021a
 
     invoke-virtual {v3, v7}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -663,7 +673,7 @@
 
     new-array v6, v6, [Ljava/lang/Object;
 
-    const v7, 0x7f130149
+    const v7, 0x7f130154
 
     .line 17
     invoke-virtual {v0, v7}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -672,7 +682,7 @@
 
     aput-object v7, v6, v4
 
-    const v7, 0x7f130148
+    const v7, 0x7f130153
 
     .line 18
     invoke-virtual {v0, v7}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -703,7 +713,7 @@
 
     iput-object v2, v0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->errorHandler:Lsg/gov/tech/bluetrace/ErrorHandler;
 
-    const v2, 0x7f0a02a8
+    const v2, 0x7f0a02b8
 
     .line 21
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -718,7 +728,7 @@
 
     iput-object v2, v0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->permissioRoot:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    const v2, 0x7f0a034c
+    const v2, 0x7f0a035e
 
     .line 22
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -733,7 +743,7 @@
 
     iput-object v2, v0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->scannerRootView:Landroidx/constraintlayout/widget/ConstraintLayout;
 
-    const v2, 0x7f0a009e
+    const v2, 0x7f0a00a0
 
     .line 23
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -748,7 +758,7 @@
 
     iput-object v2, v0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->mAllowButton:Landroidx/appcompat/widget/AppCompatButton;
 
-    const v2, 0x7f0a039e
+    const v2, 0x7f0a03b1
 
     .line 24
     invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1015,6 +1025,44 @@
     return-object p0
 .end method
 
+.method private final resumeQrScanning()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->barcodeReader:Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;->isBarCodeDetectorOperational()Z
+
+    move-result v0
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :cond_0
+
+    .line 2
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->barcodeReader:Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;->resumeScanning()V
+
+    goto :goto_0
+
+    .line 3
+    :cond_0
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->mlKitScanner:Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->resumeQRCodeScanning()V
+
+    :cond_1
+    :goto_0
+    return-void
+.end method
+
 .method private final setAutoFitSurfaceViewListener(Landroid/view/View;)V
     .locals 2
 
@@ -1261,7 +1309,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d0074
+    const p3, 0x7f0d0079
 
     const/4 v0, 0x0
 
@@ -1410,42 +1458,15 @@
     .line 2
     sget-boolean v0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->isTuturialCompleted:Z
 
-    if-eqz v0, :cond_2
-
-    .line 3
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->barcodeReader:Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;
-
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;->isBarCodeDetectorOperational()Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
+    .line 3
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->resumeQrScanning()V
 
     .line 4
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->mlKitScanner:Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;
-
-    if-eqz v0, :cond_1
-
-    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->resumeQRCodeScanning()V
-
-    goto :goto_0
-
-    .line 5
-    :cond_0
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->barcodeReader:Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;
-
-    if-eqz v0, :cond_1
-
-    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;->resumeScanning()V
-
-    .line 6
-    :cond_1
-    :goto_0
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->hideShowScanner()V
 
-    :cond_2
+    :cond_0
     return-void
 .end method
 
@@ -1459,8 +1480,10 @@
     .line 1
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 2
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->SAFEENTRY:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 3
     const-class v2, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -1471,6 +1494,7 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
+    .line 4
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -1487,9 +1511,10 @@
 
     const/4 v6, 0x0
 
+    .line 5
     invoke-virtual {v0, v1, v2, v4, v6}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 2
+    .line 6
     sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     iget-object v1, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->TAG:Ljava/lang/String;
@@ -1508,19 +1533,19 @@
 
     invoke-virtual {v0, v1, v2}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
+    .line 7
     new-instance v0, Lsg/gov/tech/bluetrace/AnalyticsUtils;
 
     invoke-direct {v0}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
-    .line 4
-    sget-object v1, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    .line 8
+    sget-object v1, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getSAFE_ENTRY_ERROR()Ljava/lang/String;
+    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getSAFE_ENTRY_ERROR()Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5
+    .line 9
     const-class v2, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
@@ -1529,7 +1554,7 @@
 
     invoke-static {v2, v3}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
+    .line 10
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -1542,7 +1567,7 @@
 
     move-result-object p1
 
-    .line 7
+    .line 11
     invoke-virtual {v0, v1, v2, p1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->exceptionEventAnalytics(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void

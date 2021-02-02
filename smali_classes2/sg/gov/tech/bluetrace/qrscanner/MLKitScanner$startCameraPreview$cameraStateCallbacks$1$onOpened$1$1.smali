@@ -31,7 +31,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMLKitScanner.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MLKitScanner.kt\nsg/gov/tech/bluetrace/qrscanner/MLKitScanner$startCameraPreview$cameraStateCallbacks$1$onOpened$1$1\n*L\n1#1,293:1\n*E\n"
+    value = "SMAP\nMLKitScanner.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MLKitScanner.kt\nsg/gov/tech/bluetrace/qrscanner/MLKitScanner$startCameraPreview$cameraStateCallbacks$1$onOpened$1$1\n*L\n1#1,300:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -65,7 +65,7 @@
         0x0
     }
     l = {
-        0x88
+        0x8a
     }
     m = "invokeSuspend"
     n = {

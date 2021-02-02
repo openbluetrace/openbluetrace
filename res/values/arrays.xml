@@ -43,7 +43,7 @@
         <item>@string/manage_family_members</item>
         <item>@string/change_language</item>
     </string-array>
-    <string-array name="settings_account_menu_array_passport_user">
+    <string-array name="settings_account_menu_array_invalid_passport_user">
         <item>@string/your_profile</item>
         <item>@string/change_language</item>
     </string-array>

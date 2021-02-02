@@ -62,7 +62,7 @@
 
 # virtual methods
 .method public final onCheckedChanged(Landroid/widget/CompoundButton;Z)V
-    .locals 2
+    .locals 1
 
     .line 1
     iget-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2$initTextWatcher$4;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2;
@@ -71,35 +71,15 @@
 
     move-result-object p1
 
-    const/4 p2, 0x1
+    iget-object p2, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2$initTextWatcher$4;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2;
 
-    new-array p2, p2, [Lkotlin/Pair;
+    invoke-static {p2}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2;->access$checkDeclaration(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2;)Z
 
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2$initTextWatcher$4;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2;
+    move-result p2
 
-    invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2;->access$checkDeclaration(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2;)Z
+    const-string v0, "declaration"
 
-    move-result v0
-
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    const-string v1, "declaration"
-
-    invoke-static {v1, v0}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
-
-    move-result-object v0
-
-    const/4 v1, 0x0
-
-    aput-object v0, p2, v1
-
-    invoke-static {p2}, Lkotlin/collections/MapsKt__MapsKt;->hashMapOf([Lkotlin/Pair;)Ljava/util/HashMap;
-
-    move-result-object p2
-
-    invoke-virtual {p1, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/WpViewModel;->postValue(Ljava/util/HashMap;)V
+    invoke-virtual {p1, v0, p2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/WpViewModel;->addHash(Ljava/lang/String;Z)V
 
     return-void
 .end method

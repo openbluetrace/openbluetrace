@@ -31,7 +31,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnboardingRegisterUserDPFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingRegisterUserDPFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/OnboardingRegisterUserDPFragment$onViewCreated$1\n*L\n1#1,352:1\n*E\n"
+    value = "SMAP\nOnboardingRegisterUserDPFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingRegisterUserDPFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/OnboardingRegisterUserDPFragment$onViewCreated$1\n*L\n1#1,363:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -194,7 +194,7 @@
 
     check-cast p1, Landroidx/appcompat/widget/AppCompatButton;
 
-    const v1, 0x7f060136
+    const v1, 0x7f06013b
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 

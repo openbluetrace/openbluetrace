@@ -57,14 +57,18 @@
 
 # virtual methods
 .method public final run()V
-    .locals 1
+    .locals 3
 
     .line 1
     iget-object v0, p0, Lsg/gov/tech/bluetrace/ErrorHandler$handleRational$1$2;->this$0:Lsg/gov/tech/bluetrace/ErrorHandler$handleRational$1;
 
     iget-object v0, v0, Lsg/gov/tech/bluetrace/ErrorHandler$handleRational$1;->this$0:Lsg/gov/tech/bluetrace/ErrorHandler;
 
-    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/ErrorHandler;->showError()V
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    invoke-static {v0, v1, v2, v1}, Lsg/gov/tech/bluetrace/ErrorHandler;->showError$default(Lsg/gov/tech/bluetrace/ErrorHandler;Lsg/gov/tech/bluetrace/utils/AlertType;ILjava/lang/Object;)V
 
     return-void
 .end method

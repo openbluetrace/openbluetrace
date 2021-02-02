@@ -12,7 +12,9 @@
 
 
 # instance fields
-.field public final adapterFactories:Ljava/util/List;
+.field public final baseUrl:Lokhttp3/HttpUrl;
+
+.field public final callAdapterFactories:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
@@ -21,8 +23,6 @@
         }
     .end annotation
 .end field
-
-.field public final baseUrl:Lokhttp3/HttpUrl;
 
 .field public final callFactory:Lokhttp3/Call$Factory;
 
@@ -47,7 +47,7 @@
             "Ljava/util/Map<",
             "Ljava/lang/reflect/Method;",
             "Lretrofit2/ServiceMethod<",
-            "**>;>;"
+            "*>;>;"
         }
     .end annotation
 .end field
@@ -95,18 +95,10 @@
     iput-object p2, p0, Lretrofit2/Retrofit;->baseUrl:Lokhttp3/HttpUrl;
 
     .line 5
-    invoke-static {p3}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lretrofit2/Retrofit;->converterFactories:Ljava/util/List;
+    iput-object p3, p0, Lretrofit2/Retrofit;->converterFactories:Ljava/util/List;
 
     .line 6
-    invoke-static {p4}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
-
-    move-result-object p1
-
-    iput-object p1, p0, Lretrofit2/Retrofit;->adapterFactories:Ljava/util/List;
+    iput-object p4, p0, Lretrofit2/Retrofit;->callAdapterFactories:Ljava/util/List;
 
     .line 7
     iput-object p5, p0, Lretrofit2/Retrofit;->callbackExecutor:Ljava/util/concurrent/Executor;
@@ -148,6 +140,16 @@
 
     .line 3
     invoke-virtual {v0, v3}, Lretrofit2/Platform;->isDefaultMethod(Ljava/lang/reflect/Method;)Z
+
+    move-result v4
+
+    if-nez v4, :cond_0
+
+    invoke-virtual {v3}, Ljava/lang/reflect/Method;->getModifiers()I
+
+    move-result v4
+
+    invoke-static {v4}, Ljava/lang/reflect/Modifier;->isStatic(I)Z
 
     move-result v4
 
@@ -212,7 +214,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lretrofit2/Retrofit;->adapterFactories:Ljava/util/List;
+    iget-object v0, p0, Lretrofit2/Retrofit;->callAdapterFactories:Ljava/util/List;
 
     return-object v0
 .end method
@@ -310,7 +312,7 @@
             "Ljava/lang/reflect/Method;",
             ")",
             "Lretrofit2/ServiceMethod<",
-            "**>;"
+            "*>;"
         }
     .end annotation
 
@@ -346,11 +348,7 @@
     if-nez v1, :cond_1
 
     .line 4
-    new-instance v1, Lretrofit2/ServiceMethod$Builder;
-
-    invoke-direct {v1, p0, p1}, Lretrofit2/ServiceMethod$Builder;-><init>(Lretrofit2/Retrofit;Ljava/lang/reflect/Method;)V
-
-    invoke-virtual {v1}, Lretrofit2/ServiceMethod$Builder;->build()Lretrofit2/ServiceMethod;
+    invoke-static {p0, p1}, Lretrofit2/ServiceMethod;->parseAnnotations(Lretrofit2/Retrofit;Ljava/lang/reflect/Method;)Lretrofit2/ServiceMethod;
 
     move-result-object v1
 
@@ -416,7 +414,7 @@
     invoke-static {p3, v0}, Lretrofit2/Utils;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 3
-    iget-object v0, p0, Lretrofit2/Retrofit;->adapterFactories:Ljava/util/List;
+    iget-object v0, p0, Lretrofit2/Retrofit;->callAdapterFactories:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
@@ -425,7 +423,7 @@
     add-int/lit8 v0, v0, 0x1
 
     .line 4
-    iget-object v1, p0, Lretrofit2/Retrofit;->adapterFactories:Ljava/util/List;
+    iget-object v1, p0, Lretrofit2/Retrofit;->callAdapterFactories:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -437,7 +435,7 @@
     if-ge v2, v1, :cond_1
 
     .line 5
-    iget-object v3, p0, Lretrofit2/Retrofit;->adapterFactories:Ljava/util/List;
+    iget-object v3, p0, Lretrofit2/Retrofit;->callAdapterFactories:Ljava/util/List;
 
     invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -491,7 +489,7 @@
     .line 10
     invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lretrofit2/Retrofit;->adapterFactories:Ljava/util/List;
+    iget-object v1, p0, Lretrofit2/Retrofit;->callAdapterFactories:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -526,7 +524,7 @@
     invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 13
-    iget-object p1, p0, Lretrofit2/Retrofit;->adapterFactories:Ljava/util/List;
+    iget-object p1, p0, Lretrofit2/Retrofit;->callAdapterFactories:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -538,7 +536,7 @@
     .line 14
     invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lretrofit2/Retrofit;->adapterFactories:Ljava/util/List;
+    iget-object v1, p0, Lretrofit2/Retrofit;->callAdapterFactories:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 

@@ -27,6 +27,10 @@
 
 
 # instance fields
+.field public final method:Ljava/lang/reflect/Method;
+
+.field public final p:I
+
 .field public final valueConverter:Lretrofit2/Converter;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -40,11 +44,13 @@
 
 
 # direct methods
-.method public constructor <init>(Lretrofit2/Converter;)V
+.method public constructor <init>(Ljava/lang/reflect/Method;ILretrofit2/Converter;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
+            "Ljava/lang/reflect/Method;",
+            "I",
             "Lretrofit2/Converter<",
             "TT;",
             "Ljava/lang/String;",
@@ -56,7 +62,13 @@
     invoke-direct {p0}, Lretrofit2/ParameterHandler;-><init>()V
 
     .line 2
-    iput-object p1, p0, Lretrofit2/ParameterHandler$HeaderMap;->valueConverter:Lretrofit2/Converter;
+    iput-object p1, p0, Lretrofit2/ParameterHandler$HeaderMap;->method:Ljava/lang/reflect/Method;
+
+    .line 3
+    iput p2, p0, Lretrofit2/ParameterHandler$HeaderMap;->p:I
+
+    .line 4
+    iput-object p3, p0, Lretrofit2/ParameterHandler$HeaderMap;->valueConverter:Lretrofit2/Converter;
 
     return-void
 .end method
@@ -84,7 +96,7 @@
 .end method
 
 .method public apply(Lretrofit2/RequestBuilder;Ljava/util/Map;)V
-    .locals 3
+    .locals 4
     .param p2    # Ljava/util/Map;
         .annotation runtime Ljavax/annotation/Nullable;
         .end annotation
@@ -105,6 +117,8 @@
         }
     .end annotation
 
+    const/4 v0, 0x0
+
     if-eqz p2, :cond_3
 
     .line 2
@@ -119,68 +133,80 @@
     :goto_0
     invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
-    move-result v0
+    move-result v1
 
-    if-eqz v0, :cond_2
+    if-eqz v1, :cond_2
 
     invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    move-result-object v0
+    move-result-object v1
 
-    check-cast v0, Ljava/util/Map$Entry;
+    check-cast v1, Ljava/util/Map$Entry;
 
     .line 3
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    if-eqz v2, :cond_1
+
+    .line 4
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    .line 5
+    iget-object v3, p0, Lretrofit2/ParameterHandler$HeaderMap;->valueConverter:Lretrofit2/Converter;
+
+    invoke-interface {v3, v1}, Lretrofit2/Converter;->convert(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/String;
 
-    if-eqz v1, :cond_1
-
-    .line 4
-    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    .line 5
-    iget-object v2, p0, Lretrofit2/ParameterHandler$HeaderMap;->valueConverter:Lretrofit2/Converter;
-
-    invoke-interface {v2, v0}, Lretrofit2/Converter;->convert(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Ljava/lang/String;
-
-    invoke-virtual {p1, v1, v0}, Lretrofit2/RequestBuilder;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Lretrofit2/RequestBuilder;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 6
     :cond_0
-    new-instance p1, Ljava/lang/IllegalArgumentException;
+    iget-object p1, p0, Lretrofit2/ParameterHandler$HeaderMap;->method:Ljava/lang/reflect/Method;
 
-    const-string p2, "Header map contained null value for key \'"
+    iget p2, p0, Lretrofit2/ParameterHandler$HeaderMap;->p:I
 
-    const-string v0, "\'."
+    const-string v1, "Header map contained null value for key \'"
 
-    invoke-static {p2, v1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline19(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    const-string v3, "\'."
 
-    move-result-object p2
+    invoke-static {v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline20(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    move-result-object v1
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    invoke-static {p1, p2, v1, v0}, Lretrofit2/Utils;->parameterError(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException;
+
+    move-result-object p1
 
     throw p1
 
     .line 7
     :cond_1
-    new-instance p1, Ljava/lang/IllegalArgumentException;
+    iget-object p1, p0, Lretrofit2/ParameterHandler$HeaderMap;->method:Ljava/lang/reflect/Method;
 
-    const-string p2, "Header map contained null key."
+    iget p2, p0, Lretrofit2/ParameterHandler$HeaderMap;->p:I
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, "Header map contained null key."
+
+    invoke-static {p1, p2, v1, v0}, Lretrofit2/Utils;->parameterError(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException;
+
+    move-result-object p1
 
     throw p1
 
@@ -189,11 +215,17 @@
 
     .line 8
     :cond_3
-    new-instance p1, Ljava/lang/IllegalArgumentException;
+    iget-object p1, p0, Lretrofit2/ParameterHandler$HeaderMap;->method:Ljava/lang/reflect/Method;
 
-    const-string p2, "Header map was null."
+    iget p2, p0, Lretrofit2/ParameterHandler$HeaderMap;->p:I
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, "Header map was null."
+
+    invoke-static {p1, p2, v1, v0}, Lretrofit2/Utils;->parameterError(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException;
+
+    move-result-object p1
 
     throw p1
 .end method

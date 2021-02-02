@@ -22,6 +22,8 @@
 
 .field public static final safe_check_in_out_navigation:I = 0x7f100003
 
+.field public static final safe_entry_check_in_out_navigation_v2:I = 0x7f100004
+
 
 # direct methods
 .method public constructor <init>()V

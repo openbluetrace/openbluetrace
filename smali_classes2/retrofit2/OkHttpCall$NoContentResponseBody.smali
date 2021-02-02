@@ -18,11 +18,18 @@
 .field public final contentLength:J
 
 .field public final contentType:Lokhttp3/MediaType;
+    .annotation runtime Ljavax/annotation/Nullable;
+    .end annotation
+.end field
 
 
 # direct methods
 .method public constructor <init>(Lokhttp3/MediaType;J)V
     .locals 0
+    .param p1    # Lokhttp3/MediaType;
+        .annotation runtime Ljavax/annotation/Nullable;
+        .end annotation
+    .end param
 
     .line 1
     invoke-direct {p0}, Lokhttp3/ResponseBody;-><init>()V

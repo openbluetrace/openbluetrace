@@ -6,12 +6,14 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
+        Lretrofit2/ParameterHandler$Tag;,
         Lretrofit2/ParameterHandler$Body;,
         Lretrofit2/ParameterHandler$PartMap;,
         Lretrofit2/ParameterHandler$RawPart;,
         Lretrofit2/ParameterHandler$Part;,
         Lretrofit2/ParameterHandler$FieldMap;,
         Lretrofit2/ParameterHandler$Field;,
+        Lretrofit2/ParameterHandler$Headers;,
         Lretrofit2/ParameterHandler$HeaderMap;,
         Lretrofit2/ParameterHandler$QueryMap;,
         Lretrofit2/ParameterHandler$QueryName;,

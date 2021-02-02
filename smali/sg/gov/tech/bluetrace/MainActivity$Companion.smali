@@ -20,7 +20,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$Companion\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,599:1\n1366#2:600\n1435#2,3:601\n1366#2:604\n1435#2,3:605\n1366#2:608\n1435#2,3:609\n1366#2:612\n1435#2,3:613\n*E\n*S KotlinDebug\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$Companion\n*L\n88#1:600\n88#1,3:601\n89#1:604\n89#1,3:605\n100#1:608\n100#1,3:609\n101#1:612\n101#1,3:613\n*E\n"
+    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$Companion\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,601:1\n1366#2:602\n1435#2,3:603\n1366#2:606\n1435#2,3:607\n1366#2:610\n1435#2,3:611\n1366#2:614\n1435#2,3:615\n*E\n*S KotlinDebug\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$Companion\n*L\n88#1:602\n88#1,3:603\n89#1:606\n89#1,3:607\n100#1:610\n100#1,3:611\n101#1:614\n101#1,3:615\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -30,7 +30,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0004\u0008\u0086\u0003\u0018\u00002\u00020\u0001:\u0001\tB\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002J\u0012\u0010\u0005\u001a\u00020\u0006*\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u0004J\u0012\u0010\u0008\u001a\u00020\u0006*\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u0004R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\n"
+        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0004\u0008\u0086\u0003\u0018\u00002\u00020\u0001:\u0001\nB\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002J\u0012\u0010\u0006\u001a\u00020\u0007*\u00020\u00042\u0006\u0010\u0008\u001a\u00020\u0004J\u0012\u0010\t\u001a\u00020\u0007*\u00020\u00042\u0006\u0010\u0008\u001a\u00020\u0004R\u000e\u0010\u0003\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u000b"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/MainActivity$Companion;",
@@ -38,6 +38,7 @@
         "()V",
         "GO_TO_HISTORY",
         "",
+        "GO_TO_HOME",
         "isAGreaterVersionThan",
         "",
         "comparedVersion",

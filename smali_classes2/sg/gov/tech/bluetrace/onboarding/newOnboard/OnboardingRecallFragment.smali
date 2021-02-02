@@ -203,7 +203,7 @@
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
-    const p3, 0x7f0d0071
+    const p3, 0x7f0d0073
 
     const/4 v0, 0x0
 
@@ -287,7 +287,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p2, 0x7f130204
+    const p2, 0x7f13022f
 
     .line 4
     invoke-virtual {p0, p2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -403,7 +403,7 @@
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
 
     :cond_4
-    const v1, 0x7f13013a
+    const v1, 0x7f130146
 
     invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/HowItWorksActivity;->setRightNavigationButtonText(I)V
 

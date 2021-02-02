@@ -56,25 +56,15 @@
 .end annotation
 
 
-# static fields
-.field public static final INSTANCE:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getOTP$1;
+# instance fields
+.field public final synthetic this$0:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
 
 
 # direct methods
-.method public static constructor <clinit>()V
-    .locals 1
-
-    new-instance v0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getOTP$1;
-
-    invoke-direct {v0}, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getOTP$1;-><init>()V
-
-    sput-object v0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getOTP$1;->INSTANCE:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getOTP$1;
-
-    return-void
-.end method
-
-.method public constructor <init>()V
+.method public constructor <init>(Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;)V
     .locals 0
+
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getOTP$1;->this$0:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -108,7 +98,11 @@
     .line 2
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
-    const-string v0, "ApiHandler"
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getOTP$1;->this$0:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+
+    invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;->access$getTAG$p(Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;)Ljava/lang/String;
+
+    move-result-object v0
 
     const-string v1, "Get OTP Api call success"
 

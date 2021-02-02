@@ -16,6 +16,10 @@
     name = null
 .end annotation
 
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nOnboardingRegisterUserStpFragmentV2.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingRegisterUserStpFragmentV2.kt\nsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initialiseView$5\n*L\n1#1,327:1\n*E\n"
+.end annotation
+
 .annotation runtime Lkotlin/Metadata;
     bv = {
         0x1,
@@ -70,40 +74,39 @@
     .line 1
     iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initialiseView$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;
 
-    invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;->access$checkDateOfIssue(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;)Z
-
-    move-result v0
-
-    .line 2
-    iget-object v1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initialiseView$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;
-
-    invoke-static {v1}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;->access$getVm$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/StpViewModel;
-
-    move-result-object v1
-
-    const/4 v2, 0x1
-
-    new-array v2, v2, [Lkotlin/Pair;
-
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;->access$getIssuedDateBx$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;)Lsg/gov/tech/bluetrace/view/DateInputBox;
 
     move-result-object v0
+
+    invoke-virtual {v0}, Lsg/gov/tech/bluetrace/view/DateInputBox;->getDateInMillis()Ljava/lang/Long;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Ljava/lang/Number;->longValue()J
+
+    move-result-wide v0
+
+    .line 2
+    iget-object v2, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initialiseView$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;
+
+    invoke-static {v2}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;->access$getVm$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/StpViewModel;
+
+    move-result-object v2
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+
+    new-instance v1, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initialiseView$5$onDateSelected$$inlined$let$lambda$1;
+
+    invoke-direct {v1, p0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initialiseView$5$onDateSelected$$inlined$let$lambda$1;-><init>(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initialiseView$5;)V
 
     const-string v3, "date_issued"
 
-    invoke-static {v3, v0}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-virtual {v2, v3, v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/StpViewModel;->postValue(Ljava/lang/String;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)V
 
-    move-result-object v0
-
-    const/4 v3, 0x0
-
-    aput-object v0, v2, v3
-
-    invoke-static {v2}, Lkotlin/collections/MapsKt__MapsKt;->hashMapOf([Lkotlin/Pair;)Ljava/util/HashMap;
-
-    move-result-object v0
-
-    invoke-virtual {v1, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/StpViewModel;->postValue(Ljava/util/HashMap;)V
-
+    :cond_0
     return-void
 .end method

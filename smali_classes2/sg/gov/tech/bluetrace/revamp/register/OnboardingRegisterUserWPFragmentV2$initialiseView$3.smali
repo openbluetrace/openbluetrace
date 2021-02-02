@@ -74,9 +74,9 @@
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setEnabled(Z)V
 
     .line 2
-    new-instance p1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/WorkPassHowToFindDPDialogFragment;
+    new-instance p1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/WorkPassHowToFindWPDialogFragment;
 
-    invoke-direct {p1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/WorkPassHowToFindDPDialogFragment;-><init>()V
+    invoke-direct {p1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/WorkPassHowToFindWPDialogFragment;-><init>()V
 
     .line 3
     iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2$initialiseView$3;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserWPFragmentV2;

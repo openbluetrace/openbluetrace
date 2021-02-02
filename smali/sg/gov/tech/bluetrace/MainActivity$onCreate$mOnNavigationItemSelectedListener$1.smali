@@ -17,7 +17,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$onCreate$mOnNavigationItemSelectedListener$1\n*L\n1#1,599:1\n*E\n"
+    value = "SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\nsg/gov/tech/bluetrace/MainActivity$onCreate$mOnNavigationItemSelectedListener$1\n*L\n1#1,601:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -95,7 +95,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0269
+    const v0, 0x7f0a0278
 
     if-ne p1, v0, :cond_0
 
@@ -158,7 +158,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0268
+    const v0, 0x7f0a0277
 
     if-ne p1, v0, :cond_1
 
@@ -230,7 +230,7 @@
 
     move-result p1
 
-    const v0, 0x7f0a0266
+    const v0, 0x7f0a0275
 
     if-ne p1, v0, :cond_3
 
@@ -300,7 +300,7 @@
 
     move-result p1
 
-    const v2, 0x7f0a0265
+    const v2, 0x7f0a0274
 
     if-ne p1, v2, :cond_4
 
@@ -385,7 +385,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f0a0265
+    .packed-switch 0x7f0a0274
         :pswitch_4
         :pswitch_3
         :pswitch_0

@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nRegisterUserData.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RegisterUserData.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType$Companion\n*L\n1#1,83:1\n*E\n"
+    value = "SMAP\nRegisterUserData.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RegisterUserData.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType$Companion\n*L\n1#1,110:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;

@@ -14,25 +14,25 @@
 
 
 # static fields
-.field public static final zxing_custom_possible_result_points:I = 0x7f06018b
+.field public static final zxing_custom_possible_result_points:I = 0x7f060190
 
-.field public static final zxing_custom_result_view:I = 0x7f06018c
+.field public static final zxing_custom_result_view:I = 0x7f060191
 
-.field public static final zxing_custom_viewfinder_laser:I = 0x7f06018d
+.field public static final zxing_custom_viewfinder_laser:I = 0x7f060192
 
-.field public static final zxing_custom_viewfinder_mask:I = 0x7f06018e
+.field public static final zxing_custom_viewfinder_mask:I = 0x7f060193
 
-.field public static final zxing_possible_result_points:I = 0x7f06018f
+.field public static final zxing_possible_result_points:I = 0x7f060194
 
-.field public static final zxing_result_view:I = 0x7f060190
+.field public static final zxing_result_view:I = 0x7f060195
 
-.field public static final zxing_status_text:I = 0x7f060191
+.field public static final zxing_status_text:I = 0x7f060196
 
-.field public static final zxing_transparent:I = 0x7f060192
+.field public static final zxing_transparent:I = 0x7f060197
 
-.field public static final zxing_viewfinder_laser:I = 0x7f060193
+.field public static final zxing_viewfinder_laser:I = 0x7f060198
 
-.field public static final zxing_viewfinder_mask:I = 0x7f060194
+.field public static final zxing_viewfinder_mask:I = 0x7f060199
 
 
 # direct methods

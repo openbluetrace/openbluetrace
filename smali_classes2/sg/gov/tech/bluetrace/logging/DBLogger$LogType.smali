@@ -28,7 +28,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0008\n\u0008\u0086\u0001\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00000\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002j\u0002\u0008\u0003j\u0002\u0008\u0004j\u0002\u0008\u0005j\u0002\u0008\u0006j\u0002\u0008\u0007j\u0002\u0008\u0008j\u0002\u0008\tj\u0002\u0008\n\u00a8\u0006\u000b"
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0008\u000b\u0008\u0086\u0001\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00000\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0002j\u0002\u0008\u0003j\u0002\u0008\u0004j\u0002\u0008\u0005j\u0002\u0008\u0006j\u0002\u0008\u0007j\u0002\u0008\u0008j\u0002\u0008\tj\u0002\u0008\nj\u0002\u0008\u000b\u00a8\u0006\u000c"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;",
@@ -42,6 +42,7 @@
         "ENCRYPTION",
         "UPLOAD",
         "FIREBASE",
+        "PASSPORT_VALIDATION",
         "app_release"
     }
     k = 0x1
@@ -64,6 +65,8 @@
 
 .field public static final enum FIREBASE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+.field public static final enum PASSPORT_VALIDATION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
+
 .field public static final enum SAFEENTRY:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
 .field public static final enum SETTINGS:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
@@ -77,7 +80,7 @@
 .method public static constructor <clinit>()V
     .locals 4
 
-    const/16 v0, 0x8
+    const/16 v0, 0x9
 
     new-array v0, v0, [Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
@@ -174,6 +177,18 @@
     invoke-direct {v1, v2, v3}, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;-><init>(Ljava/lang/String;I)V
 
     sput-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->FIREBASE:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
+
+    aput-object v1, v0, v3
+
+    new-instance v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
+
+    const-string v2, "PASSPORT_VALIDATION"
+
+    const/16 v3, 0x8
+
+    invoke-direct {v1, v2, v3}, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;-><init>(Ljava/lang/String;I)V
+
+    sput-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->PASSPORT_VALIDATION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
     aput-object v1, v0, v3
 

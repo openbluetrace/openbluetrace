@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnboardingOTPFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingOTPFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingOTPFragment$startTimer$1\n*L\n1#1,209:1\n*E\n"
+    value = "SMAP\nOnboardingOTPFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingOTPFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingOTPFragment$startTimer$1\n*L\n1#1,210:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -113,7 +113,7 @@
 
     iget-object v1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingOTPFragment$startTimer$1;->this$0:Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingOTPFragment;
 
-    const v2, 0x7f1301b1
+    const v2, 0x7f1301d8
 
     invoke-virtual {v1, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -243,7 +243,7 @@
     .line 7
     iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingOTPFragment$startTimer$1;->this$0:Lsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingOTPFragment;
 
-    const v1, 0x7f1301b0
+    const v1, 0x7f1301d7
 
     invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -332,7 +332,7 @@
 
     if-eqz p1, :cond_3
 
-    const p2, 0x7f06008c
+    const p2, 0x7f06008f
 
     invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getColor(I)I
 

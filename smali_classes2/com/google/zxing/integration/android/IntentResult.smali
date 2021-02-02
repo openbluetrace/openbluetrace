@@ -145,7 +145,7 @@
 
     const-string v3, "Contents: "
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 3
     iget-object v1, p0, Lcom/google/zxing/integration/android/IntentResult;->contents:Ljava/lang/String;
@@ -198,7 +198,7 @@
 
     const-string v3, "Barcode image: "
 
-    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline38(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline40(Ljava/lang/StringBuilder;Ljava/lang/String;CLjava/lang/String;)V
 
     .line 8
     iget-object v1, p0, Lcom/google/zxing/integration/android/IntentResult;->barcodeImagePath:Ljava/lang/String;

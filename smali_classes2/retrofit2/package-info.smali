@@ -4,5 +4,5 @@
 
 
 # annotations
-.annotation runtime Ljavax/annotation/ParametersAreNonnullByDefault;
+.annotation runtime Lretrofit2/internal/EverythingIsNonNull;
 .end annotation

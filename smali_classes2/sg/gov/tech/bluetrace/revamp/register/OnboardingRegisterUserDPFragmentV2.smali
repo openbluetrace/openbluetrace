@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnboardingRegisterUserDPFragmentV2.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingRegisterUserDPFragmentV2.kt\nsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2\n+ 2 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,286:1\n56#2,3:287\n*E\n*S KotlinDebug\n*F\n+ 1 OnboardingRegisterUserDPFragmentV2.kt\nsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2\n*L\n44#1,3:287\n*E\n"
+    value = "SMAP\nOnboardingRegisterUserDPFragmentV2.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingRegisterUserDPFragmentV2.kt\nsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2\n+ 2 ComponentCallbackExt.kt\norg/koin/android/ext/android/ComponentCallbackExtKt\n+ 3 ViewModelStoreOwnerExt.kt\norg/koin/android/viewmodel/ext/android/ViewModelStoreOwnerExtKt\n*L\n1#1,298:1\n25#2,3:299\n48#3,4:302\n*E\n*S KotlinDebug\n*F\n+ 1 OnboardingRegisterUserDPFragmentV2.kt\nsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2\n*L\n45#1,3:299\n46#1,4:302\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -15,7 +15,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u0086\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010(\u001a\u00020)H\u0002J\u0006\u0010*\u001a\u00020+J\u0010\u0010,\u001a\u00020+2\u0006\u0010-\u001a\u00020\nH\u0002J\u0010\u0010.\u001a\u00020+2\u0006\u0010/\u001a\u00020)H\u0002J\u0010\u00100\u001a\u00020+2\u0006\u0010-\u001a\u00020\nH\u0002J\u0008\u00101\u001a\u00020\u0004H\u0002J\u0008\u00102\u001a\u00020\u0004H\u0002J\u0008\u00103\u001a\u00020\u0004H\u0002J \u00104\u001a\u00020+2\u0006\u00105\u001a\u00020)2\u0006\u00106\u001a\u00020\u001c2\u0006\u00107\u001a\u00020\nH\u0002J\u0010\u00108\u001a\u00020+2\u0006\u0010-\u001a\u000209H\u0002J\u0008\u0010:\u001a\u00020+H\u0002J\u0008\u0010;\u001a\u00020+H\u0002J\u0008\u0010<\u001a\u00020+H\u0002J$\u0010=\u001a\u0002092\u0006\u0010>\u001a\u00020?2\u0008\u0010@\u001a\u0004\u0018\u00010A2\u0008\u0010B\u001a\u0004\u0018\u00010CH\u0016J\u0008\u0010D\u001a\u00020+H\u0002J\u0008\u0010E\u001a\u00020+H\u0016J\u001a\u0010F\u001a\u00020+2\u0006\u0010-\u001a\u0002092\u0008\u0010B\u001a\u0004\u0018\u00010CH\u0016J\u0010\u0010G\u001a\u00020+2\u0006\u0010H\u001a\u00020IH\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082D\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0008X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\r\u001a\u00020\u000eX\u0082.\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u000f\u001a\u00020\u0010X\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0012\"\u0004\u0008\u0013\u0010\u0014R\u000e\u0010\u0015\u001a\u00020\u0016X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0018X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0019\u001a\u00020\u001aX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001b\u001a\u00020\u001cX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u001cX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001e\u001a\u00020\u001cX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u001cX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010 \u001a\u00020\u001cX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010!\u001a\u00020\u001cX\u0082.\u00a2\u0006\u0002\n\u0000R\u001b\u0010\"\u001a\u00020#8FX\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008&\u0010\'\u001a\u0004\u0008$\u0010%\u00a8\u0006J"
+        "\u0000\u0086\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0008\u0010%\u001a\u00020&H\u0002J\u0006\u0010\'\u001a\u00020(J\u0010\u0010)\u001a\u00020(2\u0006\u0010*\u001a\u00020\nH\u0002J\u0010\u0010+\u001a\u00020(2\u0006\u0010,\u001a\u00020&H\u0002J\u0010\u0010-\u001a\u00020(2\u0006\u0010*\u001a\u00020\nH\u0002J\u0008\u0010.\u001a\u00020\u0004H\u0002J\u0008\u0010/\u001a\u00020\u0004H\u0002J\u0008\u00100\u001a\u00020\u0004H\u0002J \u00101\u001a\u00020(2\u0006\u00102\u001a\u00020&2\u0006\u00103\u001a\u00020\u001a2\u0006\u00104\u001a\u00020\nH\u0002J\u0010\u00105\u001a\u00020(2\u0006\u00102\u001a\u000206H\u0002J\u0010\u00107\u001a\u00020(2\u0006\u0010*\u001a\u000208H\u0002J\u0008\u00109\u001a\u00020(H\u0002J\u0008\u0010:\u001a\u00020(H\u0002J\u0008\u0010;\u001a\u00020(H\u0002J$\u0010<\u001a\u0002082\u0006\u0010=\u001a\u00020>2\u0008\u0010?\u001a\u0004\u0018\u00010@2\u0008\u0010A\u001a\u0004\u0018\u00010BH\u0016J\u0008\u0010C\u001a\u00020(H\u0002J\u0008\u0010D\u001a\u00020(H\u0016J\u001a\u0010E\u001a\u00020(2\u0006\u0010*\u001a\u0002082\u0008\u0010A\u001a\u0004\u0018\u00010BH\u0016J\u0010\u0010F\u001a\u00020(2\u0006\u0010G\u001a\u00020HH\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082D\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0006X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0008X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\t\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000b\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u000c\u001a\u00020\nX\u0082.\u00a2\u0006\u0002\n\u0000R\u001b\u0010\r\u001a\u00020\u000e8BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u000f\u0010\u0010R\u000e\u0010\u0013\u001a\u00020\u0014X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0015\u001a\u00020\u0016X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0017\u001a\u00020\u0018X\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0019\u001a\u00020\u001aX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001b\u001a\u00020\u001aX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001c\u001a\u00020\u001aX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001d\u001a\u00020\u001aX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001e\u001a\u00020\u001aX\u0082.\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u001f\u001a\u00020\u001aX\u0082.\u00a2\u0006\u0002\n\u0000R\u001b\u0010 \u001a\u00020!8FX\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008$\u0010\u0012\u001a\u0004\u0008\"\u0010#\u00a8\u0006I"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;",
@@ -33,12 +33,10 @@
         "eTSerialNum",
         "errorHandler",
         "Lsg/gov/tech/bluetrace/ErrorHandler;",
-        "fV",
-        "Lsg/gov/tech/revamp/utils/FieldValidations;",
-        "getFV",
-        "()Lsg/gov/tech/revamp/utils/FieldValidations;",
-        "setFV",
-        "(Lsg/gov/tech/revamp/utils/FieldValidations;)V",
+        "getErrorHandler",
+        "()Lsg/gov/tech/bluetrace/ErrorHandler;",
+        "errorHandler$delegate",
+        "Lkotlin/Lazy;",
         "helpIv",
         "Landroidx/appcompat/widget/AppCompatImageView;",
         "mContext",
@@ -57,7 +55,6 @@
         "getVm",
         "()Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/DpViewModel;",
         "vm$delegate",
-        "Lkotlin/Lazy;",
         "checkDeclaration",
         "",
         "debugAutofill",
@@ -74,6 +71,8 @@
         "isValid",
         "textView",
         "editText",
+        "hideShowFinError",
+        "Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;",
         "init",
         "Landroid/view/View;",
         "initTextWatcher",
@@ -122,12 +121,7 @@
 
 .field public eTSerialNum:Landroid/widget/EditText;
 
-.field public errorHandler:Lsg/gov/tech/bluetrace/ErrorHandler;
-
-.field public fV:Lsg/gov/tech/revamp/utils/FieldValidations;
-    .annotation build Lorg/jetbrains/annotations/NotNull;
-    .end annotation
-.end field
+.field public final errorHandler$delegate:Lkotlin/Lazy;
 
 .field public helpIv:Landroidx/appcompat/widget/AppCompatImageView;
 
@@ -157,9 +151,31 @@
 .method public static constructor <clinit>()V
     .locals 5
 
-    const/4 v0, 0x1
+    const/4 v0, 0x2
 
     new-array v0, v0, [Lkotlin/reflect/KProperty;
+
+    new-instance v1, Lkotlin/jvm/internal/PropertyReference1Impl;
+
+    const-class v2, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v2
+
+    const-string v3, "errorHandler"
+
+    const-string v4, "getErrorHandler()Lsg/gov/tech/bluetrace/ErrorHandler;"
+
+    invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/KDeclarationContainer;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Reflection;->property1(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/KProperty1;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    aput-object v1, v0, v2
 
     new-instance v1, Lkotlin/jvm/internal/PropertyReference1Impl;
 
@@ -179,7 +195,7 @@
 
     move-result-object v1
 
-    const/4 v2, 0x0
+    const/4 v2, 0x1
 
     aput-object v1, v0, v2
 
@@ -189,7 +205,7 @@
 .end method
 
 .method public constructor <init>()V
-    .locals 3
+    .locals 4
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
@@ -200,24 +216,33 @@
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->TAG:Ljava/lang/String;
 
     .line 3
-    new-instance v0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$$special$$inlined$viewModels$1;
+    new-instance v0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$errorHandler$2;
 
-    invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$$special$$inlined$viewModels$1;-><init>(Landroidx/fragment/app/Fragment;)V
+    invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$errorHandler$2;-><init>(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;)V
 
     .line 4
-    const-class v1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/DpViewModel;
+    sget-object v1, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
 
-    invoke-static {v1}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+    new-instance v2, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$$special$$inlined$inject$1;
 
-    move-result-object v1
+    const/4 v3, 0x0
 
-    new-instance v2, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$$special$$inlined$viewModels$2;
+    invoke-direct {v2, p0, v3, v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$$special$$inlined$inject$1;-><init>(Landroid/content/ComponentCallbacks;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)V
 
-    invoke-direct {v2, v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$$special$$inlined$viewModels$2;-><init>(Lkotlin/jvm/functions/Function0;)V
+    invoke-static {v1, v2}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
 
-    const/4 v0, 0x0
+    move-result-object v0
 
-    invoke-static {p0, v1, v2, v0}, Landroidx/fragment/app/FragmentViewModelLazyKt;->createViewModelLazy(Landroidx/fragment/app/Fragment;Lkotlin/reflect/KClass;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->errorHandler$delegate:Lkotlin/Lazy;
+
+    .line 5
+    sget-object v0, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v1, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$$special$$inlined$viewModel$1;
+
+    invoke-direct {v1, p0, v3, v3}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2$$special$$inlined$viewModel$1;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)V
+
+    invoke-static {v0, v1}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
 
     move-result-object v0
 
@@ -315,18 +340,13 @@
 .end method
 
 .method public static final synthetic access$getErrorHandler$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;)Lsg/gov/tech/bluetrace/ErrorHandler;
-    .locals 1
+    .locals 0
 
     .line 1
-    iget-object p0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->errorHandler:Lsg/gov/tech/bluetrace/ErrorHandler;
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->getErrorHandler()Lsg/gov/tech/bluetrace/ErrorHandler;
 
-    if-nez p0, :cond_0
+    move-result-object p0
 
-    const-string v0, "errorHandler"
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
-
-    :cond_0
     return-object p0
 .end method
 
@@ -425,27 +445,20 @@
     return-object p0
 .end method
 
-.method public static final synthetic access$getTvSerialNumError$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;)Landroidx/appcompat/widget/AppCompatTextView;
-    .locals 1
-
-    .line 1
-    iget-object p0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvSerialNumError:Landroidx/appcompat/widget/AppCompatTextView;
-
-    if-nez p0, :cond_0
-
-    const-string v0, "tvSerialNumError"
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
-
-    :cond_0
-    return-object p0
-.end method
-
 .method public static final synthetic access$hideShowError(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;ZLandroidx/appcompat/widget/AppCompatTextView;Landroid/widget/EditText;)V
     .locals 0
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->hideShowError(ZLandroidx/appcompat/widget/AppCompatTextView;Landroid/widget/EditText;)V
+
+    return-void
+.end method
+
+.method public static final synthetic access$hideShowFinError(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->hideShowFinError(Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;)V
 
     return-void
 .end method
@@ -495,15 +508,6 @@
     return-void
 .end method
 
-.method public static final synthetic access$setErrorHandler$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;Lsg/gov/tech/bluetrace/ErrorHandler;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->errorHandler:Lsg/gov/tech/bluetrace/ErrorHandler;
-
-    return-void
-.end method
-
 .method public static final synthetic access$setHelpIv$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;Landroidx/appcompat/widget/AppCompatImageView;)V
     .locals 0
 
@@ -536,15 +540,6 @@
 
     .line 1
     iput-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvNameError:Landroidx/appcompat/widget/AppCompatTextView;
-
-    return-void
-.end method
-
-.method public static final synthetic access$setTvSerialNumError$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;Landroidx/appcompat/widget/AppCompatTextView;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvSerialNumError:Landroidx/appcompat/widget/AppCompatTextView;
 
     return-void
 .end method
@@ -614,7 +609,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060052
+    const v1, 0x7f060054
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
@@ -684,7 +679,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060136
+    const v1, 0x7f06013b
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
@@ -705,7 +700,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f060083
+    const v1, 0x7f060085
 
     invoke-static {v0, v1}, Landroidx/core/content/ContextCompat;->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
@@ -744,6 +739,26 @@
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v0
+
+    return-object v0
+.end method
+
+.method private final getErrorHandler()Lsg/gov/tech/bluetrace/ErrorHandler;
+    .locals 3
+
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->errorHandler$delegate:Lkotlin/Lazy;
+
+    sget-object v1, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->$$delegatedProperties:[Lkotlin/reflect/KProperty;
+
+    const/4 v2, 0x0
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lsg/gov/tech/bluetrace/ErrorHandler;
 
     return-object v0
 .end method
@@ -816,10 +831,119 @@
     return-void
 .end method
 
+.method private final hideShowFinError(Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;)V
+    .locals 3
+
+    .line 1
+    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;->isValid()Z
+
+    move-result v0
+
+    const-string v1, "eTFin"
+
+    const-string v2, "tvFinError"
+
+    if-eqz v0, :cond_2
+
+    .line 2
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvFinError:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez p1, :cond_0
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_0
+    const/16 v0, 0x8
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 3
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->eTFin:Landroid/widget/EditText;
+
+    if-nez p1, :cond_1
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_1
+    invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->defaultTintEditTextView(Landroid/widget/EditText;)V
+
+    return-void
+
+    .line 4
+    :cond_2
+    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;->getCause()Lsg/gov/tech/bluetrace/revamp/utils/Cause;
+
+    move-result-object p1
+
+    sget-object v0, Lsg/gov/tech/bluetrace/revamp/utils/Cause;->USE_NRIC:Lsg/gov/tech/bluetrace/revamp/utils/Cause;
+
+    if-ne p1, v0, :cond_4
+
+    .line 5
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvFinError:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez p1, :cond_3
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_3
+    const v0, 0x7f130214
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    goto :goto_0
+
+    .line 6
+    :cond_4
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvFinError:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez p1, :cond_5
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_5
+    const v0, 0x7f1300f1
+
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 7
+    :goto_0
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvFinError:Landroidx/appcompat/widget/AppCompatTextView;
+
+    if-nez p1, :cond_6
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_6
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->setVisibility(I)V
+
+    .line 8
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->eTFin:Landroid/widget/EditText;
+
+    if-nez p1, :cond_7
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
+
+    :cond_7
+    invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->errorTintEditTextView(Landroid/widget/EditText;)V
+
+    return-void
+.end method
+
 .method private final init(Landroid/view/View;)V
     .locals 2
 
-    const v0, 0x7f0a016e
+    const v0, 0x7f0a0175
 
     .line 1
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -834,7 +958,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->eTName:Landroid/widget/EditText;
 
-    const v0, 0x7f0a016d
+    const v0, 0x7f0a0174
 
     .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -849,7 +973,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->eTFin:Landroid/widget/EditText;
 
-    const v0, 0x7f0a0166
+    const v0, 0x7f0a016d
 
     .line 3
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -864,7 +988,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->eTSerialNum:Landroid/widget/EditText;
 
-    const v0, 0x7f0a00e5
+    const v0, 0x7f0a00ec
 
     .line 4
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -879,7 +1003,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->registerBtn:Landroidx/appcompat/widget/AppCompatButton;
 
-    const v0, 0x7f0a01ae
+    const v0, 0x7f0a01b9
 
     .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -894,7 +1018,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->helpIv:Landroidx/appcompat/widget/AppCompatImageView;
 
-    const v0, 0x7f0a0402
+    const v0, 0x7f0a0417
 
     .line 6
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -909,7 +1033,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvSerialNumError:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0a0420
+    const v0, 0x7f0a043f
 
     .line 7
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -924,7 +1048,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvNameError:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0a0415
+    const v0, 0x7f0a0432
 
     .line 8
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -939,7 +1063,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvFinError:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0a0409
+    const v0, 0x7f0a041e
 
     .line 9
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -954,7 +1078,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvDeclarationError:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0a0138
+    const v0, 0x7f0a0141
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -969,7 +1093,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->tvDeclaration:Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v0, 0x7f0a00b6
+    const v0, 0x7f0a00ba
 
     .line 11
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -984,7 +1108,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->backBtn:Landroid/widget/ImageView;
 
-    const v0, 0x7f0a0137
+    const v0, 0x7f0a013f
 
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -999,7 +1123,7 @@
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->chkDeclaration:Landroidx/appcompat/widget/AppCompatCheckBox;
 
-    const v0, 0x7f0a01c1
+    const v0, 0x7f0a01cc
 
     .line 13
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
@@ -1186,7 +1310,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f1301f0
+    const v5, 0x7f13021b
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1209,7 +1333,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f130177
+    const v5, 0x7f13019e
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -1439,24 +1563,6 @@
     return-void
 .end method
 
-.method public final getFV()Lsg/gov/tech/revamp/utils/FieldValidations;
-    .locals 2
-    .annotation build Lorg/jetbrains/annotations/NotNull;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->fV:Lsg/gov/tech/revamp/utils/FieldValidations;
-
-    if-nez v0, :cond_0
-
-    const-string v1, "fV"
-
-    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
-
-    :cond_0
-    return-object v0
-.end method
-
 .method public final getVm()Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/DpViewModel;
     .locals 3
     .annotation build Lorg/jetbrains/annotations/NotNull;
@@ -1466,7 +1572,7 @@
 
     sget-object v1, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->$$delegatedProperties:[Lkotlin/reflect/KProperty;
 
-    const/4 v2, 0x0
+    const/4 v2, 0x1
 
     aget-object v1, v1, v2
 
@@ -1503,7 +1609,7 @@
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
-    const p3, 0x7f0d0075
+    const p3, 0x7f0d007a
 
     const/4 v0, 0x0
 
@@ -1539,7 +1645,7 @@
 .end method
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
-    .locals 3
+    .locals 2
     .param p1    # Landroid/view/View;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -1574,40 +1680,20 @@
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
-    move-result-object v1
+    move-result-object v0
 
-    if-eqz v1, :cond_0
+    if-eqz v0, :cond_0
 
-    const-string v2, "OnBoardProfileWPDP"
+    const-string v1, "OnBoardProfileWPDP"
 
-    invoke-virtual {p2, v1, v2}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->screenAnalytics(Landroid/app/Activity;Ljava/lang/String;)V
+    invoke-virtual {p2, v0, v1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->screenAnalytics(Landroid/app/Activity;Ljava/lang/String;)V
 
     .line 4
-    new-instance p2, Lsg/gov/tech/bluetrace/ErrorHandler;
-
-    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
-
-    move-result-object v1
-
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-direct {p2, v1}, Lsg/gov/tech/bluetrace/ErrorHandler;-><init>(Landroid/content/Context;)V
-
-    iput-object p2, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->errorHandler:Lsg/gov/tech/bluetrace/ErrorHandler;
-
-    .line 5
-    new-instance p2, Lsg/gov/tech/revamp/utils/FieldValidations;
-
-    invoke-direct {p2}, Lsg/gov/tech/revamp/utils/FieldValidations;-><init>()V
-
-    iput-object p2, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->fV:Lsg/gov/tech/revamp/utils/FieldValidations;
-
-    .line 6
     invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->init(Landroid/view/View;)V
 
     return-void
 
-    .line 7
+    .line 5
     :cond_0
     new-instance p1, Lkotlin/TypeCastException;
 
@@ -1616,21 +1702,4 @@
     invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
-.end method
-
-.method public final setFV(Lsg/gov/tech/revamp/utils/FieldValidations;)V
-    .locals 1
-    .param p1    # Lsg/gov/tech/revamp/utils/FieldValidations;
-        .annotation build Lorg/jetbrains/annotations/NotNull;
-        .end annotation
-    .end param
-
-    const-string v0, "<set-?>"
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
-    iput-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserDPFragmentV2;->fV:Lsg/gov/tech/revamp/utils/FieldValidations;
-
-    return-void
 .end method

@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBLEDiscoverer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BLEDiscoverer.kt\nsg/gov/tech/bluetrace/bluetooth/BLEDiscoverer$mDiscoveryReceiver$1\n*L\n1#1,118:1\n*E\n"
+    value = "SMAP\nBLEDiscoverer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BLEDiscoverer.kt\nsg/gov/tech/bluetrace/bluetooth/BLEDiscoverer$mDiscoveryReceiver$1\n*L\n1#1,123:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -202,7 +202,7 @@
 
     const-string v2, "Scanned Device address: "
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -242,7 +242,7 @@
 
     const-string v1, "Nope. No uuids cached for address: "
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 

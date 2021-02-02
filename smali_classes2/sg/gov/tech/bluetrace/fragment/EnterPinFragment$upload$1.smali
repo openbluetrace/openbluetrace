@@ -80,7 +80,7 @@
 
     const-string v2, "failed to upload: "
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -99,8 +99,10 @@
     .line 2
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 3
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->UPLOAD:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 4
     iget-object v3, p0, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$upload$1;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment;
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -115,7 +117,8 @@
 
     invoke-static {v3, v4}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 5
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -129,15 +132,17 @@
 
     move-result-object v2
 
+    .line 6
     sget-object v4, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v4, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
 
     move-result-object p1
 
+    .line 7
     invoke-virtual {v0, v1, v3, v2, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 3
+    .line 8
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$upload$1;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getParentFragment()Landroidx/fragment/app/Fragment;
@@ -148,10 +153,10 @@
 
     check-cast p1, Lsg/gov/tech/bluetrace/fragment/UploadPageFragment;
 
-    .line 4
+    .line 9
     invoke-virtual {p1}, Lsg/gov/tech/bluetrace/fragment/UploadPageFragment;->turnOffLoadingProgress()V
 
-    .line 5
+    .line 10
     iget-object p1, p0, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$upload$1;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment;
 
     sget v0, Lsg/gov/tech/bluetrace/R$id;->enterPinFragmentErrorMessage:I
@@ -172,7 +177,7 @@
 
     return-void
 
-    .line 6
+    .line 11
     :cond_0
     new-instance p1, Lkotlin/TypeCastException;
 

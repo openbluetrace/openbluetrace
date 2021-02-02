@@ -15,7 +15,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDBLogger.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DBLogger.kt\nsg/gov/tech/bluetrace/logging/DBLogger\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 3 Iterators.kt\nkotlin/collections/CollectionsKt__IteratorsKt\n*L\n1#1,357:1\n11454#2,2:358\n32#3,2:360\n32#3,2:362\n*E\n*S KotlinDebug\n*F\n+ 1 DBLogger.kt\nsg/gov/tech/bluetrace/logging/DBLogger\n*L\n265#1,2:358\n306#1,2:360\n327#1,2:362\n*E\n"
+    value = "SMAP\nDBLogger.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DBLogger.kt\nsg/gov/tech/bluetrace/logging/DBLogger\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 3 Iterators.kt\nkotlin/collections/CollectionsKt__IteratorsKt\n*L\n1#1,358:1\n11454#2,2:359\n32#3,2:361\n32#3,2:363\n*E\n*S KotlinDebug\n*F\n+ 1 DBLogger.kt\nsg/gov/tech/bluetrace/logging/DBLogger\n*L\n269#1,2:359\n310#1,2:361\n330#1,2:363\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -1159,7 +1159,7 @@
 
     const-string v2, "Failed to get delete log folder: "
 
-    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 
@@ -1186,7 +1186,7 @@
 
     const-string v3, "javaClass.simpleName"
 
-    invoke-static {v1, v3, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v3, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
@@ -1505,7 +1505,7 @@
 
     const-string v3, "Failed to get zip log file: "
 
-    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v4
 
@@ -1532,7 +1532,7 @@
 
     const-string v4, "javaClass.simpleName"
 
-    invoke-static {v2, v4, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v4, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v3
 

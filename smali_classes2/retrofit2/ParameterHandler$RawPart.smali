@@ -77,11 +77,6 @@
         .annotation runtime Ljavax/annotation/Nullable;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     if-eqz p2, :cond_0
 

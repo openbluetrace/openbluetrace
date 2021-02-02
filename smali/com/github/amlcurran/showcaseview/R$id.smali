@@ -14,11 +14,11 @@
 
 
 # static fields
-.field public static final showcase_button:I = 0x7f0a0379
+.field public static final showcase_button:I = 0x7f0a038b
 
-.field public static final showcase_sub_text:I = 0x7f0a037a
+.field public static final showcase_sub_text:I = 0x7f0a038c
 
-.field public static final showcase_title_text:I = 0x7f0a037b
+.field public static final showcase_title_text:I = 0x7f0a038d
 
 
 # direct methods

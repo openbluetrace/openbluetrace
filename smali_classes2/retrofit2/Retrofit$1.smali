@@ -18,6 +18,8 @@
 
 
 # instance fields
+.field public final emptyArgs:[Ljava/lang/Object;
+
 .field public final platform:Lretrofit2/Platform;
 
 .field public final synthetic this$0:Lretrofit2/Retrofit;
@@ -43,6 +45,13 @@
 
     iput-object p1, p0, Lretrofit2/Retrofit$1;->platform:Lretrofit2/Platform;
 
+    const/4 p1, 0x0
+
+    new-array p1, p1, [Ljava/lang/Object;
+
+    .line 3
+    iput-object p1, p0, Lretrofit2/Retrofit$1;->emptyArgs:[Ljava/lang/Object;
+
     return-void
 .end method
 
@@ -58,6 +67,9 @@
         value = {
             Ljava/lang/Throwable;
         }
+    .end annotation
+
+    .annotation runtime Ljavax/annotation/Nullable;
     .end annotation
 
     .line 1
@@ -101,20 +113,19 @@
     :cond_1
     iget-object p1, p0, Lretrofit2/Retrofit$1;->this$0:Lretrofit2/Retrofit;
 
-    .line 6
     invoke-virtual {p1, p2}, Lretrofit2/Retrofit;->loadServiceMethod(Ljava/lang/reflect/Method;)Lretrofit2/ServiceMethod;
 
     move-result-object p1
 
-    .line 7
-    new-instance p2, Lretrofit2/OkHttpCall;
+    if-eqz p3, :cond_2
 
-    invoke-direct {p2, p1, p3}, Lretrofit2/OkHttpCall;-><init>(Lretrofit2/ServiceMethod;[Ljava/lang/Object;)V
+    goto :goto_0
 
-    .line 8
-    iget-object p1, p1, Lretrofit2/ServiceMethod;->callAdapter:Lretrofit2/CallAdapter;
+    :cond_2
+    iget-object p3, p0, Lretrofit2/Retrofit$1;->emptyArgs:[Ljava/lang/Object;
 
-    invoke-interface {p1, p2}, Lretrofit2/CallAdapter;->adapt(Lretrofit2/Call;)Ljava/lang/Object;
+    :goto_0
+    invoke-virtual {p1, p3}, Lretrofit2/ServiceMethod;->invoke([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

@@ -17,7 +17,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMLKitScanner.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MLKitScanner.kt\nsg/gov/tech/bluetrace/qrscanner/MLKitScanner$processImageFrame$2$2\n*L\n1#1,293:1\n*E\n"
+    value = "SMAP\nMLKitScanner.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MLKitScanner.kt\nsg/gov/tech/bluetrace/qrscanner/MLKitScanner$processImageFrame$2$2\n*L\n1#1,300:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -80,7 +80,7 @@
 
 # virtual methods
 .method public final onFailure(Ljava/lang/Exception;)V
-    .locals 1
+    .locals 5
     .param p1    # Ljava/lang/Exception;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -91,25 +91,87 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
+    sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
+
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$processImageFrame$$inlined$suspendCoroutine$lambda$2;->this$0:Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;
+
+    invoke-static {v1}, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->access$getTAG$p(Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "MLKit failed to scan: "
+
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v1, v3}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 2
+    sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
+
+    sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->SAFEENTRY:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
+
+    iget-object v3, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$processImageFrame$$inlined$suspendCoroutine$lambda$2;->this$0:Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;
+
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "javaClass.simpleName"
+
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v0, v1, v3, p1, v2}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 3
     iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$processImageFrame$$inlined$suspendCoroutine$lambda$2;->$image$inlined:Landroid/media/Image;
 
     invoke-virtual {p1}, Landroid/media/Image;->close()V
 
-    .line 2
+    .line 4
     iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$processImageFrame$$inlined$suspendCoroutine$lambda$2;->this$0:Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;
 
     const/4 v0, 0x1
 
     invoke-static {p1, v0}, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->access$setFrameProcessed$p(Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;Z)V
 
-    .line 3
+    .line 5
     iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$processImageFrame$$inlined$suspendCoroutine$lambda$2;->$continuation:Lkotlin/coroutines/Continuation;
 
     sget-object v0, Lkotlin/Result;->Companion:Lkotlin/Result$Companion;
 
-    const/4 v0, 0x0
-
-    invoke-static {v0}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2}, Lkotlin/Result;->constructor-impl(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

@@ -38,7 +38,7 @@
     d2 = {
         "<anonymous>",
         "",
-        "it",
+        "flag",
         "",
         "invoke"
     }
@@ -52,18 +52,14 @@
 
 
 # instance fields
-.field public final synthetic $flag:Lkotlin/jvm/internal/Ref$BooleanRef;
-
 .field public final synthetic this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;
 
 
 # direct methods
-.method public constructor <init>(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;Lkotlin/jvm/internal/Ref$BooleanRef;)V
+.method public constructor <init>(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;)V
     .locals 0
 
     iput-object p1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5$onDateSelected$1;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;
-
-    iput-object p2, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5$onDateSelected$1;->$flag:Lkotlin/jvm/internal/Ref$BooleanRef;
 
     const/4 p1, 0x1
 
@@ -95,11 +91,6 @@
     .locals 3
 
     .line 2
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5$onDateSelected$1;->$flag:Lkotlin/jvm/internal/Ref$BooleanRef;
-
-    iput-boolean p1, v0, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
-
-    .line 3
     iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5$onDateSelected$1;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;
 
     iget-object v0, v0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;

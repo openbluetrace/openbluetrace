@@ -19,7 +19,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMainOnboardingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainOnboardingActivity.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,705:1\n7379#2,2:706\n8061#2,4:708\n7379#2,2:712\n8061#2,4:714\n*E\n*S KotlinDebug\n*F\n+ 1 MainOnboardingActivity.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments\n*L\n56#1,2:706\n56#1,4:708\n57#1,2:712\n57#1,4:714\n*E\n"
+    value = "SMAP\nMainOnboardingActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainOnboardingActivity.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,723:1\n7379#2,2:724\n8061#2,4:726\n7379#2,2:730\n8061#2,4:732\n*E\n*S KotlinDebug\n*F\n+ 1 MainOnboardingActivity.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments\n*L\n57#1,2:724\n57#1,4:726\n58#1,2:730\n58#1,4:732\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -29,7 +29,7 @@
         0x3
     }
     d1 = {
-        "\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0016\u0008\u0086\u0001\u0018\u0000 \u001d2\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001\u001dB%\u0008\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u000c\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u0007\u00a2\u0006\u0002\u0010\tJ\u0008\u0010\u0010\u001a\u00020\u0005H\u0016R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\n\u0010\u000bR\u0017\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u0007\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000c\u0010\rR\u0011\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000e\u0010\u000fj\u0002\u0008\u0011j\u0002\u0008\u0012j\u0002\u0008\u0013j\u0002\u0008\u0014j\u0002\u0008\u0015j\u0002\u0008\u0016j\u0002\u0008\u0017j\u0002\u0008\u0018j\u0002\u0008\u0019j\u0002\u0008\u001aj\u0002\u0008\u001bj\u0002\u0008\u001c\u00a8\u0006\u001e"
+        "\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0017\u0008\u0086\u0001\u0018\u0000 \u001e2\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001\u001eB%\u0008\u0002\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u0012\u000c\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u0007\u00a2\u0006\u0002\u0010\tJ\u0008\u0010\u0010\u001a\u00020\u0005H\u0016R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\n\u0010\u000bR\u0017\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u0007\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000c\u0010\rR\u0011\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000e\u0010\u000fj\u0002\u0008\u0011j\u0002\u0008\u0012j\u0002\u0008\u0013j\u0002\u0008\u0014j\u0002\u0008\u0015j\u0002\u0008\u0016j\u0002\u0008\u0017j\u0002\u0008\u0018j\u0002\u0008\u0019j\u0002\u0008\u001aj\u0002\u0008\u001bj\u0002\u0008\u001cj\u0002\u0008\u001d\u00a8\u0006\u001f"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;",
@@ -61,6 +61,7 @@
         "REGISTER_USER_LTVP",
         "REGISTER_USER_PASSPORT",
         "REGISTER_USER_DP",
+        "PASSPORT_HOLDING",
         "Companion",
         "app_release"
     }
@@ -81,6 +82,8 @@
 .field public static final Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments$Companion;
 
 .field public static final enum OTP:Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
+
+.field public static final enum PASSPORT_HOLDING:Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
 
 .field public static final enum PERMISSION_BLUETOOTH:Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
 
@@ -151,7 +154,7 @@
 .method public static constructor <clinit>()V
     .locals 14
 
-    const/16 v0, 0xc
+    const/16 v0, 0xd
 
     new-array v0, v0, [Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
 
@@ -431,6 +434,29 @@
 
     aput-object v2, v0, v3
 
+    new-instance v2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
+
+    .line 13
+    sget-object v9, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments$13;->INSTANCE:Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments$13;
+
+    const-string v5, "PASSPORT_HOLDING"
+
+    const/16 v6, 0xc
+
+    const/16 v7, 0x11
+
+    const-string v8, "ACTIVATE_USER_PASSPORT"
+
+    move-object v4, v2
+
+    invoke-direct/range {v4 .. v9}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;-><init>(Ljava/lang/String;IILjava/lang/String;Lkotlin/jvm/functions/Function0;)V
+
+    sput-object v2, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->PASSPORT_HOLDING:Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
+
+    const/16 v3, 0xc
+
+    aput-object v2, v0, v3
+
     sput-object v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->$VALUES:[Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
 
     new-instance v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments$Companion;
@@ -441,12 +467,12 @@
 
     sput-object v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments$Companion;
 
-    .line 13
+    .line 14
     invoke-static {}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->values()[Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
 
     move-result-object v0
 
-    .line 14
+    .line 15
     array-length v2, v0
 
     invoke-static {v2}, Lkotlin/collections/MapsKt__MapsJVMKt;->mapCapacity(I)I
@@ -459,12 +485,12 @@
 
     move-result v2
 
-    .line 15
+    .line 16
     new-instance v4, Ljava/util/LinkedHashMap;
 
     invoke-direct {v4, v2}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    .line 16
+    .line 17
     array-length v2, v0
 
     const/4 v5, 0x0
@@ -474,7 +500,7 @@
 
     aget-object v6, v0, v5
 
-    .line 17
+    .line 18
     iget v7, v6, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->id:I
 
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -499,16 +525,16 @@
 
     goto :goto_0
 
-    .line 18
+    .line 19
     :cond_0
     sput-object v4, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->types:Ljava/util/Map;
 
-    .line 19
+    .line 20
     invoke-static {}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->values()[Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;
 
     move-result-object v0
 
-    .line 20
+    .line 21
     array-length v2, v0
 
     invoke-static {v2}, Lkotlin/collections/MapsKt__MapsJVMKt;->mapCapacity(I)I
@@ -519,12 +545,12 @@
 
     move-result v2
 
-    .line 21
+    .line 22
     new-instance v3, Ljava/util/LinkedHashMap;
 
     invoke-direct {v3, v2}, Ljava/util/LinkedHashMap;-><init>(I)V
 
-    .line 22
+    .line 23
     array-length v2, v0
 
     :goto_1
@@ -532,7 +558,7 @@
 
     aget-object v4, v0, v1
 
-    .line 23
+    .line 24
     invoke-virtual {v4}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->toString()Ljava/lang/String;
 
     move-result-object v5
@@ -555,7 +581,7 @@
 
     goto :goto_1
 
-    .line 24
+    .line 25
     :cond_1
     sput-object v3, Lsg/gov/tech/bluetrace/onboarding/newOnboard/Fragments;->names:Ljava/util/Map;
 

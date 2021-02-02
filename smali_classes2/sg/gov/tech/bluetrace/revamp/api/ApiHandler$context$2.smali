@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;-><init>()V
+    value = Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;-><init>(Lsg/gov/tech/bluetrace/revamp/api/IApiRepository;Lsg/gov/tech/bluetrace/api/ApiResposeHandler;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

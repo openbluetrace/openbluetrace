@@ -29,7 +29,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nQrScannerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 QrScannerFragment.kt\nsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1\n*L\n1#1,401:1\n*E\n"
+    value = "SMAP\nQrScannerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 QrScannerFragment.kt\nsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1\n*L\n1#1,408:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -79,6 +79,15 @@
     .locals 3
 
     .line 2
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_6
+
+    .line 3
     sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     iget-object v1, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
@@ -93,38 +102,38 @@
 
     const-string v0, "it"
 
-    .line 3
+    .line 4
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p1}, Lcom/google/firebase/functions/HttpsCallableResult;->getData()Ljava/lang/Object;
 
     move-result-object p1
 
-    if-eqz p1, :cond_6
+    if-eqz p1, :cond_5
 
     check-cast p1, Ljava/util/ArrayList;
 
-    .line 4
+    .line 5
     new-instance v0, Lcom/google/gson/GsonBuilder;
 
     invoke-direct {v0}, Lcom/google/gson/GsonBuilder;-><init>()V
 
-    .line 5
+    .line 6
     invoke-virtual {v0}, Lcom/google/gson/GsonBuilder;->create()Lcom/google/gson/Gson;
 
     move-result-object v0
 
-    .line 6
+    .line 7
     invoke-virtual {v0, p1}, Lcom/google/gson/Gson;->toJson(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 7
+    .line 8
     new-instance v0, Lcom/google/gson/Gson;
 
     invoke-direct {v0}, Lcom/google/gson/Gson;-><init>()V
 
-    .line 8
+    .line 9
     new-instance v1, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1$venueList$1;
 
     invoke-direct {v1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1$venueList$1;-><init>()V
@@ -133,18 +142,18 @@
 
     move-result-object v1
 
-    .line 9
+    .line 10
     invoke-virtual {v0, p1, v1}, Lcom/google/gson/Gson;->fromJson(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;
 
     move-result-object p1
 
-    const-string v0, "Gson().fromJson(\n       \u2026{}.type\n                )"
+    const-string v0, "Gson().fromJson(\n       \u2026ype\n                    )"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast p1, Ljava/util/ArrayList;
 
-    .line 10
+    .line 11
     iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
 
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -164,7 +173,7 @@
 
     if-eqz p1, :cond_1
 
-    .line 11
+    .line 12
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     move-result v2
@@ -177,7 +186,7 @@
     :cond_2
     if-nez v1, :cond_4
 
-    .line 12
+    .line 13
     sget-object v1, Lsg/gov/tech/bluetrace/utils/AndroidBus;->Companion:Lsg/gov/tech/bluetrace/utils/AndroidBus$Companion;
 
     invoke-virtual {v1}, Lsg/gov/tech/bluetrace/utils/AndroidBus$Companion;->getBehaviorSubject()Lio/reactivex/subjects/BehaviorSubject;
@@ -186,7 +195,7 @@
 
     invoke-virtual {v1, p1}, Lio/reactivex/subjects/BehaviorSubject;->onNext(Ljava/lang/Object;)V
 
-    .line 13
+    .line 14
     new-instance p1, Landroid/content/Intent;
 
     iget-object v1, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
@@ -201,10 +210,10 @@
 
     const-string v1, "is_check_in"
 
-    .line 14
+    .line 15
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 15
+    .line 16
     iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
 
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -221,17 +230,17 @@
 
     const-string v1, "IS_FROM_GROUP_CHECK_IN"
 
-    .line 16
+    .line 17
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 17
+    .line 18
     iget-object v0, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
 
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
-    if-eqz v0, :cond_5
+    if-eqz v0, :cond_6
 
     sget-object v1, Lsg/gov/tech/bluetrace/SafeEntryActivity;->Companion:Lsg/gov/tech/bluetrace/SafeEntryActivity$Companion;
 
@@ -243,7 +252,7 @@
 
     goto :goto_0
 
-    .line 18
+    .line 19
     :cond_3
     new-instance p1, Lkotlin/TypeCastException;
 
@@ -253,18 +262,16 @@
 
     throw p1
 
-    .line 19
+    .line 20
     :cond_4
     iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment$validateQrResult$1;->this$0:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
 
     invoke-static {p1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->access$invalidQrCode(Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;)V
 
-    :cond_5
-    :goto_0
-    return-void
+    goto :goto_0
 
-    .line 20
-    :cond_6
+    .line 21
+    :cond_5
     new-instance p1, Lkotlin/TypeCastException;
 
     const-string v0, "null cannot be cast to non-null type java.util.ArrayList<java.util.HashMap<kotlin.String, kotlin.Any>>"
@@ -272,6 +279,10 @@
     invoke-direct {p1, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
     throw p1
+
+    :cond_6
+    :goto_0
+    return-void
 .end method
 
 .method public bridge synthetic onSuccess(Ljava/lang/Object;)V

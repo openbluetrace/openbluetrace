@@ -27,7 +27,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSafeEntryCheckInOutFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeEntryCheckInOutFragment.kt\nsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$handleSEEntryCheckInCheckOut$2$onError$1\n*L\n1#1,501:1\n*E\n"
+    value = "SMAP\nSafeEntryCheckInOutFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeEntryCheckInOutFragment.kt\nsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$handleSEEntryCheckInCheckOut$2$onError$1\n*L\n1#1,510:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;

@@ -360,7 +360,7 @@
     .line 3
     iget-object v0, p0, Lsg/gov/tech/bluetrace/debugger/LogListAdapter;->inflater:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0d0092
+    const v1, 0x7f0d0097
 
     const/4 v2, 0x0
 

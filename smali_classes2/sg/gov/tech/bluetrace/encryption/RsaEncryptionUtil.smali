@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nRsaEncryptionUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RsaEncryptionUtil.kt\nsg/gov/tech/bluetrace/encryption/RsaEncryptionUtil\n*L\n1#1,84:1\n*E\n"
+    value = "SMAP\nRsaEncryptionUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RsaEncryptionUtil.kt\nsg/gov/tech/bluetrace/encryption/RsaEncryptionUtil\n*L\n1#1,94:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -251,8 +251,10 @@
     .line 14
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 15
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 16
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v2, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -263,9 +265,10 @@
 
     const-string v4, "Cannot decrypt with AES"
 
+    .line 17
     invoke-virtual {p1, v1, v3, v4, v2}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 15
+    .line 18
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -455,16 +458,19 @@
     .line 15
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 16
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
     const-string v3, "Cannot encrypt with RSA - "
 
     const-string v4, ": "
 
-    invoke-static {v3, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline19(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .line 17
+    invoke-static {v3, p0, v4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline20(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
+    .line 18
     sget-object v6, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v6, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -473,9 +479,10 @@
 
     const-string v7, "RsaEncryptionUtil"
 
+    .line 19
     invoke-virtual {v1, v2, v7, v5, v6}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
+    .line 20
     sget-object v1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v2, Ljava/lang/StringBuilder;

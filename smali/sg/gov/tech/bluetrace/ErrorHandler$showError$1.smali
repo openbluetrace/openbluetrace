@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lsg/gov/tech/bluetrace/ErrorHandler;->showError()V
+    value = Lsg/gov/tech/bluetrace/ErrorHandler;->showError(Lsg/gov/tech/bluetrace/utils/AlertType;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

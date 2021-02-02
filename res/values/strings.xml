@@ -31,7 +31,6 @@
     <string name="add">ADD</string>
     <string name="add_another_person">+ Add another person</string>
     <string name="add_family_members">Add Family Members</string>
-    <string name="add_member">Add Family Members</string>
     <string name="add_nickname">Add a nickname for this family member</string>
     <string name="add_others_to_the_check_in">Add others to the check-in</string>
     <string name="add_this_location_to_favourites"><u>Save this location</u> to Favourites</string>
@@ -40,6 +39,7 @@
     <string name="agree_to_the_terms_se">— You agree to the terms and consent to the collection/use of your information for COVID-19 contact tracing</string>
     <string name="all_records">All records</string>
     <string name="allow">ALLOW</string>
+    <string name="allow_while_using_app">Allow while using app</string>
     <string name="already_exists">This NRIC/FIN has already been added.</string>
     <string name="android_needs_location_permission">Android needs Location Permission for Bluetooth to work.</string>
     <string name="app_name">TraceTogether</string>
@@ -88,6 +88,7 @@
     <string name="build_config_package">sg.gov.tech.bluetrace</string>
     <string name="burmese">ဗမာ</string>
     <string name="burmese_code">my</string>
+    <string name="by_checking_in_you_agree_with_terms">By checking in, you agree with the terms.</string>
     <string name="by_checking_in_you_declare_that">By checking in, you declare that:</string>
     <string name="camera_perm">"Camera Permission is needed to
 scan SafeEntry QR codes"</string>
@@ -103,7 +104,6 @@ Number"</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern">%1$d/%2$d</string>
     <string name="check_back_card">Check the <u>back</u> of your card for Date of Issue</string>
-    <string name="check_eligibility"><u>Check eligibility</u></string>
     <string name="check_for_symptoms"><u>Check for symptoms</u></string>
     <string name="check_google_play_services_is_updated">Please ensure your Google Play Services is updated before trying again</string>
     <string name="check_in">Check In</string>
@@ -111,11 +111,11 @@ Number"</string>
     <string name="check_in_to">Check in to:</string>
     <string name="check_out">Check out</string>
     <string name="check_out_now"><u>Check out now</u></string>
-    <string name="check_your_connection">Check your internet connection and try again</string>
+    <string name="check_your_connection">Check your connection</string>
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="close_uppercase">CLOSE</string>
-    <string name="com.crashlytics.android.build_id">9ac0006e7867472c8e7b44bbc7bc6472</string>
+    <string name="com.crashlytics.android.build_id">2310d362ca4345e09ed7deccd0186857</string>
     <string name="combine_not_applicable_string" formatted="false">"%s
 %s"</string>
     <string name="combined_terms_string" formatted="false">"%s
@@ -140,10 +140,9 @@ Number"</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="complete_your_profile">Complete your profile</string>
-    <string name="consider_us">Consider using other methods to check in.</string>
+    <string name="consider_us">Consider using other methods to check in/out.</string>
     <string name="contact_fragment_title">Contact us</string>
-    <string name="cool">Cool!</string>
+    <string name="cool">COOL!</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="covid_19_possible_exposure">COVID-19 Possible Exposure Check</string>
     <string name="covid_19_possible_exposure_check">COVID-19 Possible Exposure Check is temporarily unavailable.</string>
@@ -159,8 +158,12 @@ Number"</string>
     <string name="default_web_client_id">510731179958-arr2c5k8nkgvev37vdqhdpolve5unolq.apps.googleusercontent.com</string>
     <string name="do_you_have">Do you have a physical FIN card?</string>
     <string name="doa">Date of Application for your FIN card</string>
+    <string name="doa_with_date_format">"Date of Application
+(DD-MMM-YYYY)"</string>
+    <string name="dob_passport">Date of Birth (as per Passport)</string>
     <string name="done">Back to Home</string>
     <string name="download_sgworkpass">Download SGWorkPass app and scan QR code for Date of Issue</string>
+    <string name="dp_profile_title">Your FIN-DP details</string>
     <string name="english">English</string>
     <string name="english_code">en</string>
     <string name="ensure_you">Ensure you are scanning a valid SafeEntry QR code.</string>
@@ -185,6 +188,10 @@ Number"</string>
     <string name="favourite_check_in_error_title">Oops! There was a small error.</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="fin">FIN</string>
+    <string name="fin_card_check_no">No</string>
+    <string name="fin_card_check_yes">Yes</string>
+    <string name="fin_date_of_issue">FIN Date of Issue</string>
+    <string name="fin_entered_in_nric_error">Please tap back and select a FIN profile</string>
     <string name="fin_full_abbreviation">Foreign Identification Number (FIN)</string>
     <string name="fin_hint_g1234567a">e.g. G1234567A</string>
     <string name="firebase_database_url">https://govtech-tracer.firebaseio.com</string>
@@ -192,7 +199,7 @@ Number"</string>
     <string name="for_national_servicemen">For National Servicemen, please approach your Unit Chief Clerk for the Date of Issue stated at the back of your NRIC.</string>
     <string name="for_work_pass">&lt;b>Work Pass&lt;/b> (front)</string>
     <string name="force_update_dialog_message">"We've made important changes, and you need to update the app to continue using TraceTogether."</string>
-    <string name="force_update_dialog_title">Update app now</string>
+    <string name="force_update_dialog_title">Update your app now</string>
     <string name="four">4</string>
     <string name="front_of_card"><u>Front</u></string>
     <string name="gcm_defaultSenderId">510731179958</string>
@@ -204,7 +211,8 @@ Number"</string>
     <string name="google_app_id">1:510731179958:android:73323bd27306bf626d5317</string>
     <string name="google_crash_reporting_api_key">AIzaSyBLG0eg8CJZb1i4Lvrmf9mmGYSMEfT5yrg</string>
     <string name="google_storage_bucket">govtech-tracer.appspot.com</string>
-    <string name="got_it">Got it!</string>
+    <string name="got_it">GOT IT</string>
+    <string name="got_it_exclamation_mark">GOT IT!</string>
     <string name="group_check_in_button">Group</string>
     <string name="group_check_in_error_message">Your family needs to check in with their own TraceTogether device. This ensures that all visitors have TraceTogether activated, to better protect you in crowded places.</string>
     <string name="group_check_in_error_title">Oops! This venue does not allow Group check in.</string>
@@ -212,7 +220,7 @@ Number"</string>
     <string name="hang_in_there">And hang in there! We can defeat COVID-19 together.</string>
     <string name="have_dependent_pass_ready">"Please have your Dependent's Pass ready :)"</string>
     <string name="have_ltvp_ready">Please have your Long Term Visit Pass ready :)</string>
-    <string name="have_nric_ready">Please have your NRIC card ready :)</string>
+    <string name="have_nric_ready">Please have your NRIC or Birth Cert No. ready :)</string>
     <string name="have_passport_ready">Please have your Passport ready :)</string>
     <string name="have_student_pass_ready">"Please have your Student's Pass ready :)"</string>
     <string name="have_work_pass_ready">Please have your Work Pass ready :)</string>
@@ -229,9 +237,10 @@ Number"</string>
     <string name="how_it_works_2_text_content">Your app data is <b>stored securely on your phone</b>, and will only be shared with MOH if you test positive for COVID-19, for the sole purpose of contact tracing.</string>
     <string name="how_it_works_2_text_content_2">Data stored on your phone after 25 days is automatically deleted.</string>
     <string name="how_it_works_2_text_title">Data used only when needed</string>
+    <string name="how_long_should_keep_app">How long should you keep the app for?</string>
     <string name="how_to_find"><u>How to find?</u></string>
     <string name="how_to_use">How to use</string>
-    <string name="i_see_got_it">I see. Got it!</string>
+    <string name="i_see_got_it">I see. Got it! :)</string>
     <string name="icon_content_description">Dialog Icon</string>
     <string name="id_verification"><b>ID verification</b>, so you can receive personal medical information related to COVID-19 through TraceTogether</string>
     <string name="introActivity_defaultBackButtonText">BACK</string>
@@ -247,6 +256,7 @@ Number"</string>
     <string name="invalid_nric_format">Not an NRIC/FIN number. NRIC/FIN begins with S, F, T, or G, and ends with a letter.</string>
     <string name="invalid_number">Invalid Mobile Number</string>
     <string name="invalid_otp">Wrong OTP entered</string>
+    <string name="invalid_passport_format">Invalid Passport format</string>
     <string name="invalid_pin">Invalid upload code</string>
     <string name="invalid_user">Your account has been disabled. Please contact support.</string>
     <string name="invalid_user_message">Don’t worry, it’s not you. The system met an error when processing your user details. Please re-register to enable the feature.</string>
@@ -266,8 +276,10 @@ Number"</string>
     <string name="library_android_database_sqlcipher_repositoryLink">https://github.com/sqlcipher/android-database-sqlcipher</string>
     <string name="location_not_saved_to_favourites">The location that you’re looking for has not been saved to your Favourites.</string>
     <string name="location_permission">Location Permission</string>
+    <string name="location_permission_adr11" formatted="false">%s - %s</string>
     <string name="locations_matched_by_postal_code">Locations are matched by postal code.</string>
     <string name="ltvp">Long Term Visit Pass</string>
+    <string name="ltvp_profile_title">Your FIN-LTVP details</string>
     <string name="malay">Melayu</string>
     <string name="malay_code">ms</string>
     <string name="manage_family_members">Manage Family Members</string>
@@ -277,6 +289,7 @@ Number"</string>
     <string name="moh_use_info">The details that you provided are true. You agree to our Terms of Use, Privacy Statement, and for your data to be shared with MOH if you test positive for COVID-19, for the sole purpose of contact tracing.</string>
     <string name="moh_use_number">MOH will use this number to contact you if you had possible exposure to COVID-19.</string>
     <string name="monitor_your_health">As a precaution, monitor your health for 14 days from the visit date. If you develop fever or respiratory symptoms, see a doctor immediately and indicate this exposure.</string>
+    <string name="more_info"><u>More info</u></string>
     <string name="more_languages">More <b>languages</b> — বাংলা, ဗမာ, 中文, हिन्दी, Melayu, தமிழ், ไทย</string>
     <string name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
@@ -323,8 +336,7 @@ Number"</string>
     <string name="new_check_in">New check in</string>
     <string name="next">Next</string>
     <string name="nick_hint_grandma">e.g. Grandma</string>
-    <string name="no">No</string>
-    <string name="no_check_out">No check out</string>
+    <string name="no_check_out">No check-out</string>
     <string name="no_favourites_yet">No Favourites yet</string>
     <string name="no_favourites_yet_text">Go to a place often? Save it to your Favourites by tapping on the star.</string>
     <string name="no_fever">— You have no fever or flu-like symptoms *</string>
@@ -341,12 +353,16 @@ And just one tap to check out."</string>
     <string name="not_visited_by_covid_19_cases">You were not at places visited by COVID-19 cases</string>
     <string name="note_possible_exposure">To help you note possible exposure to COVID-19, your app needs these permissions</string>
     <string name="notifies_you"><b>Notifies you quickly</b>" if you've been exposed to COVID-19, to protect you and your loved ones"</string>
+    <string name="nric">NRIC</string>
     <string name="nric_below_17">NRIC Date of Issue is not required for people below 17 years old.</string>
+    <string name="nric_birth_cert_no_title">NRIC / Birth Cert No.</string>
+    <string name="nric_date_of_issue">NRIC Date of Issue</string>
     <string name="nric_hint_s1234567a">e.g. S1234567A</string>
+    <string name="nric_profile_title">Your NRIC details</string>
     <string name="ok">OK</string>
     <string name="on_long_term_pass">"2. Dependent's Pass"</string>
     <string name="on_work_pass">1. Work Pass</string>
-    <string name="onboard_desc_1">"We've had a tough few months, with many sacrifices as we fight the virus. In the next phase of our fight, we want to help one another live life normally, as safely as we can."</string>
+    <string name="onboard_desc_1">"We've had a tough year, with many sacrifices as we fight the virus. In the next phase of our fight, we want to help one another live life normally, as safely as we can."</string>
     <string name="onboard_desc_2">"You can make it safer. By using TraceTogether and helping others set it up, you're containing the virus and protecting your loved ones."</string>
     <string name="onboard_desc_3">A safe new normal starts with all of us, here.</string>
     <string name="one">1</string>
@@ -356,9 +372,18 @@ And just one tap to check out."</string>
     <string name="or">Or</string>
     <string name="otp_auto_filled">Your OTP was auto filled</string>
     <string name="otp_sent">Enter the one-time pin (OTP) sent to %s.</string>
+    <string name="passport_fin_holder_message">This allows MOH to send you COVID test results accurately.</string>
+    <string name="passport_fin_holder_title">Please re-register with your FIN</string>
+    <string name="passport_fin_personal_details_safe">Your personal details are never shared with other devices.</string>
+    <string name="passport_ica_error_message">You can only activate your app after clearing Singapore’s immigration. Also, check if you’ve entered the correct details into the app.</string>
+    <string name="passport_ica_error_title">Singapore’s immigration does not have your Passport details</string>
+    <string name="passport_internet_connection_error_message">Don’t worry, it’s just the internet. Connect and try again.</string>
+    <string name="passport_internet_connection_error_title">Check your connection</string>
     <string name="passport_number">Passport Number</string>
-    <string name="passport_user_message">This feature is currently enabled for eligible NRIC/FIN holders only. Re-register with your NRIC/FIN now.</string>
-    <string name="passport_user_re_registration_detail_text">&lt;br/>Ensure that you have one of the following:&lt;br/> - &lt;b>NRIC&lt;/b>&lt;br/> - &lt;b>FIN (Work Pass)&lt;/b>&lt;br/> - &lt;b>FIN (Dependent’s Pass)&lt;/b>&lt;br/> - &lt;b>FIN (Student’s Pass)&lt;/b>&lt;br/> - &lt;b>FIN (Long Term Visit Pass)&lt;/b>&lt;br/>&lt;br/> You’ll be setting up a new profile using your NRIC/FIN. Your previous app data will be erased.</string>
+    <string name="passport_profile_title">Your Passport details</string>
+    <string name="passport_user_message">This feature is only needed in Singapore. &lt;b>&lt;u>If you are currently in Singapore&lt;/u>&lt;/b>, re-register to enable the feature.</string>
+    <string name="passport_user_overlay_detail_text">Please keep the app for &lt;b>14 days&lt;/b> &lt;u>after&lt;/u> you leave Singapore.&lt;br/>&lt;br/> This allows Singapore’s Ministry of Health to notify you if you had close contact with a COVID-19 case, to better protect you and your loved ones.&lt;br/>&lt;br/> When you’re in Singapore, remember to &lt;b>keep your app open in the background&lt;/b> and &lt;b>keep Bluetooth on&lt;/b>.&lt;br/> Safe travels!</string>
+    <string name="passport_user_re_registration_detail_text">&lt;b>Only proceed if you&amp;apos;re currently in Singapore.&lt;/b> Proceeding will set up a new profile upon registration, and your previous app data will be erased.</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="past">Past</string>
     <string name="past_x_days">Past 14 days</string>
@@ -383,14 +408,31 @@ And just one tap to check out."</string>
     <string name="please_try_again_later">Please try again later.</string>
     <string name="possible_ex">Possible exposure</string>
     <string name="possible_exposure">Possible exposures</string>
+    <string name="pp_profile_blocked_more_details">More details</string>
+    <string name="pp_profile_blocked_see_less">See less</string>
+    <string name="pp_profile_blocked_text_desc">Please re-register to receive COVID test results in the app in future.</string>
+    <string name="pp_profile_blocked_text_title">Your account needs some help</string>
+    <string name="pp_profile_details_1">If you have one of the following:</string>
+    <string name="pp_profile_details_2">"&amp;#9679; NRIC / Singapore Birth Cert No.&lt;br/> &amp;#9679; FIN (Work Pass)&lt;br/> &amp;#9679; FIN (Dependent's Pass)&lt;br/> &amp;#9679; FIN (Student's Pass)&lt;br/> &amp;#9679; FIN (Long Term Visit Pass)"</string>
+    <string name="pp_profile_details_3">COVID test results are matched by NRIC/FIN. &lt;b>Please re-register with your NRIC/FIN.&lt;/b></string>
+    <string name="pp_profile_details_4">If your profile falls under the following:</string>
+    <string name="pp_profile_details_5">&amp;#9679; Short-term travel to Singapore&lt;br/> &amp;#9679; Diplomatic duties&lt;br/> &amp;#9679; Special Pass holder&lt;br/> &amp;#9679; Others</string>
+    <string name="pp_profile_details_6">COVID test results are matched by Passport details. &lt;b>Please ensure that you re-register using the passport that you entered Singapore with.&lt;/b></string>
+    <string name="pp_profile_network_error_desc">"Don't worry, it's just the internet.
+Connect and try again."</string>
+    <string name="pp_profile_network_error_title">Check your connection</string>
+    <string name="pp_profile_network_retry">Retry</string>
+    <string name="pp_profile_re_registration_detail_text">"You'll be setting up a new profile.
+Your previous app data will be erased."</string>
+    <string name="pp_profile_server_error_title">Temporarily unavailable</string>
     <string name="privacy_statement">Privacy Statement</string>
     <string name="proceed">Proceed</string>
     <string name="profile_fin_dependent">"FIN — Dependent's Pass"</string>
     <string name="profile_fin_ltvp">FIN — LTVP</string>
     <string name="profile_fin_student">"FIN — Student's Pass"</string>
     <string name="profile_fin_work">FIN — Work Pass</string>
-    <string name="profile_nric">NRIC</string>
-    <string name="profile_visitor">Visiting Singapore</string>
+    <string name="profile_nric">Singaporean/PR (all ages)</string>
+    <string name="profile_visitor">"I'm Visiting Singapore"</string>
     <string name="project_id">govtech-tracer</string>
     <string name="prominent_android_needs_location_permission">This app requires location permission to collect Bluetooth data on Android. Bluetooth data is collected to help you note if you had close contact with COVID cases.</string>
     <string name="prominent_bluetooth_data_deleted">No location data is collected in the background. All Bluetooth data after 25 days will be automatically deleted.</string>
@@ -452,6 +494,7 @@ To prevent malicious users from accessing your data, do a Factory Reset, or use 
     <string name="safe_entry_check_in">Safe<b>Entry check in</b></string>
     <string name="safe_entry_check_out">Safe<b>Entry check out</b></string>
     <string name="safe_entry_unable_to_scan_qr">Error scanning QR Code</string>
+    <string name="safe_travel_url">safetravel.ica.gov.sg</string>
     <string name="safeentry_check_in">SafeEntry check in</string>
     <string name="saved_to_favourites">Saved to Favourites.</string>
     <string name="scan_again">SCAN AGAIN</string>
@@ -459,7 +502,7 @@ To prevent malicious users from accessing your data, do a Factory Reset, or use 
     <string name="scan_and_go_long"><b>Scan and go</b> with SafeEntry QR code — no more forms</string>
     <string name="scan_safeen">Scan SafeEntry QR code</string>
     <string name="scan_your_digital_barcode">Scan your digital barcode for SafeEntry check in/out</string>
-    <string name="se_unavailable">SafeEntry QR check in temporarily unavailable</string>
+    <string name="se_unavailable">SafeEntry QR temporarily unavailable</string>
     <string name="search_from_list_below">Search from list below</string>
     <string name="search_hint">Search...</string>
     <string name="search_menu_title">Search</string>
@@ -470,6 +513,7 @@ To prevent malicious users from accessing your data, do a Factory Reset, or use 
     <string name="see_my_history">See My History</string>
     <string name="select_all">Select all</string>
     <string name="select_country">Select a county</string>
+    <string name="select_country_region">Select a country/region</string>
     <string name="select_your_profile">Select your profile</string>
     <string name="service_not_ok_action">Check app now</string>
     <string name="service_not_ok_body">TraceTogether needs all permissions to keep you safe</string>
@@ -484,13 +528,14 @@ Go to: https://www.tracetogether.gov.sg"</string>
     <string name="share_this_app">"Stay safe together.
 Share the app!"</string>
     <string name="showcase_text">You can now use TraceTogether to scan SafeEntry QR codes!</string>
-    <string name="sn_on_fin">&lt;b>Enter the &lt;font color=#F06566>Card Serial Number&lt;/font> on your FIN &lt;/b></string>
+    <string name="sn_on_fin">&lt;b>Enter the &lt;font color=#F06566>Card Serial Number&lt;/font> on your FIN card&lt;/b></string>
     <string name="start_setup">Start Set Up</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop">Stop</string>
+    <string name="stp_profile_title">Your FIN-STP details</string>
     <string name="submit">Submit</string>
     <string name="submit_error_logs">Submit Error Logs</string>
-    <string name="successful_check_out">Successful check-out</string>
+    <string name="successful_check_out">Successful check-out.</string>
     <string name="support_activity_title">Support</string>
     <string name="support_articles_list_fragment_error_message">@string/articles_list_fragment_error_message</string>
     <string name="support_articles_list_fragment_no_articles_found">@string/articles_list_fragment_no_articles_found</string>
@@ -502,6 +547,7 @@ Share the app!"</string>
     <string name="support_sections_list_fragment_error_message">@string/sections_list_fragment_error_message</string>
     <string name="swiftmed_protecting">SwiftMed is keeping you safe in the meantime</string>
     <string name="swiftmed_running" />
+    <string name="tab_back_sg_profile">Please tap back and select the Singaporean profile</string>
     <string name="take_care" />
     <string name="tamil">தமிழ்</string>
     <string name="tamil_code">ta</string>
@@ -512,7 +558,8 @@ Share the app!"</string>
     <string name="thai">ไทย</string>
     <string name="thai_code">th</string>
     <string name="their_nric">"What's their NRIC/FIN number?"</string>
-    <string name="there_seems">There seems to be a network issue.</string>
+    <string name="there_seems">"Don't worry, it's just the internet.
+Connect and try again."</string>
     <string name="three">3</string>
     <string name="title_account">Account</string>
     <string name="title_activity_map">Activity</string>
@@ -526,22 +573,31 @@ Share the app!"</string>
     <string name="too_many_requests">Too many requests. Please try again later.</string>
     <string name="top_to_open">Tap letter to open</string>
     <string name="total_exchanges_today">%s total exchanges today</string>
-    <string name="trace_together_devices_nearby">%s TraceTogether devices nearby</string>
+    <string name="trace_together_devices_nearby">%s devices nearby</string>
     <string name="tracetogether">TraceTogether</string>
     <string name="tracetogether_fancy">&lt;font color=#F06566>Trace&lt;/font>&lt;font color=#C93E3C>Together&lt;/font></string>
     <string name="tracetogether_paused">TraceTogether is paused</string>
     <string name="tt_is_deactivated"><font color="#F06566">Trace</font><font color="#C93E3C">Together</font> is paused</string>
     <string name="two">2</string>
+    <string name="txt_activate_app">activate app</string>
+    <string name="txt_activate_your_app">Please activate your app only after clearing Singapore immigration.</string>
+    <string name="txt_birth">Birth</string>
     <string name="txt_contain_no_personal_information">Please be assured that the error records contain no personal information.</string>
+    <string name="txt_edit"><u>Edit</u></string>
     <string name="txt_error_logs_successfully_shared">Error logs successfully shared</string>
+    <string name="txt_next_step_when_arrived_at_SG">The next step can only be done when you arrive in Singapore</string>
+    <string name="txt_no_active_check_in_at_the_moment">No active check-in at the moment</string>
+    <string name="txt_passport_no">Passport No.</string>
+    <string name="txt_saved">SAVED</string>
     <string name="txt_submit_error_info">Sometimes, users face issues with the app that we’re unable to replicate. When this happens, users can submit the error logs to help us understand the issue.</string>
-    <string name="txt_thank_you_update_your_app_regularly">Thank you for your help! Do update your app regularly to get the latest improvements</string>
+    <string name="txt_thank_you_update_your_app_regularly" />
+    <string name="txt_verified_with_SG_immigration">"Verified with Singapore's immigration"</string>
+    <string name="txt_visit_safe_travel">To see what else you need to prepare before coming to Singapore, visit safetravel.ica.gov.sg</string>
     <string name="unable_to_connect_to_camera">Unable to connect to camera</string>
     <string name="unable_to_in">Unable to check in</string>
     <string name="unable_to_out">Unable to check out</string>
     <string name="unselect_all">Unselect all</string>
     <string name="update_dialog_update_button_text">UPDATE</string>
-    <string name="updated_every_few_mins">Updated every few mins</string>
     <string name="upload_agreement">By uploading, you agree to share with MOH 25 days of your app data to help with contact tracing.</string>
     <string name="upload_completed">Upload completed</string>
     <string name="upload_data">Upload Data</string>
@@ -550,6 +606,8 @@ Share the app!"</string>
 Do note that older scanners may not read barcodes from phones."</string>
     <string name="use_for_moh_disclamer_1">An upload code is only given to patients with COVID-19.</string>
     <string name="use_for_moh_disclamer_2">"If you didn't get an upload code, you do not need to upload data :)"</string>
+    <string name="use_passport_you_enter_SG_with">"Please use the Passport that you'll enter Singapore with :)"</string>
+    <string name="use_the_pas">"Use the Passport that you'll enter Singapore with. Details below will be matched with Singapore's immigration."</string>
     <string name="user_you">%s (You)</string>
     <string name="validation_failed">Validation failed; check all fields in red</string>
     <string name="verify">Verify</string>
@@ -561,10 +619,11 @@ Do note that older scanners may not read barcodes from phones."</string>
     <string name="view_pass"><u>View pass</u></string>
     <string name="visit_place_often">Visit a place often?</string>
     <string name="warning">Warning</string>
-    <string name="we_re_reall">"We're really sorry. Please try again later."</string>
+    <string name="we_re_reall">"We're really sorry. Let us take a look. Please try again later."</string>
     <string name="who_are_you_checking_in_with">Who are you checking in with?</string>
     <string name="why_need_detail">Why do you need my details?</string>
     <string name="why_need_detail_desc">Your unique identification number allows MOH to <b>reach the right person</b> when they need to give you important health advice about COVID-19.</string>
+    <string name="wp_profile_title">Your FIN-WP details</string>
     <string name="wrong_number"><u>Wrong Number?</u></string>
     <string name="yes">Yes!!!</string>
     <string name="you_can_check_in_text">You can check in on behalf of these members</string>

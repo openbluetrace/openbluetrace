@@ -59,12 +59,16 @@
 # instance fields
 .field public final synthetic $onComplete:Lkotlin/jvm/functions/Function0;
 
+.field public final synthetic this$0:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+
 
 # direct methods
-.method public constructor <init>(Lkotlin/jvm/functions/Function0;)V
+.method public constructor <init>(Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;Lkotlin/jvm/functions/Function0;)V
     .locals 0
 
-    iput-object p1, p0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getTempID$2;->$onComplete:Lkotlin/jvm/functions/Function0;
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getTempID$2;->this$0:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+
+    iput-object p2, p0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getTempID$2;->$onComplete:Lkotlin/jvm/functions/Function0;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -105,18 +109,22 @@
     invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/idmanager/TempIDManager;->onTempIdResponse(Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/ApiResponseModel;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/ApiResponseModel;
 
     .line 3
-    sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
-
-    const-string v0, "ApiHandler"
-
-    const-string v1, "getTempId call success"
-
-    invoke-virtual {p1, v0, v1}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->i(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 4
     iget-object p1, p0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getTempID$2;->$onComplete:Lkotlin/jvm/functions/Function0;
 
     invoke-interface {p1}, Lkotlin/jvm/functions/Function0;->invoke()Ljava/lang/Object;
+
+    .line 4
+    sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
+
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$getTempID$2;->this$0:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+
+    invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;->access$getTAG$p(Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "getTempId call success"
+
+    invoke-virtual {p1, v0, v1}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method

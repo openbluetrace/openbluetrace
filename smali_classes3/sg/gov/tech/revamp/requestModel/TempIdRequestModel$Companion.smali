@@ -63,7 +63,7 @@
 
 # virtual methods
 .method public final getTempIdRequestData(Landroid/content/Context;)Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;
-    .locals 8
+    .locals 9
     .param p1    # Landroid/content/Context;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -79,41 +79,57 @@
     new-instance v0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;
 
     .line 2
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v1
+
+    const-string v2, "android_id"
+
+    .line 3
+    invoke-static {v1, v2}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v1, "Settings.Secure.getStrin\u2026ROID_ID\n                )"
+
+    invoke-static {v2, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
     sget-object v1, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
     invoke-virtual {v1, p1}, Lsg/gov/tech/bluetrace/Preference;->getTtID(Landroid/content/Context;)Ljava/lang/String;
 
-    move-result-object v2
-
-    .line 3
-    sget-object v1, Lsg/gov/tech/bluetrace/Utils;->INSTANCE:Lsg/gov/tech/bluetrace/Utils;
-
-    invoke-virtual {v1, p1}, Lsg/gov/tech/bluetrace/Utils;->getAppVersion(Landroid/content/Context;)Ljava/lang/String;
-
     move-result-object v3
 
-    .line 4
+    .line 5
     sget-object v1, Lsg/gov/tech/bluetrace/Utils;->INSTANCE:Lsg/gov/tech/bluetrace/Utils;
 
     invoke-virtual {v1, p1}, Lsg/gov/tech/bluetrace/Utils;->getAppVersion(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v4
 
-    .line 5
+    .line 6
+    sget-object v1, Lsg/gov/tech/bluetrace/Utils;->INSTANCE:Lsg/gov/tech/bluetrace/Utils;
+
+    invoke-virtual {v1, p1}, Lsg/gov/tech/bluetrace/Utils;->getAppVersion(Landroid/content/Context;)Ljava/lang/String;
+
+    move-result-object v5
+
+    .line 7
     sget-object p1, Lsg/gov/tech/bluetrace/Utils;->INSTANCE:Lsg/gov/tech/bluetrace/Utils;
 
     invoke-virtual {p1}, Lsg/gov/tech/bluetrace/Utils;->getDeviceName()Ljava/lang/String;
 
-    move-result-object v6
+    move-result-object v7
 
-    const-string v5, "2.0"
+    const-string v6, "2.0"
 
-    const-string v7, "android"
+    const-string v8, "android"
 
     move-object v1, v0
 
-    .line 6
-    invoke-direct/range {v1 .. v7}, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .line 8
+    invoke-direct/range {v1 .. v8}, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v0
 .end method

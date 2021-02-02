@@ -17,22 +17,24 @@
         0x3
     }
     d1 = {
-        "\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u000f\u0018\u0000 \u00112\u00020\u0001:\u0001\u0011B7\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\u0006\u0010\u0005\u001a\u00020\u0003\u0012\u0008\u0008\u0002\u0010\u0006\u001a\u00020\u0003\u0012\u0006\u0010\u0007\u001a\u00020\u0003\u0012\u0006\u0010\u0008\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\tR\u0011\u0010\u0004\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\n\u0010\u000bR\u0011\u0010\u0006\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000c\u0010\u000bR\u0011\u0010\u0007\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\r\u0010\u000bR\u0011\u0010\u0008\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000e\u0010\u000bR\u0011\u0010\u0005\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000f\u0010\u000bR\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0010\u0010\u000b\u00a8\u0006\u0012"
+        "\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0011\u0018\u0000 \u00132\u00020\u0001:\u0001\u0013B=\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\u0006\u0010\u0005\u001a\u00020\u0003\u0012\u0006\u0010\u0006\u001a\u00020\u0003\u0012\u0006\u0010\u0007\u001a\u00020\u0003\u0012\u0006\u0010\u0008\u001a\u00020\u0003\u0012\u0006\u0010\t\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\nR\u0011\u0010\u0005\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000b\u0010\u000cR\u0011\u0010\u0007\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\r\u0010\u000cR\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000e\u0010\u000cR\u0011\u0010\u0008\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u000f\u0010\u000cR\u0011\u0010\t\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0010\u0010\u000cR\u0011\u0010\u0006\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0011\u0010\u000cR\u0011\u0010\u0004\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0012\u0010\u000c\u00a8\u0006\u0014"
     }
     d2 = {
         "Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;",
         "",
-        "ttId",
+        "deviceId",
         "",
+        "ttId",
         "appVersion",
         "osVersion",
         "btLiteVersion",
         "model",
         "os",
-        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
         "getAppVersion",
         "()Ljava/lang/String;",
         "getBtLiteVersion",
+        "getDeviceId",
         "getModel",
         "getOs",
         "getOsVersion",
@@ -60,6 +62,11 @@
 .end field
 
 .field public final btLiteVersion:Ljava/lang/String;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field public final deviceId:Ljava/lang/String;
     .annotation build Lorg/jetbrains/annotations/NotNull;
     .end annotation
 .end field
@@ -100,7 +107,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
     .param p1    # Ljava/lang/String;
         .annotation build Lorg/jetbrains/annotations/NotNull;
@@ -126,75 +133,55 @@
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
     .end param
+    .param p7    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
 
-    const-string v0, "ttId"
+    const-string v0, "deviceId"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "appVersion"
+    const-string v0, "ttId"
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "osVersion"
+    const-string v0, "appVersion"
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "btLiteVersion"
+    const-string v0, "osVersion"
 
     invoke-static {p4, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "model"
+    const-string v0, "btLiteVersion"
 
     invoke-static {p5, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const-string v0, "os"
+    const-string v0, "model"
 
     invoke-static {p6, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "os"
+
+    invoke-static {p7, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->ttId:Ljava/lang/String;
+    iput-object p1, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->deviceId:Ljava/lang/String;
 
-    iput-object p2, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->appVersion:Ljava/lang/String;
+    iput-object p2, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->ttId:Ljava/lang/String;
 
-    iput-object p3, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->osVersion:Ljava/lang/String;
+    iput-object p3, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->appVersion:Ljava/lang/String;
 
-    iput-object p4, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->btLiteVersion:Ljava/lang/String;
+    iput-object p4, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->osVersion:Ljava/lang/String;
 
-    iput-object p5, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->model:Ljava/lang/String;
+    iput-object p5, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->btLiteVersion:Ljava/lang/String;
 
-    iput-object p6, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->os:Ljava/lang/String;
+    iput-object p6, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->model:Ljava/lang/String;
 
-    return-void
-.end method
-
-.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
-    .locals 7
-
-    and-int/lit8 p7, p7, 0x8
-
-    if-eqz p7, :cond_0
-
-    const-string p4, "2.0"
-
-    :cond_0
-    move-object v4, p4
-
-    move-object v0, p0
-
-    move-object v1, p1
-
-    move-object v2, p2
-
-    move-object v3, p3
-
-    move-object v5, p5
-
-    move-object v6, p6
-
-    .line 2
-    invoke-direct/range {v0 .. v6}, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    iput-object p7, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->os:Ljava/lang/String;
 
     return-void
 .end method
@@ -219,6 +206,17 @@
 
     .line 1
     iget-object v0, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->btLiteVersion:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getDeviceId()Ljava/lang/String;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/revamp/requestModel/TempIdRequestModel;->deviceId:Ljava/lang/String;
 
     return-object v0
 .end method

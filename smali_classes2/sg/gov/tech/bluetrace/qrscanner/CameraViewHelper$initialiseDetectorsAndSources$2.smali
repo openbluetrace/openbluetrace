@@ -26,7 +26,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCameraViewHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraViewHelper.kt\nsg/gov/tech/bluetrace/qrscanner/CameraViewHelper$initialiseDetectorsAndSources$2\n*L\n1#1,200:1\n*E\n"
+    value = "SMAP\nCameraViewHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CameraViewHelper.kt\nsg/gov/tech/bluetrace/qrscanner/CameraViewHelper$initialiseDetectorsAndSources$2\n*L\n1#1,202:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -82,7 +82,7 @@
 
 # virtual methods
 .method public receiveDetections(Lcom/google/android/gms/vision/Detector$Detections;)V
-    .locals 3
+    .locals 5
     .param p1    # Lcom/google/android/gms/vision/Detector$Detections;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -168,6 +168,64 @@
     move-exception p1
 
     .line 4
+    sget-object v0, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
+
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper$initialiseDetectorsAndSources$2;->this$0:Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;
+
+    invoke-static {v1}, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;->access$getTAG$p(Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "GMS scanner failed to scan: "
+
+    invoke-static {v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0, v1, v3}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 5
+    sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
+
+    sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->SAFEENTRY:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
+
+    const-class v3, Lsg/gov/tech/bluetrace/qrscanner/CameraViewHelper$initialiseDetectorsAndSources$2;
+
+    invoke-virtual {v3}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "javaClass.simpleName"
+
+    invoke-static {v3, v4, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v4, 0x0
+
+    invoke-virtual {v0, v1, v3, v2, v4}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 6
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_0

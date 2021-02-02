@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSafeCheckInOutActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeCheckInOutActivity.kt\nsg/gov/tech/bluetrace/SafeCheckInOutActivity\n*L\n1#1,102:1\n*E\n"
+    value = "SMAP\nSafeCheckInOutActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeCheckInOutActivity.kt\nsg/gov/tech/bluetrace/SafeCheckInOutActivity\n*L\n1#1,103:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -211,7 +211,7 @@
 
     const-string v6, "is_check_in"
 
-    const v7, 0x7f0a0331
+    const v7, 0x7f0a0341
 
     if-eqz v3, :cond_1
 
@@ -252,7 +252,7 @@
 
     if-le v3, v5, :cond_2
 
-    const v3, 0x7f0a019b
+    const v3, 0x7f0a01a4
 
     .line 12
     invoke-virtual {v0, v3}, Landroidx/navigation/NavGraph;->setStartDestination(I)V
@@ -485,7 +485,7 @@
 
     move-result v0
 
-    const v1, 0x7f0a0331
+    const v1, 0x7f0a0341
 
     if-ne v0, v1, :cond_1
 

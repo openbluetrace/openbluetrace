@@ -84,7 +84,7 @@
 .end method
 
 .method public final invoke(Ljava/lang/String;)V
-    .locals 2
+    .locals 3
     .param p1    # Ljava/lang/String;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -97,7 +97,7 @@
     .line 2
     iget-object v0, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$3;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
-    invoke-virtual {v0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->getFV()Lsg/gov/tech/revamp/utils/FieldValidations;
+    invoke-static {v0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getVm$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;
 
     move-result-object v0
 
@@ -105,7 +105,9 @@
 
     invoke-direct {v1, p0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$3$1;-><init>(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$3;)V
 
-    invoke-virtual {v0, p1, v1}, Lsg/gov/tech/revamp/utils/FieldValidations;->isValidPassportNumber(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+    const-string v2, "passport"
+
+    invoke-virtual {v0, v2, p1, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->postValue(Ljava/lang/String;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)V
 
     return-void
 .end method

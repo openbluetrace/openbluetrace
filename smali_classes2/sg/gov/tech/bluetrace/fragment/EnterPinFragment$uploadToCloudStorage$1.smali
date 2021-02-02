@@ -132,8 +132,10 @@
     .line 4
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 5
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->UPLOAD:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 6
     iget-object v2, p0, Lsg/gov/tech/bluetrace/fragment/EnterPinFragment$uploadToCloudStorage$1;->this$0:Lsg/gov/tech/bluetrace/fragment/EnterPinFragment;
 
     invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -150,6 +152,7 @@
 
     const/4 v3, 0x0
 
+    .line 7
     invoke-virtual {p1, v0, v2, v1, v3}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0

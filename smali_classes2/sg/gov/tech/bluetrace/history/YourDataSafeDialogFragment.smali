@@ -123,7 +123,7 @@
 .method public getLayoutId()I
     .locals 1
 
-    const v0, 0x7f0d0058
+    const v0, 0x7f0d005a
 
     return v0
 .end method
@@ -169,7 +169,7 @@
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p2, 0x7f130233
+    const p2, 0x7f13026a
 
     .line 3
     invoke-virtual {p0, p2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;

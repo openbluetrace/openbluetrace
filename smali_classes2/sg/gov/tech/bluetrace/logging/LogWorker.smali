@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLogWorker.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LogWorker.kt\nsg/gov/tech/bluetrace/logging/LogWorker\n*L\n1#1,70:1\n*E\n"
+    value = "SMAP\nLogWorker.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LogWorker.kt\nsg/gov/tech/bluetrace/logging/LogWorker\n*L\n1#1,72:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -302,9 +302,10 @@
     .line 3
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 4
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->SETTINGS:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
-    .line 4
+    .line 5
     iget-object v3, p0, Lsg/gov/tech/bluetrace/logging/LogWorker;->TAG:Ljava/lang/String;
 
     invoke-virtual {p1}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
@@ -313,12 +314,12 @@
 
     const-string v4, "Error while checking Location Settings"
 
-    .line 5
+    .line 6
     invoke-virtual {v1, v2, v3, v4, p1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return v0
 
-    .line 6
+    .line 7
     :cond_2
     new-instance p1, Lkotlin/TypeCastException;
 
@@ -339,7 +340,7 @@
     const-string v0, "isBluetoothEnabled:"
 
     .line 1
-    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 

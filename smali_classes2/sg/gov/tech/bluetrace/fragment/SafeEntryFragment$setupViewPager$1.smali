@@ -50,18 +50,18 @@
 
 
 # instance fields
-.field public final synthetic $scannerFragment:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
+.field public final synthetic $scannerFragment:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragmentV2;
 
 .field public final synthetic this$0:Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment;
 
 
 # direct methods
-.method public constructor <init>(Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment;Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;)V
+.method public constructor <init>(Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment;Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragmentV2;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;",
+            "Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragmentV2;",
             ")V"
         }
     .end annotation
@@ -69,7 +69,7 @@
     .line 1
     iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment$setupViewPager$1;->this$0:Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment;
 
-    iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment$setupViewPager$1;->$scannerFragment:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
+    iput-object p2, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment$setupViewPager$1;->$scannerFragment:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragmentV2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -94,9 +94,9 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment$setupViewPager$1;->$scannerFragment:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment$setupViewPager$1;->$scannerFragment:Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragmentV2;
 
-    invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragment;->onPageChanged(I)V
+    invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragmentV2;->onPageChanged(I)V
 
     .line 2
     iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment$setupViewPager$1;->this$0:Lsg/gov/tech/bluetrace/fragment/SafeEntryFragment;

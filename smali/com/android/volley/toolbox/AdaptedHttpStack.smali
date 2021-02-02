@@ -170,7 +170,7 @@
 
     const-string p2, "Response too large: "
 
-    invoke-static {p2, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline15(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p2, v2, v3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline16(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object p2
 

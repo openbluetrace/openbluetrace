@@ -65,7 +65,7 @@
 
 # virtual methods
 .method public onDateSelected()V
-    .locals 7
+    .locals 4
 
     .line 1
     iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;
@@ -183,74 +183,34 @@
 
     .line 9
     :goto_0
-    new-instance v0, Lkotlin/jvm/internal/Ref$BooleanRef;
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;
 
-    invoke-direct {v0}, Lkotlin/jvm/internal/Ref$BooleanRef;-><init>()V
+    invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;->access$getVm$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/NricViewModel;
 
-    const/4 v1, 0x1
+    move-result-object v0
 
-    iput-boolean v1, v0, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
+    iget-object v1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;
 
-    .line 10
-    iget-object v3, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;
+    invoke-static {v1}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;->access$getDateInputBxDob$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;)Lsg/gov/tech/bluetrace/view/DateInputBox;
 
-    invoke-virtual {v3}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;->getFV()Lsg/gov/tech/revamp/utils/FieldValidations;
+    move-result-object v1
 
-    move-result-object v3
+    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/view/DateInputBox;->getDateInMillis()Ljava/lang/Long;
 
-    iget-object v4, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;
+    move-result-object v1
 
-    invoke-static {v4}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;->access$getDateInputBxDob$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;)Lsg/gov/tech/bluetrace/view/DateInputBox;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Lsg/gov/tech/bluetrace/view/DateInputBox;->getDateInMillis()Ljava/lang/Long;
-
-    move-result-object v4
-
-    if-nez v4, :cond_2
+    if-nez v1, :cond_2
 
     invoke-static {}, Lkotlin/jvm/internal/Intrinsics;->throwNpe()V
 
     :cond_2
-    invoke-virtual {v4}, Ljava/lang/Long;->longValue()J
+    new-instance v2, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5$onDateSelected$1;
 
-    move-result-wide v4
+    invoke-direct {v2, p0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5$onDateSelected$1;-><init>(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;)V
 
-    new-instance v6, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5$onDateSelected$1;
+    const-string v3, "dob"
 
-    invoke-direct {v6, p0, v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5$onDateSelected$1;-><init>(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;Lkotlin/jvm/internal/Ref$BooleanRef;)V
-
-    invoke-virtual {v3, v4, v5, v6}, Lsg/gov/tech/revamp/utils/FieldValidations;->isValidDateOfBirth(JLkotlin/jvm/functions/Function1;)V
-
-    .line 11
-    iget-object v3, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2$initListenerWatcher$5;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;
-
-    invoke-static {v3}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;->access$getVm$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserNRICFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/NricViewModel;
-
-    move-result-object v3
-
-    new-array v1, v1, [Lkotlin/Pair;
-
-    iget-boolean v0, v0, Lkotlin/jvm/internal/Ref$BooleanRef;->element:Z
-
-    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v0
-
-    const-string v4, "dob"
-
-    invoke-static {v4, v0}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
-
-    move-result-object v0
-
-    aput-object v0, v1, v2
-
-    invoke-static {v1}, Lkotlin/collections/MapsKt__MapsKt;->hashMapOf([Lkotlin/Pair;)Ljava/util/HashMap;
-
-    move-result-object v0
-
-    invoke-virtual {v3, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/NricViewModel;->postValue(Ljava/util/HashMap;)V
+    invoke-virtual {v0, v3, v1, v2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/NricViewModel;->postValue(Ljava/lang/String;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)V
 
     :cond_3
     return-void

@@ -87,7 +87,7 @@
 
     iget-object v1, p0, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity$setOnClickListeners$3;->this$0:Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity;
 
-    const v2, 0x7f1301cb
+    const v2, 0x7f1301f3
 
     invoke-virtual {v1, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 
@@ -146,7 +146,7 @@
 
     iget-object v0, p0, Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity$setOnClickListeners$3;->this$0:Lsg/gov/tech/bluetrace/groupCheckIn/safeEntry/GroupSafeEntryActivity;
 
-    const v1, 0x7f13020f
+    const v1, 0x7f130244
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->getString(I)Ljava/lang/String;
 

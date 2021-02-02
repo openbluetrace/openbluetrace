@@ -31,7 +31,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBluetoothHistoryFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BluetoothHistoryFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$insertRecord$1\n*L\n1#1,760:1\n*E\n"
+    value = "SMAP\nBluetoothHistoryFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BluetoothHistoryFragment.kt\nsg/gov/tech/bluetrace/fragment/BluetoothHistoryFragment$insertRecord$1\n*L\n1#1,768:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -66,7 +66,7 @@
         0x0
     }
     l = {
-        0x1f6
+        0x1fe
     }
     m = "invokeSuspend"
     n = {
@@ -312,7 +312,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const v2, 0x7f1301bc
+    const v2, 0x7f1301e4
 
     .line 15
     invoke-virtual {p1, v0, v1, v2}, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;->showSnackBar(Landroid/content/Context;Landroid/view/View;I)V

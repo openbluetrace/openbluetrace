@@ -14,13 +14,13 @@
 
 
 # static fields
-.field public static final zxing_app_name:I = 0x7f130269
+.field public static final zxing_app_name:I = 0x7f1302a0
 
-.field public static final zxing_button_ok:I = 0x7f13026a
+.field public static final zxing_button_ok:I = 0x7f1302a1
 
-.field public static final zxing_msg_camera_framework_bug:I = 0x7f13026b
+.field public static final zxing_msg_camera_framework_bug:I = 0x7f1302a2
 
-.field public static final zxing_msg_default_status:I = 0x7f13026c
+.field public static final zxing_msg_default_status:I = 0x7f1302a3
 
 
 # direct methods

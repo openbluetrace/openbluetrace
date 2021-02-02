@@ -1230,9 +1230,13 @@
     <attr name="stringMsgNeutral" format="string" />
     <attr name="stringMsgSelected" format="string" />
     <attr name="stringMsgUnselected" format="string" />
+    <attr name="stringSubMsgNeutral" format="string" />
+    <attr name="stringSubMsgSelected" format="string" />
+    <attr name="stringSubMsgUnselected" format="string" />
     <attr name="strokeColor" format="color" />
     <attr name="strokeWidth" format="dimension" />
     <attr name="subMenuArrow" format="reference" />
+    <attr name="subTextVisibility" format="boolean" />
     <attr name="submitBackground" format="reference" />
     <attr name="subtitle" format="string" />
     <attr name="subtitleTextAppearance" format="reference" />

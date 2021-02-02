@@ -32,7 +32,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nApiHandler.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ApiHandler.kt\nsg/gov/tech/bluetrace/revamp/api/ApiHandler$registerUser$1\n*L\n1#1,123:1\n*E\n"
+    value = "SMAP\nApiHandler.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ApiHandler.kt\nsg/gov/tech/bluetrace/revamp/api/ApiHandler$registerUser$1\n*L\n1#1,175:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -123,7 +123,7 @@
 
     iget-object v1, p0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler$registerUser$1;->this$0:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
 
-    invoke-static {v1}, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;->access$getResposeHandler$p(Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;)Lsg/gov/tech/bluetrace/api/ApiResposeHandler;
+    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;->getResposeHandler()Lsg/gov/tech/bluetrace/api/ApiResposeHandler;
 
     move-result-object v1
 

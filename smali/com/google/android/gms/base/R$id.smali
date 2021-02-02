@@ -14,23 +14,23 @@
 
 
 # static fields
-.field public static final adjust_height:I = 0x7f0a009a
+.field public static final adjust_height:I = 0x7f0a009c
 
-.field public static final adjust_width:I = 0x7f0a009b
+.field public static final adjust_width:I = 0x7f0a009d
 
-.field public static final auto:I = 0x7f0a00b0
+.field public static final auto:I = 0x7f0a00b4
 
-.field public static final dark:I = 0x7f0a012f
+.field public static final dark:I = 0x7f0a0139
 
-.field public static final icon_only:I = 0x7f0a01ca
+.field public static final icon_only:I = 0x7f0a01d5
 
-.field public static final light:I = 0x7f0a0205
+.field public static final light:I = 0x7f0a0214
 
-.field public static final none:I = 0x7f0a0278
+.field public static final none:I = 0x7f0a0287
 
-.field public static final standard:I = 0x7f0a0390
+.field public static final standard:I = 0x7f0a03a2
 
-.field public static final wide:I = 0x7f0a0460
+.field public static final wide:I = 0x7f0a0487
 
 
 # direct methods

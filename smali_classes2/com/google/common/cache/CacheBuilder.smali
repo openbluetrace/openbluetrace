@@ -1685,7 +1685,7 @@
 
     iget-wide v6, p0, Lcom/google/common/cache/CacheBuilder;->expireAfterWriteNanos:J
 
-    invoke-static {v1, v6, v7, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline22(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v6, v7, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline23(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1708,7 +1708,7 @@
 
     iget-wide v2, p0, Lcom/google/common/cache/CacheBuilder;->expireAfterAccessNanos:J
 
-    invoke-static {v1, v2, v3, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline22(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, v3, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline23(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

@@ -134,6 +134,9 @@
         }
     .end annotation
 
+    .annotation runtime Ljavax/annotation/Nullable;
+    .end annotation
+
     .line 1
     iget-object v0, p0, Lretrofit2/HttpException;->response:Lretrofit2/Response;
 

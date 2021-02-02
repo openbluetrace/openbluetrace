@@ -70,57 +70,57 @@
 
 .field public static final abc_tooltip:I = 0x7f0d001b
 
-.field public static final custom_dialog:I = 0x7f0d003a
+.field public static final custom_dialog:I = 0x7f0d003b
 
-.field public static final design_bottom_navigation_item:I = 0x7f0d003f
+.field public static final design_bottom_navigation_item:I = 0x7f0d0040
 
-.field public static final design_bottom_sheet_dialog:I = 0x7f0d0040
+.field public static final design_bottom_sheet_dialog:I = 0x7f0d0041
 
-.field public static final design_layout_snackbar:I = 0x7f0d0041
+.field public static final design_layout_snackbar:I = 0x7f0d0042
 
-.field public static final design_layout_snackbar_include:I = 0x7f0d0042
+.field public static final design_layout_snackbar_include:I = 0x7f0d0043
 
-.field public static final design_layout_tab_icon:I = 0x7f0d0043
+.field public static final design_layout_tab_icon:I = 0x7f0d0044
 
-.field public static final design_layout_tab_text:I = 0x7f0d0044
+.field public static final design_layout_tab_text:I = 0x7f0d0045
 
-.field public static final design_menu_item_action_area:I = 0x7f0d0045
+.field public static final design_menu_item_action_area:I = 0x7f0d0046
 
-.field public static final design_navigation_item:I = 0x7f0d0046
+.field public static final design_navigation_item:I = 0x7f0d0047
 
-.field public static final design_navigation_item_header:I = 0x7f0d0047
+.field public static final design_navigation_item_header:I = 0x7f0d0048
 
-.field public static final design_navigation_item_separator:I = 0x7f0d0048
+.field public static final design_navigation_item_separator:I = 0x7f0d0049
 
-.field public static final design_navigation_item_subheader:I = 0x7f0d0049
+.field public static final design_navigation_item_subheader:I = 0x7f0d004a
 
-.field public static final design_navigation_menu:I = 0x7f0d004a
+.field public static final design_navigation_menu:I = 0x7f0d004b
 
-.field public static final design_navigation_menu_item:I = 0x7f0d004b
+.field public static final design_navigation_menu_item:I = 0x7f0d004c
 
-.field public static final mtrl_layout_snackbar:I = 0x7f0d00a3
+.field public static final mtrl_layout_snackbar:I = 0x7f0d00a8
 
-.field public static final mtrl_layout_snackbar_include:I = 0x7f0d00a4
+.field public static final mtrl_layout_snackbar_include:I = 0x7f0d00a9
 
-.field public static final notification_action:I = 0x7f0d00b0
+.field public static final notification_action:I = 0x7f0d00b5
 
-.field public static final notification_action_tombstone:I = 0x7f0d00b1
+.field public static final notification_action_tombstone:I = 0x7f0d00b6
 
-.field public static final notification_template_custom_big:I = 0x7f0d00b8
+.field public static final notification_template_custom_big:I = 0x7f0d00bd
 
-.field public static final notification_template_icon_group:I = 0x7f0d00b9
+.field public static final notification_template_icon_group:I = 0x7f0d00be
 
-.field public static final notification_template_part_chronometer:I = 0x7f0d00bd
+.field public static final notification_template_part_chronometer:I = 0x7f0d00c2
 
-.field public static final notification_template_part_time:I = 0x7f0d00be
+.field public static final notification_template_part_time:I = 0x7f0d00c3
 
-.field public static final select_dialog_item_material:I = 0x7f0d00c7
+.field public static final select_dialog_item_material:I = 0x7f0d00cd
 
-.field public static final select_dialog_multichoice_material:I = 0x7f0d00c8
+.field public static final select_dialog_multichoice_material:I = 0x7f0d00ce
 
-.field public static final select_dialog_singlechoice_material:I = 0x7f0d00c9
+.field public static final select_dialog_singlechoice_material:I = 0x7f0d00cf
 
-.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d00ce
+.field public static final support_simple_spinner_dropdown_item:I = 0x7f0d00d4
 
 
 # direct methods

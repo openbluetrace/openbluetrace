@@ -147,7 +147,7 @@
     const-string p0, "Buffer size should be non-negative, BUFFERED, or CONFLATED, but was "
 
     .line 4
-    invoke-static {p0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p0
 

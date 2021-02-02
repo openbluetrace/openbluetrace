@@ -216,7 +216,7 @@
 
     const-string v3, "Dynamic intent resolution failed: "
 
-    invoke-static {v1, v3, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v3, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     move-object p1, v2
 

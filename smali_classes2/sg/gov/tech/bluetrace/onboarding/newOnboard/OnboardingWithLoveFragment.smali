@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnboardingWithLoveFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingWithLoveFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingWithLoveFragment\n*L\n1#1,112:1\n*E\n"
+    value = "SMAP\nOnboardingWithLoveFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardingWithLoveFragment.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/OnboardingWithLoveFragment\n*L\n1#1,113:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -104,7 +104,7 @@
 
     check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f1301fe
+    const v1, 0x7f130229
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -117,7 +117,7 @@
 
     check-cast v0, Landroidx/appcompat/widget/AppCompatTextView;
 
-    const v1, 0x7f130200
+    const v1, 0x7f13022b
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(I)V
 
@@ -411,7 +411,7 @@
     .line 1
     invoke-super {p0, p1, p2, p3}, Landroidx/fragment/app/Fragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
-    const p3, 0x7f0d006f
+    const p3, 0x7f0d0071
 
     const/4 v0, 0x0
 
@@ -470,7 +470,7 @@
 
     invoke-virtual {p2, v0, v1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->screenAnalytics(Landroid/app/Activity;Ljava/lang/String;)V
 
-    const p2, 0x7f0a01e4
+    const p2, 0x7f0a01ef
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;

@@ -30,6 +30,8 @@
     <color name="browser_actions_divider_color">#1e000000</color>
     <color name="browser_actions_text_color">#de000000</color>
     <color name="browser_actions_title_color">#ff646464</color>
+    <color name="bt_text">#ff4f4f4f</color>
+    <color name="bt_time_lapse">#ff828282</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="cardview_dark_background">#ff424242</color>
@@ -106,6 +108,7 @@
     <color name="geraldine">#ffe57373</color>
     <color name="green">#ff449d44</color>
     <color name="green_bg">#ff84cfc8</color>
+    <color name="green_checkin">#ff1eaf71</color>
     <color name="grey">#ffe5e5e5</color>
     <color name="grey_1">#ff202020</color>
     <color name="grey_10">#ffececec</color>
@@ -113,6 +116,7 @@
     <color name="grey_12">#ffdadce0</color>
     <color name="grey_13">#ff333333</color>
     <color name="grey_14">#ff4f4f4f</color>
+    <color name="grey_15">#fffbfbfb</color>
     <color name="grey_2">#ff3c4043</color>
     <color name="grey_3">#ff5f6368</color>
     <color name="grey_4">#ff686868</color>
@@ -163,6 +167,7 @@
     <color name="off_white">#fff5f2d0</color>
     <color name="para_para">#ffffefef</color>
     <color name="pink">#fffff0f0</color>
+    <color name="pp_profile_blocked_gray_bg">#fff2f2f2</color>
     <color name="pressed_bg">#64b7b7b7</color>
     <color name="primary_blue_1">#ff0030a1</color>
     <color name="primary_blue_2">#ff003db5</color>

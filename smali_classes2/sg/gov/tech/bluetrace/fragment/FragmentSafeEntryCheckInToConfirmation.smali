@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFragmentSafeEntryCheckInToConfirmation.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentSafeEntryCheckInToConfirmation.kt\nsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 FragmentNavArgsLazy.kt\nandroidx/navigation/fragment/FragmentNavArgsLazyKt\n*L\n1#1,196:1\n1648#2,2:197\n41#3,3:199\n*E\n*S KotlinDebug\n*F\n+ 1 FragmentSafeEntryCheckInToConfirmation.kt\nsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation\n*L\n191#1,2:197\n37#1,3:199\n*E\n"
+    value = "SMAP\nFragmentSafeEntryCheckInToConfirmation.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentSafeEntryCheckInToConfirmation.kt\nsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 FragmentNavArgsLazy.kt\nandroidx/navigation/fragment/FragmentNavArgsLazyKt\n+ 4 ViewModelStoreOwnerExt.kt\norg/koin/android/viewmodel/ext/android/ViewModelStoreOwnerExtKt\n*L\n1#1,194:1\n1648#2,2:195\n41#3,3:197\n48#4,4:200\n*E\n*S KotlinDebug\n*F\n+ 1 FragmentSafeEntryCheckInToConfirmation.kt\nsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation\n*L\n189#1,2:195\n37#1,3:197\n40#1,4:200\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -18,7 +18,7 @@
         0x3
     }
     d1 = {
-        "\u0000`\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0004\u0018\u00002\u00020\u00012\u00020\u0002B\u0005\u00a2\u0006\u0002\u0010\u0003J\u0008\u0010\u0013\u001a\u00020\u0014H\u0002J\n\u0010\u0015\u001a\u0004\u0018\u00010\u0016H\u0002J\u0008\u0010\u0017\u001a\u00020\u0014H\u0002J&\u0010\u0018\u001a\u0004\u0018\u00010\u00192\u0006\u0010\u001a\u001a\u00020\u001b2\u0008\u0010\u001c\u001a\u0004\u0018\u00010\u001d2\u0008\u0010\u001e\u001a\u0004\u0018\u00010\u001fH\u0016J\u0008\u0010 \u001a\u00020\u0014H\u0016J\u0010\u0010!\u001a\u00020\u00142\u0006\u0010\"\u001a\u00020#H\u0002J\u001a\u0010$\u001a\u00020\u00142\u0006\u0010%\u001a\u00020\u00192\u0008\u0010\u001e\u001a\u0004\u0018\u00010\u001fH\u0016J\u0008\u0010&\u001a\u00020\u0014H\u0002R\u001b\u0010\u0004\u001a\u00020\u00058BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0008\u0010\t\u001a\u0004\u0008\u0006\u0010\u0007R\u0014\u0010\n\u001a\u00020\u000b8VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000c\u0010\rR\u0014\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u00100\u000fX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0011\u001a\u00020\u0012X\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006\'"
+        "\u0000b\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0004\u0018\u00002\u00020\u00012\u00020\u0002B\u0005\u00a2\u0006\u0002\u0010\u0003J\u0008\u0010\u0017\u001a\u00020\u0018H\u0002J\n\u0010\u0019\u001a\u0004\u0018\u00010\u001aH\u0002J\u0008\u0010\u001b\u001a\u00020\u0018H\u0002J&\u0010\u001c\u001a\u0004\u0018\u00010\u001d2\u0006\u0010\u001e\u001a\u00020\u001f2\u0008\u0010 \u001a\u0004\u0018\u00010!2\u0008\u0010\"\u001a\u0004\u0018\u00010#H\u0016J\u0008\u0010$\u001a\u00020\u0018H\u0016J\u0010\u0010%\u001a\u00020\u00182\u0006\u0010&\u001a\u00020\'H\u0002J\u001a\u0010(\u001a\u00020\u00182\u0006\u0010)\u001a\u00020\u001d2\u0008\u0010\"\u001a\u0004\u0018\u00010#H\u0016J\u0008\u0010*\u001a\u00020\u0018H\u0002R\u001b\u0010\u0004\u001a\u00020\u00058BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0008\u0010\t\u001a\u0004\u0008\u0006\u0010\u0007R\u0014\u0010\n\u001a\u00020\u000b8VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u000c\u0010\rR\u0014\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\u00100\u000fX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001b\u0010\u0011\u001a\u00020\u00128BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0015\u0010\u0016\u001a\u0004\u0008\u0013\u0010\u0014\u00a8\u0006+"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;",
@@ -40,6 +40,10 @@
         "Lio/reactivex/disposables/Disposable;",
         "favouriteViewModel",
         "Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;",
+        "getFavouriteViewModel",
+        "()Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;",
+        "favouriteViewModel$delegate",
+        "Lkotlin/Lazy;",
         "deleteRecord",
         "",
         "getPlaceName",
@@ -90,14 +94,14 @@
     .end annotation
 .end field
 
-.field public favouriteViewModel:Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
+.field public final favouriteViewModel$delegate:Lkotlin/Lazy;
 
 
 # direct methods
 .method public static constructor <clinit>()V
     .locals 5
 
-    const/4 v0, 0x1
+    const/4 v0, 0x2
 
     new-array v0, v0, [Lkotlin/reflect/KProperty;
 
@@ -120,6 +124,28 @@
     move-result-object v1
 
     const/4 v2, 0x0
+
+    aput-object v1, v0, v2
+
+    new-instance v1, Lkotlin/jvm/internal/PropertyReference1Impl;
+
+    const-class v2, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;
+
+    invoke-static {v2}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+
+    move-result-object v2
+
+    const-string v3, "favouriteViewModel"
+
+    const-string v4, "getFavouriteViewModel()Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;"
+
+    invoke-direct {v1, v2, v3, v4}, Lkotlin/jvm/internal/PropertyReference1Impl;-><init>(Lkotlin/reflect/KDeclarationContainer;Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Reflection;->property1(Lkotlin/jvm/internal/PropertyReference1;)Lkotlin/reflect/KProperty1;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
 
     aput-object v1, v0, v2
 
@@ -153,6 +179,21 @@
     iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->args$delegate:Landroidx/navigation/NavArgsLazy;
 
     .line 4
+    sget-object v0, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v1, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation$$special$$inlined$viewModel$1;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, v2, v2}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation$$special$$inlined$viewModel$1;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)V
+
+    invoke-static {v0, v1}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->favouriteViewModel$delegate:Lkotlin/Lazy;
+
+    .line 5
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -174,18 +215,13 @@
 .end method
 
 .method public static final synthetic access$getFavouriteViewModel$p(Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;)Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-    .locals 1
+    .locals 0
 
     .line 1
-    iget-object p0, p0, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->favouriteViewModel:Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
+    invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->getFavouriteViewModel()Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
 
-    if-nez p0, :cond_0
+    move-result-object p0
 
-    const-string v0, "favouriteViewModel"
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->throwUninitializedPropertyAccessException(Ljava/lang/String;)V
-
-    :cond_0
     return-object p0
 .end method
 
@@ -194,15 +230,6 @@
 
     .line 1
     invoke-direct {p0, p1}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->onStarClicked(Z)V
-
-    return-void
-.end method
-
-.method public static final synthetic access$setFavouriteViewModel$p(Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->favouriteViewModel:Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
 
     return-void
 .end method
@@ -280,6 +307,26 @@
     move-result-object v0
 
     check-cast v0, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmationArgs;
+
+    return-object v0
+.end method
+
+.method private final getFavouriteViewModel()Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
+    .locals 3
+
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->favouriteViewModel$delegate:Lkotlin/Lazy;
+
+    sget-object v1, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->$$delegatedProperties:[Lkotlin/reflect/KProperty;
+
+    const/4 v2, 0x1
+
+    aget-object v1, v1, v2
+
+    invoke-interface {v0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
 
     return-object v0
 .end method
@@ -702,7 +749,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d007d
+    const p3, 0x7f0d0082
 
     const/4 v0, 0x0
 
@@ -794,25 +841,6 @@
     invoke-virtual {p1, p2, v0}, Lsg/gov/tech/bluetrace/AnalyticsUtils;->screenAnalytics(Landroid/app/Activity;Ljava/lang/String;)V
 
     .line 3
-    new-instance p1, Landroidx/lifecycle/ViewModelProvider;
-
-    invoke-direct {p1, p0}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
-
-    const-class p2, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
-
-    move-result-object p1
-
-    const-string p2, "ViewModelProvider(this).\u2026iteViewModel::class.java)"
-
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    check-cast p1, Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-
-    iput-object p1, p0, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->favouriteViewModel:Lsg/gov/tech/bluetrace/favourite/FavouriteViewModel;
-
-    .line 4
     sget p1, Lsg/gov/tech/bluetrace/R$id;->safe_entry_check_in_confirm_place_name:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->_$_findCachedViewById(I)Landroid/view/View;
@@ -831,7 +859,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 5
+    .line 4
     sget p1, Lsg/gov/tech/bluetrace/R$id;->safe_entry_check_in_confirm_place_address:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->_$_findCachedViewById(I)Landroid/view/View;
@@ -858,7 +886,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 6
+    .line 5
     sget p1, Lsg/gov/tech/bluetrace/R$id;->safe_entry_check_in_to_btn_next:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->_$_findCachedViewById(I)Landroid/view/View;
@@ -873,7 +901,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 7
+    .line 6
     sget p1, Lsg/gov/tech/bluetrace/R$id;->terms_tv:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->_$_findCachedViewById(I)Landroid/view/View;
@@ -890,7 +918,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v1, 0x7f13022b
+    const v1, 0x7f130262
 
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -902,7 +930,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f13022c
+    const v2, 0x7f130263
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -912,7 +940,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f130140
+    const v2, 0x7f13014b
 
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -922,9 +950,9 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    const v2, 0x7f130025
+    const v2, 0x7f130024
 
-    .line 8
+    .line 7
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
@@ -939,7 +967,7 @@
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 9
+    .line 8
     sget p1, Lsg/gov/tech/bluetrace/R$id;->terms_tv:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->_$_findCachedViewById(I)Landroid/view/View;
@@ -956,14 +984,14 @@
 
     const/4 v0, 0x0
 
-    .line 10
+    .line 9
     new-instance v2, Lkotlin/Pair;
 
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
-    const v4, 0x7f1301ef
+    const v4, 0x7f13021a
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -977,10 +1005,10 @@
 
     aput-object v2, p2, v0
 
-    .line 11
+    .line 10
     invoke-static {p1, p2}, Lsg/gov/tech/bluetrace/extentions/UtilityExtentionsKt;->makeLinks(Landroidx/appcompat/widget/AppCompatTextView;[Lkotlin/Pair;)V
 
-    .line 12
+    .line 11
     sget p1, Lsg/gov/tech/bluetrace/R$id;->not_applicableTv:I
 
     invoke-virtual {p0, p1}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->_$_findCachedViewById(I)Landroid/view/View;
@@ -997,7 +1025,7 @@
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v0, 0x7f130149
+    const v0, 0x7f130154
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -1007,7 +1035,7 @@
 
     invoke-virtual {p2, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    const v0, 0x7f130148
+    const v0, 0x7f130153
 
     invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 
@@ -1023,12 +1051,12 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 13
+    .line 12
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/fragment/FragmentSafeEntryCheckInToConfirmation;->setFavourite()V
 
     return-void
 
-    .line 14
+    .line 13
     :cond_0
     new-instance p1, Lkotlin/TypeCastException;
 

@@ -76,11 +76,6 @@
 
 .method public convert(Lokhttp3/ResponseBody;)Ljava/lang/Void;
     .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 2
     invoke-virtual {p1}, Lokhttp3/ResponseBody;->close()V

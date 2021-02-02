@@ -122,7 +122,7 @@
     goto :goto_0
 
     :cond_0
-    const v2, 0x7f13016f
+    const v2, 0x7f130187
 
     .line 5
     invoke-virtual {p0, v2}, Landroid/app/Activity;->getString(I)Ljava/lang/String;

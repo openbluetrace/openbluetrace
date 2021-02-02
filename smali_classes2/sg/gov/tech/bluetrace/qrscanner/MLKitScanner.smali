@@ -12,7 +12,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMLKitScanner.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MLKitScanner.kt\nsg/gov/tech/bluetrace/qrscanner/MLKitScanner\n*L\n1#1,293:1\n*E\n"
+    value = "SMAP\nMLKitScanner.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MLKitScanner.kt\nsg/gov/tech/bluetrace/qrscanner/MLKitScanner\n*L\n1#1,300:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -22,7 +22,7 @@
         0x3
     }
     d1 = {
-        "\u0000\u008c\u0001\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0002\u0008\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u000b\u0018\u0000 Q2\u00020\u0001:\u0002QRB\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006J\u0006\u0010>\u001a\u00020?J\u0006\u0010@\u001a\u00020?J\u0006\u0010A\u001a\u00020?J1\u0010B\u001a\n\u0012\u0004\u0012\u00020D\u0018\u00010C2\u0006\u0010E\u001a\u00020F2\u0006\u0010G\u001a\u00020H2\u0006\u0010I\u001a\u00020;H\u0086@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010JJ\u0006\u0010K\u001a\u00020?J\u0006\u0010L\u001a\u00020?J\u000e\u0010M\u001a\u00020?2\u0006\u0010N\u001a\u00020-J\u0006\u0010O\u001a\u00020?J\u0006\u0010P\u001a\u00020?R\u001d\u0010\u0007\u001a\u0004\u0018\u00010\u00088BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u000b\u0010\u000c\u001a\u0004\u0008\t\u0010\nR\u001c\u0010\r\u001a\u0004\u0018\u00010\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000f\u0010\u0010\"\u0004\u0008\u0011\u0010\u0012R\u000e\u0010\u0013\u001a\u00020\u0014X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001d\u0010\u0015\u001a\u0004\u0018\u00010\u00168BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\u000c\u001a\u0004\u0008\u0017\u0010\u0018R\u001b\u0010\u001a\u001a\u00020\u001b8BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001e\u0010\u000c\u001a\u0004\u0008\u001c\u0010\u001dR\u001a\u0010\u0004\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001f\u0010 \"\u0004\u0008!\u0010\"R\u000e\u0010#\u001a\u00020$X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(R\u000e\u0010)\u001a\u00020*X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010+\u001a\u00020*X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001c\u0010,\u001a\u0004\u0018\u00010-X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008.\u0010/\"\u0004\u00080\u00101R\u000e\u00102\u001a\u000203X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001c\u00104\u001a\u0004\u0018\u000105X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00086\u00107\"\u0004\u00088\u00109R\u0011\u0010:\u001a\u00020;\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008<\u0010=\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006S"
+        "\u0000\u008c\u0001\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0002\u0008\u0003\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u000b\u0018\u0000 R2\u00020\u0001:\u0002RSB\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006J\u0006\u0010?\u001a\u00020@J\u0006\u0010A\u001a\u00020@J\u0006\u0010B\u001a\u00020@J1\u0010C\u001a\n\u0012\u0004\u0012\u00020E\u0018\u00010D2\u0006\u0010F\u001a\u00020G2\u0006\u0010H\u001a\u00020I2\u0006\u0010J\u001a\u00020<H\u0086@\u00f8\u0001\u0000\u00a2\u0006\u0002\u0010KJ\u0006\u0010L\u001a\u00020@J\u0006\u0010M\u001a\u00020@J\u000e\u0010N\u001a\u00020@2\u0006\u0010O\u001a\u00020.J\u0006\u0010P\u001a\u00020@J\u0006\u0010Q\u001a\u00020@R\u000e\u0010\u0007\u001a\u00020\u0008X\u0082D\u00a2\u0006\u0002\n\u0000R\u001d\u0010\t\u001a\u0004\u0018\u00010\n8BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\r\u0010\u000e\u001a\u0004\u0008\u000b\u0010\u000cR\u001c\u0010\u000f\u001a\u0004\u0018\u00010\u0010X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0011\u0010\u0012\"\u0004\u0008\u0013\u0010\u0014R\u000e\u0010\u0015\u001a\u00020\u0016X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001d\u0010\u0017\u001a\u0004\u0018\u00010\u00088BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001a\u0010\u000e\u001a\u0004\u0008\u0018\u0010\u0019R\u001b\u0010\u001b\u001a\u00020\u001c8BX\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001f\u0010\u000e\u001a\u0004\u0008\u001d\u0010\u001eR\u001a\u0010\u0004\u001a\u00020\u0005X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008 \u0010!\"\u0004\u0008\"\u0010#R\u000e\u0010$\u001a\u00020%X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008&\u0010\'\"\u0004\u0008(\u0010)R\u000e\u0010*\u001a\u00020+X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u000e\u0010,\u001a\u00020+X\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u001c\u0010-\u001a\u0004\u0018\u00010.X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008/\u00100\"\u0004\u00081\u00102R\u000e\u00103\u001a\u000204X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001c\u00105\u001a\u0004\u0018\u000106X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u00087\u00108\"\u0004\u00089\u0010:R\u0011\u0010;\u001a\u00020<\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008=\u0010>\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006T"
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;",
@@ -32,6 +32,8 @@
         "cameraPreview",
         "Lsg/gov/tech/bluetrace/qrscanner/AutoFitSurfaceView;",
         "(Landroid/content/Context;Lsg/gov/tech/bluetrace/qrscanner/AutoFitSurfaceView;)V",
+        "TAG",
+        "",
         "cameraCharacteristics",
         "Landroid/hardware/camera2/CameraCharacteristics;",
         "getCameraCharacteristics",
@@ -47,7 +49,6 @@
         "cameraHandler",
         "Landroid/os/Handler;",
         "cameraId",
-        "",
         "getCameraId",
         "()Ljava/lang/String;",
         "cameraId$delegate",
@@ -129,6 +130,8 @@
 
 
 # instance fields
+.field public final TAG:Ljava/lang/String;
+
 .field public final cameraCharacteristics$delegate:Lkotlin/Lazy;
 
 .field public cameraDevice:Landroid/hardware/camera2/CameraDevice;
@@ -290,15 +293,20 @@
 
     iput-object p2, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->cameraPreview:Lsg/gov/tech/bluetrace/qrscanner/AutoFitSurfaceView;
 
-    const/4 p1, 0x1
+    const-string p1, "MLKitScanner"
 
     .line 2
-    iput-boolean p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->isFrameProcessed:Z
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->TAG:Ljava/lang/String;
+
+    const/4 p1, 0x1
 
     .line 3
-    iput-boolean p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->isScanningPaused:Z
+    iput-boolean p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->isFrameProcessed:Z
 
     .line 4
+    iput-boolean p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->isScanningPaused:Z
+
+    .line 5
     new-instance p1, Lcom/google/mlkit/vision/barcode/BarcodeScannerOptions$Builder;
 
     invoke-direct {p1}, Lcom/google/mlkit/vision/barcode/BarcodeScannerOptions$Builder;-><init>()V
@@ -309,12 +317,12 @@
 
     const/16 v0, 0x100
 
-    .line 5
+    .line 6
     invoke-virtual {p1, v0, p2}, Lcom/google/mlkit/vision/barcode/BarcodeScannerOptions$Builder;->setBarcodeFormats(I[I)Lcom/google/mlkit/vision/barcode/BarcodeScannerOptions$Builder;
 
     move-result-object p1
 
-    .line 6
+    .line 7
     invoke-virtual {p1}, Lcom/google/mlkit/vision/barcode/BarcodeScannerOptions$Builder;->build()Lcom/google/mlkit/vision/barcode/BarcodeScannerOptions;
 
     move-result-object p1
@@ -325,7 +333,7 @@
 
     iput-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->options:Lcom/google/mlkit/vision/barcode/BarcodeScannerOptions;
 
-    .line 7
+    .line 8
     invoke-static {p1}, Lcom/google/mlkit/vision/barcode/BarcodeScanning;->getClient(Lcom/google/mlkit/vision/barcode/BarcodeScannerOptions;)Lcom/google/mlkit/vision/barcode/BarcodeScanner;
 
     move-result-object p1
@@ -336,7 +344,7 @@
 
     iput-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->qrCodeScanner:Lcom/google/mlkit/vision/barcode/BarcodeScanner;
 
-    .line 8
+    .line 9
     new-instance p1, Landroid/os/HandlerThread;
 
     const-string p2, "CameraThread"
@@ -345,7 +353,7 @@
 
     iput-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->cameraThread:Landroid/os/HandlerThread;
 
-    .line 9
+    .line 10
     new-instance p1, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$cameraManager$2;
 
     invoke-direct {p1, p0}, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$cameraManager$2;-><init>(Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;)V
@@ -356,7 +364,7 @@
 
     iput-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->cameraManager$delegate:Lkotlin/Lazy;
 
-    .line 10
+    .line 11
     new-instance p1, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$cameraId$2;
 
     invoke-direct {p1, p0}, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$cameraId$2;-><init>(Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;)V
@@ -367,7 +375,7 @@
 
     iput-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->cameraId$delegate:Lkotlin/Lazy;
 
-    .line 11
+    .line 12
     new-instance p1, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$cameraCharacteristics$2;
 
     invoke-direct {p1, p0}, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner$cameraCharacteristics$2;-><init>(Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;)V
@@ -378,12 +386,12 @@
 
     iput-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->cameraCharacteristics$delegate:Lkotlin/Lazy;
 
-    .line 12
+    .line 13
     iget-object p1, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->cameraThread:Landroid/os/HandlerThread;
 
     invoke-virtual {p1}, Landroid/os/HandlerThread;->start()V
 
-    .line 13
+    .line 14
     new-instance p1, Landroid/os/Handler;
 
     iget-object p2, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->cameraThread:Landroid/os/HandlerThread;
@@ -437,6 +445,15 @@
     sget v0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->PERMISSION_CALLBACK_CONSTANT_MLKIT:I
 
     return v0
+.end method
+
+.method public static final synthetic access$getTAG$p(Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;)Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;->TAG:Ljava/lang/String;
+
+    return-object p0
 .end method
 
 .method public static final synthetic access$isFrameProcessed$p(Lsg/gov/tech/bluetrace/qrscanner/MLKitScanner;)Z

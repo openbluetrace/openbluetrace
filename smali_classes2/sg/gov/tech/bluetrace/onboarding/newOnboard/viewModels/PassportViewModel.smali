@@ -11,7 +11,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPassportViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PassportViewModel.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel\n*L\n1#1,96:1\n*E\n"
+    value = "SMAP\nPassportViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PassportViewModel.kt\nsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel\n*L\n1#1,123:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -21,12 +21,18 @@
         0x3
     }
     d1 = {
-        "\u0000V\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0010\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010!\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0005\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0018\u0000 ,2\u00020\u0001:\u0001,B\u0005\u00a2\u0006\u0002\u0010\u0002J\u0010\u0010\u001f\u001a\u0004\u0018\u00010\u00062\u0006\u0010 \u001a\u00020\u0006J\u001a\u0010!\u001a\u00020\"2\u0012\u0010#\u001a\u000e\u0012\u0004\u0012\u00020\u0007\u0012\u0004\u0012\u00020\"0$J>\u0010%\u001a\u00020\"2\"\u0010&\u001a\u001e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u00070\u0005j\u000e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u0007`\u00082\u0012\u0010#\u001a\u000e\u0012\u0004\u0012\u00020\u0007\u0012\u0004\u0012\u00020\"0$J\u0008\u0010\'\u001a\u00020\"H\u0014J*\u0010(\u001a\u00020\"2\"\u0010&\u001a\u001e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u00070\u0005j\u000e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u0007`\u0008J\u000e\u0010)\u001a\u00020\"2\u0006\u0010*\u001a\u00020+R<\u0010\u0003\u001a$\u0012 \u0012\u001e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u00070\u0005j\u000e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u0007`\u00080\u0004X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\t\u0010\n\"\u0004\u0008\u000b\u0010\u000cR!\u0010\r\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u000e8FX\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u000f\u0010\u0010R\u000e\u0010\u0013\u001a\u00020\u0014X\u0082\u000e\u00a2\u0006\u0002\n\u0000R6\u0010\u0015\u001a\u001e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u00070\u0005j\u000e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u0007`\u0008X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0016\u0010\u0017\"\u0004\u0008\u0018\u0010\u0019R(\u0010\u001a\u001a\u0010\u0012\u000c\u0012\n\u0012\u0006\u0008\u0001\u0012\u00020\u001c0\u001b0\u0004X\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001d\u0010\n\"\u0004\u0008\u001e\u0010\u000c\u00a8\u0006-"
+        "\u0000d\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0010\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010!\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0018\u0000 <2\u00020\u0001:\u0001<B\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006J\u0016\u0010\'\u001a\u00020(2\u0006\u0010)\u001a\u00020\u000c2\u0006\u0010*\u001a\u00020\rJ\u0010\u0010+\u001a\u0004\u0018\u00010\u000c2\u0006\u0010,\u001a\u00020\u000cJ\u001a\u0010-\u001a\u00020(2\u0012\u0010.\u001a\u000e\u0012\u0004\u0012\u00020\r\u0012\u0004\u0012\u00020(0/J>\u00100\u001a\u00020(2\"\u00101\u001a\u001e\u0012\u0004\u0012\u00020\u000c\u0012\u0004\u0012\u00020\r0\u000bj\u000e\u0012\u0004\u0012\u00020\u000c\u0012\u0004\u0012\u00020\r`\u000e2\u0012\u0010.\u001a\u000e\u0012\u0004\u0012\u00020\r\u0012\u0004\u0012\u00020(0/J\"\u00102\u001a\u00020(2\u0006\u00103\u001a\u00020\u000c2\u0012\u00104\u001a\u000e\u0012\u0004\u0012\u00020\r\u0012\u0004\u0012\u00020(0/J,\u00105\u001a\u00020(2\u0006\u0010)\u001a\u00020\u000c2\u0006\u0010*\u001a\u00020$2\u0012\u00106\u001a\u000e\u0012\u0004\u0012\u00020\r\u0012\u0004\u0012\u00020(0/H\u0002J\u0008\u00107\u001a\u00020(H\u0014J*\u00108\u001a\u00020(2\u0006\u0010)\u001a\u00020\u000c2\u0006\u0010*\u001a\u00020$2\u0012\u00106\u001a\u000e\u0012\u0004\u0012\u00020\r\u0012\u0004\u0012\u00020(0/J\u000e\u00109\u001a\u00020(2\u0006\u0010:\u001a\u00020;R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008R<\u0010\t\u001a$\u0012 \u0012\u001e\u0012\u0004\u0012\u00020\u000c\u0012\u0004\u0012\u00020\r0\u000bj\u000e\u0012\u0004\u0012\u00020\u000c\u0012\u0004\u0012\u00020\r`\u000e0\nX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000f\u0010\u0010\"\u0004\u0008\u0011\u0010\u0012R!\u0010\u0013\u001a\u0008\u0012\u0004\u0012\u00020\u000c0\u00148FX\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0015\u0010\u0016R\u000e\u0010\u0019\u001a\u00020\u001aX\u0082\u000e\u00a2\u0006\u0002\n\u0000R\u0011\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001b\u0010\u001cR6\u0010\u001d\u001a\u001e\u0012\u0004\u0012\u00020\u000c\u0012\u0004\u0012\u00020\r0\u000bj\u000e\u0012\u0004\u0012\u00020\u000c\u0012\u0004\u0012\u00020\r`\u000eX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u001e\u0010\u001f\"\u0004\u0008 \u0010!R(\u0010\"\u001a\u0010\u0012\u000c\u0012\n\u0012\u0006\u0008\u0001\u0012\u00020$0#0\nX\u0086.\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008%\u0010\u0010\"\u0004\u0008&\u0010\u0012\u00a8\u0006="
     }
     d2 = {
         "Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;",
         "Landroidx/lifecycle/ViewModel;",
-        "()V",
+        "api",
+        "Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;",
+        "fv",
+        "Lsg/gov/tech/revamp/utils/FieldValidationsV2;",
+        "(Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;Lsg/gov/tech/revamp/utils/FieldValidationsV2;)V",
+        "getApi",
+        "()Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;",
         "checksIsRegisterEnable",
         "Landroidx/lifecycle/MutableLiveData;",
         "Ljava/util/HashMap;",
@@ -45,6 +51,8 @@
         "Lkotlin/Lazy;",
         "disposables",
         "Lio/reactivex/disposables/CompositeDisposable;",
+        "getFv",
+        "()Lsg/gov/tech/revamp/utils/FieldValidationsV2;",
         "mapEnable",
         "getMapEnable",
         "()Ljava/util/HashMap;",
@@ -55,14 +63,22 @@
         "",
         "getRegistrationData",
         "setRegistrationData",
+        "addHash",
+        "",
+        "key",
+        "value",
         "getCountryCode",
         "countryName",
         "isAllFieldValid",
-        "",
         "onDo",
         "Lkotlin/Function1;",
         "isFormComplete",
         "hash",
+        "isValidNationality",
+        "nationality",
+        "onCheck",
+        "isValidaFieldValue",
+        "isValid",
         "onCleared",
         "postValue",
         "registerUser",
@@ -114,6 +130,11 @@
 
 
 # instance fields
+.field public final api:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
 .field public checksIsRegisterEnable:Landroidx/lifecycle/MutableLiveData;
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -135,6 +156,11 @@
 .end field
 
 .field public disposables:Lio/reactivex/disposables/CompositeDisposable;
+
+.field public final fv:Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
 
 .field public mapEnable:Ljava/util/HashMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -209,47 +235,293 @@
     return-void
 .end method
 
-.method public constructor <init>()V
+.method public constructor <init>(Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;Lsg/gov/tech/revamp/utils/FieldValidationsV2;)V
     .locals 1
+    .param p1    # Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "api"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "fv"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Landroidx/lifecycle/ViewModel;-><init>()V
 
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->api:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+
+    iput-object p2, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->fv:Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+
     .line 2
-    new-instance v0, Lio/reactivex/disposables/CompositeDisposable;
+    new-instance p1, Lio/reactivex/disposables/CompositeDisposable;
 
-    invoke-direct {v0}, Lio/reactivex/disposables/CompositeDisposable;-><init>()V
+    invoke-direct {p1}, Lio/reactivex/disposables/CompositeDisposable;-><init>()V
 
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->disposables:Lio/reactivex/disposables/CompositeDisposable;
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->disposables:Lio/reactivex/disposables/CompositeDisposable;
 
     .line 3
-    sget-object v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel$countries$2;->INSTANCE:Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel$countries$2;
+    sget-object p1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel$countries$2;->INSTANCE:Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel$countries$2;
 
-    invoke-static {v0}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+    invoke-static {p1}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
 
-    move-result-object v0
+    move-result-object p1
 
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->countries$delegate:Lkotlin/Lazy;
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->countries$delegate:Lkotlin/Lazy;
 
     .line 4
-    new-instance v0, Ljava/util/HashMap;
+    new-instance p1, Ljava/util/HashMap;
 
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+    invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->mapEnable:Ljava/util/HashMap;
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->mapEnable:Ljava/util/HashMap;
 
     .line 5
-    new-instance v0, Landroidx/lifecycle/MutableLiveData;
+    new-instance p1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-direct {v0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
+    invoke-direct {p1}, Landroidx/lifecycle/MutableLiveData;-><init>()V
 
-    iput-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->checksIsRegisterEnable:Landroidx/lifecycle/MutableLiveData;
+    iput-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->checksIsRegisterEnable:Landroidx/lifecycle/MutableLiveData;
 
     return-void
 .end method
 
+.method private final isValidaFieldValue(Ljava/lang/String;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            "Lkotlin/jvm/functions/Function1<",
+            "-",
+            "Ljava/lang/Boolean;",
+            "Lkotlin/Unit;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
+
+    move-result v0
+
+    const-string v1, "null cannot be cast to non-null type kotlin.String"
+
+    sparse-switch v0, :sswitch_data_0
+
+    goto :goto_0
+
+    :sswitch_0
+    const-string v0, "passport"
+
+    .line 2
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_4
+
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->fv:Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+
+    if-eqz p2, :cond_0
+
+    check-cast p2, Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Lsg/gov/tech/revamp/utils/FieldValidationsV2;->isValidPassportNumber(Ljava/lang/String;)Z
+
+    move-result p1
+
+    goto :goto_1
+
+    :cond_0
+    new-instance p1, Lkotlin/TypeCastException;
+
+    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :sswitch_1
+    const-string v0, "nationality"
+
+    .line 3
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_4
+
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->fv:Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+
+    if-eqz p2, :cond_1
+
+    check-cast p2, Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Lsg/gov/tech/revamp/utils/FieldValidationsV2;->isValidNationality(Ljava/lang/String;)Z
+
+    move-result p1
+
+    goto :goto_1
+
+    :cond_1
+    new-instance p1, Lkotlin/TypeCastException;
+
+    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :sswitch_2
+    const-string v0, "name"
+
+    .line 4
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_4
+
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->fv:Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+
+    if-eqz p2, :cond_2
+
+    check-cast p2, Ljava/lang/String;
+
+    invoke-virtual {p1, p2}, Lsg/gov/tech/revamp/utils/FieldValidationsV2;->isValidName(Ljava/lang/String;)Z
+
+    move-result p1
+
+    goto :goto_1
+
+    :cond_2
+    new-instance p1, Lkotlin/TypeCastException;
+
+    invoke-direct {p1, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :sswitch_3
+    const-string v0, "dob"
+
+    .line 5
+    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_4
+
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->fv:Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+
+    if-eqz p2, :cond_3
+
+    check-cast p2, Ljava/lang/Long;
+
+    invoke-virtual {p1, p2}, Lsg/gov/tech/revamp/utils/FieldValidationsV2;->isValidDateOfBirth(Ljava/lang/Long;)Z
+
+    move-result p1
+
+    goto :goto_1
+
+    :cond_3
+    new-instance p1, Lkotlin/TypeCastException;
+
+    const-string p2, "null cannot be cast to non-null type kotlin.Long"
+
+    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_4
+    :goto_0
+    const/4 p1, 0x0
+
+    .line 6
+    :goto_1
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    invoke-interface {p3, p1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+
+    nop
+
+    :sswitch_data_0
+    .sparse-switch
+        0x18537 -> :sswitch_3
+        0x337a8b -> :sswitch_2
+        0x588bdbc -> :sswitch_1
+        0x48868c12 -> :sswitch_0
+    .end sparse-switch
+.end method
+
 
 # virtual methods
+.method public final addHash(Ljava/lang/String;Z)V
+    .locals 2
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    const-string v0, "key"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->mapEnable:Ljava/util/HashMap;
+
+    const/4 v1, 0x1
+
+    new-array v1, v1, [Lkotlin/Pair;
+
+    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p2
+
+    invoke-static {p1, p2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+
+    move-result-object p1
+
+    const/4 p2, 0x0
+
+    aput-object p1, v1, p2
+
+    invoke-static {v1}, Lkotlin/collections/MapsKt__MapsKt;->hashMapOf([Lkotlin/Pair;)Ljava/util/HashMap;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+
+    .line 2
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->checksIsRegisterEnable:Landroidx/lifecycle/MutableLiveData;
+
+    iget-object p2, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->mapEnable:Ljava/util/HashMap;
+
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public final getApi()Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->api:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
+
+    return-object v0
+.end method
+
 .method public final getChecksIsRegisterEnable()Landroidx/lifecycle/MutableLiveData;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
@@ -439,6 +711,17 @@
     invoke-virtual {p1, v1, v0}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v4
+.end method
+
+.method public final getFv()Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->fv:Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+
+    return-object v0
 .end method
 
 .method public final getMapEnable()Ljava/util/HashMap;
@@ -632,6 +915,52 @@
     return-void
 .end method
 
+.method public final isValidNationality(Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Lkotlin/jvm/functions/Function1;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Lkotlin/jvm/functions/Function1<",
+            "-",
+            "Ljava/lang/Boolean;",
+            "Lkotlin/Unit;",
+            ">;)V"
+        }
+    .end annotation
+
+    const-string v0, "nationality"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "onCheck"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->fv:Lsg/gov/tech/revamp/utils/FieldValidationsV2;
+
+    invoke-virtual {v0, p1}, Lsg/gov/tech/revamp/utils/FieldValidationsV2;->isValidNationality(Ljava/lang/String;)Z
+
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p1
+
+    invoke-interface {p2, p1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method
+
 .method public onCleared()V
     .locals 1
 
@@ -646,37 +975,51 @@
     return-void
 .end method
 
-.method public final postValue(Ljava/util/HashMap;)V
+.method public final postValue(Ljava/lang/String;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)V
     .locals 1
-    .param p1    # Ljava/util/HashMap;
+    .param p1    # Ljava/lang/String;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Ljava/lang/Object;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p3    # Lkotlin/jvm/functions/Function1;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljava/util/HashMap<",
             "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            "Lkotlin/jvm/functions/Function1<",
+            "-",
             "Ljava/lang/Boolean;",
+            "Lkotlin/Unit;",
             ">;)V"
         }
     .end annotation
 
-    const-string v0, "hash"
+    const-string v0, "key"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
+    const-string v0, "value"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "isValid"
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
     .line 1
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->mapEnable:Ljava/util/HashMap;
+    new-instance v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel$postValue$1;
 
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+    invoke-direct {v0, p0, p1, p3}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel$postValue$1;-><init>(Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
 
-    .line 2
-    iget-object p1, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->checksIsRegisterEnable:Landroidx/lifecycle/MutableLiveData;
-
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->mapEnable:Ljava/util/HashMap;
-
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
+    invoke-direct {p0, p1, p2, v0}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->isValidaFieldValue(Ljava/lang/String;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)V
 
     return-void
 .end method
@@ -700,9 +1043,7 @@
     iput-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->registrationData:Landroidx/lifecycle/MutableLiveData;
 
     .line 2
-    new-instance v0, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
-
-    invoke-direct {v0}, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;-><init>()V
+    iget-object v0, p0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->api:Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;
 
     invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/revamp/api/ApiHandler;->registerUser(Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;)Lio/reactivex/Single;
 

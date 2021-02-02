@@ -27,7 +27,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnboardWithPassportFragmentV2.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardWithPassportFragmentV2.kt\nsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1\n*L\n1#1,289:1\n*E\n"
+    value = "SMAP\nOnboardWithPassportFragmentV2.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnboardWithPassportFragmentV2.kt\nsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1\n*L\n1#1,313:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -119,23 +119,21 @@
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/view/DateInputBox;->getDateString()Ljava/lang/String;
+    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/view/DateInputBox;->getDateStringForPassport()Ljava/lang/String;
 
     move-result-object p1
 
-    const-string v0, ""
-
     if-eqz p1, :cond_0
-
-    move-object v4, p1
 
     goto :goto_0
 
     :cond_0
-    move-object v4, v0
+    const-string p1, ""
+
+    :goto_0
+    move-object v4, p1
 
     .line 5
-    :goto_0
     sget-object v5, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string p1, "Build.MODEL"
@@ -152,20 +150,18 @@
     .line 7
     iget-object p1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
-    invoke-static {p1}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getCountyCode$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Ljava/lang/String;
+    invoke-static {p1}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getNationalityAutoCompleteTv$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Landroidx/appcompat/widget/AppCompatAutoCompleteTextView;
 
     move-result-object p1
 
-    if-eqz p1, :cond_1
+    invoke-virtual {p1}, Landroid/widget/AutoCompleteTextView;->getText()Landroid/text/Editable;
 
-    move-object v9, p1
+    move-result-object p1
 
-    goto :goto_1
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
-    :cond_1
-    move-object v9, v0
+    move-result-object v9
 
-    :goto_1
     const/4 v10, 0x0
 
     const/16 v11, 0x200
@@ -186,21 +182,42 @@
     invoke-direct/range {v0 .. v12}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;-><init>(Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/IdentityType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
     .line 9
-    iget-object v0, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
+    sget-object v0, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
-    invoke-static {v0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getErrorHandler$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Lsg/gov/tech/bluetrace/ErrorHandler;
+    iget-object v1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
-    move-result-object v0
+    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
 
-    const/4 v1, 0x0
+    move-result-object v1
 
-    new-instance v2, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1$1;
+    const-string v2, "requireContext()"
 
-    invoke-direct {v2, p0, p1}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1$1;-><init>(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1;Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const/4 p1, 0x1
+    invoke-virtual {v0, v1, p1}, Lsg/gov/tech/bluetrace/Preference;->saveEncryptedUserData(Landroid/content/Context;Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;)Z
 
-    invoke-static {v0, v1, v2, p1, v3}, Lsg/gov/tech/bluetrace/ErrorHandler;->handleNetworkConnection$default(Lsg/gov/tech/bluetrace/ErrorHandler;ZLkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+    .line 10
+    iget-object p1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getParentFragmentManager()Landroidx/fragment/app/FragmentManager;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->popBackStack()V
+
+    .line 11
+    iget-object p1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$onRegisterClicked$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
+
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object p1
+
+    check-cast p1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;->goToPassportHoldingFragment()V
+
+    :cond_1
     return-void
 .end method

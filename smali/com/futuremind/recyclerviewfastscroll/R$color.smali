@@ -86,95 +86,95 @@
 
 .field public static final bright_foreground_material_light:I = 0x7f06002f
 
-.field public static final button_material_dark:I = 0x7f060034
+.field public static final button_material_dark:I = 0x7f060036
 
-.field public static final button_material_light:I = 0x7f060035
+.field public static final button_material_light:I = 0x7f060037
 
-.field public static final dim_foreground_disabled_material_dark:I = 0x7f060079
+.field public static final dim_foreground_disabled_material_dark:I = 0x7f06007b
 
-.field public static final dim_foreground_disabled_material_light:I = 0x7f06007a
+.field public static final dim_foreground_disabled_material_light:I = 0x7f06007c
 
-.field public static final dim_foreground_material_dark:I = 0x7f06007b
+.field public static final dim_foreground_material_dark:I = 0x7f06007d
 
-.field public static final dim_foreground_material_light:I = 0x7f06007c
+.field public static final dim_foreground_material_light:I = 0x7f06007e
 
-.field public static final foreground_material_dark:I = 0x7f060085
+.field public static final foreground_material_dark:I = 0x7f060087
 
-.field public static final foreground_material_light:I = 0x7f060086
+.field public static final foreground_material_light:I = 0x7f060088
 
-.field public static final highlighted_text_material_dark:I = 0x7f060099
+.field public static final highlighted_text_material_dark:I = 0x7f06009d
 
-.field public static final highlighted_text_material_light:I = 0x7f06009a
+.field public static final highlighted_text_material_light:I = 0x7f06009e
 
-.field public static final material_blue_grey_800:I = 0x7f0600a6
+.field public static final material_blue_grey_800:I = 0x7f0600aa
 
-.field public static final material_blue_grey_900:I = 0x7f0600a7
+.field public static final material_blue_grey_900:I = 0x7f0600ab
 
-.field public static final material_blue_grey_950:I = 0x7f0600a8
+.field public static final material_blue_grey_950:I = 0x7f0600ac
 
-.field public static final material_deep_teal_200:I = 0x7f0600a9
+.field public static final material_deep_teal_200:I = 0x7f0600ad
 
-.field public static final material_deep_teal_500:I = 0x7f0600aa
+.field public static final material_deep_teal_500:I = 0x7f0600ae
 
-.field public static final material_grey_100:I = 0x7f0600ab
+.field public static final material_grey_100:I = 0x7f0600af
 
-.field public static final material_grey_300:I = 0x7f0600ac
+.field public static final material_grey_300:I = 0x7f0600b0
 
-.field public static final material_grey_50:I = 0x7f0600ad
+.field public static final material_grey_50:I = 0x7f0600b1
 
-.field public static final material_grey_600:I = 0x7f0600ae
+.field public static final material_grey_600:I = 0x7f0600b2
 
-.field public static final material_grey_800:I = 0x7f0600af
+.field public static final material_grey_800:I = 0x7f0600b3
 
-.field public static final material_grey_850:I = 0x7f0600b0
+.field public static final material_grey_850:I = 0x7f0600b4
 
-.field public static final material_grey_900:I = 0x7f0600b1
+.field public static final material_grey_900:I = 0x7f0600b5
 
-.field public static final notification_action_color_filter:I = 0x7f0600f7
+.field public static final notification_action_color_filter:I = 0x7f0600fb
 
-.field public static final notification_icon_bg_color:I = 0x7f0600f8
+.field public static final notification_icon_bg_color:I = 0x7f0600fc
 
-.field public static final notification_material_background_media_default_color:I = 0x7f0600f9
+.field public static final notification_material_background_media_default_color:I = 0x7f0600fd
 
-.field public static final primary_dark_material_dark:I = 0x7f060106
+.field public static final primary_dark_material_dark:I = 0x7f06010b
 
-.field public static final primary_dark_material_light:I = 0x7f060107
+.field public static final primary_dark_material_light:I = 0x7f06010c
 
-.field public static final primary_material_dark:I = 0x7f060108
+.field public static final primary_material_dark:I = 0x7f06010d
 
-.field public static final primary_material_light:I = 0x7f060109
+.field public static final primary_material_light:I = 0x7f06010e
 
-.field public static final primary_text_default_material_dark:I = 0x7f06010a
+.field public static final primary_text_default_material_dark:I = 0x7f06010f
 
-.field public static final primary_text_default_material_light:I = 0x7f06010b
+.field public static final primary_text_default_material_light:I = 0x7f060110
 
-.field public static final primary_text_disabled_material_dark:I = 0x7f06010c
+.field public static final primary_text_disabled_material_dark:I = 0x7f060111
 
-.field public static final primary_text_disabled_material_light:I = 0x7f06010d
+.field public static final primary_text_disabled_material_light:I = 0x7f060112
 
-.field public static final ripple_material_dark:I = 0x7f060113
+.field public static final ripple_material_dark:I = 0x7f060118
 
-.field public static final ripple_material_light:I = 0x7f060114
+.field public static final ripple_material_light:I = 0x7f060119
 
-.field public static final secondary_text_default_material_dark:I = 0x7f06011f
+.field public static final secondary_text_default_material_dark:I = 0x7f060124
 
-.field public static final secondary_text_default_material_light:I = 0x7f060120
+.field public static final secondary_text_default_material_light:I = 0x7f060125
 
-.field public static final secondary_text_disabled_material_dark:I = 0x7f060121
+.field public static final secondary_text_disabled_material_dark:I = 0x7f060126
 
-.field public static final secondary_text_disabled_material_light:I = 0x7f060122
+.field public static final secondary_text_disabled_material_light:I = 0x7f060127
 
-.field public static final switch_thumb_disabled_material_dark:I = 0x7f060128
+.field public static final switch_thumb_disabled_material_dark:I = 0x7f06012d
 
-.field public static final switch_thumb_disabled_material_light:I = 0x7f060129
+.field public static final switch_thumb_disabled_material_light:I = 0x7f06012e
 
-.field public static final switch_thumb_material_dark:I = 0x7f06012a
+.field public static final switch_thumb_material_dark:I = 0x7f06012f
 
-.field public static final switch_thumb_material_light:I = 0x7f06012b
+.field public static final switch_thumb_material_light:I = 0x7f060130
 
-.field public static final switch_thumb_normal_material_dark:I = 0x7f06012c
+.field public static final switch_thumb_normal_material_dark:I = 0x7f060131
 
-.field public static final switch_thumb_normal_material_light:I = 0x7f06012d
+.field public static final switch_thumb_normal_material_light:I = 0x7f060132
 
 
 # direct methods

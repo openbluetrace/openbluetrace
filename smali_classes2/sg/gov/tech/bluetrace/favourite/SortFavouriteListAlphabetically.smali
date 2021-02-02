@@ -1,6 +1,6 @@
 .class public final Lsg/gov/tech/bluetrace/favourite/SortFavouriteListAlphabetically;
 .super Ljava/lang/Object;
-.source "FavouriteFragment.kt"
+.source "FavouriteViewModel.kt"
 
 
 # annotations

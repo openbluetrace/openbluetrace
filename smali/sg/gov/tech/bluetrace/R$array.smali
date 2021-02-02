@@ -30,7 +30,7 @@
 
 .field public static final settings_account_menu_array:I = 0x7f030007
 
-.field public static final settings_account_menu_array_passport_user:I = 0x7f030008
+.field public static final settings_account_menu_array_invalid_passport_user:I = 0x7f030008
 
 .field public static final settings_help_menu_array:I = 0x7f030009
 

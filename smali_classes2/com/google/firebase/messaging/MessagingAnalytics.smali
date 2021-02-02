@@ -656,7 +656,7 @@
 
     const-string v2, "FirebaseMessaging"
 
-    invoke-static {v0, v1, p0, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, p0, v2}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
     const/4 p0, 0x0

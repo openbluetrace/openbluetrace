@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nManageFamilyMembersFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ManageFamilyMembersFragment.kt\nsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt\n*L\n1#1,179:1\n1648#2,2:180\n56#3,3:182\n*E\n*S KotlinDebug\n*F\n+ 1 ManageFamilyMembersFragment.kt\nsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment\n*L\n174#1,2:180\n36#1,3:182\n*E\n"
+    value = "SMAP\nManageFamilyMembersFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ManageFamilyMembersFragment.kt\nsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ViewModelStoreOwnerExt.kt\norg/koin/android/viewmodel/ext/android/ViewModelStoreOwnerExtKt\n*L\n1#1,183:1\n1648#2,2:184\n48#3,4:186\n*E\n*S KotlinDebug\n*F\n+ 1 ManageFamilyMembersFragment.kt\nsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment\n*L\n178#1,2:184\n35#1,4:186\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -157,37 +157,28 @@
     invoke-direct {p0, v0}, Lsg/gov/MainActivityFragment;-><init>(Ljava/lang/String;)V
 
     .line 2
-    new-instance v0, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment$$special$$inlined$viewModels$1;
+    sget-object v0, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
 
-    invoke-direct {v0, p0}, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment$$special$$inlined$viewModels$1;-><init>(Landroidx/fragment/app/Fragment;)V
+    new-instance v1, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment$$special$$inlined$viewModel$1;
 
-    .line 3
-    const-class v1, Lsg/gov/tech/bluetrace/groupCheckIn/addFamilyMembers/AddMemberViewModel;
+    const/4 v2, 0x0
 
-    invoke-static {v1}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
+    invoke-direct {v1, p0, v2, v2}, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment$$special$$inlined$viewModel$1;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;Lorg/koin/core/qualifier/Qualifier;Lkotlin/jvm/functions/Function0;)V
 
-    move-result-object v1
-
-    new-instance v2, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment$$special$$inlined$viewModels$2;
-
-    invoke-direct {v2, v0}, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment$$special$$inlined$viewModels$2;-><init>(Lkotlin/jvm/functions/Function0;)V
-
-    const/4 v0, 0x0
-
-    invoke-static {p0, v1, v2, v0}, Landroidx/fragment/app/FragmentViewModelLazyKt;->createViewModelLazy(Landroidx/fragment/app/Fragment;Lkotlin/reflect/KClass;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
+    invoke-static {v0, v1}, Lkotlin/LazyKt__LazyJVMKt;->lazy(Lkotlin/LazyThreadSafetyMode;Lkotlin/jvm/functions/Function0;)Lkotlin/Lazy;
 
     move-result-object v0
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment;->viewModel$delegate:Lkotlin/Lazy;
 
-    .line 4
+    .line 3
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v0, p0, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment;->familyMembersRecordList:Ljava/util/ArrayList;
 
-    .line 5
+    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -325,7 +316,7 @@
 
     move-result-object p1
 
-    const-string v1, "Observable.create<Boolea\u2026xception))\n            })"
+    const-string v1, "Observable.create<Boolea\u2026         )\n            })"
 
     invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
@@ -405,7 +396,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0800b5
+    const v2, 0x7f0800b6
 
     invoke-static {v1, v2}, Landroidx/core/content/ContextCompat;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
@@ -605,7 +596,7 @@
 
     aput-object v3, v2, v4
 
-    const v3, 0x7f13018b
+    const v3, 0x7f1301b2
 
     invoke-virtual {p0, v3, v2}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -624,7 +615,7 @@
 
     aput-object v3, v1, v4
 
-    const v3, 0x7f13018a
+    const v3, 0x7f1301b1
 
     invoke-virtual {p0, v3, v1}, Landroidx/fragment/app/Fragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
@@ -634,7 +625,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f130189
+    const v2, 0x7f1301b0
 
     .line 4
     invoke-virtual {p0, v2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -649,7 +640,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f13005a
+    const v1, 0x7f13005b
 
     .line 5
     invoke-virtual {p0, v1}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
@@ -774,7 +765,44 @@
     .line 2
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment;->getFamilyMembers()V
 
+    goto :goto_0
+
     :cond_0
+    if-nez p2, :cond_2
+
+    .line 3
+    iget-object p1, p0, Lsg/gov/tech/bluetrace/groupCheckIn/manageFamily/ManageFamilyMembersFragment;->familyMembersRecordList:Ljava/util/ArrayList;
+
+    invoke-virtual {p1}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
+    .line 4
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_1
+
+    check-cast p1, Lsg/gov/tech/bluetrace/MainActivity;
+
+    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/MainActivity;->onBackPressed()V
+
+    goto :goto_0
+
+    :cond_1
+    new-instance p1, Lkotlin/TypeCastException;
+
+    const-string p2, "null cannot be cast to non-null type sg.gov.tech.bluetrace.MainActivity"
+
+    invoke-direct {p1, p2}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    :cond_2
+    :goto_0
     return-void
 .end method
 
@@ -799,7 +827,7 @@
 
     invoke-static {p1, p3}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const p3, 0x7f0d006a
+    const p3, 0x7f0d006c
 
     const/4 v0, 0x0
 
@@ -901,7 +929,7 @@
 
     check-cast p1, Lsg/gov/tech/bluetrace/settings/BarcodeHeaderView;
 
-    const p2, 0x7f130107
+    const p2, 0x7f130112
 
     invoke-virtual {p0, p2}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
 

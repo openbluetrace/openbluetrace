@@ -14,7 +14,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTracerApp.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TracerApp.kt\nsg/gov/tech/bluetrace/TracerApp$Companion\n*L\n1#1,149:1\n*E\n"
+    value = "SMAP\nTracerApp.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TracerApp.kt\nsg/gov/tech/bluetrace/TracerApp$Companion\n*L\n1#1,158:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -270,23 +270,22 @@
 
     if-eqz v0, :cond_0
 
+    .line 4
     sget-object v0, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData;->Companion:Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;
 
-    .line 4
     sget-object v1, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
 
     invoke-virtual {v1, p1}, Lsg/gov/tech/bluetrace/Preference;->getUserIdentityType(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 5
-    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isPassportOrInvalidUser(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/register/RegisterUserData$Companion;->isInvalidPassportOrInvalidUser(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 6
+    .line 5
     new-instance v0, Landroid/content/Intent;
 
     const-class v1, Lsg/gov/tech/bluetrace/SafeEntryActivity;
@@ -295,22 +294,22 @@
 
     const/high16 v1, 0x10000000
 
-    .line 7
+    .line 6
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     const-string v1, "android.intent.action.VIEW"
 
-    .line 8
+    .line 7
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     const-string v1, "IS_FROM_SHORT_CUT"
 
     const/4 v2, 0x1
 
-    .line 9
+    .line 8
     invoke-virtual {v0, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
-    .line 10
+    .line 9
     new-instance v1, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
 
     const-string v3, "Enter Safely with SafeEntry"
@@ -319,34 +318,34 @@
 
     const-string v4, "SafeEntry"
 
-    .line 11
+    .line 10
     invoke-virtual {v1, v4}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->setShortLabel(Ljava/lang/CharSequence;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
 
     move-result-object v1
 
-    .line 12
+    .line 11
     invoke-virtual {v1, v3}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->setLongLabel(Ljava/lang/CharSequence;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
 
     move-result-object v1
 
-    const v3, 0x7f080211
+    const v3, 0x7f080215
 
-    .line 13
+    .line 12
     invoke-static {p1, v3}, Landroidx/core/graphics/drawable/IconCompat;->createWithResource(Landroid/content/Context;I)Landroidx/core/graphics/drawable/IconCompat;
 
     move-result-object v3
 
-    .line 14
+    .line 13
     invoke-virtual {v1, v3}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->setIcon(Landroidx/core/graphics/drawable/IconCompat;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
 
     move-result-object v1
 
-    .line 15
+    .line 14
     invoke-virtual {v1, v0}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->setIntent(Landroid/content/Intent;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
 
     move-result-object v0
 
-    .line 16
+    .line 15
     invoke-virtual {v0}, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->build()Landroidx/core/content/pm/ShortcutInfoCompat;
 
     move-result-object v0
@@ -361,12 +360,12 @@
 
     aput-object v0, v1, v2
 
-    .line 17
+    .line 16
     invoke-static {v1}, Lkotlin/collections/CollectionsKt__CollectionsKt;->arrayListOf([Ljava/lang/Object;)Ljava/util/ArrayList;
 
     move-result-object v0
 
-    .line 18
+    .line 17
     invoke-static {p1, v0}, Landroidx/core/content/pm/ShortcutManagerCompat;->addDynamicShortcuts(Landroid/content/Context;Ljava/util/List;)Z
 
     :cond_0

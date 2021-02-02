@@ -59,7 +59,7 @@
 
 # virtual methods
 .method public final onFilterComplete(I)V
-    .locals 6
+    .locals 2
 
     .line 1
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1$onTextChanged$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;
@@ -70,15 +70,9 @@
 
     move-result p1
 
-    const-string v0, "no_results_found_layout"
+    const/4 v0, 0x0
 
-    const-string v1, "rv_favourites"
-
-    const-string v2, "your_favourite_places_layout"
-
-    const/4 v3, 0x0
-
-    const/16 v4, 0x8
+    const/16 v1, 0x8
 
     if-lez p1, :cond_0
 
@@ -87,51 +81,33 @@
 
     iget-object p1, p1, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v5, Lsg/gov/tech/bluetrace/R$id;->your_favourite_places_layout:I
-
-    invoke-virtual {p1, v5}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getYourFavPlacesLayout$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/constraintlayout/widget/ConstraintLayout;
 
     move-result-object p1
 
-    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
-
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p1, v3}, Landroid/view/ViewGroup;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     .line 3
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1$onTextChanged$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;
 
     iget-object p1, p1, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v2, Lsg/gov/tech/bluetrace/R$id;->rv_favourites:I
-
-    invoke-virtual {p1, v2}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getRvFavourites$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p1
 
-    check-cast p1, Landroidx/recyclerview/widget/RecyclerView;
-
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p1, v3}, Landroid/view/ViewGroup;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     .line 4
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1$onTextChanged$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;
 
     iget-object p1, p1, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v1, Lsg/gov/tech/bluetrace/R$id;->no_results_found_layout:I
-
-    invoke-virtual {p1, v1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getNoResultsLayout$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroid/widget/LinearLayout;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/LinearLayout;
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p1, v4}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {p1, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
     goto :goto_0
 
@@ -141,51 +117,33 @@
 
     iget-object p1, p1, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v5, Lsg/gov/tech/bluetrace/R$id;->your_favourite_places_layout:I
-
-    invoke-virtual {p1, v5}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getYourFavPlacesLayout$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/constraintlayout/widget/ConstraintLayout;
 
     move-result-object p1
 
-    check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
-
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p1, v4}, Landroid/view/ViewGroup;->setVisibility(I)V
+    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     .line 6
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1$onTextChanged$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;
 
     iget-object p1, p1, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v2, Lsg/gov/tech/bluetrace/R$id;->rv_favourites:I
-
-    invoke-virtual {p1, v2}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getRvFavourites$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroidx/recyclerview/widget/RecyclerView;
 
     move-result-object p1
 
-    check-cast p1, Landroidx/recyclerview/widget/RecyclerView;
-
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p1, v4}, Landroid/view/ViewGroup;->setVisibility(I)V
+    invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->setVisibility(I)V
 
     .line 7
     iget-object p1, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1$onTextChanged$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;
 
     iget-object p1, p1, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment$setSearchFilter$1;->this$0:Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;
 
-    sget v1, Lsg/gov/tech/bluetrace/R$id;->no_results_found_layout:I
-
-    invoke-virtual {p1, v1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->_$_findCachedViewById(I)Landroid/view/View;
+    invoke-static {p1}, Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;->access$getNoResultsLayout$p(Lsg/gov/tech/bluetrace/favourite/FavouriteFragment;)Landroid/widget/LinearLayout;
 
     move-result-object p1
 
-    check-cast p1, Landroid/widget/LinearLayout;
-
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {p1, v3}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-virtual {p1, v0}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
     :goto_0
     return-void

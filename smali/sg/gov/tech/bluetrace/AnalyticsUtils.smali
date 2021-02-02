@@ -166,18 +166,18 @@
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 2
-    sget-object v1, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v1, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getTAG()Ljava/lang/String;
+    invoke-virtual {v1}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getTAG()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3
-    sget-object p2, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object p2, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {p2}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getERROR_MSG()Ljava/lang/String;
+    invoke-virtual {p2}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getERROR_MSG()Ljava/lang/String;
 
     move-result-object p2
 

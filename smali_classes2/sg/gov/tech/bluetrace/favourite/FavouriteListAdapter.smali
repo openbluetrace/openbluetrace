@@ -462,7 +462,7 @@
     .line 3
     iget-object v0, p0, Lsg/gov/tech/bluetrace/favourite/FavouriteListAdapter;->inflater:Landroid/view/LayoutInflater;
 
-    const v1, 0x7f0d005b
+    const v1, 0x7f0d005d
 
     const/4 v2, 0x0
 

@@ -1198,7 +1198,7 @@
 
     const-string v2, "radix must be between MIN_RADIX and MAX_RADIX but was "
 
-    invoke-static {v2, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v1
 

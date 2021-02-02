@@ -994,7 +994,7 @@
 
     const-string p1, "Illegal number of error correction codewords specified: "
 
-    invoke-static {p1, p3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p1, p3}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p1
 

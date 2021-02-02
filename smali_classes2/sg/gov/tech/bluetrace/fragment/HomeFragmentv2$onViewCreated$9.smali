@@ -71,25 +71,27 @@
 
     move-result-object v0
 
-    const-class v1, Lsg/gov/tech/bluetrace/SafeCheckInOutActivity;
+    const-class v1, Lsg/gov/tech/bluetrace/revamp/safeentry/SafeEntryCheckInOutActivityV2;
 
     invoke-direct {p1, v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    const-string v0, "is_check_in"
+    const-string v0, "fragmentValue"
 
-    const/4 v1, 0x0
+    const/4 v1, 0x2
 
     .line 2
-    invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 3
     iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$9;->this$0:Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;
 
     invoke-virtual {v0}, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;->getSeRecords()Ljava/util/List;
 
-    move-result-object v2
+    move-result-object v1
 
-    invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+    const/4 v2, 0x0
+
+    invoke-interface {v1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -101,9 +103,10 @@
 
     const-string v1, "venue"
 
+    .line 4
     invoke-virtual {p1, v1, v0}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Parcelable;)Landroid/content/Intent;
 
-    .line 4
+    .line 5
     iget-object v0, p0, Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2$onViewCreated$9;->this$0:Lsg/gov/tech/bluetrace/fragment/HomeFragmentv2;
 
     invoke-virtual {v0, p1}, Landroidx/fragment/app/Fragment;->startActivity(Landroid/content/Intent;)V

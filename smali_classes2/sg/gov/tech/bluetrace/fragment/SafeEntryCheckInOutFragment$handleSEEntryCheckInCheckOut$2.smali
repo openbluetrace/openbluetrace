@@ -24,7 +24,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSafeEntryCheckInOutFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeEntryCheckInOutFragment.kt\nsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$handleSEEntryCheckInCheckOut$2\n*L\n1#1,501:1\n*E\n"
+    value = "SMAP\nSafeEntryCheckInOutFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeEntryCheckInOutFragment.kt\nsg/gov/tech/bluetrace/fragment/SafeEntryCheckInOutFragment$handleSEEntryCheckInCheckOut$2\n*L\n1#1,510:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -242,9 +242,9 @@
     invoke-direct {v4}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     .line 7
-    sget-object v5, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v5, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v5}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getSAFE_ENTRY_ERROR()Ljava/lang/String;
+    invoke-virtual {v5}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getSAFE_ENTRY_ERROR()Ljava/lang/String;
 
     move-result-object v5
 
@@ -302,7 +302,7 @@
 
     const-string v5, "handleSEEntryCheckInCheckOut error: "
 
-    invoke-static {v4, v2, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v4, v2, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v6
 
@@ -338,9 +338,9 @@
     invoke-direct {v1}, Lsg/gov/tech/bluetrace/AnalyticsUtils;-><init>()V
 
     .line 14
-    sget-object v3, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->Companion:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;
+    sget-object v3, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->INSTANCE:Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;
 
-    invoke-virtual {v3}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys$Companion;->getSAFE_ENTRY_ERROR()Ljava/lang/String;
+    invoke-virtual {v3}, Lsg/gov/tech/bluetrace/analytics/AnalyticsKeys;->getSAFE_ENTRY_ERROR()Ljava/lang/String;
 
     move-result-object v3
 
@@ -349,7 +349,7 @@
 
     move-result-object v0
 
-    invoke-static {v0, v2, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline29(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v2, v5}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline31(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 

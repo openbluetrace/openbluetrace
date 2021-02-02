@@ -86,45 +86,45 @@
 
 .field public static final bottom_sheet_behavior:I = 0x7f130053
 
-.field public static final character_counter_pattern:I = 0x7f130062
+.field public static final character_counter_pattern:I = 0x7f130063
 
-.field public static final password_toggle_content_description:I = 0x7f13015f
+.field public static final password_toggle_content_description:I = 0x7f130177
 
-.field public static final path_password_eye:I = 0x7f130162
+.field public static final path_password_eye:I = 0x7f13017a
 
-.field public static final path_password_eye_mask_strike_through:I = 0x7f130163
+.field public static final path_password_eye_mask_strike_through:I = 0x7f13017b
 
-.field public static final path_password_eye_mask_visible:I = 0x7f130164
+.field public static final path_password_eye_mask_visible:I = 0x7f13017c
 
-.field public static final path_password_strike_through:I = 0x7f130165
+.field public static final path_password_strike_through:I = 0x7f13017d
 
-.field public static final search_menu_title:I = 0x7f1301c5
+.field public static final search_menu_title:I = 0x7f1301ed
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f1301da
+.field public static final status_bar_notification_info_overflow:I = 0x7f130203
 
-.field public static final zui_attachment_indicator_accessibility:I = 0x7f13025d
+.field public static final zui_attachment_indicator_accessibility:I = 0x7f130294
 
-.field public static final zui_attachment_indicator_n_attachments_selected_accessibility:I = 0x7f13025e
+.field public static final zui_attachment_indicator_n_attachments_selected_accessibility:I = 0x7f130295
 
-.field public static final zui_attachment_indicator_no_attachments_selected_accessibility:I = 0x7f13025f
+.field public static final zui_attachment_indicator_no_attachments_selected_accessibility:I = 0x7f130296
 
-.field public static final zui_attachment_indicator_one_attachments_selected_accessibility:I = 0x7f130260
+.field public static final zui_attachment_indicator_one_attachments_selected_accessibility:I = 0x7f130297
 
-.field public static final zui_cell_timestamp_field_date_pattern:I = 0x7f130261
+.field public static final zui_cell_timestamp_field_date_pattern:I = 0x7f130298
 
-.field public static final zui_hint_type_message:I = 0x7f130262
+.field public static final zui_hint_type_message:I = 0x7f130299
 
-.field public static final zui_hint_write_a_message:I = 0x7f130263
+.field public static final zui_hint_write_a_message:I = 0x7f13029a
 
-.field public static final zui_label_failed:I = 0x7f130264
+.field public static final zui_label_failed:I = 0x7f13029b
 
-.field public static final zui_label_send:I = 0x7f130265
+.field public static final zui_label_send:I = 0x7f13029c
 
-.field public static final zui_label_sent:I = 0x7f130266
+.field public static final zui_label_sent:I = 0x7f13029d
 
-.field public static final zui_label_tap_retry:I = 0x7f130267
+.field public static final zui_label_tap_retry:I = 0x7f13029e
 
-.field public static final zui_retry_button_label:I = 0x7f130268
+.field public static final zui_retry_button_label:I = 0x7f13029f
 
 
 # direct methods

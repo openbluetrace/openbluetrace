@@ -88,42 +88,9 @@
 .end method
 
 .method public final invoke(Z)V
-    .locals 4
+    .locals 3
 
     .line 2
-    iget-object v0, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2;
-
-    iget-object v0, v0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
-
-    invoke-virtual {v0}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->getVm()Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;
-
-    move-result-object v0
-
-    const/4 v1, 0x1
-
-    new-array v1, v1, [Lkotlin/Pair;
-
-    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v2
-
-    const-string v3, "nationality"
-
-    invoke-static {v3, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
-
-    move-result-object v2
-
-    const/4 v3, 0x0
-
-    aput-object v2, v1, v3
-
-    invoke-static {v1}, Lkotlin/collections/MapsKt__MapsKt;->hashMapOf([Lkotlin/Pair;)Ljava/util/HashMap;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;->postValue(Ljava/util/HashMap;)V
-
-    .line 3
     iget-object v0, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2;
 
     iget-object v0, v0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
@@ -144,12 +111,12 @@
 
     if-eqz p1, :cond_0
 
-    .line 4
+    .line 3
     iget-object p1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2;
 
     iget-object p1, p1, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initTextWatcher$2;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
-    invoke-virtual {p1}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->getVm()Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;
+    invoke-static {p1}, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;->access$getVm$p(Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/PassportViewModel;
 
     move-result-object v0
 

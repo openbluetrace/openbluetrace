@@ -60,9 +60,24 @@
 
 # virtual methods
 .method public final onClick(Landroid/view/View;)V
-    .locals 1
+    .locals 3
 
     .line 1
+    sget-object p1, Lsg/gov/tech/bluetrace/Preference;->INSTANCE:Lsg/gov/tech/bluetrace/Preference;
+
+    iget-object v0, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->requireContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const-string v1, "requireContext()"
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1, v0}, Lsg/gov/tech/bluetrace/Preference;->clearUserData(Landroid/content/Context;)V
+
+    .line 2
     iget-object p1, p0, Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2$initialiseView$1;->this$0:Lsg/gov/tech/revamp/register/OnboardWithPassportFragmentV2;
 
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
@@ -73,7 +88,13 @@
 
     check-cast p1, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;
 
-    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/BaseActivity;->goBack()Z
+    const/4 v0, 0x0
+
+    const/4 v1, 0x1
+
+    const/4 v2, 0x0
+
+    invoke-static {p1, v0, v1, v2}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;->goToSelectIdDocumentFragment$default(Lsg/gov/tech/bluetrace/onboarding/newOnboard/MainOnboardingActivity;ZILjava/lang/Object;)V
 
     return-void
 

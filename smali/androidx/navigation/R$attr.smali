@@ -68,11 +68,11 @@
 
 .field public static final startDestination:I = 0x7f0402f3
 
-.field public static final targetPackage:I = 0x7f040339
+.field public static final targetPackage:I = 0x7f04033d
 
-.field public static final ttcIndex:I = 0x7f040389
+.field public static final ttcIndex:I = 0x7f04038d
 
-.field public static final uri:I = 0x7f04038c
+.field public static final uri:I = 0x7f040390
 
 
 # direct methods

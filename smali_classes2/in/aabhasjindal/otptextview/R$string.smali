@@ -70,9 +70,9 @@
 
 .field public static final app_name:I = 0x7f13002a
 
-.field public static final search_menu_title:I = 0x7f1301c5
+.field public static final search_menu_title:I = 0x7f1301ed
 
-.field public static final status_bar_notification_info_overflow:I = 0x7f1301da
+.field public static final status_bar_notification_info_overflow:I = 0x7f130203
 
 
 # direct methods

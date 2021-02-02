@@ -38,6 +38,22 @@
 # static fields
 .field public static final Companion:Lsg/gov/tech/bluetrace/fragment/DateTools$Companion;
 
+.field public static final FULL_DATE:I = 0x0
+
+.field public static final FULL_DATE_DISPLAY_PATTERN:Ljava/lang/String; = "dd MMM yyyy"
+
+.field public static final FULL_DATE_SAVED_PATTERN:Ljava/lang/String; = "dd-MM-yyyy"
+
+.field public static final MONTH_YEAR_ONLY:I = 0x1
+
+.field public static final MONTH_YEAR_ONLY_DISPLAY_PATTERN:Ljava/lang/String; = "MMM yyyy"
+
+.field public static final MONTH_YEAR_ONLY_SAVED_PATTERN:Ljava/lang/String; = "MM-yyyy"
+
+.field public static final YEAR_ONLY:I = 0x2
+
+.field public static final YEAR_ONLY_PATTERN:Ljava/lang/String; = "yyyy"
+
 
 # direct methods
 .method public static constructor <clinit>()V

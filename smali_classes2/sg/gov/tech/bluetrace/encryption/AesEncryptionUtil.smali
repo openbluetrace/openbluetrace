@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAesEncryptionUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AesEncryptionUtil.kt\nsg/gov/tech/bluetrace/encryption/AesEncryptionUtil\n*L\n1#1,188:1\n*E\n"
+    value = "SMAP\nAesEncryptionUtil.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AesEncryptionUtil.kt\nsg/gov/tech/bluetrace/encryption/AesEncryptionUtil\n*L\n1#1,218:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -207,8 +207,10 @@
     .line 5
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 6
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 7
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v1, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -219,9 +221,10 @@
 
     const-string v3, "Cannot decrypt with AES"
 
+    .line 8
     invoke-virtual {p1, v0, v2, v3, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 6
+    .line 9
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -372,8 +375,10 @@
     .line 12
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 13
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 14
     sget-object v2, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     move-object v3, p0
@@ -388,9 +393,10 @@
 
     const-string v4, "Cannot decrypt with AES"
 
+    .line 15
     invoke-virtual {p1, v1, v3, v4, v2}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
+    .line 16
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -435,7 +441,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 14
+    .line 17
     :try_start_0
     invoke-static {p1}, Lsg/gov/tech/bluetrace/encryption/AesEncryptionUtil;->unwrapCipherMessage([B)[[B
 
@@ -443,21 +449,21 @@
 
     const-string v0, "AES/GCM/NoPadding"
 
-    .line 15
+    .line 18
     invoke-static {v0}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v0
 
     const/4 v1, 0x2
 
-    .line 16
+    .line 19
     new-instance v2, Ljavax/crypto/spec/SecretKeySpec;
 
     const-string v3, "AES"
 
     invoke-direct {v2, p0, v3}, Ljavax/crypto/spec/SecretKeySpec;-><init>([BLjava/lang/String;)V
 
-    .line 17
+    .line 20
     new-instance p0, Ljavax/crypto/spec/GCMParameterSpec;
 
     const/16 v3, 0x80
@@ -468,12 +474,12 @@
 
     invoke-direct {p0, v3, v4}, Ljavax/crypto/spec/GCMParameterSpec;-><init>(I[B)V
 
-    .line 18
+    .line 21
     invoke-virtual {v0, v1, v2, p0}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
 
     const/4 p0, 0x1
 
-    .line 19
+    .line 22
     aget-object p0, p1, p0
 
     invoke-virtual {v0, p0}, Ljavax/crypto/Cipher;->doFinal([B)[B
@@ -482,7 +488,7 @@
 
     const-string p1, "plainText"
 
-    .line 20
+    .line 23
     invoke-static {p0, p1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object p1, Lkotlin/text/Charsets;->UTF_8:Ljava/nio/charset/Charset;
@@ -498,11 +504,13 @@
     :catch_0
     move-exception p0
 
-    .line 21
+    .line 24
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 25
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 26
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v1, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -513,9 +521,10 @@
 
     const-string v3, "Cannot decrypt with AES"
 
+    .line 27
     invoke-virtual {p1, v0, v2, v3, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 22
+    .line 28
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -607,8 +616,10 @@
     .line 4
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 5
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 6
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v1, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -619,9 +630,10 @@
 
     const-string v3, "Cannot encrypt with AES"
 
+    .line 7
     invoke-virtual {p1, v0, v2, v3, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 5
+    .line 8
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -736,8 +748,10 @@
     .line 6
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 7
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 8
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     invoke-virtual {v1, p0}, Lsg/gov/tech/bluetrace/logging/DBLogger;->getStackTraceInJSONArrayString(Ljava/lang/Exception;)Ljava/lang/String;
@@ -748,9 +762,10 @@
 
     const-string v3, "Cannot encrypt with AES"
 
+    .line 9
     invoke-virtual {p1, v0, v2, v3, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
+    .line 10
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v0, Ljava/lang/StringBuilder;
@@ -803,22 +818,22 @@
     :try_start_0
     new-array v0, v0, [B
 
-    .line 8
+    .line 11
     new-instance v1, Ljava/security/SecureRandom;
 
     invoke-direct {v1}, Ljava/security/SecureRandom;-><init>()V
 
-    .line 9
+    .line 12
     invoke-virtual {v1, v0}, Ljava/security/SecureRandom;->nextBytes([B)V
 
     const-string v1, "AES/GCM/NoPadding"
 
-    .line 10
+    .line 13
     invoke-static {v1}, Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
 
     move-result-object v1
 
-    .line 11
+    .line 14
     new-instance v2, Ljavax/crypto/spec/GCMParameterSpec;
 
     const/16 v3, 0x80
@@ -827,7 +842,7 @@
 
     const/4 v0, 0x1
 
-    .line 12
+    .line 15
     new-instance v3, Ljavax/crypto/spec/SecretKeySpec;
 
     const-string v4, "AES"
@@ -836,7 +851,7 @@
 
     invoke-virtual {v1, v0, v3, v2}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
 
-    .line 13
+    .line 16
     sget-object p0, Lkotlin/text/Charsets;->UTF_8:Ljava/nio/charset/Charset;
 
     invoke-virtual {p1, p0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -853,7 +868,7 @@
 
     const-string p1, "cipher"
 
-    .line 14
+    .line 17
     invoke-static {v1, p1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {v1}, Ljavax/crypto/Cipher;->getIV()[B
@@ -879,11 +894,13 @@
     :catchall_0
     move-exception p0
 
-    .line 15
+    .line 18
     sget-object p1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
+    .line 19
     sget-object v0, Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;->ENCRYPTION:Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;
 
+    .line 20
     sget-object v1, Lsg/gov/tech/bluetrace/logging/DBLogger;->INSTANCE:Lsg/gov/tech/bluetrace/logging/DBLogger;
 
     move-object v2, p0
@@ -898,9 +915,10 @@
 
     const-string v3, "Cannot encrypt with AES"
 
+    .line 21
     invoke-virtual {p1, v0, v2, v3, v1}, Lsg/gov/tech/bluetrace/logging/DBLogger;->e(Lsg/gov/tech/bluetrace/logging/DBLogger$LogType;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 16
+    .line 22
     sget-object p1, Lsg/gov/tech/bluetrace/logging/CentralLog;->Companion:Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;
 
     new-instance v0, Ljava/lang/StringBuilder;

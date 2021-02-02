@@ -84,7 +84,7 @@
 .end method
 
 .method public final invoke(Ljava/lang/String;)V
-    .locals 4
+    .locals 3
     .param p1    # Ljava/lang/String;
         .annotation build Lorg/jetbrains/annotations/NotNull;
         .end annotation
@@ -95,69 +95,19 @@
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    new-instance v0, Lsg/gov/tech/bluetrace/revamp/utils/NRICValidator;
-
-    invoke-direct {v0}, Lsg/gov/tech/bluetrace/revamp/utils/NRICValidator;-><init>()V
-
-    invoke-virtual {v0, p1}, Lsg/gov/tech/bluetrace/revamp/utils/NRICValidator;->isValid(Ljava/lang/String;)Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;
-
-    move-result-object p1
-
-    .line 3
     iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initTextWatcher$1;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;
 
     invoke-static {v0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;->access$getVm$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;)Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/StpViewModel;
 
     move-result-object v0
 
-    const/4 v1, 0x1
+    new-instance v1, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initTextWatcher$1$1;
 
-    new-array v1, v1, [Lkotlin/Pair;
+    invoke-direct {v1, p0}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initTextWatcher$1$1;-><init>(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initTextWatcher$1;)V
 
-    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;->isValid()Z
+    const-string v2, "ltvp"
 
-    move-result v2
-
-    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-
-    move-result-object v2
-
-    const-string v3, "ltvp"
-
-    invoke-static {v3, v2}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
-
-    move-result-object v2
-
-    const/4 v3, 0x0
-
-    aput-object v2, v1, v3
-
-    invoke-static {v1}, Lkotlin/collections/MapsKt__MapsKt;->hashMapOf([Lkotlin/Pair;)Ljava/util/HashMap;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/StpViewModel;->postValue(Ljava/util/HashMap;)V
-
-    .line 4
-    iget-object v0, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initTextWatcher$1;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;
-
-    invoke-virtual {p1}, Lsg/gov/tech/bluetrace/revamp/utils/FINValidationModel;->isValid()Z
-
-    move-result p1
-
-    iget-object v1, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initTextWatcher$1;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;
-
-    invoke-static {v1}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;->access$getTvStpError$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;)Landroidx/appcompat/widget/AppCompatTextView;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2$initTextWatcher$1;->this$0:Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;
-
-    invoke-static {v2}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;->access$getETStp$p(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;)Landroid/widget/EditText;
-
-    move-result-object v2
-
-    invoke-static {v0, p1, v1, v2}, Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;->access$hideShowError(Lsg/gov/tech/bluetrace/revamp/register/OnboardingRegisterUserStpFragmentV2;ZLandroidx/appcompat/widget/AppCompatTextView;Landroid/widget/EditText;)V
+    invoke-virtual {v0, v2, p1, v1}, Lsg/gov/tech/bluetrace/onboarding/newOnboard/viewModels/StpViewModel;->postValueToValidateCause(Ljava/lang/String;Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)V
 
     return-void
 .end method

@@ -62,23 +62,11 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 3
 
-    const/4 v0, 0x2
+    const/4 v0, 0x1
 
     new-array v0, v0, [Lkotlin/Pair;
 
     .line 1
-    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
-
-    const-string v2, "is_check_in"
-
-    invoke-static {v2, v1}, Lkotlin/TuplesKt;->to(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
-
-    move-result-object v1
-
-    const/4 v2, 0x0
-
-    aput-object v1, v0, v2
-
     iget-object v1, p0, Lsg/gov/tech/bluetrace/SafeCheckInToRecyclerViewAdatper$onBindViewHolder$1;->$current:Lsg/gov/tech/bluetrace/qrscanner/QrResultDataModel;
 
     const-string v2, "venue"
@@ -87,7 +75,7 @@
 
     move-result-object v1
 
-    const/4 v2, 0x1
+    const/4 v2, 0x0
 
     aput-object v1, v0, v2
 
@@ -104,7 +92,7 @@
 
     move-result-object p1
 
-    const v1, 0x7f0a0076
+    const v1, 0x7f0a0081
 
     invoke-virtual {p1, v1, v0}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;)V
 

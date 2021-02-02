@@ -29,7 +29,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Utils.kt\nsg/gov/tech/bluetrace/Utils$registerUserInfo$1\n*L\n1#1,853:1\n*E\n"
+    value = "SMAP\nUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Utils.kt\nsg/gov/tech/bluetrace/Utils$registerUserInfo$1\n*L\n1#1,867:1\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
@@ -125,7 +125,7 @@
 
     const-string v1, "updateUserInfo success: "
 
-    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline26(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline28(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v1
 

@@ -138,7 +138,7 @@
 
     const-string p2, "Version must be >= 1, was "
 
-    invoke-static {p2, p4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline12(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p2, p4}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline13(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object p2
 

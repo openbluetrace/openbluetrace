@@ -498,7 +498,7 @@
 
     const-string v2, "Unexpected response, no error or registration id "
 
-    invoke-static {v1, v2, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline35(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2, p1, v0}, Lcom/android/tools/r8/GeneratedOutlineSupport;->outline37(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 
