@@ -1499,6 +1499,8 @@
     .line 1
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
+    const-string v0, "Galaxy S8"
+
     const-string v1, "Build.MODEL"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
