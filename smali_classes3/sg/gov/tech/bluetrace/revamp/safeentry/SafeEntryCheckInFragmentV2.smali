@@ -496,6 +496,36 @@
     :cond_2
     if-eqz v0, :cond_3
 
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v3
+
+    new-instance v0, Ljava/text/SimpleDateFormat;
+
+    sget-object v1, Ljava/util/Locale;->ENGLISH:Ljava/util/Locale;
+
+    const-string v2, "dd-MMM-yyyy\'T\'HH:mm:ssZ"
+
+    invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
+
+    new-instance v1, Ljava/util/Date;
+
+    invoke-direct {v1, v3, v4}, Ljava/util/Date;-><init>(J)V
+
+    invoke-virtual {v0, v1}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "SUCCESS"
+
+    new-instance v4, Lsg/gov/tech/bluetrace/revamp/responseModel/CheckInResponseModel;
+
+    invoke-direct {v4, v2, v3}, Lsg/gov/tech/bluetrace/revamp/responseModel/CheckInResponseModel;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-direct {p0, v4, v2}, Lsg/gov/tech/bluetrace/revamp/safeentry/SafeEntryCheckInFragmentV2;->checkInSuccessful(Lsg/gov/tech/bluetrace/revamp/responseModel/CheckInResponseModel;Ljava/lang/String;)V
+
+    return-void
+
     .line 8
     invoke-direct {p0}, Lsg/gov/tech/bluetrace/revamp/safeentry/SafeEntryCheckInFragmentV2;->getViewModel()Lsg/gov/tech/bluetrace/revamp/safeentry/SafeEntryCheckInViewModel;
 
