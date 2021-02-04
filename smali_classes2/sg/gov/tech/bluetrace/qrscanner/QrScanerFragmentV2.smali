@@ -1820,7 +1820,7 @@
 .end method
 
 .method public onScanned(Lcom/google/android/gms/vision/barcode/Barcode;)V
-    .locals 7
+    .locals 14
     .param p1    # Lcom/google/android/gms/vision/barcode/Barcode;
         .annotation build Lorg/jetbrains/annotations/Nullable;
         .end annotation
@@ -1862,6 +1862,16 @@
     iget-object v0, p1, Lcom/google/android/gms/vision/barcode/Barcode;->displayValue:Ljava/lang/String;
 
     if-eqz v0, :cond_3
+
+    new-instance v7, Ljava/lang/StringBuilder;
+
+    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v7, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v7
 
     const/4 v1, 0x0
 
@@ -1945,6 +1955,55 @@
     move-result-object v0
 
     invoke-virtual {v1, v2, v0}, Lsg/gov/tech/bluetrace/logging/CentralLog$Companion;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance v11, Lsg/gov/tech/bluetrace/qrscanner/QrResultDataModel;
+
+    const-wide/16 v0, 0x0
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v8
+
+    move-object v1, v7
+
+    const/4 v12, 0x0
+
+    invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v9
+
+    invoke-static {v12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v7
+
+    const-string v10, ""
+
+    move-object v0, v11
+
+    invoke-virtual {v1}, Ljava/lang/String;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, ""
+    const-string v4, ""
+    const-string v5, ""
+    const-string v6, ""
+
+    invoke-direct/range {v0 .. v10}, Lsg/gov/tech/bluetrace/qrscanner/QrResultDataModel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/String;)V
+
+    const/4 v0, 0x1
+
+    new-array v1, v0, [Lsg/gov/tech/bluetrace/qrscanner/QrResultDataModel;
+
+    aput-object v11, v1, v12
+
+    invoke-static {v1}, Lkotlin/collections/CollectionsKt__CollectionsKt;->arrayListOf([Ljava/lang/Object;)Ljava/util/ArrayList;
+
+    move-result-object v1
+
+    invoke-direct {p0, v1}, Lsg/gov/tech/bluetrace/qrscanner/QrScanerFragmentV2;->goToNextScreen(Ljava/util/ArrayList;)V
+
+    return-void
 
     .line 14
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
